@@ -1,0 +1,111 @@
+{
+  "uid" : "9ac7fbf2e6b52c9d",
+  "name" : "test_14_create_schedule_with_warm_white_end_with_previous_mode_when_lamp_status_bedtime",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt#test_14_create_schedule_with_warm_white_end_with_previous_mode_when_lamp_status_bedtime",
+  "historyId" : "e508a2a5163f7b6c5d710016f6362aa5",
+  "time" : {
+    "start" : 1595903091280,
+    "stop" : 1595905445469,
+    "duration" : 2354189
+  },
+  "description" : "schedule_actions.feature: Create a schedule with action \"Warm White\" and end with \"Previous mode\" when lamp original status is \"Bedtime\"",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create a schedule with action &quot;Warm White&quot; and end with &quot;Previous mode&quot; when lamp original status is &quot;Bedtime&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1595903091279,
+      "stop" : 1595903091279,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create a schedule with action \"Warm White\" and end with \"Previous mode\" when lamp original status is \"Bedtime\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47122df7dc6bc291",
+      "name" : "log",
+      "source" : "47122df7dc6bc291.txt",
+      "type" : "text/plain",
+      "size" : 22969
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1595905445570,
+      "stop" : 1595905456861,
+      "duration" : 11291
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Warm White\" and end with \"Previous mode\" when lamp original status is \"Bedtime\""
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "3516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "9ac7fbf2e6b52c9d.json",
+  "parameterValues" : [ ]
+}

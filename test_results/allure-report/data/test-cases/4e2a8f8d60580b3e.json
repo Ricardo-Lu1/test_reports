@@ -1,0 +1,111 @@
+{
+  "uid" : "4e2a8f8d60580b3e",
+  "name" : "test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_stated_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt#test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_stated_by_mqtt",
+  "historyId" : "65623bbace8b55bf0ec0fb12525e920f",
+  "time" : {
+    "start" : 1595900203362,
+    "stop" : 1595900760819,
+    "duration" : 557457
+  },
+  "description" : "schedule_actions.feature: Edit a schedule end of the way when the schedule has been stated by mqtt",
+  "descriptionHtml" : "<p>schedule_actions.feature: Edit a schedule end of the way when the schedule has been stated by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1595900203362,
+      "stop" : 1595900203362,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Edit a schedule end of the way when the schedule has been stated by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e862b336f898ee3",
+      "name" : "log",
+      "source" : "5e862b336f898ee3.txt",
+      "type" : "text/plain",
+      "size" : 5901
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1595900761227,
+      "stop" : 1595900777131,
+      "duration" : 15904
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Edit a schedule end of the way when the schedule has been stated by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "25284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "4e2a8f8d60580b3e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "f8a71553fb556d58",
+  "name" : "test_rtp_pair_lamps_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi#test_rtp_pair_lamps_only_wifi",
+  "historyId" : "2d2dd1266f03432bed0a32a78b63f034",
+  "time" : {
+    "start" : 1595832680259,
+    "stop" : 1595832809485,
+    "duration" : 129226
+  },
+  "description" : "pair_lamps_only_wifi.feature: RTP pairing only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: RTP pairing only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: RTP pairing only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1ef2affc975b77",
+      "name" : "log",
+      "source" : "b1ef2affc975b77.txt",
+      "type" : "text/plain",
+      "size" : 9861
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "RTP pairing only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "10056-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "f8a71553fb556d58.json",
+  "parameterValues" : [ ]
+}

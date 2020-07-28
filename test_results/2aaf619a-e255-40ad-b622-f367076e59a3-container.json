@@ -1,0 +1,1 @@
+{"uuid": "584f1c9c-ca0a-470c-948b-f6cd8ba8c401", "befores": [{"name": "pytestbdd_then_create rhythm {rhythm_id} position {pos_id} for {light_name} with scene {scene_name}, start at {start_time} and last for {last_min} minutes", "status": "passed", "start": 1595835646288, "stop": 1595835646288}], "start": 1595835646288, "stop": 1595835670400}

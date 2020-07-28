@@ -1,0 +1,111 @@
+{
+  "uid" : "e119cbfc7a085479",
+  "name" : "test_standby_power_consumption",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_startup_time_and_power_consumption#test_standby_power_consumption",
+  "historyId" : "565e11c2758d9e64e13147568807f93b",
+  "time" : {
+    "start" : 1595910682017,
+    "stop" : 1595910751120,
+    "duration" : 69103
+  },
+  "description" : "startup_time_and_power_consumption.feature: Standby power consumption",
+  "descriptionHtml" : "<p>startup_time_and_power_consumption.feature: Standby power consumption</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1595910682016,
+      "stop" : 1595910682016,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "startup_time_and_power_consumption.feature: Standby power consumption",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b821a6ad317f2f4",
+      "name" : "log",
+      "source" : "8b821a6ad317f2f4.txt",
+      "type" : "text/plain",
+      "size" : 2854
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1595910751122,
+      "stop" : 1595910760698,
+      "duration" : 9576
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Startup time, Average power consumption and Standby power consumption"
+  }, {
+    "name" : "story",
+    "value" : "Standby power consumption"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_startup_time_and_power_consumption"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "10420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_startup_time_and_power_consumption"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "e119cbfc7a085479.json",
+  "parameterValues" : [ ]
+}

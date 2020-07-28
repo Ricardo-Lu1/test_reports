@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: UDP state should be false, but was true",
+      "children" : [ {
+        "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+        "uid" : "287b8527cf74925d",
+        "parentUid" : "24607ee9d6e3dbc06779e938fee536f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1595905736949,
+          "stop" : 1595906460488,
+          "duration" : 723539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24607ee9d6e3dbc06779e938fee536f2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

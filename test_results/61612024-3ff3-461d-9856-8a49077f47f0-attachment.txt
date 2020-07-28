@@ -1,0 +1,11 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: pair_lamps_only_ble.feature:Set app pairing mode to only ble
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     light_1.log:serial_comm.py:33 Open COM8 successfully!
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:76 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:76 Connected with result code 0
+INFO     test_case.log:wrapper_manage.py:24 wiz_serial is not enable, can not use wiz_serial port!
+INFO     test_case.log:pair_lamps_steps.py:22 set app pairing mode to only ble
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: pair_lamps_only_ble.feature:Set app pairing mode to only ble
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************

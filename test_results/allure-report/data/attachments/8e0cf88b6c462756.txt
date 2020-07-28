@@ -1,0 +1,31 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: schedule_actions.feature:Create schedule by mqtt
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.8.122
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50377086
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43789/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 30, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 99, "intent": 4, "scene": 18, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43789/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 30, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 1, "intent": 4, "scene": 18, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43789/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 30, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 99, "intent": 4, "scene": 18, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43789/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 30, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 1, "intent": 4, "scene": 18, "ignore": "none", "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:128 create schedule for light_1 with scene : TV time, start at 17:30
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-27 17:26:10.459544
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-27 17:30:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 4.817 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50a0714a   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.18.78","homeId":43788,"ip":"192.168.0.148","ssid":"D-Link_DIR-8","mqtt":"ping","cnx":"0101","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"8ed6b7dba1"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50a0714a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50a0714a","rssi":-44,"src":"wfr","state":false,"sceneId":11,"speed":100,"temp":2000,"dimming":100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43789/devices/a8bb50377086   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb509f95fa   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.18.78","homeId":43788,"ip":"192.168.0.183","ssid":"D-Link_DIR-8","mqtt":"ping","cnx":"0101","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50c40c12   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.18.78","homeId":43788,"ip":"192.168.0.173","ssid":"D-Link_DIR-8","mqtt":"pwon","cnx":"0300","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"8ed6b7dba1"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"8ed6b7dba1"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb509f95fa   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb509f95fa","rssi":-46,"src":"wfr","state":false,"sceneId":11,"speed":100,"temp":2000,"dimming":100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50c40c12   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50c40c12","rssi":-39,"src":"wizc1","state":false,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-44,"src":"schd","state":true,"sceneId":18,"speed":100,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.8.122
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with TV time successfully!
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: schedule_actions.feature:Create schedule by mqtt
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************

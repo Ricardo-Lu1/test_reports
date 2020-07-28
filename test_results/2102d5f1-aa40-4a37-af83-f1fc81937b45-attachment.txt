@@ -1,0 +1,26 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: startup_time_and_power_consumption.feature:Standby power consumption
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     light_serial.log:serial_comm.py:33 Open COM5 successfully!
+INFO     light_1.log:serial_comm.py:33 Open COM8 successfully!
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:76 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:76 Connected with result code 0
+INFO     test_case.log:wrapper_manage.py:20 wiz_serial is enable, can not use Android UI!
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-50,"src":"udp","state":false,"sceneId":12,"speed":100,"temp":4200,"dimming":100}}
+INFO     light_serial.log:serial_comm.py:60 Send 55 AA 01 04 00 00 04 successfully! 
+INFO     light_serial.log:serial_comm.py:79 Read data from serial : 55AA01040004220000002A
+INFO     test_case.log:wiz_serial_steps.py:273 check standby power consumption for 1 time, current is 34mA, power is 0.1122 W
+INFO     light_serial.log:serial_comm.py:60 Send 55 AA 01 04 00 00 04 successfully! 
+INFO     light_serial.log:serial_comm.py:79 Read data from serial : 55AA010400041A00000022
+INFO     test_case.log:wiz_serial_steps.py:273 check standby power consumption for 2 time, current is 26mA, power is 0.0858 W
+INFO     light_serial.log:serial_comm.py:60 Send 55 AA 01 04 00 00 04 successfully! 
+INFO     light_serial.log:serial_comm.py:60 Send 55 AA 01 04 00 00 04 successfully! 
+INFO     light_serial.log:serial_comm.py:79 Read data from serial : 55AA010400042100000029
+INFO     test_case.log:wiz_serial_steps.py:273 check standby power consumption for 3 time, current is 33mA, power is 0.1089 W
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: startup_time_and_power_consumption.feature:Standby power consumption
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************
+INFO     test_case.log:test_startup_time_and_power_consumption.py:14 =================================================
+INFO     test_case.log:test_startup_time_and_power_consumption.py:15 allure report is generated
+INFO     test_case.log:test_startup_time_and_power_consumption.py:16 tear down!
+INFO     test_case.log:test_startup_time_and_power_consumption.py:17 =================================================

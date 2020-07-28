@@ -1,0 +1,111 @@
+{
+  "uid" : "6d4bbd463fc00a7b",
+  "name" : "test_single_light_control_change_mode_tw[light_1-Warm white]",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_single_lamp_control_by_udp#test_single_light_control_change_mode_tw",
+  "historyId" : "89eaa2258d0ccd1a0d2537074bce1b73",
+  "time" : {
+    "start" : 1595833908036,
+    "stop" : 1595833914073,
+    "duration" : 6037
+  },
+  "description" : "single_light_control_by_udp.feature: Single light control --- Change default light mode for TW light",
+  "descriptionHtml" : "<p>single_light_control_by_udp.feature: Single light control --- Change default light mode for TW light</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1595833784119,
+      "stop" : 1595833784119,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "single_light_control_by_udp.feature: Single light control --- Change default light mode for TW light",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3732f003fc48ff8d",
+      "name" : "log",
+      "source" : "3732f003fc48ff8d.txt",
+      "type" : "text/plain",
+      "size" : 1721
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1595833992853,
+      "stop" : 1595834004691,
+      "duration" : 11838
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Single Lamp Control"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_single_lamp_control_by_udp"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "18916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_single_lamp_control_by_udp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Warm white'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d4bbd463fc00a7b.json",
+  "parameterValues" : [ "'Warm white'", "'light_1'" ]
+}

@@ -1,0 +1,1 @@
+{"uuid": "78e0d40f-a1c9-4d3f-b580-f3c21ab900d4", "befores": [{"name": "pytestbdd_when_light control by simulating App udp command {light_name} change speed to {speed}", "status": "passed", "start": 1595833883881, "stop": 1595833883881}], "start": 1595833883881, "stop": 1595833908029}
