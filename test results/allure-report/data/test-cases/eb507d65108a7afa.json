@@ -1,0 +1,111 @@
+{
+  "uid" : "eb507d65108a7afa",
+  "name" : "test_tcp_comm_change_mode_tw[light_1-Wake-up]",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm#test_tcp_comm_change_mode_tw",
+  "historyId" : "7af76055465f03f585f74ebe2f845d8e",
+  "time" : {
+    "start" : 1595834693417,
+    "stop" : 1595834700537,
+    "duration" : 7120
+  },
+  "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1595834607556,
+      "stop" : 1595834607556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e04d78b4932e45c9",
+      "name" : "log",
+      "source" : "e04d78b4932e45c9.txt",
+      "type" : "text/plain",
+      "size" : 2057
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1595834707806,
+      "stop" : 1595834723824,
+      "duration" : 16018
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_tcp_comm"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "28804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Wake-up'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb507d65108a7afa.json",
+  "parameterValues" : [ "'Wake-up'", "'light_1'" ]
+}

@@ -1,0 +1,1 @@
+{"uuid": "1ed62083-cdf4-4878-b690-ce5b1d761c61", "befores": [{"name": "pytestbdd_when_check {device_type} average power consumption should be greater than {expect_value_low} mA and less than {expect_value_high} mA for {try_times} times", "status": "passed", "start": 1595908235698, "stop": 1595908235698}], "start": 1595908235698, "stop": 1595908274741}

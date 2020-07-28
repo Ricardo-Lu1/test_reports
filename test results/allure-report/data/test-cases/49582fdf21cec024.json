@@ -1,0 +1,81 @@
+{
+  "uid" : "49582fdf21cec024",
+  "name" : "test_01_create_default_schedule_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt#test_01_create_default_schedule_by_mqtt",
+  "historyId" : "04daa1105e2de140270352815ff47a93",
+  "time" : {
+    "start" : 1595841463479,
+    "stop" : 1595841960832,
+    "duration" : 497353
+  },
+  "description" : "schedule_actions.feature: Create default schedule by mqtt",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create default schedule by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create default schedule by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f49f71696837990",
+      "name" : "log",
+      "source" : "1f49f71696837990.txt",
+      "type" : "text/plain",
+      "size" : 5677
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create default schedule by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "35204-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "49582fdf21cec024.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "73a4a80f11e044eb",
+  "name" : "test_ap_pair_lamps_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi#test_ap_pair_lamps_only_wifi",
+  "historyId" : "13a576bc727a139a0e4c4198b81a1798",
+  "time" : {
+    "start" : 1595833265959,
+    "stop" : 1595833421233,
+    "duration" : 155274
+  },
+  "description" : "pair_lamps_only_wifi.feature: AP pairing only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: AP pairing only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1595833265957,
+      "stop" : 1595833265957,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: AP pairing only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ea810d1ef43ad262",
+      "name" : "log",
+      "source" : "ea810d1ef43ad262.txt",
+      "type" : "text/plain",
+      "size" : 20036
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1595833421268,
+      "stop" : 1595833431265,
+      "duration" : 9997
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "AP pairing only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "19748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "73a4a80f11e044eb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1 @@
+{"uuid": "581b451a-8122-484e-a343-dc8bbe9fa166", "befores": [{"name": "pytestbdd_when_check {device_type} : {ip_addr} standby power consumption should be greater than {expect_value_low} mA and less than {expect_value_high} mA for {try_times} times", "status": "passed", "start": 1595910682019, "stop": 1595910682019}], "start": 1595910682019, "stop": 1595910751121}

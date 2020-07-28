@@ -1,0 +1,81 @@
+{
+  "uid" : "3b6710e71a1426d6",
+  "name" : "test_tcp_comm_on_off_nl[light_1-OFF0]",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm#test_tcp_comm_on_off_nl",
+  "historyId" : "4fe011d75aecb6f9425a0cbf740e4ec6",
+  "time" : {
+    "start" : 1595834024021,
+    "stop" : 1595834031149,
+    "duration" : 7128
+  },
+  "description" : "tcp_comm.feature: Single light control by mqtt --- ON/OFF/NL",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single light control by mqtt --- ON/OFF/NL</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single light control by mqtt --- ON/OFF/NL",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9db1ad9dc029c91",
+      "name" : "log",
+      "source" : "9db1ad9dc029c91.txt",
+      "type" : "text/plain",
+      "size" : 2240
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_tcp_comm"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "39888-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "action",
+    "value" : "'OFF'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b6710e71a1426d6.json",
+  "parameterValues" : [ "'OFF'", "'light_1'" ]
+}

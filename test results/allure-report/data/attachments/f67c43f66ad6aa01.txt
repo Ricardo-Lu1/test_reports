@@ -1,0 +1,19 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: startup_time_and_power_consumption.feature:Average power consumption
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     light_serial.log:serial_comm.py:60 Send 55 AA 01 04 00 00 04 successfully! 
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.18.24","homeId":43789,"ip":"192.168.8.122","ssid":"NETGEAR_TEST","mqtt":"pwon","cnx":"0000","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43789/devices/a8bb50377086   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"1b7852b855"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-46,"src":"wizc1","state":true,"sceneId":12,"speed":100,"temp":4200,"dimming":100}}
+INFO     light_serial.log:serial_comm.py:79 Read data from serial : 55AA010400046B00000073
+INFO     test_case.log:wiz_serial_steps.py:243 check average power consumption for 1 time, current is 97 mA, power is 0.3201 W
+INFO     light_serial.log:serial_comm.py:60 Send 55 AA 01 04 00 00 04 successfully! 
+INFO     light_serial.log:serial_comm.py:79 Read data from serial : 55AA010400046B00000073
+INFO     test_case.log:wiz_serial_steps.py:243 check average power consumption for 2 time, current is 97 mA, power is 0.3201 W
+INFO     light_serial.log:serial_comm.py:60 Send 55 AA 01 04 00 00 04 successfully! 
+INFO     light_serial.log:serial_comm.py:79 Read data from serial : 55AA010400046B00000073
+INFO     test_case.log:wiz_serial_steps.py:243 check average power consumption for 3 time, current is 97 mA, power is 0.3201 W
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: startup_time_and_power_consumption.feature:Average power consumption
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************
