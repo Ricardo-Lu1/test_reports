@@ -1,1 +1,0 @@
-{"uuid": "2214ad02-2eb8-4003-b09e-ec56468e80b4", "befores": [{"name": "pytestbdd_when_check startup time should be less than {expect_time} ms for {try_times} times", "status": "passed", "start": 1595908080078, "stop": 1595908080078}], "start": 1595908080078, "stop": 1595908235690}
