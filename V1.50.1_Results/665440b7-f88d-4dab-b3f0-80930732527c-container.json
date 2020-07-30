@@ -1,0 +1,1 @@
+{"uuid": "6fc985a6-6934-4621-91d2-6696354e492a", "befores": [{"name": "pytestbdd_when_Single light control by mqtt command {light_name} change temperature to {temperature}", "status": "passed", "start": 1596076460398, "stop": 1596076460398}], "start": 1596076460398, "stop": 1596076481811}

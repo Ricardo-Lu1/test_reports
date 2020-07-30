@@ -1,0 +1,1 @@
+{"uuid": "285f0b75-2f08-41f3-9b46-d53f1e4282de", "befores": [{"name": "pytestbdd_then_wait for {wait_time} minutes and change {light_name} brightness to {dim_level}", "status": "passed", "start": 1596053760895, "stop": 1596053760895}], "start": 1596053760895, "stop": 1596054365966}

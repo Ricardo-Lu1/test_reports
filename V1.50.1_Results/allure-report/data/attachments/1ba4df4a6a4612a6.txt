@@ -1,0 +1,665 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: pair_lamps_wifi_ble.feature:AP pairing wifi and ble
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50c40c12   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50c40c12","rssi":-39,"src":"wizappd","state":true,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50a0714a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50a0714a","rssi":-38,"src":"wizappd","state":true,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb509f95fa   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb509f95fa","rssi":-48,"src":"wizappd","state":true,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"reset"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50c40c12   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50c40c12","rssi":-41,"src":"wizappd","state":false,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb509f95fa   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb509f95fa","rssi":-47,"src":"wizappd","state":false,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50a0714a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50a0714a","rssi":-39,"src":"wizappd","state":false,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"setPilot","params":{"sceneId":14,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"setPilot","params":{"sceneId":14,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"setPilot","params":{"sceneId":14,"orig":"wizappd"}}
+INFO     light_1.log:serial_comm.py:69 I (73351) wifi:state: run -> init (0)
+
+INFO     light_1.log:serial_comm.py:69 I (73361) wifi:pm stop, total sleep time: 46159722 us / 64520245 us
+
+I (73361) wifi:new:<2,0>, old:<2,0>, ap:<255,255>, sta:<2,0>, prof:1
+
+INFO     light_1.log:serial_comm.py:69 ali: aligenie_evt: 1
+ali: unhandle this ready event:1
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50a0714a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50a0714a","rssi":-40,"src":"wizappd","state":true,"sceneId":14,"speed":100,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb509f95fa   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb509f95fa","rssi":-45,"src":"wizappd","state":true,"sceneId":14,"speed":100,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50c40c12   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50c40c12","rssi":-43,"src":"wizappd","state":true,"sceneId":14,"speed":100,"dimming":100}}
+INFO     light_1.log:serial_comm.py:69 ets Jun  8 2016 00:22:57
+
+rst:0xc 
+INFO     light_1.log:serial_comm.py:69 (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x0
+INFO     light_1.log:serial_comm.py:69 0
+mode:DIO, clock div:1
+load:0x3fff0018,len:4
+load:0x3fff001c,len:3788
+load:0x40078000,len:10512
+load:0x40080400,len:5440
+entry 0x40080698
+ESP-IDF 615cb77b4 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:69 I (250) cpu_start: Pro cpu up.
+I (250) cpu_start: Appl
+INFO     light_1.log:serial_comm.py:69 ication information:
+I (250) cpu_start: Project name:     wizlight
+I (250) cpu_start: App version:      V1.2.0-849-gae702cb3-dirty
+I (255) cpu_start: Compile time:     Jul 29 2020 15:27:40
+I (260) cpu_start: ELF file SHA256:  70b0
+INFO     light_1.log:serial_comm.py:69 6e329fddeb08...
+I (265) cpu_start: ESP-IDF:          615cb77b4
+I (269) cpu_start: Single core mode
+I (273) heap_init: Initializing. RAM available for dynamic allocation:
+I (279) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (284) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (289) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (294) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM
+I (299) heap_init: At 3FFD2090 len 0000DF70 (55 KiB): DRAM
+I (305) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM
+I (310) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (315) heap_init: At 4009B668 len 00004998 (18 KiB): IRAM
+I (320) cpu_start: Pro cpu start user code
+I (1) esp_core_dump_flash: Init core dump to flash
+I (1) esp_core_dump_flash: Found partition 'coredump' @ 3f0000 65536 bytes
+E (1) esp_core_dump_common: Failed to mmap core dump data (260)!
+I (8) cpu_start: Starting scheduler on PRO CPU.
+[Built]: 1.50.1 Jul 29 2020 15:33:10
+FW running @ 0x10!!!
+
+
+FW starting (0)...
+Start Memory heap available 194972
+Nvs initialization failed
+Heap after mwNvs_init 193768
+Heap after mw_timer_init 189024
+I (41) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 Heap after store_init 188520
+Heap after gpio_install_isr_service 188168
+wizclick state: 0, fav cnt: 2, pair cnt: 0, soft: 0, force mode: 0
+Heap after power_limiter_init
+INFO     light_1.log:serial_comm.py:69  188168
+
+INFO     light_1.log:serial_comm.py:69 current state: 1, s
+INFO     light_1.log:serial_comm.py:69 cene: 11, temp: 2700, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 0
+Heap after scene_init 184960
+Heap after cmd_init 184876
+I (181) wifi:wifi driver task: 3ffd6a78, prio:23, 
+INFO     light_1.log:serial_comm.py:69 stack:3584, core=0
+I (181) wifi:wifi firmware version: 6dcbb82
+I (181) wifi:config NVS flash: enabled
+I (181) wifi:config nano formating: disabled
+I (191) wifi:Init dynamic tx buffer num: 32
+I (191) wifi:Init data frame dynamic rx buffer num: 32
+I (201) wifi:Init management frame dynamic rx buffer num: 32
+I (201) wifi:Init management short buffer num: 32
+I (211) wifi:Init static rx buffer size: 1600
+I (211) wifi:Init static rx buffer num: 10
+I (211) wifi:Init dynamic rx buffer num: 32
+
+INFO     light_1.log:serial_comm.py:69 I (321) phy: phy_version: 4180, cb
+INFO     light_1.log:serial_comm.py:69 3948e, Sep 12 2019, 16:39:13, 0, 0
+I (321) wifi:mode : sta (a8:bb:50:37:70:86)
+I (321) wifi:Set ps type: 1
+
+Heap after mwWifi_init 147588
+I (321) gpio: GPIO[12
+INFO     light_1.log:serial_comm.py:69 ]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 1| Intr:0 
+Heap after protparser_init 147588
+Heap after net_init 143708
+Heap after notif_init 143708
+Heap after udpManager_init 143624
+Heap after udpClient_init 139892
+Heap after alarm_init 139868
+ali: Initializing...
+I (351) BTDM_INIT: BT controller compile version [0fff744]
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     light_1.log:serial_comm.py:69 ali: authvalue string: ,,
+ali: product_id: 00000000
+ali: mac addr: 
+INFO     light_1.log:serial_comm.py:69 
+mesh repeat count 0
+Heap after aligenie_init 110768
+ali: aligenie state changed: 1
+W (671) BLE_MESH: bt_mesh_light_ctl_srv_init, Light CTL Server requires two elements
+W (681) BLE_MESH: bt_mesh_light_hsl_srv_init, Light HSL Server requires three elements
+
+INFO     light_1.log:serial_comm.py:69 ali: ESP_BLE_MESH_PROV_REGISTER_COMP_EVT, err_code 0
+ali: 
+INFO     light_1.log:serial_comm.py:69 AliGenie start
+Heap after beat_init 98020
+Heap after http_init 98020
+Heap after mqtt_init 85956
+Heap after ir_init 82524
+I (761) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+ali: ESP_BLE_MESH_NODE_PROV_ENABLE_COMP_EVT, err_code 0
+ali: aligenie_evt: 3
+ali: aligenie_evt: 4
+ali: init timer 0x3ffd0798,handle 0x401152fc,args 0x0
+ali: start timer 0
+INFO     light_1.log:serial_comm.py:69 x3ffd0798, timeout 600000
+Heap after gesture_ctrl_init 82464
+I (791) ESPNOW: espnow [version: 1.0] init
+Heap after accessory_init 79676
+Heap after sensor_init 79592
+Firmware initialized!
+Firmware Version: 1.50.1
+MAC address: a8bb50377086
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb509f95fa   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb509f95fa","rssi":-46,"src":"wizappd","state":true,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50a0714a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50a0714a","rssi":-40,"src":"wizappd","state":true,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50c40c12   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50c40c12","rssi":-43,"src":"wizappd","state":true,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb509f95fa   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb509f95fa","rssi":-48,"src":"wizappd","state":false,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50a0714a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50a0714a","rssi":-40,"src":"wizappd","state":false,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50c40c12   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50c40c12","rssi":-42,"src":"wizappd","state":false,"sceneId":11,"speed":100,"temp":0,"dimming":60}}
+INFO     test_case.log:pair_lamps_steps.py:61 factory new light
+INFO     test_case.log:pair_lamps_steps.py:355 trigger app ap pairing process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:442 light_1 power off and on 4 times
+INFO     light_1.log:serial_comm.py:69 
+
+INFO     light_1.log:serial_comm.py:69  
+INFO     light_1.log:serial_comm.py:69 ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWE
+INFO     light_1.log:serial_comm.py:69 RON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,h
+INFO     light_1.log:serial_comm.py:69 d_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0018,len:4
+load:0x3fff001c,len:3788
+load:0x40078000,len:10512
+load:0x40080400,len:5440
+entry 0x40080698
+ESP-IDF 615cb77b4 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:69 I (250) cpu_start: Pro cpu up.
+I (250) cpu_start: Applicatio
+INFO     light_1.log:serial_comm.py:69 n information:
+I (250) cpu_start: Project name:     wizlight
+I (250) cpu_start: App version:      V1.2.0-849-gae702cb3-dirty
+I (255) cpu_start: Compile time:     Jul 29 2020 15:27
+INFO     light_1.log:serial_comm.py:69 :40
+I (260) cpu_start: ELF file SHA256:  70b06e329fddeb08...
+I (265) cpu_start: ESP-IDF:          615cb77b4
+I (269) cpu_start: Single core mode
+I (273) heap_init: Initializing. RAM available for dynamic allocation:
+I (279) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (284) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (289) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (294) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM
+I (299) heap_init: At 3FFD2090 len 0000DF70 (55 KiB): DRAM
+I (304) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM
+I (310) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (315) heap_init: At 4009B668 len 00004998 (18 KiB): IRAM
+I (320) cpu_start: Pro cpu start user code
+I (1) esp_core_dump_flash: Init core dump to flash
+I (1) esp_core_dump_flash: Found partition 'coredump' @ 3f0000 65536 bytes
+E (1) esp_core_dump_common: Failed to mmap core dump data (260)!
+I (8) cpu_start: Starting scheduler on PRO CPU.
+[Built]: 1.50.1 Jul 29 2020 15:33:10
+FW running @ 0x10!!!
+
+
+FW starting (0)...
+Start Memory heap available 194972
+Nvs initialization failed
+Heap after mwNvs_init 193768
+Heap after mw_timer_init 189024
+I (41) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+Heap after store_init 188520
+Heap after gpio_install_isr_service 188168
+wizclick state: 1, fav cnt: 1, pair cnt: 1, soft: 0, force mode: 0
+Heap after power_limiter_init 188168
+current state: 1, scene: 11, temp: 2700, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 0
+Heap after scene_init 184960
+Heap after cmd_init 184876
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 I (141) wifi:wifi driver ta
+INFO     light_1.log:serial_comm.py:69 sk: 3ffd6a78, prio:23, stack:3584, core=0
+I (141) wifi:wifi firmware version: 6dcbb82
+I (141) wifi:config NVS flash: enabled
+I (141) wifi:config nano formating: disa
+INFO     light_1.log:serial_comm.py:69 bled
+I (141) wifi:Init dynamic tx buffer num: 32
+I (151) wifi:Init data frame dynamic rx buffer num: 32
+I (151) wifi:Init management frame dynamic rx buffer num: 32
+I (161) wifi:Init management short buffer num: 32
+I (161) wifi:Init static rx buffer size: 1600
+I (161) wifi:Init static rx buffer num: 10
+I (171) wifi:Init dynamic rx buffer num: 32
+
+INFO     light_1.log:serial_comm.py:69 I 
+INFO     light_1.log:serial_comm.py:69 (261) phy: phy_version: 4180, cb3948e, Sep 12 2019, 16:39:13, 0, 0
+I (261) wifi:mode : sta (a8:bb:50:37:70:86)
+I (261) wifi:Set ps type: 1
+
+Heap after mwWifi_init 147588
+I (261) gpio: GPIO[12]| InputEn
+INFO     light_1.log:serial_comm.py:69 : 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+Heap after protparser_init 147588
+Heap after net_init 143708
+Heap after notif_init 143708
+Heap after udpManager_init 143624
+Heap after udpClient_init 139892
+Heap after alarm_init 139868
+ali: Initializing...
+I (291) BTDM_INIT: BT controller compile version [0fff744]
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 ali: authvalue string: ,,
+ali: product_id: 00000000
+ali: mac addr: 
+mesh repeat c
+INFO     light_1.log:serial_comm.py:69 ount 1
+Heap after aligenie_init 110768
+ali: aligenie state changed: 1
+W (611) BLE_MESH: bt_mesh_light_ctl_srv_init, Light CTL Server requires two elements
+W (621) BLE_MESH: bt_mesh_light_hsl_srv_init, Light HSL Server requires three elements
+
+INFO     light_1.log:serial_comm.py:69 
+
+INFO     light_1.log:serial_comm.py:69  
+INFO     light_1.log:serial_comm.py:69 ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_dr
+INFO     light_1.log:serial_comm.py:69 v:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0018,len:4
+load:0x3fff001c,len:3788
+load:0x40078000,len:10512
+load:0x40080400,len:5440
+entry 0x40080698
+ESP-IDF 615cb77b4 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:69 I (250) cpu_start: Pro cpu up.
+I (250) cpu_start: Application information:
+I (250) cpu_start: Project name:     wizlight
+I (250) cpu_start: App version:      V1.2.0-849-gae702cb3-dirty
+I (255)
+INFO     light_1.log:serial_comm.py:69  cpu_start: Compile time:     Jul 29 2020 15:27:40
+I (260) cpu_start: ELF file SHA256:  70b06e329fddeb08...
+I (265) cpu_start: ESP-IDF:          615cb77b4
+I (269) cpu_start: Single core mode
+I (273) heap_init: Initializing. RAM available for dynamic allocation:
+I (279) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (284) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (289) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (294) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM
+I (299) heap_init: At 3FFD2090 len 0000DF70 (55 KiB): DRAM
+I (304) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM
+I (310) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (315) heap_init: At 4009B668 len 00004998 (18 KiB): IRAM
+I (320) cpu_start: Pro cpu start user code
+I (1) esp_core_dump_flash: Init core dump to flash
+I (1) esp_core_dump_flash: Found partition 'coredump' @ 3f0000 65536 bytes
+E (1) esp_core_dump_common: Failed to mmap core dump data (260)!
+I (8) cpu_start: Starting scheduler on PRO CPU.
+[Built]: 1.50.1 Jul 29 2020 15:33:10
+FW running @ 0x10!!!
+
+
+FW starting (0)...
+Start Memory heap available 194972
+Nvs initialization failed
+Heap after mwNvs_init 193768
+Heap after mw_timer_init 189024
+I (41) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+Heap after store_init 188520
+Heap after gpio_install_isr_service 188168
+wizclick state: 1, fav cnt: 2, pair cnt: 2, soft: 0, force mode: 0
+Heap after power_limiter_init 188168
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 current
+INFO     light_1.log:serial_comm.py:69  state: 1, scene: 12, temp: 4200, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 255
+Heap after scene_init 184960
+Heap after cmd_init 184876
+
+INFO     light_1.log:serial_comm.py:69 I (161) wifi:wifi driver task: 3ffd6a78, prio:23, stack:3584, core=0
+I (161) wifi:wifi firmware version: 6dcbb82
+I (161) wifi:config NVS flash: enabled
+I (161) wifi:config nano formating: disabled
+I (161) wifi:Init dynamic tx buffer num: 32
+I (171
+INFO     light_1.log:serial_comm.py:69 ) wifi:Init data frame dynamic rx buffer num: 32
+I (171) wifi:Init management frame dynamic rx buffer num: 32
+I (181) wifi:Init management short buffer num: 32
+I (181) wifi:Init static rx buffer size: 1600
+I (181) wifi:Init static rx buffer num: 10
+I (191) wifi:Init dynamic rx buffer num: 32
+
+INFO     light_1.log:serial_comm.py:69 I (301) phy: phy_version: 4180, cb3948e, Sep 12 2019, 16:3
+INFO     light_1.log:serial_comm.py:69 9:13, 0, 0
+I (311) wifi:mode : sta (a8:bb:50:37:70:86)
+I (311) wifi:Set ps type: 1
+
+Heap after mwWifi_init 147588
+I (311) gpio: GPIO[12]| InputEn: 0| OutputEn: 1| OpenD
+INFO     light_1.log:serial_comm.py:69 rain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+Heap after protparser_init 147588
+Heap after net_init 143708
+Heap after notif_init 143708
+Heap after udpManager_init 143624
+Heap after udpClient_init 139892
+Heap after alarm_init 139868
+ali: Initializing...
+I (341) BTDM_INIT: BT controller compile version [0fff744]
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 ali: authvalue string: ,,
+ali: product_id: 00000000
+a
+INFO     light_1.log:serial_comm.py:69 li: mac addr: 
+mesh repeat count 2
+Heap after aligenie_init 110768
+ali: aligenie state changed: 1
+W (661) BLE_MESH: bt_mesh_light_ctl_srv_init, Light CTL Server requires two elements
+W (671) BLE_MESH: bt_me 
+INFO     light_1.log:serial_comm.py:69 ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),b
+INFO     light_1.log:serial_comm.py:69 oot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0018,len:4
+load:0x3fff001c,len:3788
+load:0x40078000,len:10512
+load:0x40080400,len:5440
+entry 0x4
+INFO     light_1.log:serial_comm.py:69 0080698
+ESP-IDF 615cb77b4 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:69 I (250) cpu_start: Pro cpu up.
+I (250) cpu_start: Application information:
+I (250) cpu_start: Project name:     wizlight
+I (250) cpu_start: App version:      V1.2.0-849-gae702cb3-dirty
+I (255) c
+INFO     light_1.log:serial_comm.py:69 pu_start: Compile time:     Jul 29 2020 15:27:40
+I (260) cpu_start: ELF file SHA256:  70b06e329fddeb08...
+I (265) cpu_start: ESP-IDF:          615cb77b4
+I (269) cpu_start: Single core mode
+I (273) heap_init: Initializing. RAM available for dynamic allocation:
+I (279) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (284) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (289) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (294) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM
+I (299) heap_init: At 3FFD2090 len 0000DF70 (55 KiB): DRAM
+I (304) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM
+I (310) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (315) heap_init: At 4009B668 len 00004998 (18 KiB): IRAM
+I (320) cpu_start: Pro cpu start user code
+I (1) esp_core_dump_flash: Init core dump to flash
+I (1) esp_core_dump_flash: Found partition 'coredump' @ 3f0000 65536 bytes
+E (1) esp_core_dump_common: Failed to mmap core dump data (260)!
+I (8) cpu_start: Starting scheduler on PRO CPU.
+[Built]: 1.50.1 Jul 29 2020 15:33:10
+FW running @ 0x10!!!
+
+
+FW starting (0)...
+Start Memory heap available 194972
+Nvs initialization failed
+Heap after mwNvs_init 193768
+Heap after mw_timer_init 189024
+I (41) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+Heap after store_init 188520
+Heap after gpio_install_isr_service 188168
+wizclick state: 1, fav cnt: 1, pair cnt: 3, soft: 0, force mode: 1
+Heap after power_limiter_init 188168
+Heap after scene_init 184960
+Heap after cmd_init 184876
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 I (131) wifi:wifi 
+INFO     light_1.log:serial_comm.py:69 driver task: 3ffd6a58, prio:23, stack:3584, core=0
+I (131) wifi:wifi firmware version: 6dcbb82
+I (131) wifi:config NVS flash: enabled
+I (131) wifi:config nano formating: disabled
+I (131) wifi:Init dynamic tx buffer num: 32
+I (141) wi
+INFO     light_1.log:serial_comm.py:69 fi:Init data frame dynamic rx buffer num: 32
+I (141) wifi:Init management frame dynamic rx buffer num: 32
+I (151) wifi:Init management short buffer num: 32
+I (151) wifi:Init static rx buffer size: 1600
+I (151) wifi:Init static rx buffer num: 10
+I (161) wifi:Init dynamic rx buffer num: 32
+
+INFO     light_1.log:serial_comm.py:69 I (271) phy: phy_version: 4180, cb3948e, Sep 12 2019, 16:39:13, 0, 0
+I (271) wifi:mode : sta (a8:bb:50:37:70:86)
+I (271) wifi:Set ps type: 1
+
+Heap after mwWifi_init 147620
+I (271) gpio: GPIO[12]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 1| Intr:0 
+INFO     light_1.log:serial_comm.py:69 
+Heap after protparser_init 147620
+Heap after net_init 143740
+Heap after notif_init 143740
+Heap after udpManager_init 143656
+Heap after udpClient_init 139924
+Heap after alarm_init 139900
+ali: Initializing...
+I (301) BTDM_INIT: BT controller compile version [0fff744]
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 ali: authvalue string: ,,
+ali: product_id: 00000000
+ali: mac addr: 
+mesh repeat count 3
+Heap after aligenie_init 110800
+Heap after beat_init 104120
+Heap after http_init 104120
+Heap af
+INFO     light_1.log:serial_comm.py:69 ter mqtt_init 92056
+Heap after ir_init 88620
+I (631) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+Heap after gesture_ctrl_init 88416
+I (641) ESPNOW: espnow [version: 1.0] init
+Heap after accessory_init 85628
+Heap after sensor_init 85544
+Firmware initialized!
+Firmware Version: 1.50.1
+MAC address: a8bb50377086
+I (671) smartconfig: SC version: V2.8.0
+
+ 
+INFO     light_1.log:serial_comm.py:69 ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot
+INFO     light_1.log:serial_comm.py:69 :0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0018,len:4
+load:0x3fff001c,len:3788
+load:0x40078000,len:10512
+load:0x40080400,len:5440
+entry 0x40080698
+ESP-IDF 615cb77b4 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:69 I (250) cpu_start: Pro cpu up.
+I (250) cpu_start: Application information:
+I (250) cpu_start: Project name:     wizlight
+I (250) cpu_start: App version:      V1.2.0-849-gae702cb3-dirty
+I (255) cpu_start: Compile time:     Jul 29 2020 15:27:40
+I (260) cpu_start: ELF file SHA256:  70b06e329fddeb08...
+I (265) cpu_start: ESP-IDF:          615cb77b4
+I (269) cpu_start: Single core mode
+I (273) heap_init: Initializing. RAM available for dynamic allocation:
+I (279) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (284) heap_init
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 : At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (289) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (294) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM
+I (299) heap_init: At 3FFD2090 len 0000DF70 (55 KiB): DRAM
+I (304) heap_init: At 3FFE0440 len 0001FBC0 (126 KiB): D/IRAM
+I (310) heap_init: At 40078000 len 00008000 (32 KiB): IRAM
+I (315) heap_init: At 4009B668 len 00004998 (18 KiB): IRAM
+I (320) cpu_start: Pro cpu start user code
+I (1) esp_core_dump_flash: Init core dump to flash
+I (1) esp_core_dump_flash: Found partition 'coredump' @ 3f0000 65536 bytes
+E (1) esp_core_dump_common: Failed to mmap core dump data (260)!
+I (8) cpu_start: Starting scheduler on PRO CPU.
+[Built]: 1.50.1 Jul 29 2020 15:33:10
+FW running @ 0x10!!!
+
+
+FW starting (0)...
+Start Memory heap available 194972
+Nvs initialization failed
+Heap after mwNvs_init 193768
+Heap after mw_timer_init 189024
+I (41) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+Heap after store_init 188520
+Heap after gpio_install_isr_service 188168
+wizclick state: 1, fav cnt: 2, pair cnt: 0, soft: 0, force mode: 2
+Heap after power_limiter_init 188168
+Heap after scene_init 184960
+Heap after cmd_init 184876
+
+INFO     light_1.log:serial_comm.py:69 I (161) wifi:wifi driver task: 3ffd6a78, pr
+INFO     light_1.log:serial_comm.py:69 io:23, stack:3584, core=0
+I (161) wifi:wifi firmware version: 6dcbb82
+I (161) wifi:config NVS flash: enabled
+I (161) wifi:config nano formating: disabled
+I (161) wifi:Init dynamic tx buffer num: 
+INFO     light_1.log:serial_comm.py:69 32
+I (171) wifi:Init data frame dynamic rx buffer num: 32
+I (171) wifi:Init management frame dynamic rx buffer num: 32
+I (181) wifi:Init management short buffer num: 32
+I (181) wifi:Init static rx buffer size: 1600
+I (181) wifi:Init static rx buffer num: 10
+I (191) wifi:Init dynamic rx buffer num: 32
+
+INFO     light_1.log:serial_comm.py:69 I (291) phy: phy_version: 4180, cb3948e, Sep 12 2019, 16:39:13, 0, 0
+I (291) wifi:mode : sta (a8:bb:50:37:70:86)
+I (291) wifi:Set ps type: 1
+
+Heap after mwWifi_init 147588
+I (291) gpio: GPIO[12]| In
+INFO     light_1.log:serial_comm.py:69 putEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 1| Pulldown: 1| Intr:0 
+Heap after protparser_init 147588
+Heap after net_init 143708
+Heap after notif_init 143708
+Heap after udpManager_init 143624
+Heap after udpClient_init 139892
+Heap after alarm_init 139868
+ali: Initializing...
+I (321) BTDM_INIT: BT controller compile version [0fff744]
+
+INFO     test_case.log:serial_comm.py:71 light_1 power on
+INFO     light_1.log:serial_comm.py:69 ali: authvalue string: ,,
+ali: product_id: 00000000
+ali: mac addr: 
+mesh repeat count 0
+Heap after aligenie_init 110768
+I (651) wifi:mode : sta (a8:bb:50:37:70:86) + softAP (aa:bb:
+INFO     light_1.log:serial_comm.py:69 50:37:70:86)
+I (651) wifi:Total power save buffer number: 16
+I (661) wifi:Init max length of beacon: 752/752
+I (661) wifi:Init max length of beacon: 752/752
+I (671) wifi:Total power save buffer number: 16
+Heap after beat_init 93848
+Heap after http_init 93848
+Heap after mqtt_init 81964
+Heap after ir_init 78528
+I (681) gpio: GPIO[17]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 
+Heap after gesture_ctrl_init 78324
+I (691) ESPNOW: espnow [version: 1.0] init
+Heap after accessory_init 75536
+Heap after sensor_init 75452
+Firmware initialized!
+Firmware Version: 1.50.1
+MAC address: a8bb50377086
+
+INFO     test_case.log:pair_lamps_steps.py:556 start manual pairing light_1
+INFO     test_case.log:pair_lamps_steps.py:559 AP pairing, light's wifi name : WiZConfig_7086
+INFO     light_1.log:serial_comm.py:69 I (15931) wifi:new:<1,1>, old:<1,1>, ap:<1,1>, sta:<0,0>, prof:1
+I (15931) wifi:station: 0c:70:4a:51:c6:ae join, AID=1, bgn, 40U
+
+INFO     light_1.log:serial_comm.py:69 I (16371) tcpip_adapter: softAP assign IP to station,IP is: 192.168.56.100
+I (16381) tcpip_adapter: softAP assign IP to station,IP is: 192.168.56.100
+
+INFO     light_1.log:serial_comm.py:69 I (21281) wifi:switch to channel 2
+I (21281) wifi:ap 
+INFO     light_1.log:serial_comm.py:69 channel adjust o:1,1 n:2,1
+I (21281) wifi:new:<2,1>, old:<1,1>, ap:<2,1>, sta:<0,0>, prof:1
+I (21281) wifi:new:<2,1>, old:<2,1>, ap:<2,1>, sta:<2,0>, prof:1
+
+INFO     light_1.log:serial_comm.py:69 I (22141) wifi:state: init -> auth (b0)
+
+INFO     light_1.log:serial_comm.py:69 I (22141) wifi:state: auth -> assoc (0)
+
+INFO     light_1.log:serial_comm.py:69 I (22161) wifi:state: assoc -> run (10)
+
+INFO     light_1.log:serial_comm.py:69 I (22191) wifi:connected with HUAWEI-B315-566C, aid = 2, channel 2, BW20, bssid = 10:b1:f8:e7:56:6c
+I (22191) wifi:security type: 3, phy: bgn, rssi: -49
+I (22201) wifi:pm start, type: 1
+
+
+INFO     light_1.log:serial_comm.py:69 I (22241) wifi:AP's beacon interv
+INFO     light_1.log:serial_comm.py:69 al = 102400 us, DTIM period = 1
+
+INFO     light_1.log:serial_comm.py:69 I (23911) event: sta ip: 192.168.12.116, mask: 255.255.255.0, gw: 192.168.12.1
+
+INFO     light_1.log:serial_comm.py:69 I (25621) wifi:station: 0c:70:4a:51:c6:ae leave, 
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     light_1.log:serial_comm.py:69 AID = 1, bss_flags is 134243, bss:0x3ffba224
+I (25621) wifi:new:<2,0>, old:<2,1>, ap:<2,1>, sta:<2,0>, prof:1
+I (25621) wifi:mode : sta (a8:bb:50:37:70:86)
+
+INFO     light_1.log:serial_comm.py:69 ali: aligenie state changed: 1
+W (48101) BLE_MESH:
+INFO     light_1.log:serial_comm.py:69  bt_mesh_light_ctl_srv_init, Light CTL Server requires two elements
+W (48101) BLE_MESH: bt_mesh_light_hsl_srv_init, Light HSL Server requires three elements
+
+INFO     light_1.log:serial_comm.py:69 ali: ESP_BLE_MESH_PROV_REGISTER_COMP_EVT, err_code 0
+ali: AliGenie start
+ali: ESP_BLE_MESH_NODE_PROV_ENABLE_COMP_EVT, err_code 0
+ali: aligenie_evt: 3
+ali: aligenie_evt: 4
+ali: i
+INFO     light_1.log:serial_comm.py:69 nit timer 0x3ffd0798,handle 0x401152fc,args 0x0
+ali: start timer 0x3ffd0798, timeout 600000
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.50.1","homeId":43791,"ip":"192.168.12.116","ssid":"HUAWEI-B315-","mqtt":"pwon","cnx":"0000","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"1b7852b855"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-51,"src":"wizc2","state":true,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncConfig","env":"dev","params":{"sys":0,"usr":0,"favs":0,"sensor":0,"sec":0}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"setSystemConfig","params":{"roomId":43523,"groupId":0,"moduleName":"ESP03_SHTW1W_01","drvConf":[20,2],"ewf":"ff00ffff0000","systemConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"setSystemConfig","params":{"offsets":[[1596075671,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"setUserConfig","params":{"fadeIn":500,"fadeOut":500,"dftDim":100,"startupMode":"wizclick","pwmRange":[5,100],"whiteRange":[2700,6500],"extRange":[2700,6500],"po":0,"userConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"setFavs","params":{"favs":[[12,0,0,0,0,0,0],[11,0,0,0,0,0,0],[6,0,0,0,0,0,0],[2,0,0,0,0,0,0]],"favConfigTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"setSecurity","params":{"udp":0,"key":["cJHZ0YB+zEP55N15QJo8xhPwEmpNHjWeWVZ6M0D0Vx8=","c0H7PMDpAdVoEonu2AogIQ==",17,21],"confTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncOffset","env":"dev","params":{"offsets":[],"time":1596075667}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"setSystemConfig","params":{"offsets":[[1596075673,28800]],"systemConfigTs":0}}
+INFO     test_case.log:pair_lamps_steps.py:592 check manual pairing result
+INFO     test_case.log:pair_lamps_steps.py:598 check if ota icon exits
+INFO     test_case.log:pair_lamps_steps.py:629 change light name to light_1
+INFO     test_case.log:pair_lamps_steps.py:636 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[1];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:637 light_1 showed in App scream!
+INFO     test_case.log:pair_lamps_steps.py:638 [{'FWVersion': '1.50.1', 'ModelID': 'B23026', 'MacAddr': 'a8bb50377086', 'IP': '192.168.12.116', 'HomeID': '43791', 'GroupID': '不适用', 'RSSI': '-51', 'LampName': 'light_1'}]
+INFO     test_case.log:pair_lamps_steps.py:768 generate light info file
+INFO     test_case.log:pair_lamps_steps.py:799 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     root:paired_light_info.py:40 Save paired light file :D:\workspace\wiz-automation-test\WizAutomatedSystemTest\Utils\..\Results\paired_light_info.xls
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: pair_lamps_wifi_ble.feature:AP pairing wifi and ble
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:13 =================================================
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:14 allure report is generated
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:15 tear down!
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:16 =================================================

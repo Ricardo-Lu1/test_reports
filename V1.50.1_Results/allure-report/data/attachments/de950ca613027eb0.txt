@@ -1,0 +1,75 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: schedule_actions.feature:Create a schedule with action "Golden white" and no end when lamp original status is "Pulse"
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-40,"src":"udp","state":true,"sceneId":31,"speed":100,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50377086
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 2, "mins": 20, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 99, "intent": 4, "scene": 30, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 2, "mins": 20, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 1, "intent": 4, "scene": 30, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 2, "mins": 20, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 99, "intent": 4, "scene": 30, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 2, "mins": 20, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 1, "intent": 4, "scene": 30, "ignore": "none", "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:128 create schedule for light_1 with scene : Golden white, start at 02:20
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-30 02:16:16.509234
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-30 02:20:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 4.717 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596046620, local unix:1596075420
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596046680, local unix:1596075480
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:15
+INFO     light_1.log:serial_comm.py:69 96046740, local unix:1596075540
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596046800, local unix:1596075600
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-38,"src":"schd","state":true,"sceneId":30,"speed":100,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with Golden white successfully!
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-30 02:21:00.538734
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-30 02:35:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 14.983 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596046860, local unix:1596075660
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596046920,
+INFO     light_1.log:serial_comm.py:69  local unix:1596075720
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596046980, local unix:1596075780
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047040, local unix:1596075840
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047100, lo
+INFO     light_1.log:serial_comm.py:69 cal unix:1596075900
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047160, local unix:1596075960
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047220, local unix:1596076020
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047280
+INFO     light_1.log:serial_comm.py:69 , local unix:1596076080
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047340, local unix:1596076140
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047400, local unix:1596076200
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047460, l
+INFO     light_1.log:serial_comm.py:69 ocal unix:1596076260
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047520, local unix:1596076320
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047580, local unix:1596076380
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047640,
+INFO     light_1.log:serial_comm.py:69  local unix:1596076440
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596047700, local unix:1596076500
+
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with Golden white successfully!
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: schedule_actions.feature:Create a schedule with action "Golden white" and no end when lamp original status is "Pulse"
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************

@@ -1,0 +1,64 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: schedule_actions.feature:Create a schedule with action "Daylight" and end with "Previous mode" when lamp original status is on
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-39,"src":"udp","state":true,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50377086
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 25, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 12, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 25, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 12, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 25, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 12, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 25, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 12, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"ping","env":"dev"}
+INFO     test_case.log:schedule_action_steps.py:251 create schedule for light_1 with scene : Daylight, start at 18:25
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-29 18:21:27.013298
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-29 18:25:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 4.533 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018120, local unix:159
+INFO     light_1.log:serial_comm.py:69 6046920
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018180, local unix:1596046980
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018240, local unix:1596047040
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:15
+INFO     light_1.log:serial_comm.py:69 96018300, local unix:1596047100
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-38,"src":"schd","state":true,"sceneId":12,"speed":100,"temp":4200,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with Daylight successfully!
+INFO     test_case.log:schedule_action_steps.py:202 now time is 2020-07-29 18:26:00.042093
+INFO     test_case.log:schedule_action_steps.py:203 light_1 schedule will be active at 2020-07-29 18:30:00
+INFO     test_case.log:schedule_action_steps.py:206 wait 4.983 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018360, local unix:1596047160
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018420, local unix:1596047220
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018480, local unix:1596047280
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596
+INFO     light_1.log:serial_comm.py:69 018540, local unix:1596047340
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018600, local unix:1596047400
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-39,"src":"schd","state":true,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     test_case.log:schedule_action_steps.py:210 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:212 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb50377086', 'rssi': -40, 'state': True, 'sceneId': 11, 'speed': 100, 'temp': 2700, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:232 light_1 is turned to ON
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018660, local unix:1596047460
+
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-29 18:31:05.078292
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-29 18:32:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 1.900 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 onesh
+INFO     light_1.log:serial_comm.py:69 ot unix:1596018720, local unix:1596047520
+
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with Warm white successfully!
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: schedule_actions.feature:Create a schedule with action "Daylight" and end with "Previous mode" when lamp original status is on
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************

@@ -1,0 +1,111 @@
+{
+  "uid" : "5215678931e4be69",
+  "name" : "test_34_press_off_then_on_during_schedule_end_with_previous_mode",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt#test_34_press_off_then_on_during_schedule_end_with_previous_mode",
+  "historyId" : "fd52ecb4485ae98c8c978fb1775cc8f1",
+  "time" : {
+    "start" : 1596052565296,
+    "stop" : 1596053460648,
+    "duration" : 895352
+  },
+  "description" : "schedule_actions.feature: Press \"OFF\" then \"ON\" during schedule end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule_actions.feature: Press &quot;OFF&quot; then &quot;ON&quot; during schedule end with &quot;previous mode&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1596015768881,
+      "stop" : 1596015768881,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Press \"OFF\" then \"ON\" during schedule end with \"previous mode\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce13fd2c62dd7d85",
+      "name" : "log",
+      "source" : "ce13fd2c62dd7d85.txt",
+      "type" : "text/plain",
+      "size" : 6839
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1596056467602,
+      "stop" : 1596056482565,
+      "duration" : 14963
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Press \"OFF\" then \"ON\" during schedule end with \"previous mode\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "21380-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "5215678931e4be69.json",
+  "parameterValues" : [ ]
+}

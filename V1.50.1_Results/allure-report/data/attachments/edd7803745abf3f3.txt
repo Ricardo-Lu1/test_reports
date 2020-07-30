@@ -1,0 +1,144 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: schedule_actions.feature:Create a schedule with action "Warm White" and end with "Previous mode" when lamp original status is "Bedtime"
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-51,"src":"udp","state":true,"sceneId":10,"speed":100,"dimming":100}}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018780, local unix:1596047580
+
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50377086
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 40, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 11, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 40, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 11, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 40, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 11, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 40, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 11, "ignore": "none", "next": 2, "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:251 create schedule for light_1 with scene : Warm white, start at 18:40
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-29 18:33:15.389551
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-29 18:40:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 7.733 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018840, local unix:1596047640
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018900, local unix:1596047700
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018960, local unix:1596047760
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019020, local unix:1596047820
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019080, local unix:1596047880
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019140, local unix:15960
+INFO     light_1.log:serial_comm.py:69 47940
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019200, local unix:1596048000
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-36,"src":"schd","state":true,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with Warm white successfully!
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-29 18:41:00.406985
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-29 18:45:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 4.983 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019260, local unix:1596048060
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019320, local unix:1596048120
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019380, local unix:1596048180
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019440, local unix:1596048240
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019
+INFO     light_1.log:serial_comm.py:69 500, local unix:1596048300
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-38,"src":"schd","state":true,"sceneId":10,"speed":100,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with Bedtime successfully!
+INFO     test_case.log:schedule_action_steps.py:202 now time is 2020-07-29 18:46:00.428155
+INFO     test_case.log:schedule_action_steps.py:203 light_1 schedule will be active at 2020-07-29 19:15:00
+INFO     test_case.log:schedule_action_steps.py:206 wait 29.983 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019560, local unix:1596048360
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019620, local unix:1596048420
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019680, local unix:1596048480
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019740, local unix:15960
+INFO     light_1.log:serial_comm.py:69 48540
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019800, local unix:1596048600
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019860, local unix:1596048660
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019920, lo
+INFO     light_1.log:serial_comm.py:69 cal unix:1596048720
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596019980, local unix:1596048780
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020040, local unix:1596048840
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:159602
+INFO     light_1.log:serial_comm.py:69 0100, local unix:1596048900
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020160, local unix:1596048960
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020220, local unix:1596049020
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020280, local unix:15
+INFO     light_1.log:serial_comm.py:69 96049080
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020340, local unix:1596049140
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020400, local unix:1596049200
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020460, local unix:
+INFO     light_1.log:serial_comm.py:69 1596049260
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020520, local unix:1596049320
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020580, local unix:1596049380
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020640, lo
+INFO     light_1.log:serial_comm.py:69 cal unix:1596049440
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020700, local unix:1596049500
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020760, local unix:1596049560
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:15
+INFO     light_1.log:serial_comm.py:69 96020820, local unix:1596049620
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50c40c12   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020880, local unix:1596049680
+
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb509f95fa   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596020940, local unix:1596049740
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596021000, local unix:1596049800
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596021060, local unix:1596049860
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596021120, local unix:1596049920
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596021180, local unix:1596049980
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-49,"src":"intl","state":false,"sceneId":10,"speed":100,"dimming":100}}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596021240, local un
+INFO     light_1.log:serial_comm.py:69 ix:1596050040
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596021300, local unix:1596050100
+
+INFO     test_case.log:schedule_action_steps.py:210 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:212 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb50377086', 'rssi': -49, 'state': False, 'sceneId': 10, 'speed': 100, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:232 light_1 is turned to OFF
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596021360, local unix:1596050160
+
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: schedule_actions.feature:Create a schedule with action "Warm White" and end with "Previous mode" when lamp original status is "Bedtime"
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************

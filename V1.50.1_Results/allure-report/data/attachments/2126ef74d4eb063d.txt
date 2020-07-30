@@ -1,0 +1,57 @@
+INFO     test_case.log:conftest.py:58 ****************************************************************************************************
+INFO     test_case.log:conftest.py:60 Scenario Start: schedule_actions.feature:Create a schedule with action "Warm White" and end with "Off" when lamp original status is off
+INFO     test_case.log:conftest.py:61 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-51,"src":"udp","state":false,"sceneId":13,"speed":100,"temp":6500,"dimming":100}}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017460, local unix:1596046260
+
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50377086
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 15, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 15, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 15, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method": "setSchd", "params": {"id": 5, "hrs": 18, "mins": 15, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:251 create schedule for light_1 with scene : Warm white, start at 18:15
+INFO     test_case.log:schedule_action_steps.py:273 now time is 2020-07-29 18:11:15.690116
+INFO     test_case.log:schedule_action_steps.py:274 light_1 schedule will be active at 2020-07-29 18:15:00
+INFO     test_case.log:schedule_action_steps.py:277 wait 4.733 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017520, local unix:159604
+INFO     light_1.log:serial_comm.py:69 6320
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017580, local unix:1596046380
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017640, local unix:1596046440
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017700, local u
+INFO     light_1.log:serial_comm.py:69 nix:1596046500
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-38,"src":"schd","state":true,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:288 Create schedule with Warm white successfully!
+INFO     test_case.log:schedule_action_steps.py:202 now time is 2020-07-29 18:16:00.706748
+INFO     test_case.log:schedule_action_steps.py:203 light_1 schedule will be active at 2020-07-29 18:20:00
+INFO     test_case.log:schedule_action_steps.py:206 wait 4.983 minutes util schedule takes effect
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017760, local unix:1596046560
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43791/devices/a8bb50377086   {"method":"ping","env":"dev"}
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017820, local unix:1596046620
+
+INFO     light_1.log:serial_comm.py:69 o
+INFO     light_1.log:serial_comm.py:69 neshot unix:1596017880, local unix:1596046680
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596017940, local unix:1596046740
+
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018000, local unix:1596
+INFO     light_1.log:serial_comm.py:69 046800
+
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:91 DEV/dev/a8bb50377086   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50377086","rssi":-39,"src":"schd","state":false,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:91 OP/dev/43788/devices/a8bb50a0714a   {"method":"ping","env":"dev"}
+INFO     test_case.log:schedule_action_steps.py:210 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.12.116
+INFO     test_case.log:schedule_action_steps.py:212 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb50377086', 'rssi': -38, 'state': False, 'sceneId': 11, 'speed': 100, 'temp': 2700, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:232 light_1 is turned to OFF
+INFO     light_1.log:serial_comm.py:69 oneshot unix:1596018060, local unix:1596046860
+
+INFO     test_case.log:conftest.py:66 ****************************************************************************************************
+INFO     test_case.log:conftest.py:68 Scenario Stop: schedule_actions.feature:Create a schedule with action "Warm White" and end with "Off" when lamp original status is off
+INFO     test_case.log:conftest.py:69 ****************************************************************************************************

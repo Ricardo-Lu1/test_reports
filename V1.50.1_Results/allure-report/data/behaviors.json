@@ -1,0 +1,1592 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Create schedule by mqtt",
+    "children" : [ {
+      "name" : "Create schedule by mqtt",
+      "children" : [ {
+        "name" : "test_02_create_schedule_by_mqtt",
+        "uid" : "d7bd389d3a2f029e",
+        "parentUid" : "74e4fed712c2e551d2dcdd6f81f578ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596015060401,
+          "stop" : 1596015360686,
+          "duration" : 300285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74e4fed712c2e551d2dcdd6f81f578ca"
+    }, {
+      "name" : "Create schedule with the same time, same room, different scenes by mqtt",
+      "children" : [ {
+        "name" : "test_03_create_schedule_same_time_by_mqtt",
+        "uid" : "50e72a1b041ab2ae",
+        "parentUid" : "c6e9359a16483a14aa9f2f2db3da06ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596015768882,
+          "stop" : 1596015960242,
+          "duration" : 191360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6e9359a16483a14aa9f2f2db3da06ae"
+    }, {
+      "name" : "Edit schedule to end with off by mqtt",
+      "children" : [ {
+        "name" : "test_06_edit_schedule_to_end_with_off_by_mqtt",
+        "uid" : "8a25d2a6045fe82b",
+        "parentUid" : "6a55e8eadace1c9208099dcb313b0c48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596015960248,
+          "stop" : 1596016565717,
+          "duration" : 605469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a55e8eadace1c9208099dcb313b0c48"
+    }, {
+      "name" : "Edit a schedule end of the way when the schedule has been stated by mqtt",
+      "children" : [ {
+        "name" : "test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_stated_by_mqtt",
+        "uid" : "59571100ddd94daf",
+        "parentUid" : "7dc7458178776333844101cbd73cfd57",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596016565724,
+          "stop" : 1596017160151,
+          "duration" : 594427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7dc7458178776333844101cbd73cfd57"
+    }, {
+      "name" : "Delete a schedule",
+      "children" : [ {
+        "name" : "test_09_delete_schedule",
+        "uid" : "5bb33be282e945ca",
+        "parentUid" : "e5d9381d51f87826c56de4e7303f44f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596017160156,
+          "stop" : 1596017460458,
+          "duration" : 300302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5d9381d51f87826c56de4e7303f44f9"
+    }, {
+      "name" : "Create a schedule with action \"Warm White\" and end with \"Off\" when lamp original status is off",
+      "children" : [ {
+        "name" : "test_12_create_schedule_with_warm_white_end_with_off_when_lamp_status_off",
+        "uid" : "b24f0be5c1c5be57",
+        "parentUid" : "1530b5ef2ccda8980e12080b019a8777",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596017460465,
+          "stop" : 1596018065723,
+          "duration" : 605258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1530b5ef2ccda8980e12080b019a8777"
+    }, {
+      "name" : "Create a schedule with action \"Daylight\" and end with \"Previous mode\" when lamp original status is on",
+      "children" : [ {
+        "name" : "test_13_create_schedule_with_daylight_end_with_previous_mode_when_lamp_status_on",
+        "uid" : "289cc5e8ce17a672",
+        "parentUid" : "82638e3cd736325d2b080fc0ca502061",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596018065731,
+          "stop" : 1596018780106,
+          "duration" : 714375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82638e3cd736325d2b080fc0ca502061"
+    }, {
+      "name" : "Create a schedule with action \"Warm White\" and end with \"Previous mode\" when lamp original status is \"Bedtime\"",
+      "children" : [ {
+        "name" : "test_14_create_schedule_with_warm_white_end_with_previous_mode_when_lamp_status_bedtime",
+        "uid" : "52f7f47872ac503f",
+        "parentUid" : "28132725f94383e543010d0a44b8a917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596018780115,
+          "stop" : 1596021365465,
+          "duration" : 2585350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28132725f94383e543010d0a44b8a917"
+    }, {
+      "name" : "Create a schedule with action \"Bedtime\" and end with \"off\" when lamp original status is \"Warm White\"",
+      "children" : [ {
+        "name" : "test_15_create_schedule_with_bedtime_end_with_off_when_lamp_status_warm_white",
+        "uid" : "f59959dded6201a2",
+        "parentUid" : "b4174a3d08f7acc40f1f3a0f406db2a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596021365472,
+          "stop" : 1596021965754,
+          "duration" : 600282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4174a3d08f7acc40f1f3a0f406db2a4"
+    }, {
+      "name" : "Create a schedule with action \"Bedtime\" and end with \"Previous mode\" after 30min when lamp original status is \"Warm White\"",
+      "children" : [ {
+        "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+        "uid" : "f2ff993f18260abc",
+        "parentUid" : "34d84f99aba6a799c011677201e8f4ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596021965762,
+          "stop" : 1596024360070,
+          "duration" : 2394308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34d84f99aba6a799c011677201e8f4ef"
+    }, {
+      "name" : "Create a schedule with action \"Bedtime\" and end with \"Previous mode\" when lamp original status is \"Night Light\"",
+      "children" : [ {
+        "name" : "test_17_create_schedule_with_bedtime_end_with_previous_mode_when_lamp_status_night_light",
+        "uid" : "bdf8c2e1d09f4226",
+        "parentUid" : "5b2c88d8634d6db7d5f16d85060fb2b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596024360496,
+          "stop" : 1596026760799,
+          "duration" : 2400303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b2c88d8634d6db7d5f16d85060fb2b7"
+    }, {
+      "name" : "Create a schedule with action \"Bedtime\" and end with \"OFF\" when lamp original status is \"OFF\"",
+      "children" : [ {
+        "name" : "test_18_create_schedule_with_bedtime_end_with_off_when_lamp_status_off",
+        "uid" : "3b624ff10f029d05",
+        "parentUid" : "0b195b2d7a4980cfa06942c4043be229",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596026760806,
+          "stop" : 1596029165136,
+          "duration" : 2404330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b195b2d7a4980cfa06942c4043be229"
+    }, {
+      "name" : "Create a schedule with action \"Wake-up\" and end with \"OFF\" when lamp original status is \"OFF\"",
+      "children" : [ {
+        "name" : "test_19_create_schedule_with_wake_up_end_with_off_when_lamp_status_off",
+        "uid" : "5fa025925ca27919",
+        "parentUid" : "b0e1a76420d87387cb6b26660eb1a8e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596029165143,
+          "stop" : 1596029765407,
+          "duration" : 600264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0e1a76420d87387cb6b26660eb1a8e8"
+    }, {
+      "name" : "Create a schedule with action \"Wake-up\" and end with \"Previous mode\" after 30min when lamp original status is \"OFF\"",
+      "children" : [ {
+        "name" : "test_20_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_off",
+        "uid" : "5a39785687e62e6f",
+        "parentUid" : "05abd0c885bb003565a5ce1f34f4c428",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596029765414,
+          "stop" : 1596032165103,
+          "duration" : 2399689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05abd0c885bb003565a5ce1f34f4c428"
+    }, {
+      "name" : "Create a schedule with action \"Wake-up\" and end with \"Previous mode\" when lamp original status is \"ON\"",
+      "children" : [ {
+        "name" : "test_21_create_schedule_with_action_wake_up_end_with_previous_mode_when_lamp_status_on",
+        "uid" : "21218847a0256821",
+        "parentUid" : "f9054ef4b7842684cca62a845e022390",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596032165111,
+          "stop" : 1596032760430,
+          "duration" : 595319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9054ef4b7842684cca62a845e022390"
+    }, {
+      "name" : "Create a schedule with action \"Wake-up\" and end with \"Previous mode\" when lamp original status is \"Night Light\"",
+      "children" : [ {
+        "name" : "test_22_create_schedule_with_wake_up_end_with_previous_mode_when_lamp_status_night_light",
+        "uid" : "56f704512f6e67d5",
+        "parentUid" : "848126af2bc7cdbdc2f35cd7411b4bd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596032760438,
+          "stop" : 1596033360695,
+          "duration" : 600257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "848126af2bc7cdbdc2f35cd7411b4bd6"
+    }, {
+      "name" : "Create a schedule with action \"Wake-up\" and end with \"Previous mode\" after 30min when lamp original status is \"Night Light\"",
+      "children" : [ {
+        "name" : "test_23_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_night_light",
+        "uid" : "b4cbc6899638166f",
+        "parentUid" : "5bb19a73c5a66c992cf7184539f35127",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596033360702,
+          "stop" : 1596035760981,
+          "duration" : 2400279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bb19a73c5a66c992cf7184539f35127"
+    }, {
+      "name" : "Create two schedule with action \"Wake-up\" and \"Bedtime\",and the start time interval is less than 30 minutes",
+      "children" : [ {
+        "name" : "test_24_create_two_schedule_with_wake_up_and_bedtime_and_start_time_interval_less_than_30_minutes",
+        "uid" : "1404ae6350118623",
+        "parentUid" : "7b6ebdb3d41c8e3abb057c2223ef7968",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596035760989,
+          "stop" : 1596042365888,
+          "duration" : 6604899
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b6ebdb3d41c8e3abb057c2223ef7968"
+    }, {
+      "name" : "Create two schedule with action \"Bedtime\" and \"Wake-up\",and the start time interval is less than 30 minutes",
+      "children" : [ {
+        "name" : "test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
+        "uid" : "40aec6e743f780a9",
+        "parentUid" : "7f4d3458433597de06a40dad63c0aeca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596042365900,
+          "stop" : 1596045365599,
+          "duration" : 2999699
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f4d3458433597de06a40dad63c0aeca"
+    }, {
+      "name" : "Create a schedule with action \"Cozy\" and no end when lamp original status is \"Night light\"",
+      "children" : [ {
+        "name" : "test_26_create_schedule_with_cozy_and_no_end_when_lamp_status_night_light",
+        "uid" : "ee4ad2dbdf967636",
+        "parentUid" : "62354bf6a9ec06627ab8a9a2c5e59ab2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596045365608,
+          "stop" : 1596046561246,
+          "duration" : 1195638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62354bf6a9ec06627ab8a9a2c5e59ab2"
+    }, {
+      "name" : "Create a schedule with action \"Golden white\" and no end when lamp original status is \"Pulse\"",
+      "children" : [ {
+        "name" : "test_27_create_schedule_with_golden_white_and_no_end_when_lamp_status_pulse",
+        "uid" : "9f11073a61f55bad",
+        "parentUid" : "a8982baafbc8bf3bde435c46ba3a6894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596046561256,
+          "stop" : 1596047760563,
+          "duration" : 1199307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a8982baafbc8bf3bde435c46ba3a6894"
+    }, {
+      "name" : "Create 2 schedules of two intersecting time periods",
+      "children" : [ {
+        "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+        "uid" : "b3fd98f3a13868b1",
+        "parentUid" : "3ae5f76352ee1ca5566f585841e4f3f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596047760570,
+          "stop" : 1596048660113,
+          "duration" : 899543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ae5f76352ee1ca5566f585841e4f3f3"
+    }, {
+      "name" : "Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 no \"END\"",
+      "children" : [ {
+        "name" : "test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
+        "uid" : "3ec622e1b103b8a5",
+        "parentUid" : "bc9fd87966c4584aca0741696cf8f8ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596048660144,
+          "stop" : 1596049860737,
+          "duration" : 1200593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc9fd87966c4584aca0741696cf8f8ae"
+    }, {
+      "name" : "Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\"",
+      "children" : [ {
+        "name" : "test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+        "uid" : "910351dbc0209c70",
+        "parentUid" : "fe27ae8c606e0384f1962580e661315e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596049860748,
+          "stop" : 1596050765366,
+          "duration" : 904618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe27ae8c606e0384f1962580e661315e"
+    }, {
+      "name" : "Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 end with \"previous mode\"",
+      "children" : [ {
+        "name" : "test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
+        "uid" : "f77ce31ce7e79957",
+        "parentUid" : "582bf2aff624181362574c3d85f2e7ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596050765375,
+          "stop" : 1596051660955,
+          "duration" : 895580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "582bf2aff624181362574c3d85f2e7ef"
+    }, {
+      "name" : "Press \"ON\" during schedule end with \"OFF\"",
+      "children" : [ {
+        "name" : "test_33_press_on_during_schedule_end_with_off",
+        "uid" : "b69081f427597e2f",
+        "parentUid" : "57e0883865184b2fc590af695d73663e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596051660963,
+          "stop" : 1596052565288,
+          "duration" : 904325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57e0883865184b2fc590af695d73663e"
+    }, {
+      "name" : "Press \"OFF\" then \"ON\" during schedule end with \"previous mode\"",
+      "children" : [ {
+        "name" : "test_34_press_off_then_on_during_schedule_end_with_previous_mode",
+        "uid" : "5215678931e4be69",
+        "parentUid" : "7cf6410fb19c2a08eaf851fd2a359366",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596052565296,
+          "stop" : 1596053460648,
+          "duration" : 895352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cf6410fb19c2a08eaf851fd2a359366"
+    }, {
+      "name" : "Dimming during schedule end with \"OFF\"",
+      "children" : [ {
+        "name" : "test_35_dimming_during_schedule_end_with_off",
+        "uid" : "264342463d6c1356",
+        "parentUid" : "4ae4adcdc00ef1dfc53fcee666f8ac2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596053460656,
+          "stop" : 1596054365964,
+          "duration" : 905308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ae4adcdc00ef1dfc53fcee666f8ac2c"
+    }, {
+      "name" : "Change mode during schedule end with \"previous mode\"",
+      "children" : [ {
+        "name" : "test_36_change_mode_during_schedule_end_with_previous_mode",
+        "uid" : "f6b6dd9f24c191f0",
+        "parentUid" : "b18c9bf318cd03777fc3582247325a24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596054365972,
+          "stop" : 1596055260287,
+          "duration" : 894315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b18c9bf318cd03777fc3582247325a24"
+    }, {
+      "name" : "Change speed during schedule, action is dynamic mode and end with \"previous mode\"",
+      "children" : [ {
+        "name" : "test_37_change_speed_during_schedule_action_dynamic_mode_end_with_previous_mode",
+        "uid" : "c2b511d9d5800ee1",
+        "parentUid" : "015d80e86ad3bbeb3732367f1cc760a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596055260295,
+          "stop" : 1596056160984,
+          "duration" : 900689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "015d80e86ad3bbeb3732367f1cc760a8"
+    }, {
+      "name" : "Open the vacation mode",
+      "children" : [ {
+        "name" : "test_39_open_the_vacation_mode",
+        "uid" : "66c6031a4d9de82e",
+        "parentUid" : "c15e4a45a00d612be1061f9fb2456e9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596056160991,
+          "stop" : 1596056467596,
+          "duration" : 306605
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c15e4a45a00d612be1061f9fb2456e9e"
+    }, {
+      "name" : "Create default schedule by mqtt",
+      "children" : [ {
+        "name" : "test_01_create_default_schedule_by_mqtt",
+        "uid" : "e839d270486806dd",
+        "parentUid" : "8655cec72c4abe461d37eb00b21f3573",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596071832693,
+          "stop" : 1596072060998,
+          "duration" : 228305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8655cec72c4abe461d37eb00b21f3573"
+    } ],
+    "uid" : "b32be9acdf32ca08ae84e9f943bbd856"
+  }, {
+    "name" : "Test cases for rhythm",
+    "children" : [ {
+      "name" : "Enable circadian rhythm by mqtt",
+      "children" : [ {
+        "name" : "test_01_enable_default_rhythm_by_mqtt",
+        "uid" : "859526995d73e4b7",
+        "parentUid" : "71e45a131f9a9a5eac959a6413f02aae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596072298133,
+          "stop" : 1596072331449,
+          "duration" : 33316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71e45a131f9a9a5eac959a6413f02aae"
+    }, {
+      "name" : "Disable rhythm by mqtt",
+      "children" : [ {
+        "name" : "test_02_disable_rhythm_by_mqtt",
+        "uid" : "c0248d53fbcd22f6",
+        "parentUid" : "2a7049660b422816c1b6a08c8679a136",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596072331458,
+          "stop" : 1596072335564,
+          "duration" : 4106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2a7049660b422816c1b6a08c8679a136"
+    }, {
+      "name" : "Select rhythm by mqtt",
+      "children" : [ {
+        "name" : "test_04_select_rhythm_by_mqtt",
+        "uid" : "2e2bc41f6e8b25d2",
+        "parentUid" : "94693abaaf8f4d59398e0eba0979c78d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596072335571,
+          "stop" : 1596072379844,
+          "duration" : 44273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94693abaaf8f4d59398e0eba0979c78d"
+    }, {
+      "name" : "Edit time for circadian rhythm",
+      "children" : [ {
+        "name" : "test_08_edit_time_for_circadian_rhythm_by_mqtt",
+        "uid" : "dbc6cde224f0cc8a",
+        "parentUid" : "ad7c873b08420dfc00948f5972ef80e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596072379854,
+          "stop" : 1596072467208,
+          "duration" : 87354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad7c873b08420dfc00948f5972ef80e5"
+    }, {
+      "name" : "Select same lamp mode for all lamp point",
+      "children" : [ {
+        "name" : "test_14_select_same_lamp_mode_for_all_lamp_point_by_mqtt",
+        "uid" : "25f6baea09ce75ff",
+        "parentUid" : "6758446a3d89511e8eb7ac1e8a180579",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596072467219,
+          "stop" : 1596072500403,
+          "duration" : 33184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6758446a3d89511e8eb7ac1e8a180579"
+    }, {
+      "name" : "Save scene when rhythm playing",
+      "children" : [ {
+        "name" : "test_16_save_scene_when_rhythm_playing_by_mqtt",
+        "uid" : "450009a06cfd6eca",
+        "parentUid" : "0f887cea4df420e13a2a55c5332959ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596072500411,
+          "stop" : 1596072557629,
+          "duration" : 57218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f887cea4df420e13a2a55c5332959ac"
+    }, {
+      "name" : "Trigger a schedule when rhythm playing",
+      "children" : [ {
+        "name" : "test_17_trigger_schedule_when_rhythm_playing_by_mqtt",
+        "uid" : "cc4955af5e24d946",
+        "parentUid" : "a0f843a52ed40670b8a37c11d457e114",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596072557638,
+          "stop" : 1596073260950,
+          "duration" : 703312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0f843a52ed40670b8a37c11d457e114"
+    }, {
+      "name" : "Turn off and then turn on in cool white mode when Rhythms playing",
+      "children" : [ {
+        "name" : "test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+        "uid" : "495dbb05bd6c6497",
+        "parentUid" : "ca73563a31377fc1700f1363dbd0740e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596073260960,
+          "stop" : 1596073560532,
+          "duration" : 299572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca73563a31377fc1700f1363dbd0740e"
+    }, {
+      "name" : "Turn off and then turn on without specifying any lamp mode when Rhythms playing",
+      "children" : [ {
+        "name" : "test_19_turn_off_then_turn_on_without_specifying_lamp_mode_when_rhythms_playing_by_mqtt",
+        "uid" : "a3812db4ee455f6c",
+        "parentUid" : "2768d4d5ef43ef9ecac8399dde0dfdb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596073560543,
+          "stop" : 1596073625900,
+          "duration" : 65357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2768d4d5ef43ef9ecac8399dde0dfdb9"
+    }, {
+      "name" : "Turn to Night light mode and then turn on from in cool white mode when Rhythms playing",
+      "children" : [ {
+        "name" : "test_20_turn_to_night_light_then_turn_on_from_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+        "uid" : "adb8a0af5979f20c",
+        "parentUid" : "ea91d56d4376e7aa54254738ed6ae101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596073625911,
+          "stop" : 1596073860463,
+          "duration" : 234552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea91d56d4376e7aa54254738ed6ae101"
+    }, {
+      "name" : "Turn to Night light mode and then turn on without specifying any lamp mode when Rhythms playing",
+      "children" : [ {
+        "name" : "test_21_turn_to_night_light_then_turn_on_without_specifying_any_lamp_mode_when_rhythms_playing_by_mqtt",
+        "uid" : "11137018c2452d81",
+        "parentUid" : "f045f4083960324f8ed0cec984db69af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596073860474,
+          "stop" : 1596073925842,
+          "duration" : 65368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f045f4083960324f8ed0cec984db69af"
+    } ],
+    "uid" : "fad1139adb88b753d19a40f955d84767"
+  }, {
+    "name" : "Pair lights only wifi",
+    "children" : [ {
+      "name" : "Set app pairing mode to only wifi",
+      "children" : [ {
+        "name" : "test_set_app_pairing_only_wifi",
+        "uid" : "9a2202093104509b",
+        "parentUid" : "966146ab84ad3f05c202c89099a885f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596074187360,
+          "stop" : 1596074234069,
+          "duration" : 46709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "966146ab84ad3f05c202c89099a885f4"
+    }, {
+      "name" : "3 * WiZclick pairing only wifi",
+      "children" : [ {
+        "name" : "test_3_wizclick_pair_lamps_only_wifi",
+        "uid" : "80428c79e21e299d",
+        "parentUid" : "8f61e381d3a5097590e8f0f9fe997c21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596074234074,
+          "stop" : 1596074348397,
+          "duration" : 114323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f61e381d3a5097590e8f0f9fe997c21"
+    }, {
+      "name" : "5 * WiZclick pairing only wifi",
+      "children" : [ {
+        "name" : "test_5_wizclick_pair_lamps_only_wifi",
+        "uid" : "94b337c67e9a66df",
+        "parentUid" : "8c782853cfaa5815163d28a988b843f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596074348410,
+          "stop" : 1596074457435,
+          "duration" : 109025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c782853cfaa5815163d28a988b843f4"
+    }, {
+      "name" : "AP pairing only wifi",
+      "children" : [ {
+        "name" : "test_ap_pair_lamps_only_wifi",
+        "uid" : "5c6ce02b9bae881e",
+        "parentUid" : "cd28d8b65addc9ba87575fab104f0d6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596074457448,
+          "stop" : 1596074597950,
+          "duration" : 140502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd28d8b65addc9ba87575fab104f0d6e"
+    } ],
+    "uid" : "7cad398bfcca6bf64326559519fc4f17"
+  }, {
+    "name" : "Pair lights only ble",
+    "children" : [ {
+      "name" : "Set app pairing mode to only ble",
+      "children" : [ {
+        "name" : "test_set_app_pairing_only_ble",
+        "uid" : "332babb653a8c894",
+        "parentUid" : "c017867ccde00e9325de9590baf247c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596074794301,
+          "stop" : 1596074838594,
+          "duration" : 44293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c017867ccde00e9325de9590baf247c3"
+    }, {
+      "name" : "3 * WiZclick pairing only ble",
+      "children" : [ {
+        "name" : "test_3_wizclick_pair_lamps_only_ble",
+        "uid" : "9f91161ffbdb131d",
+        "parentUid" : "ef28fce44dfdbfb540a3794e853a097e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596074838599,
+          "stop" : 1596074974054,
+          "duration" : 135455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef28fce44dfdbfb540a3794e853a097e"
+    }, {
+      "name" : "5 * WiZclick pairing only ble",
+      "children" : [ {
+        "name" : "test_5_wizclick_pair_lamps_only_ble",
+        "uid" : "5364c51afd9e34bf",
+        "parentUid" : "04d2b1e8186392ea4a429d9a51a2296a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596074974066,
+          "stop" : 1596075070122,
+          "duration" : 96056
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04d2b1e8186392ea4a429d9a51a2296a"
+    }, {
+      "name" : "AP pairing only ble",
+      "children" : [ {
+        "name" : "test_ap_pair_lamps_only_ble",
+        "uid" : "64c38ca66b0dc96c",
+        "parentUid" : "c400d19fe564a386066eec7ade903111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596075070134,
+          "stop" : 1596075212098,
+          "duration" : 141964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c400d19fe564a386066eec7ade903111"
+    } ],
+    "uid" : "1ca187517042cf6771f2ec4c56ad52e2"
+  }, {
+    "name" : "Pair lights wifi and ble",
+    "children" : [ {
+      "name" : "Set app pairing mode to wifi and ble",
+      "children" : [ {
+        "name" : "test_set_app_pairing_wifi_ble",
+        "uid" : "4d2224d41eb1e7e4",
+        "parentUid" : "a51117494308beaa6db008f78daa82a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596075309650,
+          "stop" : 1596075352231,
+          "duration" : 42581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a51117494308beaa6db008f78daa82a9"
+    }, {
+      "name" : "3 * WiZclick pairing wifi and ble",
+      "children" : [ {
+        "name" : "test_3_wizclick_pair_lamps_wifi_ble",
+        "uid" : "a8b6c0777f961764",
+        "parentUid" : "fafdd74407900f1b4cd90562e7c11567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596075352237,
+          "stop" : 1596075465025,
+          "duration" : 112788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fafdd74407900f1b4cd90562e7c11567"
+    }, {
+      "name" : "5 * WiZclick pairing wifi and ble",
+      "children" : [ {
+        "name" : "test_5_wizclick_pair_lamps_wifi_ble",
+        "uid" : "77b60d3d129bd2d6",
+        "parentUid" : "21323cf959ae88ceb9462619dfbfdd8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596075465037,
+          "stop" : 1596075564866,
+          "duration" : 99829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21323cf959ae88ceb9462619dfbfdd8e"
+    }, {
+      "name" : "AP pairing wifi and ble",
+      "children" : [ {
+        "name" : "test_ap_pair_lamps_wifi_ble",
+        "uid" : "7509ad4f87054bb8",
+        "parentUid" : "463883e5953dddfaaa2d0e1881e5a112",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596075564973,
+          "stop" : 1596075708398,
+          "duration" : 143425
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "463883e5953dddfaaa2d0e1881e5a112"
+    } ],
+    "uid" : "ac2228fa8b989ebb9245f8d84f15643a"
+  }, {
+    "name" : "Single Lamp Control",
+    "children" : [ {
+      "name" : "test_single_light_control_on_off_nl[light_1-ON0]",
+      "uid" : "9045898087550140",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075873271,
+        "stop" : 1596075904483,
+        "duration" : 31212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ON'", "'light_1'" ]
+    }, {
+      "name" : "test_single_light_control_on_off_nl[light_1-OFF0]",
+      "uid" : "8668720cf1ee5e55",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075904496,
+        "stop" : 1596075910529,
+        "duration" : 6033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'OFF'", "'light_1'" ]
+    }, {
+      "name" : "test_single_light_control_on_off_nl[light_1-ON1]",
+      "uid" : "d41d3dfec07ad085",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075910539,
+        "stop" : 1596075916586,
+        "duration" : 6047
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ON'", "'light_1'" ]
+    }, {
+      "name" : "test_single_light_control_on_off_nl[light_1-NL0]",
+      "uid" : "9ec452ac481b58ae",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075916594,
+        "stop" : 1596075922631,
+        "duration" : 6037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'NL'", "'light_1'" ]
+    }, {
+      "name" : "test_single_light_control_on_off_nl[light_1-OFF1]",
+      "uid" : "d1a6f077a2050b08",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075922638,
+        "stop" : 1596075928697,
+        "duration" : 6059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'OFF'", "'light_1'" ]
+    }, {
+      "name" : "test_single_light_control_on_off_nl[light_1-NL1]",
+      "uid" : "66a4f8a0135be98c",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075928704,
+        "stop" : 1596075934749,
+        "duration" : 6045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'NL'", "'light_1'" ]
+    }, {
+      "name" : "test_single_light_control_on_off_nl[light_1-ON2]",
+      "uid" : "aeb597d362fc87bc",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075934756,
+        "stop" : 1596075940796,
+        "duration" : 6040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ON'", "'light_1'" ]
+    }, {
+      "name" : "test_single_light_control_dimming",
+      "uid" : "2d3bde522633d8e4",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075940805,
+        "stop" : 1596075974093,
+        "duration" : 33288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_single_light_control_temperature",
+      "uid" : "c9607249ce08a8e5",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075974099,
+        "stop" : 1596075992245,
+        "duration" : 18146
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_single_light_control_speed",
+      "uid" : "3a90af726fbaa7ff",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596075992250,
+        "stop" : 1596076022472,
+        "duration" : 30222
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Warm white]",
+      "uid" : "bdb5e2e101366914",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076022480,
+        "stop" : 1596076028513,
+        "duration" : 6033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Warm white'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Daylight]",
+      "uid" : "8b778013d2741940",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076028520,
+        "stop" : 1596076034572,
+        "duration" : 6052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Daylight'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Cool white]",
+      "uid" : "7391ab8cb1099f03",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076034578,
+        "stop" : 1596076040612,
+        "duration" : 6034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Cool white'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Night light]",
+      "uid" : "aa71ea4ef95c1e14",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076040618,
+        "stop" : 1596076046649,
+        "duration" : 6031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Night light'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Cozy]",
+      "uid" : "bc6c750369d93940",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076046657,
+        "stop" : 1596076052711,
+        "duration" : 6054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Cozy'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Relax]",
+      "uid" : "4e1667b3dfe47b54",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076052718,
+        "stop" : 1596076058759,
+        "duration" : 6041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Relax'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Focus]",
+      "uid" : "65ee56812b5f8891",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076058766,
+        "stop" : 1596076064799,
+        "duration" : 6033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Focus'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-TV time]",
+      "uid" : "6c41d17481f2baa6",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076064806,
+        "stop" : 1596076070852,
+        "duration" : 6046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'TV time'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Candlelight]",
+      "uid" : "fdb6851cfc22789",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076070858,
+        "stop" : 1596076076895,
+        "duration" : 6037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Candlelight'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Pulse]",
+      "uid" : "c2e0e9fbd8838f6e",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076076903,
+        "stop" : 1596076082958,
+        "duration" : 6055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Pulse'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Golden white]",
+      "uid" : "d2c39e563e416de4",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076082965,
+        "stop" : 1596076089012,
+        "duration" : 6047
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Golden white'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Steampunk]",
+      "uid" : "fb09ff6de5cbe507",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076089019,
+        "stop" : 1596076095061,
+        "duration" : 6042
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Steampunk'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Wake-up]",
+      "uid" : "6707030a08cb70d3",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076095068,
+        "stop" : 1596076101121,
+        "duration" : 6053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Wake-up'", "'light_2'" ]
+    }, {
+      "name" : "test_single_light_control_change_mode_tw[light_2-Bedtime]",
+      "uid" : "377739a2392f3bd8",
+      "parentUid" : "f712dca8f2d1772fb02641fb16ac1a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076101128,
+        "stop" : 1596076107161,
+        "duration" : 6033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Bedtime'", "'light_2'" ]
+    } ],
+    "uid" : "f712dca8f2d1772fb02641fb16ac1a30"
+  }, {
+    "name" : "TCP Communication",
+    "children" : [ {
+      "name" : "test_tcp_comm_on_off_nl[light_1-ON0]",
+      "uid" : "1158876dcd66acd",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076341610,
+        "stop" : 1596076373781,
+        "duration" : 32171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ON'", "'light_1'" ]
+    }, {
+      "name" : "test_tcp_comm_on_off_nl[light_1-OFF0]",
+      "uid" : "693ec198a3f85e8b",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076373788,
+        "stop" : 1596076380889,
+        "duration" : 7101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'OFF'", "'light_1'" ]
+    }, {
+      "name" : "test_tcp_comm_on_off_nl[light_1-ON1]",
+      "uid" : "a0de060b6c57a3a3",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076380897,
+        "stop" : 1596076388011,
+        "duration" : 7114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ON'", "'light_1'" ]
+    }, {
+      "name" : "test_tcp_comm_on_off_nl[light_1-NL0]",
+      "uid" : "e185936cbf582db4",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076388018,
+        "stop" : 1596076395145,
+        "duration" : 7127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'NL'", "'light_1'" ]
+    }, {
+      "name" : "test_tcp_comm_on_off_nl[light_1-OFF1]",
+      "uid" : "befe627cf7d54eb3",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076395151,
+        "stop" : 1596076402261,
+        "duration" : 7110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'OFF'", "'light_1'" ]
+    }, {
+      "name" : "test_tcp_comm_on_off_nl[light_1-NL1]",
+      "uid" : "7f84b85d3243e690",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076402269,
+        "stop" : 1596076409394,
+        "duration" : 7125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'NL'", "'light_1'" ]
+    }, {
+      "name" : "test_tcp_comm_on_off_nl[light_1-ON2]",
+      "uid" : "124cb6bbcfd2cd3",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076409401,
+        "stop" : 1596076416581,
+        "duration" : 7180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ON'", "'light_1'" ]
+    }, {
+      "name" : "test_tcp_comm_dimming",
+      "uid" : "71b8d67acdc19bef",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076416588,
+        "stop" : 1596076456283,
+        "duration" : 39695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_tcp_comm_temperature",
+      "uid" : "a8c6d7c30604ceb1",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076456290,
+        "stop" : 1596076481809,
+        "duration" : 25519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_tcp_comm_speed",
+      "uid" : "2b3ae39cd68f5b24",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076481815,
+        "stop" : 1596076516462,
+        "duration" : 34647
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Warm white]",
+      "uid" : "d50de38edf533906",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076516471,
+        "stop" : 1596076523591,
+        "duration" : 7120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Warm white'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Daylight]",
+      "uid" : "edfea73621892418",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076523601,
+        "stop" : 1596076530763,
+        "duration" : 7162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Daylight'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Cool white]",
+      "uid" : "9db259d6ad930e9c",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076530769,
+        "stop" : 1596076537901,
+        "duration" : 7132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Cool white'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Night light]",
+      "uid" : "383f7e152d47091e",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076537907,
+        "stop" : 1596076545061,
+        "duration" : 7154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Night light'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Cozy]",
+      "uid" : "6892241f0c42661e",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076545068,
+        "stop" : 1596076552215,
+        "duration" : 7147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Cozy'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Relax]",
+      "uid" : "6bc56341220b1543",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076552222,
+        "stop" : 1596076560348,
+        "duration" : 8126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Relax'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Focus]",
+      "uid" : "7688c4a9bb5fb9d3",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076560357,
+        "stop" : 1596076567516,
+        "duration" : 7159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Focus'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-TV time]",
+      "uid" : "15674fad63cc4c1d",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076567523,
+        "stop" : 1596076574666,
+        "duration" : 7143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'TV time'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Candlelight]",
+      "uid" : "57a68db6abb9de38",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076574673,
+        "stop" : 1596076587832,
+        "duration" : 13159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Candlelight'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Pulse]",
+      "uid" : "6602f9712cb21a39",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076587839,
+        "stop" : 1596076594957,
+        "duration" : 7118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Pulse'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Golden white]",
+      "uid" : "665a1c770293a4f2",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076594963,
+        "stop" : 1596076602123,
+        "duration" : 7160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Golden white'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Steampunk]",
+      "uid" : "e81484308e7bf1f8",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076602130,
+        "stop" : 1596076609283,
+        "duration" : 7153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Steampunk'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Wake-up]",
+      "uid" : "5715e68ed24ff58d",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076609290,
+        "stop" : 1596076616418,
+        "duration" : 7128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Wake-up'", "'light_2'" ]
+    }, {
+      "name" : "test_tcp_comm_change_mode_tw[light_2-Bedtime]",
+      "uid" : "34281716c53197ed",
+      "parentUid" : "9719d1da33a02864b3a67cf36664181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596076616425,
+        "stop" : 1596076623564,
+        "duration" : 7139
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'Bedtime'", "'light_2'" ]
+    } ],
+    "uid" : "9719d1da33a02864b3a67cf36664181b"
+  } ]
+}

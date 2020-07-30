@@ -1,0 +1,111 @@
+{
+  "uid" : "dbc6cde224f0cc8a",
+  "name" : "test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_rhythm_by_mqtt#test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "historyId" : "99a2fe18ff1d2863f8640e338e2c8a35",
+  "time" : {
+    "start" : 1596072379854,
+    "stop" : 1596072467208,
+    "duration" : 87354
+  },
+  "description" : "rhythm_actions.feature: Edit time for circadian rhythm",
+  "descriptionHtml" : "<p>rhythm_actions.feature: Edit time for circadian rhythm</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1596072298132,
+      "stop" : 1596072298132,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "rhythm_actions.feature: Edit time for circadian rhythm",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1decd0c730c1502",
+      "name" : "log",
+      "source" : "b1decd0c730c1502.txt",
+      "type" : "text/plain",
+      "size" : 11255
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1596073925849,
+      "stop" : 1596073940104,
+      "duration" : 14255
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Edit time for circadian rhythm"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "25120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "dbc6cde224f0cc8a.json",
+  "parameterValues" : [ ]
+}

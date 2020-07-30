@@ -1,0 +1,111 @@
+{
+  "uid" : "9db259d6ad930e9c",
+  "name" : "test_tcp_comm_change_mode_tw[light_2-Cool white]",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm#test_tcp_comm_change_mode_tw",
+  "historyId" : "3bc5a62831b1977394b494fe2a1724bf",
+  "time" : {
+    "start" : 1596076530769,
+    "stop" : 1596076537901,
+    "duration" : 7132
+  },
+  "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1596076341609,
+      "stop" : 1596076341609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7fb30645eb23f49",
+      "name" : "log",
+      "source" : "7fb30645eb23f49.txt",
+      "type" : "text/plain",
+      "size" : 2091
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1596076623568,
+      "stop" : 1596076637185,
+      "duration" : 13617
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_tcp_comm"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "26372-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Cool white'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9db259d6ad930e9c.json",
+  "parameterValues" : [ "'Cool white'", "'light_2'" ]
+}
