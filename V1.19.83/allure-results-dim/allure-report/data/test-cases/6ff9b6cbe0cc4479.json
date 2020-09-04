@@ -1,0 +1,111 @@
+{
+  "uid" : "6ff9b6cbe0cc4479",
+  "name" : "test_3_wizclick_pair_lamps_wifi_ble",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_wifi_ble#test_3_wizclick_pair_lamps_wifi_ble",
+  "historyId" : "8aa82913791bf11451db4f45ac903f6d",
+  "time" : {
+    "start" : 1599204515398,
+    "stop" : 1599204605300,
+    "duration" : 89902
+  },
+  "description" : "pair_lamps_wifi_ble.feature: 3 * WiZclick pairing wifi and ble",
+  "descriptionHtml" : "<p>pair_lamps_wifi_ble.feature: 3 * WiZclick pairing wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1599204392992,
+      "stop" : 1599204392992,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_wifi_ble.feature: 3 * WiZclick pairing wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "39fd936cd6e00ef",
+      "name" : "log",
+      "source" : "39fd936cd6e00ef.txt",
+      "type" : "text/plain",
+      "size" : 4991
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1599204854016,
+      "stop" : 1599204864752,
+      "duration" : 10736
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "3 * WiZclick pairing wifi and ble"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights wifi and ble"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_wifi_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "2176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_wifi_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "6ff9b6cbe0cc4479.json",
+  "parameterValues" : [ ]
+}

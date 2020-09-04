@@ -1,0 +1,24 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: pair_lamps_wifi_ble.feature:AP pairing wifi and ble
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:pair_lamps_steps.py:61 factory new light
+INFO     test_case.log:pair_lamps_steps.py:355 trigger app ap pairing process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:447 light_3 power off and on 4 times
+INFO     test_case.log:pair_lamps_steps.py:562 start manual pairing light_3
+INFO     test_case.log:pair_lamps_steps.py:565 AP pairing, light's wifi name : WiZConfig_2a3c
+INFO     test_case.log:pair_lamps_steps.py:599 check manual pairing result
+INFO     test_case.log:pair_lamps_steps.py:605 check if ota icon exits
+INFO     test_case.log:pair_lamps_steps.py:636 change light name to light_3
+INFO     test_case.log:pair_lamps_steps.py:643 light_3 : (//android.widget.FrameLayout[@content-desc="图标"])[1];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:644 light_3 showed in App scream!
+INFO     test_case.log:pair_lamps_steps.py:645 [{'FWVersion': '1.19.83', 'ModelID': 'B2117', 'MacAddr': 'a8bb50382a3c', 'IP': '192.168.0.181', 'HomeID': '16856', 'GroupID': '不适用', 'RSSI': '-23', 'LampName': 'light_3'}]
+INFO     test_case.log:pair_lamps_steps.py:775 generate light info file
+INFO     test_case.log:pair_lamps_steps.py:806 light_3 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     root:paired_light_info.py:40 Save paired light file :C:\workspace\wiz-automation-test\WizAutomatedSystemTest\Utils\..\Results\paired_light_info.xls
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: pair_lamps_wifi_ble.feature:AP pairing wifi and ble
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:13 =================================================
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:14 allure report is generated
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:15 tear down!
+INFO     test_case.log:test_pair_lamps_wifi_ble.py:16 =================================================

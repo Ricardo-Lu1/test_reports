@@ -1,0 +1,81 @@
+{
+  "uid" : "48497e0d3e09467d",
+  "name" : "test_tcp_comm_change_mode_tw[light_3-Wake-up]",
+  "fullName" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm#test_tcp_comm_change_mode_tw",
+  "historyId" : "eb79914228f2019b99dc08d821807fe0",
+  "time" : {
+    "start" : 1599202295959,
+    "stop" : 1599202303086,
+    "duration" : 7127
+  },
+  "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for TW light",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e3dd498d29d02eb2",
+      "name" : "log",
+      "source" : "e3dd498d29d02eb2.txt",
+      "type" : "text/plain",
+      "size" : 2060
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_without_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_tcp_comm"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1567688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_without_app.test_tcp_comm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Wake-up'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_3'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48497e0d3e09467d.json",
+  "parameterValues" : [ "'Wake-up'", "'light_3'" ]
+}

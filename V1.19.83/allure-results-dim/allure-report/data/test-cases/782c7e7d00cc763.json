@@ -1,0 +1,83 @@
+{
+  "uid" : "782c7e7d00cc763",
+  "name" : "test_set_app_pairing_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi#test_set_app_pairing_only_wifi",
+  "historyId" : "3b2e2bc2aaa2e2f83b92ec6b8c786bab",
+  "time" : {
+    "start" : 1599209156327,
+    "stop" : 1599209156358,
+    "duration" : 31
+  },
+  "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: Set app pairing mode to only wifi</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WrapperManage' object has no attribute 'ui'",
+  "statusTrace" : "request = <FixtureRequest for <Function test_set_app_pairing_only_wifi>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:200: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:166: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\steps.py:163: in step_func\n    result = request.getfixturevalue(func.__name__)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:487: in getfixturevalue\n    return self._get_active_fixturedef(argname).cached_result[0]\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:503: in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:584: in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:914: in execute\n    return hook.pytest_fixture_setup(fixturedef=self, request=request)\n..\\..\\..\\venv\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\pluggy\\manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:964: in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:792: in call_fixture_func\n    res = fixturefunc(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000001B7C17E9F88>\nmode = 'only wifi'\n\n    @given(parsers.parse('set app pairing mode to {mode}'))\n    def set_app_pairing_mode(target, mode):\n        \"\"\"\n        - Narrative:\n            set app pairing mode to ble only or wifi only or wifi+ble\n        \"\"\"\n>       target.ui.home_page.click_navigation()\nE       AttributeError: 'WrapperManage' object has no attribute 'ui'\n\n..\\..\\Steps\\pair_lamps_steps.py:19: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WrapperManage' object has no attribute 'ui'",
+    "statusTrace" : "request = <FixtureRequest for <Function test_set_app_pairing_only_wifi>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:200: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:166: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\steps.py:163: in step_func\n    result = request.getfixturevalue(func.__name__)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:487: in getfixturevalue\n    return self._get_active_fixturedef(argname).cached_result[0]\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:503: in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:584: in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:914: in execute\n    return hook.pytest_fixture_setup(fixturedef=self, request=request)\n..\\..\\..\\venv\\lib\\site-packages\\pluggy\\hooks.py:286: in __call__\n    return self._hookexec(self, self.get_hookimpls(), kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\pluggy\\manager.py:93: in _hookexec\n    return self._inner_hookexec(hook, methods, kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\pluggy\\manager.py:87: in <lambda>\n    firstresult=hook.spec.opts.get(\"firstresult\") if hook.spec else False,\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:964: in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n..\\..\\..\\venv\\lib\\site-packages\\_pytest\\fixtures.py:792: in call_fixture_func\n    res = fixturefunc(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000001B7C17E9F88>\nmode = 'only wifi'\n\n    @given(parsers.parse('set app pairing mode to {mode}'))\n    def set_app_pairing_mode(target, mode):\n        \"\"\"\n        - Narrative:\n            set app pairing mode to ble only or wifi only or wifi+ble\n        \"\"\"\n>       target.ui.home_page.click_navigation()\nE       AttributeError: 'WrapperManage' object has no attribute 'ui'\n\n..\\..\\Steps\\pair_lamps_steps.py:19: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a9fa2e320b759ac",
+      "name" : "log",
+      "source" : "1a9fa2e320b759ac.txt",
+      "type" : "text/plain",
+      "size" : 791
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Set app pairing mode to only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "11296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "782c7e7d00cc763.json",
+  "parameterValues" : [ ]
+}

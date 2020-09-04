@@ -1,0 +1,147 @@
+{
+  "uid" : "573442d8c2ebedd",
+  "name" : "test_ap_pair_lamps_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi#test_ap_pair_lamps_only_wifi",
+  "historyId" : "13a576bc727a139a0e4c4198b81a1798",
+  "time" : {
+    "start" : 1599210799182,
+    "stop" : 1599210976133,
+    "duration" : 176951
+  },
+  "description" : "pair_lamps_only_wifi.feature: AP pairing only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: AP pairing only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1599210799182,
+      "stop" : 1599210799182,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: AP pairing only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e9acd890a303dc3",
+      "name" : "log",
+      "source" : "9e9acd890a303dc3.txt",
+      "type" : "text/plain",
+      "size" : 5512
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1599210976149,
+      "stop" : 1599210988253,
+      "duration" : 12104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "AP pairing only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "18228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee9bb995e2faeb2e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Manual Pairing Create Lamp light_3 Fail!",
+      "time" : {
+        "start" : 1599210566670,
+        "stop" : 1599210685563,
+        "duration" : 118893
+      }
+    }, {
+      "uid" : "50972158edd7ad08",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Manual Pairing Create Lamp light_3 Fail!",
+      "time" : {
+        "start" : 1599210279310,
+        "stop" : 1599210364440,
+        "duration" : 85130
+      }
+    }, {
+      "uid" : "f1b04b28b4f00c1a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: manual pairing light fail, no light is found",
+      "time" : {
+        "start" : 1599209895303,
+        "stop" : 1599210004463,
+        "duration" : 109160
+      }
+    }, {
+      "uid" : "4805411d69a9a40",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Manual Pairing Create Lamp light_3 Fail!",
+      "time" : {
+        "start" : 1599209578278,
+        "stop" : 1599209664804,
+        "duration" : 86526
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "573442d8c2ebedd.json",
+  "parameterValues" : [ ]
+}

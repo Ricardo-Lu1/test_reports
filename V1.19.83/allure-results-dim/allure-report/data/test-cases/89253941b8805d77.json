@@ -1,0 +1,120 @@
+{
+  "uid" : "89253941b8805d77",
+  "name" : "test_ap_pair_lamps_only_ble",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_ble#test_ap_pair_lamps_only_ble",
+  "historyId" : "26793d74b48c8c0cb8eb155dbf6d9ab3",
+  "time" : {
+    "start" : 1599208567342,
+    "stop" : 1599208709443,
+    "duration" : 142101
+  },
+  "description" : "pair_lamps_only_ble.feature: AP pairing only ble",
+  "descriptionHtml" : "<p>pair_lamps_only_ble.feature: AP pairing only ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1599208567342,
+      "stop" : 1599208567342,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_ble.feature: AP pairing only ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b50dd571a04e607",
+      "name" : "log",
+      "source" : "2b50dd571a04e607.txt",
+      "type" : "text/plain",
+      "size" : 5349
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1599208709458,
+      "stop" : 1599208720045,
+      "duration" : 10587
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only ble"
+  }, {
+    "name" : "story",
+    "value" : "AP pairing only ble"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1574036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d1ef4b0008be2a61",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: manual pairing light fail, no light is found",
+      "time" : {
+        "start" : 1599208062938,
+        "stop" : 1599208191579,
+        "duration" : 128641
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "89253941b8805d77.json",
+  "parameterValues" : [ ]
+}

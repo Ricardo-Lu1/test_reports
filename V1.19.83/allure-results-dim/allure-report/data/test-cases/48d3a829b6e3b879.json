@@ -1,0 +1,128 @@
+{
+  "uid" : "48d3a829b6e3b879",
+  "name" : "test_set_app_pairing_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi#test_set_app_pairing_only_wifi",
+  "historyId" : "3b2e2bc2aaa2e2f83b92ec6b8c786bab",
+  "time" : {
+    "start" : 1599209207717,
+    "stop" : 1599209244372,
+    "duration" : 36655
+  },
+  "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: Set app pairing mode to only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1599209207717,
+      "stop" : 1599209207717,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ac76d869cc01666d",
+      "name" : "log",
+      "source" : "ac76d869cc01666d.txt",
+      "type" : "text/plain",
+      "size" : 1253
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1599209664898,
+      "stop" : 1599209677142,
+      "duration" : 12244
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Set app pairing mode to only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1575412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "782c7e7d00cc763",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WrapperManage' object has no attribute 'ui'",
+      "time" : {
+        "start" : 1599209156327,
+        "stop" : 1599209156358,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "406d644ccc2ebfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1599205100414,
+        "stop" : 1599205137994,
+        "duration" : 37580
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "48d3a829b6e3b879.json",
+  "parameterValues" : [ ]
+}

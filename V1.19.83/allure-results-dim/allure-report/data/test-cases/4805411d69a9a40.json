@@ -1,0 +1,113 @@
+{
+  "uid" : "4805411d69a9a40",
+  "name" : "test_ap_pair_lamps_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi#test_ap_pair_lamps_only_wifi",
+  "historyId" : "13a576bc727a139a0e4c4198b81a1798",
+  "time" : {
+    "start" : 1599209578278,
+    "stop" : 1599209664804,
+    "duration" : 86526
+  },
+  "description" : "pair_lamps_only_wifi.feature: AP pairing only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: AP pairing only wifi</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Error : Manual Pairing Create Lamp light_3 Fail!",
+  "statusTrace" : "request = <FixtureRequest for <Function test_ap_pair_lamps_only_wifi>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:200: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:166: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000001CAC1BDD788>\nlight_name = 'light_3', assert_type = 'with'\n\n    @when(parsers.parse('start manual pairing {light_name} {assert_type} assert error'))\n    def start_manual_pairing(target, light_name, assert_type):\n        \"\"\"\n        - Narrative:\n            start manual pairing {light_name}\n        \"\"\"\n        light_index = light_name.split('_')[1]\n        lamps = target.config_para['lamps'].copy()\n        phidget_enable = target.config_para['phidget']['phidget']\n        # click \"Next\"\n        target.ui.pairing_process_page.click_manual_pairing_next()\n        # click \"Start\"\n        target.ui.pairing_process_page.click_manual_pairing_start()\n        logger.info(\"start manual pairing \" + light_name)\n        # get lamp wifi name\n        lamp_wifi_name = \"WiZConfig_\" + lamps[light_name][0][-4:]\n        logger.info(\"AP pairing, light's wifi name : \" + lamp_wifi_name)\n        # select wifi\n        target.ui.pairing_process_page.select_wifi(lamp_wifi_name)\n        # wait for pairing\n        while target.ui.pairing_process_page.check_manual_process():\n            # TODO:now the function is useless\n            # target.ui.pairing_process_page.check_manual_select_wifi()\n            time.sleep(1)\n    \n        if target.ui.pairing_process_page.get_create_lamp_error():\n            # power off error light\n            if phidget_enable is True:\n                with PhidgetInterfaceKit() as phidget_control:\n                    logger.info(light_name + \" power off\")\n                    relay_index = int(light_index)\n                    phidget_control.relay_off(relay_index)\n            else:\n                win32api.MessageBox(0, \"Please power off error light!\", \"Tips\", win32con.MB_OK)\n    \n            logger.info(\"====================================================================================\")\n            logger.info(\"Error : Manual Pairing Create Lamp \" + light_name + \" Fail!\")\n            logger.info(\"====================================================================================\")\n            if assert_type == \"with\":\n>               assert False, \"Error : Manual Pairing Create Lamp \" + light_name + \" Fail!\"\nE               AssertionError: Error : Manual Pairing Create Lamp light_3 Fail!\n\n..\\..\\Steps\\pair_lamps_steps.py:591: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1599209207717,
+      "stop" : 1599209207717,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: AP pairing only wifi",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Error : Manual Pairing Create Lamp light_3 Fail!",
+    "statusTrace" : "request = <FixtureRequest for <Function test_ap_pair_lamps_only_wifi>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:200: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:166: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\n..\\..\\..\\venv\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000001CAC1BDD788>\nlight_name = 'light_3', assert_type = 'with'\n\n    @when(parsers.parse('start manual pairing {light_name} {assert_type} assert error'))\n    def start_manual_pairing(target, light_name, assert_type):\n        \"\"\"\n        - Narrative:\n            start manual pairing {light_name}\n        \"\"\"\n        light_index = light_name.split('_')[1]\n        lamps = target.config_para['lamps'].copy()\n        phidget_enable = target.config_para['phidget']['phidget']\n        # click \"Next\"\n        target.ui.pairing_process_page.click_manual_pairing_next()\n        # click \"Start\"\n        target.ui.pairing_process_page.click_manual_pairing_start()\n        logger.info(\"start manual pairing \" + light_name)\n        # get lamp wifi name\n        lamp_wifi_name = \"WiZConfig_\" + lamps[light_name][0][-4:]\n        logger.info(\"AP pairing, light's wifi name : \" + lamp_wifi_name)\n        # select wifi\n        target.ui.pairing_process_page.select_wifi(lamp_wifi_name)\n        # wait for pairing\n        while target.ui.pairing_process_page.check_manual_process():\n            # TODO:now the function is useless\n            # target.ui.pairing_process_page.check_manual_select_wifi()\n            time.sleep(1)\n    \n        if target.ui.pairing_process_page.get_create_lamp_error():\n            # power off error light\n            if phidget_enable is True:\n                with PhidgetInterfaceKit() as phidget_control:\n                    logger.info(light_name + \" power off\")\n                    relay_index = int(light_index)\n                    phidget_control.relay_off(relay_index)\n            else:\n                win32api.MessageBox(0, \"Please power off error light!\", \"Tips\", win32con.MB_OK)\n    \n            logger.info(\"====================================================================================\")\n            logger.info(\"Error : Manual Pairing Create Lamp \" + light_name + \" Fail!\")\n            logger.info(\"====================================================================================\")\n            if assert_type == \"with\":\n>               assert False, \"Error : Manual Pairing Create Lamp \" + light_name + \" Fail!\"\nE               AssertionError: Error : Manual Pairing Create Lamp light_3 Fail!\n\n..\\..\\Steps\\pair_lamps_steps.py:591: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b6f802ade41e3946",
+      "name" : "log",
+      "source" : "b6f802ade41e3946.txt",
+      "type" : "text/plain",
+      "size" : 2324
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1599209664898,
+      "stop" : 1599209677142,
+      "duration" : 12244
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "AP pairing only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1575412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "4805411d69a9a40.json",
+  "parameterValues" : [ ]
+}

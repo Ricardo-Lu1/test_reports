@@ -1,0 +1,6 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: pair_lamps_only_wifi.feature:5 * WiZclick pairing only wifi
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: pair_lamps_only_wifi.feature:5 * WiZclick pairing only wifi
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************

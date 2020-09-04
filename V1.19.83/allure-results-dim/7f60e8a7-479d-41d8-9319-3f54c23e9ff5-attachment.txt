@@ -1,0 +1,33 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: pair_lamps_wifi_ble.feature:3 * WiZclick pairing wifi and ble
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"reset"}
+INFO     test_case.log:pair_lamps_steps.py:61 factory new light
+INFO     test_case.log:pair_lamps_steps.py:353 trigger app smart config process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:414 light_3 relay on 
+INFO     test_case.log:pair_lamps_steps.py:417 all lights power off and on 3 times
+INFO     test_case.log:pair_lamps_steps.py:468 start smart config pairing
+INFO     test_case.log:pair_lamps_steps.py:668 check smart config pairing result
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50382a8e   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.19.83","homeId":43819,"ip":"192.168.0.163","ssid":"D-Link_DIR-8","mqtt":"pwon","cnx":"0000","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"1b7852b855","model":1588118400}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50382a8e   {"method":"syncConfig","env":"dev","params":{"sys":0,"usr":0,"favs":0,"sensor":0,"sec":0}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"setSystemConfig","params":{"roomId":43559,"groupId":0,"moduleName":"ESP18_SHDW9_01","drvConf":[20,1],"ewf":"ff00ffff0000","systemConfigTs":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"setSystemConfig","params":{"offsets":[[1599204572,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"setUserConfig","params":{"fadeIn":500,"fadeOut":5000,"dftDim":100,"startupMode":"wizclick","pwmRange":[2,100],"whiteRange":[2700,2700],"extRange":[2700,2700],"po":0,"userConfigTs":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"setFavs","params":{"favs":[[12,0,0,0,0,0,0],[11,0,0,0,0,0,0],[6,0,0,0,0,0,0],[13,0,0,0,0,0,0]],"favConfigTs":1}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"setSecurity","params":{"udp":0,"key":["c+4SWURpqGv8HTC2941Dq7zjy\/Ypp0J3qAEYdrovGuI=","QnTXFEowc6Rz3+hf\/iCPdg==",8,13],"confTs":1}}
+INFO     test_case.log:pair_lamps_steps.py:674 check if ota icon exits
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50382a8e   {"method":"syncOffset","env":"dev","params":{"offsets":[],"time":1599204570}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43819/devices/a8bb50382a8e   {"method":"setSystemConfig","params":{"offsets":[[1599204574,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50382a8e   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50382a8e","rssi":-23,"src":"wizc2","state":true,"sceneId":11,"speed":100,"temp":2700,"dimming":100}}
+INFO     test_case.log:pair_lamps_steps.py:725 change light name to light_3
+INFO     test_case.log:pair_lamps_steps.py:736 light_3 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:750 1 light icon showed in App scream!
+INFO     test_case.log:pair_lamps_steps.py:751 [{'FWVersion': '1.19.83', 'ModelID': 'B2118', 'MacAddr': 'a8bb50382a8e', 'IP': '192.168.0.163', 'HomeID': '43819', 'GroupID': '不适用', 'RSSI': '-22', 'LampName': 'light_3'}]
+INFO     test_case.log:pair_lamps_steps.py:775 generate light info file
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50382a8e   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     test_case.log:pair_lamps_steps.py:806 light_3 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     root:paired_light_info.py:40 Save paired light file :C:\workspace\wiz-automation-test\WizAutomatedSystemTest\Utils\..\Results\paired_light_info.xls
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: pair_lamps_wifi_ble.feature:3 * WiZclick pairing wifi and ble
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************

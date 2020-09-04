@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "422b8ea1babf45eeb3827b4adf78da3a",
+    "name" : "Test_Suites.Tests.test_function_without_app",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 30,
+      "unknown" : 0,
+      "total" : 30
+    }
+  }, {
+    "uid" : "b248bfec1296afb12cafcc8e14bc9d1c",
+    "name" : "Test_Suites.Tests.test_function_with_app",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    }
+  } ]
+}

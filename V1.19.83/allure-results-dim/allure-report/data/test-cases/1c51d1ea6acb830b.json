@@ -1,0 +1,129 @@
+{
+  "uid" : "1c51d1ea6acb830b",
+  "name" : "test_5_wizclick_pair_lamps_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi#test_5_wizclick_pair_lamps_only_wifi",
+  "historyId" : "e88f6c94eca7ddd9a9a4da30b62c264c",
+  "time" : {
+    "start" : 1599209466851,
+    "stop" : 1599209578247,
+    "duration" : 111396
+  },
+  "description" : "pair_lamps_only_wifi.feature: 5 * WiZclick pairing only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: 5 * WiZclick pairing only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1599209207717,
+      "stop" : 1599209207717,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: 5 * WiZclick pairing only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8d02409fd7eaaa35",
+      "name" : "log",
+      "source" : "8d02409fd7eaaa35.txt",
+      "type" : "text/plain",
+      "size" : 5015
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1599209664898,
+      "stop" : 1599209677142,
+      "duration" : 12244
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "5 * WiZclick pairing only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_function_with_app"
+  }, {
+    "name" : "suite",
+    "value" : "test_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1575412-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_function_with_app.test_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2fbb9815b75f0dd1",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WrapperManage' object has no attribute 'ui'",
+      "time" : {
+        "start" : 1599209156748,
+        "stop" : 1599209156748,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "677eb9d758309817",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1599207562461,
+        "stop" : 1599207648471,
+        "duration" : 86010
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "1c51d1ea6acb830b.json",
+  "parameterValues" : [ ]
+}
