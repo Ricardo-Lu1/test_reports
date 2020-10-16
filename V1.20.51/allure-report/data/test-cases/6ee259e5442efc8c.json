@@ -1,0 +1,111 @@
+{
+  "uid" : "6ee259e5442efc8c",
+  "name" : "test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt#test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+  "historyId" : "120a86bdf95ba600cac7bb28b9abb7e3",
+  "time" : {
+    "start" : 1602773631345,
+    "stop" : 1602774910846,
+    "duration" : 1279501
+  },
+  "description" : "schedule_actions.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create 2 schedules of two consecutive periods,schedule1 end with &quot;OFF&quot;and schedule2 end with &quot;previous mode&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602744581951,
+      "stop" : 1602744581951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "79aa524ea4ec6349",
+      "name" : "log",
+      "source" : "79aa524ea4ec6349.txt",
+      "type" : "text/plain",
+      "size" : 7012
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602780943109,
+      "stop" : 1602780956462,
+      "duration" : 13353
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\""
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "37964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "6ee259e5442efc8c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "a4b82f740fd98d09",
+  "name" : "test_single_light_control_temperature",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp#test_single_light_control_temperature",
+  "historyId" : "d8ba3743a8fa88ca37e72913ce743ba4",
+  "time" : {
+    "start" : 1602741314801,
+    "stop" : 1602741318827,
+    "duration" : 4026
+  },
+  "description" : "single_light_control_by_udp.feature: Single light control --- Temperature",
+  "descriptionHtml" : "<p>single_light_control_by_udp.feature: Single light control --- Temperature</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: check light_1 change temperature fail! should be 2700, but was 2200",
+  "statusTrace" : "request = <FixtureRequest for <Function test_single_light_control_temperature>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:145: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    return_value = step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x0000013F77399848>\nlight_name = 'light_1', temperature = '2700'\n\n    @when(parsers.parse('Check if {light_name} temperature is changed to {temperature}'))\n    def check_light_temperature(target, light_name, temperature):\n        \"\"\"\n        - Narrative:\n            check {light_name} {speed} status from light\n        \"\"\"\n    \n        logger.info(\"check light temperature\")\n        response = target.udp.get_pilot_phone(light_name)\n        logger.info(response)\n        actul_temperature = int(response[\"result\"][\"temp\"])\n    \n        if int(actul_temperature) == int(temperature):\n            logger.info(light_name + \" is changed to \" + str(temperature) + \" successfully!\")\n        else:\n            logger.info(\"Error : check \" + light_name + \" change temperature fail! should be \" + str(temperature) +\n                        \", but was \" + str(actul_temperature))\n            assert False, \"check \" + light_name + \" change temperature fail! should be \" + str(temperature) + \\\n>                         \", but was \" + str(actul_temperature)\nE           AssertionError: check light_1 change temperature fail! should be 2700, but was 2200\n\n..\\..\\Steps\\control_lamp_steps.py:686: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602741226612,
+      "stop" : 1602741226612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "single_light_control_by_udp.feature: Single light control --- Temperature",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: check light_1 change temperature fail! should be 2700, but was 2200",
+    "statusTrace" : "request = <FixtureRequest for <Function test_single_light_control_temperature>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:145: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    return_value = step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x0000013F77399848>\nlight_name = 'light_1', temperature = '2700'\n\n    @when(parsers.parse('Check if {light_name} temperature is changed to {temperature}'))\n    def check_light_temperature(target, light_name, temperature):\n        \"\"\"\n        - Narrative:\n            check {light_name} {speed} status from light\n        \"\"\"\n    \n        logger.info(\"check light temperature\")\n        response = target.udp.get_pilot_phone(light_name)\n        logger.info(response)\n        actul_temperature = int(response[\"result\"][\"temp\"])\n    \n        if int(actul_temperature) == int(temperature):\n            logger.info(light_name + \" is changed to \" + str(temperature) + \" successfully!\")\n        else:\n            logger.info(\"Error : check \" + light_name + \" change temperature fail! should be \" + str(temperature) +\n                        \", but was \" + str(actul_temperature))\n            assert False, \"check \" + light_name + \" change temperature fail! should be \" + str(temperature) + \\\n>                         \", but was \" + str(actul_temperature)\nE           AssertionError: check light_1 change temperature fail! should be 2700, but was 2200\n\n..\\..\\Steps\\control_lamp_steps.py:686: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3689a6addfee0dff",
+      "name" : "log",
+      "source" : "3689a6addfee0dff.txt",
+      "type" : "text/plain",
+      "size" : 1665
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602741542409,
+      "stop" : 1602741550863,
+      "duration" : 8454
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Single Lamp Control"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "38532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "a4b82f740fd98d09.json",
+  "parameterValues" : [ ]
+}

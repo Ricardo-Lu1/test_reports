@@ -1,0 +1,111 @@
+{
+  "uid" : "2ad96f4fb6be2457",
+  "name" : "test_04_select_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_rhythm_by_mqtt#test_04_select_rhythm_by_mqtt",
+  "historyId" : "24d5d34a046c345944d7adef415865e7",
+  "time" : {
+    "start" : 1602742370830,
+    "stop" : 1602742414893,
+    "duration" : 44063
+  },
+  "description" : "rhythm_actions.feature: Select rhythm by mqtt",
+  "descriptionHtml" : "<p>rhythm_actions.feature: Select rhythm by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602742333291,
+      "stop" : 1602742333291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "rhythm_actions.feature: Select rhythm by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4696bce5248755e",
+      "name" : "log",
+      "source" : "e4696bce5248755e.txt",
+      "type" : "text/plain",
+      "size" : 11364
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602743822107,
+      "stop" : 1602743830377,
+      "duration" : 8270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Select rhythm by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "32340-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "2ad96f4fb6be2457.json",
+  "parameterValues" : [ ]
+}

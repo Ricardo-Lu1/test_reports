@@ -1,0 +1,119 @@
+{
+  "uid" : "4da16a648709b157",
+  "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt#test_28_create_two_schedules_of_two_intersecting_time_periods",
+  "historyId" : "628add009bc02402ceb8941418ba7581",
+  "time" : {
+    "start" : 1602771716439,
+    "stop" : 1602772673849,
+    "duration" : 957410
+  },
+  "description" : "schedule_actions.feature: Create 2 schedules of two intersecting time periods",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create 2 schedules of two intersecting time periods</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: UDP state should be false, but was true",
+  "statusTrace" : "request = <FixtureRequest for <Function test_28_create_two_schedules_of_two_intersecting_time_periods>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:145: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    return_value = step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000002278887F888>\nlight_name = 'light_1', action = 'OFF'\n\n    @then(parsers.parse('check {light_name} status is {action}'))\n    def check_light_status(target, light_name, action):\n        # check the status from light\n        logger.info(\"check light status\")\n        response = target.udp.get_pilot_phone(light_name)\n        logger.info(response)\n    \n        if action == 'ON':\n            if response[\"result\"][\"state\"] is not True:\n                logger.info(\"Error : UDP state should be true, but was false\")\n                assert False, \"UDP state should be true, but was false\"\n        elif action == 'OFF':\n            if response[\"result\"][\"state\"] is not False:\n                logger.info(\"Error : UDP state should be false, but was true\")\n>               assert False, \"UDP state should be false, but was true\"\nE               AssertionError: UDP state should be false, but was true\n\n..\\..\\Steps\\schedule_action_steps.py:245: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602744581951,
+      "stop" : 1602744581951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create 2 schedules of two intersecting time periods",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: UDP state should be false, but was true",
+    "statusTrace" : "request = <FixtureRequest for <Function test_28_create_two_schedules_of_two_intersecting_time_periods>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:145: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    return_value = step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000002278887F888>\nlight_name = 'light_1', action = 'OFF'\n\n    @then(parsers.parse('check {light_name} status is {action}'))\n    def check_light_status(target, light_name, action):\n        # check the status from light\n        logger.info(\"check light status\")\n        response = target.udp.get_pilot_phone(light_name)\n        logger.info(response)\n    \n        if action == 'ON':\n            if response[\"result\"][\"state\"] is not True:\n                logger.info(\"Error : UDP state should be true, but was false\")\n                assert False, \"UDP state should be true, but was false\"\n        elif action == 'OFF':\n            if response[\"result\"][\"state\"] is not False:\n                logger.info(\"Error : UDP state should be false, but was true\")\n>               assert False, \"UDP state should be false, but was true\"\nE               AssertionError: UDP state should be false, but was true\n\n..\\..\\Steps\\schedule_action_steps.py:245: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ccd3130a3dc973bb",
+      "name" : "log",
+      "source" : "ccd3130a3dc973bb.txt",
+      "type" : "text/plain",
+      "size" : 5854
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602780943109,
+      "stop" : 1602780956462,
+      "duration" : 13353
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create 2 schedules of two intersecting time periods"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "37964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "4da16a648709b157.json",
+  "parameterValues" : [ ]
+}

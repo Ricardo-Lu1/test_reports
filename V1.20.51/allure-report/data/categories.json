@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: UDP state should be false, but was true",
+      "children" : [ {
+        "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+        "uid" : "4da16a648709b157",
+        "parentUid" : "24607ee9d6e3dbc06779e938fee536f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602771716439,
+          "stop" : 1602772673849,
+          "duration" : 957410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24607ee9d6e3dbc06779e938fee536f2"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! SceneId should be 11, but was 10",
+      "children" : [ {
+        "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+        "uid" : "bbf03933b54b509c",
+        "parentUid" : "bb72860a79e4e2e5224ca5288d0aea20",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602809082171,
+          "stop" : 1602811535387,
+          "duration" : 2453216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb72860a79e4e2e5224ca5288d0aea20"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "uid" : "56466ef39c5ccb7d",
+  "name" : "test_device_fw_downgrade_on",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_01_device_fw_ota#test_device_fw_downgrade_on",
+  "historyId" : "77182a4302b71cdc1d6600137e7fbdd8",
+  "time" : {
+    "start" : 1602744061253,
+    "stop" : 1602744171436,
+    "duration" : 110183
+  },
+  "description" : "device_fw_ota.feature: Downgrade when device is on",
+  "descriptionHtml" : "<p>device_fw_ota.feature: Downgrade when device is on</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "device_fw_ota.feature: Downgrade when device is on",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b509fd5dd14f4b3",
+      "name" : "log",
+      "source" : "9b509fd5dd14f4b3.txt",
+      "type" : "text/plain",
+      "size" : 7475
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Device FW OTA"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_device_fw_ota"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "41648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_01_device_fw_ota"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "56466ef39c5ccb7d.json",
+  "parameterValues" : [ ]
+}

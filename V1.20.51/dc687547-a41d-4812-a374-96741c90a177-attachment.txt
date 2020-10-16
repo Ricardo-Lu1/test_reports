@@ -1,0 +1,10 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: single_light_control_by_udp.feature:Single light control --- Temperature
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: single_light_control_by_udp.feature:Single light control --- Temperature
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************
+INFO     test_case.log:test_05_single_lamp_control_by_udp.py:15 =================================================
+INFO     test_case.log:test_05_single_lamp_control_by_udp.py:16 allure report is generated
+INFO     test_case.log:test_05_single_lamp_control_by_udp.py:17 tear down!
+INFO     test_case.log:test_05_single_lamp_control_by_udp.py:18 =================================================

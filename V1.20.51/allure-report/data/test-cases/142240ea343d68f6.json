@@ -1,0 +1,111 @@
+{
+  "uid" : "142240ea343d68f6",
+  "name" : "test_18_create_schedule_with_bedtime_end_with_off_when_lamp_status_off",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt#test_18_create_schedule_with_bedtime_end_with_off_when_lamp_status_off",
+  "historyId" : "cd5928b792da371dc4bac3c9c18cb12d",
+  "time" : {
+    "start" : 1602754204425,
+    "stop" : 1602756667669,
+    "duration" : 2463244
+  },
+  "description" : "schedule_actions.feature: Create a schedule with action \"Bedtime\" and end with \"OFF\" when lamp original status is \"OFF\"",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create a schedule with action &quot;Bedtime&quot; and end with &quot;OFF&quot; when lamp original status is &quot;OFF&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602744581951,
+      "stop" : 1602744581951,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create a schedule with action \"Bedtime\" and end with \"OFF\" when lamp original status is \"OFF\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51c7b0c78c0cc128",
+      "name" : "log",
+      "source" : "51c7b0c78c0cc128.txt",
+      "type" : "text/plain",
+      "size" : 4681
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602780943109,
+      "stop" : 1602780956462,
+      "duration" : 13353
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Bedtime\" and end with \"OFF\" when lamp original status is \"OFF\""
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "37964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "142240ea343d68f6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,29 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: schedule_actions.feature:Press "ON" during schedule end with "OFF"
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-43,"src":"udp","state":true,"sceneId":11,"temp":2700,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:schedule_action_steps.py:277 now time is 2020-10-15 23:31:15.311465
+INFO     root:paired_light_info.py:69 The light mac is: a8bb506073ae
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43844/devices/a8bb506073ae   {"method": "setSchd", "params": {"id": 5, "hrs": 23, "mins": 36, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 99, "intent": 4, "scene": 14, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43844/devices/a8bb506073ae   {"method": "setSchd", "params": {"id": 5, "hrs": 23, "mins": 36, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 1, "intent": 4, "scene": 14, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43844/devices/a8bb506073ae   {"method": "setSchd", "params": {"id": 5, "hrs": 23, "mins": 36, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 99, "intent": 4, "scene": 14, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43844/devices/a8bb506073ae   {"method": "setSchd", "params": {"id": 5, "hrs": 23, "mins": 36, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 1, "intent": 4, "scene": 14, "ignore": "none", "next": 1, "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:282 create schedule for light_1 with scene : Night light, start at 23:36, last for 10 minutes, end with off
+INFO     test_case.log:schedule_action_steps.py:74 wait 5 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-45,"src":"schd","state":true,"sceneId":14,"speed":100,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:schedule_action_steps.py:329 Create schedule with Night light successfully!
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43844/devices/a8bb506073ae   {"method":"ping","env":"dev"}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-45,"src":"udp","state":true,"sceneId":11,"temp":2700,"dimming":100}}
+INFO     test_case.log:schedule_action_steps.py:74 wait 7 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-45,"src":"schd","state":false,"sceneId":11,"temp":2700,"dimming":100}}
+INFO     test_case.log:schedule_action_steps.py:234 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:schedule_action_steps.py:236 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb506073ae', 'rssi': -44, 'state': False, 'sceneId': 11, 'temp': 2700, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:256 light_1 is turned to OFF
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: schedule_actions.feature:Press "ON" during schedule end with "OFF"
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************

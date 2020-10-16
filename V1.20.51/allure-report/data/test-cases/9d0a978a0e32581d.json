@@ -1,0 +1,111 @@
+{
+  "uid" : "9d0a978a0e32581d",
+  "name" : "test_set_app_pairing_only_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_03_pair_lamps_only_ble#test_set_app_pairing_only_ble",
+  "historyId" : "8c143523f1df1573d7cef01562f11431",
+  "time" : {
+    "start" : 1602738273145,
+    "stop" : 1602738300925,
+    "duration" : 27780
+  },
+  "description" : "pair_lamps_only_ble.feature: Set app pairing mode to only ble",
+  "descriptionHtml" : "<p>pair_lamps_only_ble.feature: Set app pairing mode to only ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602738273144,
+      "stop" : 1602738273144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_ble.feature: Set app pairing mode to only ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd672d6c99756fe3",
+      "name" : "log",
+      "source" : "dd672d6c99756fe3.txt",
+      "type" : "text/plain",
+      "size" : 1052
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602738750621,
+      "stop" : 1602738758243,
+      "duration" : 7622
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only ble"
+  }, {
+    "name" : "story",
+    "value" : "Set app pairing mode to only ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_pair_lamps_only_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "33100-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_03_pair_lamps_only_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "9d0a978a0e32581d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,41 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: single_light_control_by_udp.feature:Single light control --- Speed
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:control_lamp_steps.py:732 test light_1 set light mode to Pulse
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-46,"src":"udp","state":true,"sceneId":31,"speed":100,"dimming":100}}
+INFO     test_case.log:control_lamp_steps.py:743 check light mode
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:control_lamp_steps.py:746 getPilot response: {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb506073ae', 'rssi': -47, 'state': True, 'sceneId': 31, 'speed': 100, 'dimming': 100}}
+INFO     test_case.log:control_lamp_steps.py:750 light_1 is changed to 31 successfully!
+INFO     test_case.log:control_lamp_steps.py:698 test light_1 change speed to 50
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-46,"src":"udp","state":true,"sceneId":31,"speed":50,"dimming":100}}
+INFO     test_case.log:control_lamp_steps.py:710 check light speed
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:control_lamp_steps.py:712 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb506073ae', 'rssi': -47, 'state': True, 'sceneId': 31, 'speed': 50, 'dimming': 100}}
+INFO     test_case.log:control_lamp_steps.py:716 light_1 is changed to 50 successfully!
+INFO     test_case.log:control_lamp_steps.py:698 test light_1 change speed to 200
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-46,"src":"udp","state":true,"sceneId":31,"speed":200,"dimming":100}}
+INFO     test_case.log:control_lamp_steps.py:710 check light speed
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:control_lamp_steps.py:712 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb506073ae', 'rssi': -47, 'state': True, 'sceneId': 31, 'speed': 200, 'dimming': 100}}
+INFO     test_case.log:control_lamp_steps.py:716 light_1 is changed to 200 successfully!
+INFO     test_case.log:control_lamp_steps.py:698 test light_1 change speed to 100
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-47,"src":"udp","state":true,"sceneId":31,"speed":100,"dimming":100}}
+INFO     test_case.log:control_lamp_steps.py:710 check light speed
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:control_lamp_steps.py:712 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb506073ae', 'rssi': -45, 'state': True, 'sceneId': 31, 'speed': 100, 'dimming': 100}}
+INFO     test_case.log:control_lamp_steps.py:716 light_1 is changed to 100 successfully!
+INFO     test_case.log:control_lamp_steps.py:698 test light_1 change speed to 10
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506073ae   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506073ae","rssi":-46,"src":"udp","state":true,"sceneId":31,"speed":10,"dimming":100}}
+INFO     test_case.log:control_lamp_steps.py:710 check light speed
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.6
+INFO     test_case.log:control_lamp_steps.py:712 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb506073ae', 'rssi': -45, 'state': True, 'sceneId': 31, 'speed': 10, 'dimming': 100}}
+INFO     test_case.log:control_lamp_steps.py:716 light_1 is changed to 10 successfully!
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: single_light_control_by_udp.feature:Single light control --- Speed
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************

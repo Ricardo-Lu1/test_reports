@@ -1,0 +1,78 @@
+{
+  "uid" : "b50e18153cbb7af3",
+  "name" : "test_device_fw_upgrade_off",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_01_device_fw_ota#test_device_fw_upgrade_off",
+  "historyId" : "27b0ff2e586175b32150bca4c24303ec",
+  "time" : {
+    "start" : 1602744385870,
+    "stop" : 1602744490065,
+    "duration" : 104195
+  },
+  "description" : "device_fw_ota.feature: Upgrade when device is off",
+  "descriptionHtml" : "<p>device_fw_ota.feature: Upgrade when device is off</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "device_fw_ota.feature: Upgrade when device is off",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a6ea3b598f77d42",
+      "name" : "log",
+      "source" : "a6ea3b598f77d42.txt",
+      "type" : "text/plain",
+      "size" : 5699
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Device FW OTA"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_device_fw_ota"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "41648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_01_device_fw_ota"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "b50e18153cbb7af3.json",
+  "parameterValues" : [ ]
+}

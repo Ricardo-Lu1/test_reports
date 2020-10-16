@@ -1,0 +1,114 @@
+{
+  "uid" : "ebe7033d4bd49326",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Bedtime]",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp#test_single_light_control_change_mode_rgb",
+  "historyId" : "3f40e63ad42d1a0510beb6ba78f7c8f3",
+  "time" : {
+    "start" : 1602741518249,
+    "stop" : 1602741524277,
+    "duration" : 6028
+  },
+  "description" : "single_light_control_by_udp.feature: Single light control --- Change default light mode for RGB light",
+  "descriptionHtml" : "<p>single_light_control_by_udp.feature: Single light control --- Change default light mode for RGB light</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602741226612,
+      "stop" : 1602741226612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "single_light_control_by_udp.feature: Single light control --- Change default light mode for RGB light",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fbe8fb307ebff4fb",
+      "name" : "log",
+      "source" : "fbe8fb307ebff4fb.txt",
+      "type" : "text/plain",
+      "size" : 1697
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602741542409,
+      "stop" : 1602741550863,
+      "duration" : 8454
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Single Lamp Control"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('light_name', 'light_mode')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "38532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Bedtime'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('light_name', 'light_mode')" ]
+  },
+  "source" : "ebe7033d4bd49326.json",
+  "parameterValues" : [ "'Bedtime'", "'light_1'" ]
+}

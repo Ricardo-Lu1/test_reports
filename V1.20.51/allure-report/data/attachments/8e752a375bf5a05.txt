@@ -1,0 +1,18 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: pair_lamps_only_wifi.feature:RTP pairing only wifi
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:pair_lamps_steps.py:63 No light is paired, do not need to factory new light
+INFO     test_case.log:pair_lamps_steps.py:363 trigger app smart config process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:383 light_1 relay on
+INFO     test_case.log:pair_lamps_steps.py:395 power off and on all lights
+INFO     test_case.log:pair_lamps_steps.py:491 start smart config pairing
+INFO     test_case.log:pair_lamps_steps.py:695 check smart config pairing result
+INFO     test_case.log:pair_lamps_steps.py:701 check if ota icon exits
+INFO     test_case.log:pair_lamps_steps.py:787 ====================================================================================
+INFO     test_case.log:pair_lamps_steps.py:788 ERROR : No light showed in App scream! No light is found!
+INFO     test_case.log:pair_lamps_steps.py:789 ====================================================================================
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: pair_lamps_only_wifi.feature:RTP pairing only wifi
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************

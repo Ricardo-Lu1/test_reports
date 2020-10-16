@@ -1,0 +1,128 @@
+{
+  "uid" : "bbf03933b54b509c",
+  "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt#test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+  "historyId" : "d4413e09cd5ee8d95cfd195d5830bfff",
+  "time" : {
+    "start" : 1602809082171,
+    "stop" : 1602811535387,
+    "duration" : 2453216
+  },
+  "description" : "schedule_actions.feature: Create a schedule with action \"Bedtime\" and end with \"Previous mode\" after 30min when lamp original status is \"Warm White\"",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create a schedule with action &quot;Bedtime&quot; and end with &quot;Previous mode&quot; after 30min when lamp original status is &quot;Warm White&quot;</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Error : create schedule for light_1 fail! SceneId should be 11, but was 10",
+  "statusTrace" : "request = <FixtureRequest for <Function test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:145: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    return_value = step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x0000026316747E08>\nlight_name = 'light_1', light_scene = 'Warm white'\n\n    @then(parsers.parse('check schedule for {light_name} with {light_scene} mode'))\n    def check_schedule_by_mqtt(target, light_name, light_scene):\n        response = target.udp.get_pilot_phone(light_name)\n        res_light_scene_id = response[\"result\"][\"sceneId\"]\n        expect_light_scene_id = int(translator_scene_id(light_scene))\n        if res_light_scene_id != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! SceneId should be \" + \\\n>                         str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id)\nE           AssertionError: Error : create schedule for light_1 fail! SceneId should be 11, but was 10\n\n..\\..\\Steps\\schedule_action_steps.py:327: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602809082169,
+      "stop" : 1602809082169,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create a schedule with action \"Bedtime\" and end with \"Previous mode\" after 30min when lamp original status is \"Warm White\"",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Error : create schedule for light_1 fail! SceneId should be 11, but was 10",
+    "statusTrace" : "request = <FixtureRequest for <Function test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:145: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:115: in _execute_step_function\n    return_value = step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x0000026316747E08>\nlight_name = 'light_1', light_scene = 'Warm white'\n\n    @then(parsers.parse('check schedule for {light_name} with {light_scene} mode'))\n    def check_schedule_by_mqtt(target, light_name, light_scene):\n        response = target.udp.get_pilot_phone(light_name)\n        res_light_scene_id = response[\"result\"][\"sceneId\"]\n        expect_light_scene_id = int(translator_scene_id(light_scene))\n        if res_light_scene_id != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! SceneId should be \" + \\\n>                         str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id)\nE           AssertionError: Error : create schedule for light_1 fail! SceneId should be 11, but was 10\n\n..\\..\\Steps\\schedule_action_steps.py:327: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "15bd4b6474c1cb77",
+      "name" : "log",
+      "source" : "15bd4b6474c1cb77.txt",
+      "type" : "text/plain",
+      "size" : 5255
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602811535507,
+      "stop" : 1602811544168,
+      "duration" : 8661
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Bedtime\" and end with \"Previous mode\" after 30min when lamp original status is \"Warm White\""
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "144584-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a4ac4b4e37185bfa",
+      "status" : "broken",
+      "statusDetails" : "TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond",
+      "time" : {
+        "start" : 1602751720736,
+        "stop" : 1602751750930,
+        "duration" : 30194
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "bbf03933b54b509c.json",
+  "parameterValues" : [ ]
+}

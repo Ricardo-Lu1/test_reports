@@ -1,0 +1,1 @@
+{"uuid": "db800b74-e065-4950-ab90-481565c5b382", "befores": [{"name": "pytestbdd_given_trigger app {pairing_mode} process to pair {device_type} with {pwd_type} wifi password", "status": "passed", "start": 1602738143285, "stop": 1602738143287}], "start": 1602738143285, "stop": 1602738259984}

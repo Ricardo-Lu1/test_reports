@@ -1,0 +1,114 @@
+{
+  "uid" : "78177aaf3713f4a9",
+  "name" : "test_single_light_control_on_off_nl[light_1-NL1]",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp#test_single_light_control_on_off_nl",
+  "historyId" : "6a66c30b8648f76c7390385d2dab9ed1",
+  "time" : {
+    "start" : 1602741269626,
+    "stop" : 1602741275638,
+    "duration" : 6012
+  },
+  "description" : "single_light_control_by_udp.feature: Single light control --- ON/OFF/NL",
+  "descriptionHtml" : "<p>single_light_control_by_udp.feature: Single light control --- ON/OFF/NL</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602741226612,
+      "stop" : 1602741226612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "single_light_control_by_udp.feature: Single light control --- ON/OFF/NL",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b89c443a02e33ed",
+      "name" : "log",
+      "source" : "3b89c443a02e33ed.txt",
+      "type" : "text/plain",
+      "size" : 1660
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602741542409,
+      "stop" : 1602741550863,
+      "duration" : 8454
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Single Lamp Control"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('action', 'light_name')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "38532-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "action",
+    "value" : "'NL'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('action', 'light_name')" ]
+  },
+  "source" : "78177aaf3713f4a9.json",
+  "parameterValues" : [ "'NL'", "'light_1'" ]
+}
