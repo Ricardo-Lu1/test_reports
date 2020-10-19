@@ -1,0 +1,123 @@
+{
+  "uid" : "5e31def35793a78c",
+  "name" : "test_tcp_comm_on_off_nl[light_1-NL0]",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_06_tcp_comm#test_tcp_comm_on_off_nl",
+  "historyId" : "9f5c2e507fa4cb5ba7a3b14b6b422828",
+  "time" : {
+    "start" : 1602839635583,
+    "stop" : 1602839642665,
+    "duration" : 7082
+  },
+  "description" : "tcp_comm.feature: Single light control by mqtt --- ON/OFF/NL",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single light control by mqtt --- ON/OFF/NL</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602839614223,
+      "stop" : 1602839614223,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single light control by mqtt --- ON/OFF/NL",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b8a41300e01f484",
+      "name" : "log",
+      "source" : "b8a41300e01f484.txt",
+      "type" : "text/plain",
+      "size" : 2071
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602839990894,
+      "stop" : 1602840000320,
+      "duration" : 9426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('action', 'light_name')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_tcp_comm"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "181096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_06_tcp_comm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "action",
+    "value" : "'NL'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b2a6284acfc5411a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"int\") to str",
+      "time" : {
+        "start" : 1602837319244,
+        "stop" : 1602837332364,
+        "duration" : 13120
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('action', 'light_name')" ]
+  },
+  "source" : "5e31def35793a78c.json",
+  "parameterValues" : [ "'NL'", "'light_1'" ]
+}

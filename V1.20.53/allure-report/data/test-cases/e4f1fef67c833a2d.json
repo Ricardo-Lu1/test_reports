@@ -1,0 +1,114 @@
+{
+  "uid" : "e4f1fef67c833a2d",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Jungle]",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_06_tcp_comm#test_tcp_comm_change_mode_rgb",
+  "historyId" : "afe4917c15378fbcfe872f271c7b52f1",
+  "time" : {
+    "start" : 1602839905505,
+    "stop" : 1602839912600,
+    "duration" : 7095
+  },
+  "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for RGB light",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single light control by mqtt --- Change light mode for RGB light</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1602839614223,
+      "stop" : 1602839614223,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single light control by mqtt --- Change light mode for RGB light",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0634ebd2302f764",
+      "name" : "log",
+      "source" : "f0634ebd2302f764.txt",
+      "type" : "text/plain",
+      "size" : 2066
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1602839990894,
+      "stop" : 1602840000320,
+      "duration" : 9426
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('light_mode', 'light_name')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_tcp_comm"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "181096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_06_tcp_comm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Jungle'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('light_mode', 'light_name')" ]
+  },
+  "source" : "e4f1fef67c833a2d.json",
+  "parameterValues" : [ "'Jungle'", "'light_1'" ]
+}

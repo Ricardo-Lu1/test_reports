@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "9719d1da33a02864b3a67cf36664181b",
+    "name" : "TCP Communication",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 42,
+      "unknown" : 0,
+      "total" : 42
+    }
+  }, {
+    "uid" : "f712dca8f2d1772fb02641fb16ac1a30",
+    "name" : "Single Lamp Control",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 42,
+      "unknown" : 0,
+      "total" : 42
+    }
+  }, {
+    "uid" : "ac2228fa8b989ebb9245f8d84f15643a",
+    "name" : "Pair lights wifi and ble",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

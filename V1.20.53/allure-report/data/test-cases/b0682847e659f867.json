@@ -1,0 +1,76 @@
+{
+  "uid" : "b0682847e659f867",
+  "name" : "test_tcp_comm_temperature",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_06_tcp_comm#test_tcp_comm_temperature",
+  "historyId" : "eae85caa585ac81c1ed747e96be7a9c3",
+  "time" : {
+    "start" : 1602837399115,
+    "stop" : 1602837456456,
+    "duration" : 57341
+  },
+  "description" : "tcp_comm.feature: Single light control by mqtt --- Temperature",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single light control by mqtt --- Temperature</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single light control by mqtt --- Temperature",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6a6c34957fc41305",
+      "name" : "log",
+      "source" : "6a6c34957fc41305.txt",
+      "type" : "text/plain",
+      "size" : 5203
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_tcp_comm"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "187868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_06_tcp_comm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "b0682847e659f867.json",
+  "parameterValues" : [ ]
+}

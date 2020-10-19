@@ -1,0 +1,81 @@
+{
+  "uid" : "2be4133496eebe6c",
+  "name" : "test_set_app_pairing_wifi_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble#test_set_app_pairing_wifi_ble",
+  "historyId" : "271b7265620f143d652b2568536cac89",
+  "time" : {
+    "start" : 1602827898654,
+    "stop" : 1602827928538,
+    "duration" : 29884
+  },
+  "description" : "pair_lamps_wifi_ble.feature: Set app pairing mode to wifi and ble",
+  "descriptionHtml" : "<p>pair_lamps_wifi_ble.feature: Set app pairing mode to wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "pair_lamps_wifi_ble.feature: Set app pairing mode to wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "454e5dd87fac551e",
+      "name" : "log",
+      "source" : "454e5dd87fac551e.txt",
+      "type" : "text/plain",
+      "size" : 1064
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights wifi and ble"
+  }, {
+    "name" : "story",
+    "value" : "Set app pairing mode to wifi and ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "172264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "2be4133496eebe6c.json",
+  "parameterValues" : [ ]
+}

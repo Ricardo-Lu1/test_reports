@@ -1,0 +1,81 @@
+{
+  "uid" : "4694779be8411bbc",
+  "name" : "test_rtp_pair_lamps_wifi_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble#test_rtp_pair_lamps_wifi_ble",
+  "historyId" : "f865e18760b76a24c9f1cf9363c468be",
+  "time" : {
+    "start" : 1602827928549,
+    "stop" : 1602828022950,
+    "duration" : 94401
+  },
+  "description" : "pair_lamps_wifi_ble.feature: RTP pairing wifi and ble",
+  "descriptionHtml" : "<p>pair_lamps_wifi_ble.feature: RTP pairing wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "pair_lamps_wifi_ble.feature: RTP pairing wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8200e875874f2941",
+      "name" : "log",
+      "source" : "8200e875874f2941.txt",
+      "type" : "text/plain",
+      "size" : 5114
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights wifi and ble"
+  }, {
+    "name" : "story",
+    "value" : "RTP pairing wifi and ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "172264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "4694779be8411bbc.json",
+  "parameterValues" : [ ]
+}
