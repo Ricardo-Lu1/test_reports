@@ -1,0 +1,111 @@
+{
+  "uid" : "164b5a45dbc11444",
+  "name" : "test_ap_pair_lamps_wifi_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble#test_ap_pair_lamps_wifi_ble",
+  "historyId" : "a1b74c7f4e91ddb03394c7b9e8ca0a95",
+  "time" : {
+    "start" : 1603330475243,
+    "stop" : 1603330629202,
+    "duration" : 153959
+  },
+  "description" : "pair_lamps_wifi_ble.feature: AP pairing wifi and ble",
+  "descriptionHtml" : "<p>pair_lamps_wifi_ble.feature: AP pairing wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1603330031638,
+      "stop" : 1603330031638,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_wifi_ble.feature: AP pairing wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "de13169f9fb6fb00",
+      "name" : "log",
+      "source" : "de13169f9fb6fb00.txt",
+      "type" : "text/plain",
+      "size" : 57732
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1603330629215,
+      "stop" : 1603330636734,
+      "duration" : 7519
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights wifi and ble"
+  }, {
+    "name" : "story",
+    "value" : "AP pairing wifi and ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "107196-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "164b5a45dbc11444.json",
+  "parameterValues" : [ ]
+}

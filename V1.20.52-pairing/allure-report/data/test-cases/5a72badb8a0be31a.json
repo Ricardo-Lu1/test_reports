@@ -1,0 +1,111 @@
+{
+  "uid" : "5a72badb8a0be31a",
+  "name" : "test_5_wizclick_pair_lamps_wifi_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble#test_5_wizclick_pair_lamps_wifi_ble",
+  "historyId" : "84193d2ef3310f6543adf8fb1e2bbc8a",
+  "time" : {
+    "start" : 1603330369135,
+    "stop" : 1603330475213,
+    "duration" : 106078
+  },
+  "description" : "pair_lamps_wifi_ble.feature: 5 * WiZclick pairing wifi and ble",
+  "descriptionHtml" : "<p>pair_lamps_wifi_ble.feature: 5 * WiZclick pairing wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1603330031638,
+      "stop" : 1603330031638,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_wifi_ble.feature: 5 * WiZclick pairing wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54fabe918d1db5cb",
+      "name" : "log",
+      "source" : "54fabe918d1db5cb.txt",
+      "type" : "text/plain",
+      "size" : 36783
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1603330629215,
+      "stop" : 1603330636734,
+      "duration" : 7519
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights wifi and ble"
+  }, {
+    "name" : "story",
+    "value" : "5 * WiZclick pairing wifi and ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "107196-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_04_pair_lamps_wifi_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "5a72badb8a0be31a.json",
+  "parameterValues" : [ ]
+}

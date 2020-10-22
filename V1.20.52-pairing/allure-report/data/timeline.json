@@ -1,0 +1,195 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-UME284Q",
+    "children" : [ {
+      "name" : "107196-MainThread",
+      "children" : [ {
+        "name" : "test_5_wizclick_pair_lamps_wifi_ble",
+        "uid" : "5a72badb8a0be31a",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330369135,
+          "stop" : 1603330475213,
+          "duration" : 106078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_app_pairing_only_wifi",
+        "uid" : "10c6b7def8642885",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329042713,
+          "stop" : 1603329079843,
+          "duration" : 37130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rtp_pair_lamps_only_ble",
+        "uid" : "ede31dba28cd3544",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329485549,
+          "stop" : 1603329632221,
+          "duration" : 146672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3_wizclick_pair_lamps_only_ble",
+        "uid" : "34b3b0c3d662f483",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329632248,
+          "stop" : 1603329770621,
+          "duration" : 138373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3_wizclick_pair_lamps_wifi_ble",
+        "uid" : "e0040f37c3243b2",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330252620,
+          "stop" : 1603330369117,
+          "duration" : 116497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3_wizclick_pair_lamps_only_wifi",
+        "uid" : "a3e03846b18fc37f",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329079854,
+          "stop" : 1603329176016,
+          "duration" : 96162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ap_pair_lamps_wifi_ble",
+        "uid" : "164b5a45dbc11444",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330475243,
+          "stop" : 1603330629202,
+          "duration" : 153959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ap_pair_lamps_only_wifi",
+        "uid" : "b8b184e492be7818",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329290645,
+          "stop" : 1603329439862,
+          "duration" : 149217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_app_pairing_only_ble",
+        "uid" : "4473fb1d9a74a399",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329448355,
+          "stop" : 1603329485536,
+          "duration" : 37181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_5_wizclick_pair_lamps_only_wifi",
+        "uid" : "6906bea7ed87947f",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329176042,
+          "stop" : 1603329290620,
+          "duration" : 114578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_set_app_pairing_wifi_ble",
+        "uid" : "16c7c59e2a158fbe",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330031640,
+          "stop" : 1603330068496,
+          "duration" : 36856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ap_pair_lamps_only_ble",
+        "uid" : "c711d3b5ca8227ed",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329876198,
+          "stop" : 1603330023913,
+          "duration" : 147715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_rtp_pair_lamps_wifi_ble",
+        "uid" : "c9096f10fe9bc489",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330068510,
+          "stop" : 1603330252604,
+          "duration" : 184094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_5_wizclick_pair_lamps_only_ble",
+        "uid" : "c4d2d328c1068e48",
+        "parentUid" : "aab2c6addbffe82ab1baee9d70ae74b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329770636,
+          "stop" : 1603329876174,
+          "duration" : 105538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aab2c6addbffe82ab1baee9d70ae74b9"
+    } ],
+    "uid" : "b060e64a7b0a8b47cd1589dd0ea99a9d"
+  } ]
+}

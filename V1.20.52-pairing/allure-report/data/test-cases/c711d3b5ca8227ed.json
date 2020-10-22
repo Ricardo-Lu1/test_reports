@@ -1,0 +1,111 @@
+{
+  "uid" : "c711d3b5ca8227ed",
+  "name" : "test_ap_pair_lamps_only_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_03_pair_lamps_only_ble#test_ap_pair_lamps_only_ble",
+  "historyId" : "c2b2347d52e14aef8706188772a6f6a7",
+  "time" : {
+    "start" : 1603329876198,
+    "stop" : 1603330023913,
+    "duration" : 147715
+  },
+  "description" : "pair_lamps_only_ble.feature: AP pairing only ble",
+  "descriptionHtml" : "<p>pair_lamps_only_ble.feature: AP pairing only ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1603329448354,
+      "stop" : 1603329448355,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_ble.feature: AP pairing only ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4cbcdc49e210dab",
+      "name" : "log",
+      "source" : "c4cbcdc49e210dab.txt",
+      "type" : "text/plain",
+      "size" : 29638
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1603330023930,
+      "stop" : 1603330031620,
+      "duration" : 7690
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only ble"
+  }, {
+    "name" : "story",
+    "value" : "AP pairing only ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_pair_lamps_only_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "107196-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_03_pair_lamps_only_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "c711d3b5ca8227ed.json",
+  "parameterValues" : [ ]
+}

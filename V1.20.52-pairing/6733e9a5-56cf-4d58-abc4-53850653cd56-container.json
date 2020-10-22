@@ -1,0 +1,1 @@
+{"uuid": "7e166e5b-576c-4971-9e7e-30c921d4aa0b", "befores": [{"name": "pytestbdd_given_power off power on {expect_light_name} {try_times} times", "status": "passed", "start": 1603329096189, "stop": 1603329096189}], "start": 1603329096189, "stop": 1603329176029}

@@ -1,0 +1,255 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Pair lights only wifi",
+    "children" : [ {
+      "name" : "Set app pairing mode to only wifi",
+      "children" : [ {
+        "name" : "test_set_app_pairing_only_wifi",
+        "uid" : "10c6b7def8642885",
+        "parentUid" : "966146ab84ad3f05c202c89099a885f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329042713,
+          "stop" : 1603329079843,
+          "duration" : 37130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "966146ab84ad3f05c202c89099a885f4"
+    }, {
+      "name" : "3 * WiZclick pairing only wifi",
+      "children" : [ {
+        "name" : "test_3_wizclick_pair_lamps_only_wifi",
+        "uid" : "a3e03846b18fc37f",
+        "parentUid" : "8f61e381d3a5097590e8f0f9fe997c21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329079854,
+          "stop" : 1603329176016,
+          "duration" : 96162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f61e381d3a5097590e8f0f9fe997c21"
+    }, {
+      "name" : "5 * WiZclick pairing only wifi",
+      "children" : [ {
+        "name" : "test_5_wizclick_pair_lamps_only_wifi",
+        "uid" : "6906bea7ed87947f",
+        "parentUid" : "8c782853cfaa5815163d28a988b843f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329176042,
+          "stop" : 1603329290620,
+          "duration" : 114578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8c782853cfaa5815163d28a988b843f4"
+    }, {
+      "name" : "AP pairing only wifi",
+      "children" : [ {
+        "name" : "test_ap_pair_lamps_only_wifi",
+        "uid" : "b8b184e492be7818",
+        "parentUid" : "cd28d8b65addc9ba87575fab104f0d6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329290645,
+          "stop" : 1603329439862,
+          "duration" : 149217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd28d8b65addc9ba87575fab104f0d6e"
+    } ],
+    "uid" : "7cad398bfcca6bf64326559519fc4f17"
+  }, {
+    "name" : "Pair lights only ble",
+    "children" : [ {
+      "name" : "Set app pairing mode to only ble",
+      "children" : [ {
+        "name" : "test_set_app_pairing_only_ble",
+        "uid" : "4473fb1d9a74a399",
+        "parentUid" : "c017867ccde00e9325de9590baf247c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329448355,
+          "stop" : 1603329485536,
+          "duration" : 37181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c017867ccde00e9325de9590baf247c3"
+    }, {
+      "name" : "RTP pairing only ble",
+      "children" : [ {
+        "name" : "test_rtp_pair_lamps_only_ble",
+        "uid" : "ede31dba28cd3544",
+        "parentUid" : "4cd46c4a4a7e5eb21bd5db5eb94b707c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329485549,
+          "stop" : 1603329632221,
+          "duration" : 146672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cd46c4a4a7e5eb21bd5db5eb94b707c"
+    }, {
+      "name" : "3 * WiZclick pairing only ble",
+      "children" : [ {
+        "name" : "test_3_wizclick_pair_lamps_only_ble",
+        "uid" : "34b3b0c3d662f483",
+        "parentUid" : "ef28fce44dfdbfb540a3794e853a097e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329632248,
+          "stop" : 1603329770621,
+          "duration" : 138373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef28fce44dfdbfb540a3794e853a097e"
+    }, {
+      "name" : "5 * WiZclick pairing only ble",
+      "children" : [ {
+        "name" : "test_5_wizclick_pair_lamps_only_ble",
+        "uid" : "c4d2d328c1068e48",
+        "parentUid" : "04d2b1e8186392ea4a429d9a51a2296a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329770636,
+          "stop" : 1603329876174,
+          "duration" : 105538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04d2b1e8186392ea4a429d9a51a2296a"
+    }, {
+      "name" : "AP pairing only ble",
+      "children" : [ {
+        "name" : "test_ap_pair_lamps_only_ble",
+        "uid" : "c711d3b5ca8227ed",
+        "parentUid" : "c400d19fe564a386066eec7ade903111",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329876198,
+          "stop" : 1603330023913,
+          "duration" : 147715
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c400d19fe564a386066eec7ade903111"
+    } ],
+    "uid" : "1ca187517042cf6771f2ec4c56ad52e2"
+  }, {
+    "name" : "Pair lights wifi and ble",
+    "children" : [ {
+      "name" : "Set app pairing mode to wifi and ble",
+      "children" : [ {
+        "name" : "test_set_app_pairing_wifi_ble",
+        "uid" : "16c7c59e2a158fbe",
+        "parentUid" : "a51117494308beaa6db008f78daa82a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330031640,
+          "stop" : 1603330068496,
+          "duration" : 36856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a51117494308beaa6db008f78daa82a9"
+    }, {
+      "name" : "RTP pairing wifi and ble",
+      "children" : [ {
+        "name" : "test_rtp_pair_lamps_wifi_ble",
+        "uid" : "c9096f10fe9bc489",
+        "parentUid" : "a3f0fbd1f9356f9791df5965a8ef7b0c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330068510,
+          "stop" : 1603330252604,
+          "duration" : 184094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3f0fbd1f9356f9791df5965a8ef7b0c"
+    }, {
+      "name" : "3 * WiZclick pairing wifi and ble",
+      "children" : [ {
+        "name" : "test_3_wizclick_pair_lamps_wifi_ble",
+        "uid" : "e0040f37c3243b2",
+        "parentUid" : "fafdd74407900f1b4cd90562e7c11567",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330252620,
+          "stop" : 1603330369117,
+          "duration" : 116497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fafdd74407900f1b4cd90562e7c11567"
+    }, {
+      "name" : "5 * WiZclick pairing wifi and ble",
+      "children" : [ {
+        "name" : "test_5_wizclick_pair_lamps_wifi_ble",
+        "uid" : "5a72badb8a0be31a",
+        "parentUid" : "21323cf959ae88ceb9462619dfbfdd8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330369135,
+          "stop" : 1603330475213,
+          "duration" : 106078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21323cf959ae88ceb9462619dfbfdd8e"
+    }, {
+      "name" : "AP pairing wifi and ble",
+      "children" : [ {
+        "name" : "test_ap_pair_lamps_wifi_ble",
+        "uid" : "164b5a45dbc11444",
+        "parentUid" : "463883e5953dddfaaa2d0e1881e5a112",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603330475243,
+          "stop" : 1603330629202,
+          "duration" : 153959
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "463883e5953dddfaaa2d0e1881e5a112"
+    } ],
+    "uid" : "ac2228fa8b989ebb9245f8d84f15643a"
+  } ]
+}

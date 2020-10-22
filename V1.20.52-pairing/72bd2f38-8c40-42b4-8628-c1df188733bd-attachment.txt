@@ -1,0 +1,20 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: pair_lamps_only_wifi.feature:3 * WiZclick pairing only wifi
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:pair_lamps_steps.py:63 No light is paired, do not need to factory new light
+INFO     test_case.log:pair_lamps_steps.py:363 trigger app smart config process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:428 light_1 relay on 
+INFO     test_case.log:pair_lamps_steps.py:431 all lights power off and on 3 times
+INFO     test_case.log:pair_lamps_steps.py:490 start smart config pairing
+INFO     test_case.log:pair_lamps_steps.py:694 check smart config pairing result
+INFO     test_case.log:pair_lamps_steps.py:700 check if ota icon exits
+INFO     test_case.log:pair_lamps_steps.py:751 change light name to light_1
+INFO     test_case.log:pair_lamps_steps.py:762 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:776 1 light icon showed in App scream!
+INFO     test_case.log:pair_lamps_steps.py:777 [{'FWVersion': '1.20.52', 'ModelID': 'B26006', 'MacAddr': 'a8bb50382858', 'IP': '192.168.37.13', 'HomeID': '21366', 'GroupID': '不适用', 'RSSI': '-36', 'LampName': 'light_1'}]
+INFO     test_case.log:pair_lamps_steps.py:801 generate light info file
+INFO     test_case.log:pair_lamps_steps.py:832 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     root:paired_light_info.py:40 Save paired light file :C:\workspace\wiz-automation-test\WizAutomatedSystemTest\Utils\..\Results\paired_light_info.xls
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: pair_lamps_only_wifi.feature:3 * WiZclick pairing only wifi
+INFO     test_case.log:conftest.py:104 ****************************************************************************************************
