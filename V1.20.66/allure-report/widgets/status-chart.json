@@ -1,0 +1,1481 @@
+[ {
+  "uid" : "36aaf3186d41809a",
+  "name" : "test_17_trigger_schedule_when_rhythm_playing_by_mqtt",
+  "time" : {
+    "start" : 1604304735753,
+    "stop" : 1604305098293,
+    "duration" : 362540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd7c50330aa77656",
+  "name" : "test_14_select_same_lamp_mode_for_all_lamp_point_by_mqtt",
+  "time" : {
+    "start" : 1604304638994,
+    "stop" : 1604304675252,
+    "duration" : 36258
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9a20c1412089b19",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Fall]",
+  "time" : {
+    "start" : 1604299086712,
+    "stop" : 1604299095729,
+    "duration" : 9017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c84d008addf91eb7",
+  "name" : "test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "time" : {
+    "start" : 1604305098293,
+    "stop" : 1604305472751,
+    "duration" : 374458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e991f4a15cc93204",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Mojito]",
+  "time" : {
+    "start" : 1604299177308,
+    "stop" : 1604299186349,
+    "duration" : 9041
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41d505adaa115710",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Pulse]",
+  "time" : {
+    "start" : 1604299738486,
+    "stop" : 1604299748656,
+    "duration" : 10170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e05dc270c1f2850",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Daylight]",
+  "time" : {
+    "start" : 1604298996081,
+    "stop" : 1604299005134,
+    "duration" : 9053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ce8eae36b36809",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Relax]",
+  "time" : {
+    "start" : 1604299555890,
+    "stop" : 1604299566040,
+    "duration" : 10150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a61e3b311766cf41",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Bedtime]",
+  "time" : {
+    "start" : 1604299779381,
+    "stop" : 1604299789578,
+    "duration" : 10197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb9b270d946a830",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Cozy]",
+  "time" : {
+    "start" : 1604299535582,
+    "stop" : 1604299545736,
+    "duration" : 10154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "941c4666b8c7309b",
+  "name" : "test_single_light_control_speed",
+  "time" : {
+    "start" : 1604298953857,
+    "stop" : 1604298987016,
+    "duration" : 33159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20eb93eb26d09b45",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Bedtime]",
+  "time" : {
+    "start" : 1604299240739,
+    "stop" : 1604299249803,
+    "duration" : 9064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19381e9bd927cce",
+  "name" : "test_5_wizclick_pair_lamps_only_wifi",
+  "time" : {
+    "start" : 1604296459518,
+    "stop" : 1604296635188,
+    "duration" : 175670
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "733d0da0f7b23ac9",
+  "name" : "test_wiz_click_change_fav_mode_with_paired_light",
+  "time" : {
+    "start" : 1604300250292,
+    "stop" : 1604300347832,
+    "duration" : 97540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "700bcea65c5a5957",
+  "name" : "test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
+  "time" : {
+    "start" : 1604339271869,
+    "stop" : 1604340232356,
+    "duration" : 960487
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a31d682cc03caef6",
+  "name" : "test_single_light_control_on_off_nl[light_1-ON0]",
+  "time" : {
+    "start" : 1604298811566,
+    "stop" : 1604298842655,
+    "duration" : 31089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f334b3827d35bb0",
+  "name" : "test_04_select_rhythm_by_mqtt",
+  "time" : {
+    "start" : 1604304501355,
+    "stop" : 1604304548594,
+    "duration" : 47239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f52fe55a4aece5cf",
+  "name" : "test_tcp_comm_on_off_nl[light_1-NL0]",
+  "time" : {
+    "start" : 1604299345471,
+    "stop" : 1604299355625,
+    "duration" : 10154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8bb653ee12c9ef1",
+  "name" : "test_27_create_schedule_with_golden_white_and_no_end_when_lamp_status_pulse",
+  "time" : {
+    "start" : 1604335078182,
+    "stop" : 1604336068448,
+    "duration" : 990266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "793d14447c2c3306",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Sunset]",
+  "time" : {
+    "start" : 1604299627009,
+    "stop" : 1604299637159,
+    "duration" : 10150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fc58062b6e72af3",
+  "name" : "test_21_create_schedule_with_action_wake_up_end_with_previous_mode_when_lamp_status_on",
+  "time" : {
+    "start" : 1604324098974,
+    "stop" : 1604324745242,
+    "duration" : 646268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e425347b4c8211c1",
+  "name" : "test_single_light_control_temperature",
+  "time" : {
+    "start" : 1604298932826,
+    "stop" : 1604298953849,
+    "duration" : 21023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50c98d9631317b6e",
+  "name" : "test_3_wizclick_pair_lamps_only_ble",
+  "time" : {
+    "start" : 1604297084623,
+    "stop" : 1604297246549,
+    "duration" : 161926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11b2410bd0a3b031",
+  "name" : "test_03_create_schedule_same_time_by_mqtt",
+  "time" : {
+    "start" : 1604307196714,
+    "stop" : 1604307529151,
+    "duration" : 332437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a1a00d006483d9f7",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Deep dive]",
+  "time" : {
+    "start" : 1604299195401,
+    "stop" : 1604299204473,
+    "duration" : 9072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76d48320f438b636",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Steampunk]",
+  "time" : {
+    "start" : 1604299222610,
+    "stop" : 1604299231665,
+    "duration" : 9055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec98cd190508dade",
+  "name" : "test_rtp_pair_lamps_only_wifi",
+  "time" : {
+    "start" : 1604296110326,
+    "stop" : 1604296277721,
+    "duration" : 167395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "565a4378c4bd2729",
+  "name" : "test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
+  "time" : {
+    "start" : 1604330962287,
+    "stop" : 1604334087717,
+    "duration" : 3125430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "441ae7d70e17fcab",
+  "name" : "test_3_wizclick_pair_lamps_wifi_ble",
+  "time" : {
+    "start" : 1604298010035,
+    "stop" : 1604298177887,
+    "duration" : 167852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3197720be6565d6",
+  "name" : "test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "time" : {
+    "start" : 1604304675252,
+    "stop" : 1604304735753,
+    "duration" : 60501
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37a225fce0816fce",
+  "name" : "test_18_create_schedule_with_bedtime_end_with_off_when_lamp_status_off",
+  "time" : {
+    "start" : 1604318526011,
+    "stop" : 1604320992371,
+    "duration" : 2466360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3d40d385e0c93c6",
+  "name" : "test_34_press_off_then_on_during_schedule_end_with_previous_mode",
+  "time" : {
+    "start" : 1604341183647,
+    "stop" : 1604342136960,
+    "duration" : 953313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da1a2691940b4a4e",
+  "name" : "test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
+  "time" : {
+    "start" : 1604308177608,
+    "stop" : 1604308877130,
+    "duration" : 699522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa6d612476129d8d",
+  "name" : "test_17_create_schedule_with_bedtime_end_with_previous_mode_when_lamp_status_night_light",
+  "time" : {
+    "start" : 1604316069604,
+    "stop" : 1604318525999,
+    "duration" : 2456395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec239be2447af728",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Candlelight]",
+  "time" : {
+    "start" : 1604299068579,
+    "stop" : 1604299077644,
+    "duration" : 9065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c289c8d8f04b2666",
+  "name" : "test_tcp_comm_on_off_nl[light_1-ON2]",
+  "time" : {
+    "start" : 1604299375986,
+    "stop" : 1604299386139,
+    "duration" : 10153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "531a0edd01832e74",
+  "name" : "test_02_disable_rhythm_by_mqtt",
+  "time" : {
+    "start" : 1604304494216,
+    "stop" : 1604304501355,
+    "duration" : 7139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21ae8d050f671324",
+  "name" : "test_wiz_click_with_paired_light",
+  "time" : {
+    "start" : 1604300050380,
+    "stop" : 1604300187838,
+    "duration" : 137458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edaf33d0bb6d8254",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Halloween]",
+  "time" : {
+    "start" : 1604299258853,
+    "stop" : 1604299267903,
+    "duration" : 9050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fda5984cb103023",
+  "name" : "test_09_delete_schedule",
+  "time" : {
+    "start" : 1604308877130,
+    "stop" : 1604309213567,
+    "duration" : 336437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afe943066b960124",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Forest]",
+  "time" : {
+    "start" : 1604299159169,
+    "stop" : 1604299168229,
+    "duration" : 9060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4276ad84ee343401",
+  "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+  "time" : {
+    "start" : 1604336068458,
+    "stop" : 1604337028902,
+    "duration" : 960444
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fa67322aa98d242",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Party]",
+  "time" : {
+    "start" : 1604299647300,
+    "stop" : 1604299657427,
+    "duration" : 10127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed711b3cfd94044c",
+  "name" : "test_15_create_schedule_with_bedtime_end_with_off_when_lamp_status_warm_white",
+  "time" : {
+    "start" : 1604312967621,
+    "stop" : 1604313612951,
+    "duration" : 645330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8a11ef10bde43e9",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Party]",
+  "time" : {
+    "start" : 1604299122920,
+    "stop" : 1604299131955,
+    "duration" : 9035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afc9df739a67ab72",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Summer]",
+  "time" : {
+    "start" : 1604299150093,
+    "stop" : 1604299159158,
+    "duration" : 9065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfc3ee6902ea66c4",
+  "name" : "test_single_light_control_on_off_nl[light_1-OFF0]",
+  "time" : {
+    "start" : 1604298842665,
+    "stop" : 1604298851674,
+    "duration" : 9009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86516a2f547fe188",
+  "name" : "test_single_light_control_on_off_nl[light_1-NL1]",
+  "time" : {
+    "start" : 1604298878740,
+    "stop" : 1604298887747,
+    "duration" : 9007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c258630f03309e",
+  "name" : "test_19_create_schedule_with_wake_up_end_with_off_when_lamp_status_off",
+  "time" : {
+    "start" : 1604320992383,
+    "stop" : 1604321637625,
+    "duration" : 645242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7965498328970095",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Relax]",
+  "time" : {
+    "start" : 1604299041371,
+    "stop" : 1604299050430,
+    "duration" : 9059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27b645920e0d173c",
+  "name" : "test_3_wizclick_pair_lamps_only_wifi",
+  "time" : {
+    "start" : 1604296277733,
+    "stop" : 1604296459507,
+    "duration" : 181774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f01ac0fb3f1f18fb",
+  "name" : "test_single_light_control_dimming",
+  "time" : {
+    "start" : 1604298896773,
+    "stop" : 1604298932818,
+    "duration" : 36045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ca9253dc22b443a",
+  "name" : "test_13_create_schedule_with_daylight_end_with_previous_mode_when_lamp_status_on",
+  "time" : {
+    "start" : 1604309858868,
+    "stop" : 1604310511261,
+    "duration" : 652393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b92e136f4f0dd05b",
+  "name" : "test_5_wizclick_pair_lamps_only_ble",
+  "time" : {
+    "start" : 1604297246559,
+    "stop" : 1604297417871,
+    "duration" : 171312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63226b95582ccd1",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Cool white]",
+  "time" : {
+    "start" : 1604299515275,
+    "stop" : 1604299525428,
+    "duration" : 10153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac1107b87629116c",
+  "name" : "test_rtp_pair_lamps_only_ble",
+  "time" : {
+    "start" : 1604296909766,
+    "stop" : 1604297084613,
+    "duration" : 174847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b785b28ddb6c12db",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Golden white]",
+  "time" : {
+    "start" : 1604299213551,
+    "stop" : 1604299222608,
+    "duration" : 9057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44c58cda0c96eb7b",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Romance]",
+  "time" : {
+    "start" : 1604299113846,
+    "stop" : 1604299122910,
+    "duration" : 9064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "813136da4d5dfbe9",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-True colors]",
+  "time" : {
+    "start" : 1604299545736,
+    "stop" : 1604299555890,
+    "duration" : 10154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be1a38dfc451f7bb",
+  "name" : "test_20_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_off",
+  "time" : {
+    "start" : 1604321637627,
+    "stop" : 1604324098958,
+    "duration" : 2461331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1eb598892ac3ca86",
+  "name" : "test_21_turn_to_night_light_then_turn_on_without_specifying_any_lamp_mode_when_rhythms_playing_by_mqtt",
+  "time" : {
+    "start" : 1604305923583,
+    "stop" : 1604305999908,
+    "duration" : 76325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d800341e2d9fa0c",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Candlelight]",
+  "time" : {
+    "start" : 1604299586346,
+    "stop" : 1604299596475,
+    "duration" : 10129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8194a3d49ed4bac5",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Fireplace]",
+  "time" : {
+    "start" : 1604299596475,
+    "stop" : 1604299606657,
+    "duration" : 10182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba3080407b8bd231",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Plant growth]",
+  "time" : {
+    "start" : 1604299267905,
+    "stop" : 1604299276955,
+    "duration" : 9050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5987dcfa7b80c28",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Focus]",
+  "time" : {
+    "start" : 1604299566040,
+    "stop" : 1604299576169,
+    "duration" : 10129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c2efd8fcda932d3",
+  "name" : "test_36_change_mode_during_schedule_end_with_previous_mode",
+  "time" : {
+    "start" : 1604343088317,
+    "stop" : 1604344034608,
+    "duration" : 946291
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a57a33c57f4b1b1a",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Ocean]",
+  "time" : {
+    "start" : 1604299186359,
+    "stop" : 1604299195399,
+    "duration" : 9040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ff5ebeb7dcba30a",
+  "name" : "test_ap_pair_lamps_only_ble",
+  "time" : {
+    "start" : 1604297417881,
+    "stop" : 1604297585740,
+    "duration" : 167859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47fca9aae1dfe991",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Halloween]",
+  "time" : {
+    "start" : 1604299799702,
+    "stop" : 1604299809836,
+    "duration" : 10134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6509fd0ba2f55433",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Wake-up]",
+  "time" : {
+    "start" : 1604299231675,
+    "stop" : 1604299240729,
+    "duration" : 9054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a75e0f1250210ac",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Spring]",
+  "time" : {
+    "start" : 1604299141052,
+    "stop" : 1604299150083,
+    "duration" : 9031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f59b1a1c530624e3",
+  "name" : "test_20_turn_to_night_light_then_turn_on_from_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "time" : {
+    "start" : 1604305549093,
+    "stop" : 1604305923567,
+    "duration" : 374474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ade86b902d543902",
+  "name" : "test_24_create_two_schedule_with_wake_up_and_bedtime_and_start_time_interval_less_than_30_minutes",
+  "time" : {
+    "start" : 1604327836838,
+    "stop" : 1604330962277,
+    "duration" : 3125439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2d3c40715ab9bc2",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-TV time]",
+  "time" : {
+    "start" : 1604299576169,
+    "stop" : 1604299586346,
+    "duration" : 10177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9a5cf6c628292f4",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Club]",
+  "time" : {
+    "start" : 1604299095739,
+    "stop" : 1604299104784,
+    "duration" : 9045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a24122b04b1862f",
+  "name" : "test_disable_wiz_click_with_paired_light",
+  "time" : {
+    "start" : 1604300347832,
+    "stop" : 1604300590400,
+    "duration" : 242568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d94c9e3e321570b5",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Pulse]",
+  "time" : {
+    "start" : 1604299204483,
+    "stop" : 1604299213551,
+    "duration" : 9068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49413795100f47ec",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Summer]",
+  "time" : {
+    "start" : 1604299677682,
+    "stop" : 1604299687823,
+    "duration" : 10141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "379181727ebfeaf2",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Deep dive]",
+  "time" : {
+    "start" : 1604299728345,
+    "stop" : 1604299738486,
+    "duration" : 10141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c275ebfcd54dfe9",
+  "name" : "test_single_light_control_on_off_nl[light_1-NL0]",
+  "time" : {
+    "start" : 1604298860703,
+    "stop" : 1604298869710,
+    "duration" : 9007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfb1c584541f1d4f",
+  "name" : "test_01_create_default_schedule_by_mqtt",
+  "time" : {
+    "start" : 1604306422623,
+    "stop" : 1604306823458,
+    "duration" : 400835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62ffd5efd9bd6cda",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Golden white]",
+  "time" : {
+    "start" : 1604299748656,
+    "stop" : 1604299759079,
+    "duration" : 10423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b96d5d17d75d0a3",
+  "name" : "test_02_create_schedule_by_mqtt",
+  "time" : {
+    "start" : 1604306823473,
+    "stop" : 1604307196714,
+    "duration" : 373241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28c5f1df14e3f8d3",
+  "name" : "test_12_create_schedule_with_warm_white_end_with_off_when_lamp_status_off",
+  "time" : {
+    "start" : 1604309213567,
+    "stop" : 1604309858868,
+    "duration" : 645301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e88a8b8063687acd",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Club]",
+  "time" : {
+    "start" : 1604299616798,
+    "stop" : 1604299627009,
+    "duration" : 10211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dabed5a9cff503a4",
+  "name" : "test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "time" : {
+    "start" : 1604304548594,
+    "stop" : 1604304638979,
+    "duration" : 90385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dd89a5a12f832cd",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Sunset]",
+  "time" : {
+    "start" : 1604299104786,
+    "stop" : 1604299113836,
+    "duration" : 9050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "694c86617d4d4382",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Christmas]",
+  "time" : {
+    "start" : 1604299249813,
+    "stop" : 1604299258842,
+    "duration" : 9029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfa721587d587109",
+  "name" : "test_19_turn_off_then_turn_on_without_specifying_lamp_mode_when_rhythms_playing_by_mqtt",
+  "time" : {
+    "start" : 1604305472767,
+    "stop" : 1604305549093,
+    "duration" : 76326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53b1503b48ef9fd4",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Spring]",
+  "time" : {
+    "start" : 1604299667553,
+    "stop" : 1604299677682,
+    "duration" : 10129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f47e916bfd81e95",
+  "name" : "test_01_enable_default_rhythm_by_mqtt",
+  "time" : {
+    "start" : 1604304436351,
+    "stop" : 1604304494216,
+    "duration" : 57865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fefd9412771b596",
+  "name" : "test_set_app_pairing_wifi_ble",
+  "time" : {
+    "start" : 1604297602662,
+    "stop" : 1604297645263,
+    "duration" : 42601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41dab739f139a362",
+  "name" : "test_26_create_schedule_with_cozy_and_no_end_when_lamp_status_night_light",
+  "time" : {
+    "start" : 1604334087727,
+    "stop" : 1604335078172,
+    "duration" : 990445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "464fe2f518bbdfb4",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Night light]",
+  "time" : {
+    "start" : 1604299014207,
+    "stop" : 1604299023238,
+    "duration" : 9031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25f1ac5f15dadd72",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Warm white]",
+  "time" : {
+    "start" : 1604298987026,
+    "stop" : 1604298996071,
+    "duration" : 9045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58fa518b89aab433",
+  "name" : "test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
+  "time" : {
+    "start" : 1604337028932,
+    "stop" : 1604337989371,
+    "duration" : 960439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c491473904b30738",
+  "name" : "test_wiz_click_with_fresh_light",
+  "time" : {
+    "start" : 1604299893980,
+    "stop" : 1604299994896,
+    "duration" : 100916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "651d4d78deb16247",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Jungle]",
+  "time" : {
+    "start" : 1604299168239,
+    "stop" : 1604299177297,
+    "duration" : 9058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f31eaa99fe83002c",
+  "name" : "test_22_create_schedule_with_wake_up_end_with_previous_mode_when_lamp_status_night_light",
+  "time" : {
+    "start" : 1604324745254,
+    "stop" : 1604325385548,
+    "duration" : 640294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6332db290fa5632",
+  "name" : "test_tcp_comm_dimming",
+  "time" : {
+    "start" : 1604299386139,
+    "stop" : 1604299428935,
+    "duration" : 42796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "849910aab6cc9714",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Christmas]",
+  "time" : {
+    "start" : 1604299789578,
+    "stop" : 1604299799692,
+    "duration" : 10114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31ccfb5de0ed58cd",
+  "name" : "test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+  "time" : {
+    "start" : 1604337989381,
+    "stop" : 1604339271869,
+    "duration" : 1282488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cba70e01103a1f7",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Warm white]",
+  "time" : {
+    "start" : 1604299494980,
+    "stop" : 1604299505121,
+    "duration" : 10141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11a116d346f213d7",
+  "name" : "test_35_dimming_during_schedule_end_with_off",
+  "time" : {
+    "start" : 1604342136960,
+    "stop" : 1604343088307,
+    "duration" : 951347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aae37945c0c3a10",
+  "name" : "test_14_create_schedule_with_warm_white_end_with_previous_mode_when_lamp_status_bedtime",
+  "time" : {
+    "start" : 1604310511261,
+    "stop" : 1604312967621,
+    "duration" : 2456360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37a7a3a9620a2406",
+  "name" : "test_06_edit_schedule_to_end_with_off_by_mqtt",
+  "time" : {
+    "start" : 1604307529151,
+    "stop" : 1604308177608,
+    "duration" : 648457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a922c0850b69ab8f",
+  "name" : "test_ap_pair_lamps_only_wifi",
+  "time" : {
+    "start" : 1604296635200,
+    "stop" : 1604296808933,
+    "duration" : 173733
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e30fae39c874f60",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-True colors]",
+  "time" : {
+    "start" : 1604299032321,
+    "stop" : 1604299041360,
+    "duration" : 9039
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1f92a26451a932",
+  "name" : "test_single_light_control_on_off_nl[light_1-OFF1]",
+  "time" : {
+    "start" : 1604298869720,
+    "stop" : 1604298878728,
+    "duration" : 9008
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e9a2cebe6d026f",
+  "name" : "test_set_app_pairing_only_wifi",
+  "time" : {
+    "start" : 1604296068560,
+    "stop" : 1604296110324,
+    "duration" : 41764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d67d543959662a",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Romance]",
+  "time" : {
+    "start" : 1604299637159,
+    "stop" : 1604299647294,
+    "duration" : 10135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a39beffcb6885750",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Cool white]",
+  "time" : {
+    "start" : 1604299005144,
+    "stop" : 1604299014197,
+    "duration" : 9053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e8c61761147c767",
+  "name" : "test_wiz_click_pairing_with_paired_light",
+  "time" : {
+    "start" : 1604300187838,
+    "stop" : 1604300250292,
+    "duration" : 62454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5540b8b302b558f",
+  "name" : "test_rtp_pair_lamps_wifi_ble",
+  "time" : {
+    "start" : 1604297856975,
+    "stop" : 1604298010025,
+    "duration" : 153050
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bb185877c08f2",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Forest]",
+  "time" : {
+    "start" : 1604299687823,
+    "stop" : 1604299697974,
+    "duration" : 10151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b23a6556a2242076",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Daylight]",
+  "time" : {
+    "start" : 1604299505121,
+    "stop" : 1604299515275,
+    "duration" : 10154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2ea7e74ff65ebd7",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Fireplace]",
+  "time" : {
+    "start" : 1604299077654,
+    "stop" : 1604299086712,
+    "duration" : 9058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "570835d53a6dbaeb",
+  "name" : "test_tcp_comm_temperature",
+  "time" : {
+    "start" : 1604299428935,
+    "stop" : 1604299457423,
+    "duration" : 28488
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7449d8eaec499a7a",
+  "name" : "test_37_change_speed_during_schedule_action_dynamic_mode_end_with_previous_mode",
+  "time" : {
+    "start" : 1604344034618,
+    "stop" : 1604344980952,
+    "duration" : 946334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e8c5cb01c1e3ccd",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Plant growth]",
+  "time" : {
+    "start" : 1604299809846,
+    "stop" : 1604299819935,
+    "duration" : 10089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f01c4225623a2424",
+  "name" : "test_tcp_comm_on_off_nl[light_1-ON1]",
+  "time" : {
+    "start" : 1604299335286,
+    "stop" : 1604299345471,
+    "duration" : 10185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ef3794f5fa1fd36",
+  "name" : "test_5_wizclick_pair_lamps_wifi_ble",
+  "time" : {
+    "start" : 1604298422476,
+    "stop" : 1604298621022,
+    "duration" : 198546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a65dd44aee3660a",
+  "name" : "test_set_app_pairing_only_ble",
+  "time" : {
+    "start" : 1604296867786,
+    "stop" : 1604296909764,
+    "duration" : 41978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5647bf1f4cab6c2f",
+  "name" : "test_23_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_night_light",
+  "time" : {
+    "start" : 1604325385548,
+    "stop" : 1604327836828,
+    "duration" : 2451280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af2b25ab1808d0b8",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Mojito]",
+  "time" : {
+    "start" : 1604299708111,
+    "stop" : 1604299718222,
+    "duration" : 10111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ccb042a98408b88",
+  "name" : "test_tcp_comm_speed",
+  "time" : {
+    "start" : 1604299457423,
+    "stop" : 1604299494980,
+    "duration" : 37557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c5d783036909b6e",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Focus]",
+  "time" : {
+    "start" : 1604299050440,
+    "stop" : 1604299059494,
+    "duration" : 9054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4bc4110630e6936",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Ocean]",
+  "time" : {
+    "start" : 1604299718222,
+    "stop" : 1604299728345,
+    "duration" : 10123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b2ac3f9c2e5aec0",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Cozy]",
+  "time" : {
+    "start" : 1604299023248,
+    "stop" : 1604299032311,
+    "duration" : 9063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bc5d47a12fd7b7f",
+  "name" : "test_tcp_comm_on_off_nl[light_1-NL1]",
+  "time" : {
+    "start" : 1604299365779,
+    "stop" : 1604299375986,
+    "duration" : 10207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7314985554d4aeb",
+  "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+  "time" : {
+    "start" : 1604313612961,
+    "stop" : 1604316069396,
+    "duration" : 2456435
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb0973ef03361a97",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Pastel colors]",
+  "time" : {
+    "start" : 1604299657435,
+    "stop" : 1604299667553,
+    "duration" : 10118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86b2dea2e2d0a7b5",
+  "name" : "test_tcp_comm_on_off_nl[light_1-OFF1]",
+  "time" : {
+    "start" : 1604299355625,
+    "stop" : 1604299365779,
+    "duration" : 10154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48199383a611af09",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Wake-up]",
+  "time" : {
+    "start" : 1604299769211,
+    "stop" : 1604299779381,
+    "duration" : 10170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8345f14dbb8edc78",
+  "name" : "test_single_light_control_on_off_nl[light_1-ON2]",
+  "time" : {
+    "start" : 1604298887757,
+    "stop" : 1604298896763,
+    "duration" : 9006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34878f3812708f17",
+  "name" : "test_wiz_click_pairing_with_fresh_light",
+  "time" : {
+    "start" : 1604299994906,
+    "stop" : 1604300050368,
+    "duration" : 55462
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a410f8f8fe4352cf",
+  "name" : "test_single_light_control_on_off_nl[light_1-ON1]",
+  "time" : {
+    "start" : 1604298851684,
+    "stop" : 1604298860693,
+    "duration" : 9009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "935dc21059b1f414",
+  "name" : "test_tcp_comm_on_off_nl[light_1-ON0]",
+  "time" : {
+    "start" : 1604299293153,
+    "stop" : 1604299325128,
+    "duration" : 31975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3077f520aae2722f",
+  "name" : "test_39_open_the_vacation_mode",
+  "time" : {
+    "start" : 1604344980958,
+    "stop" : 1604345325485,
+    "duration" : 344527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11f0b3b2b1820023",
+  "name" : "test_tcp_comm_on_off_nl[light_1-OFF0]",
+  "time" : {
+    "start" : 1604299325128,
+    "stop" : 1604299335286,
+    "duration" : 10158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3515261962297c0a",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Night light]",
+  "time" : {
+    "start" : 1604299525428,
+    "stop" : 1604299535582,
+    "duration" : 10154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1825dc1afd060769",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Steampunk]",
+  "time" : {
+    "start" : 1604299759079,
+    "stop" : 1604299769211,
+    "duration" : 10132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27d984f3db82e749",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Jungle]",
+  "time" : {
+    "start" : 1604299697974,
+    "stop" : 1604299708095,
+    "duration" : 10121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c2af4eb1d426ce8",
+  "name" : "test_ap_pair_lamps_wifi_ble",
+  "time" : {
+    "start" : 1604298621035,
+    "stop" : 1604298790386,
+    "duration" : 169351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e9eedb3201a49e9",
+  "name" : "test_33_press_on_during_schedule_end_with_off",
+  "time" : {
+    "start" : 1604340232366,
+    "stop" : 1604341183637,
+    "duration" : 951271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "966c236194f0c0d4",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-TV time]",
+  "time" : {
+    "start" : 1604299059504,
+    "stop" : 1604299068569,
+    "duration" : 9065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93a7314e0fb5784a",
+  "name" : "test_single_light_control_change_mode_rgb[light_1-Pastel colors]",
+  "time" : {
+    "start" : 1604299131965,
+    "stop" : 1604299141042,
+    "duration" : 9077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1eff76afacba3cc4",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Fall]",
+  "time" : {
+    "start" : 1604299606657,
+    "stop" : 1604299616798,
+    "duration" : 10141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,143 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: rhythm_actions.feature:Turn off and then turn on without specifying any lamp mode when Rhythms playing
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43845/devices/a8bb50378c06   {"method": "setPilot", "params": {"state": true, "orig": "wizappd"}}
+INFO     root:paired_light_info.py:69 The light mac is: a8bb5037c036
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50378c06   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50378c06","rssi":-44,"src":"wizappd","state":true,"sceneId":32,"speed":100,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:rhythm_action_steps.py:10 delete all rhythm for light_1
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:69 The light mac is: a8bb5037c036
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method": "setSchdPset", "params": {"id": 2, "pos": 15, "hrs": 6, "mins": 30, "dura": 90, "mode": [9, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:rhythm_action_steps.py:44 create rhythm position for light_1 with scene : Wake-up
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:69 The light mac is: a8bb5037c036
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method": "setSchdPset", "params": {"id": 2, "pos": 25, "hrs": 8, "mins": 0, "dura": 60, "mode": [12, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     test_case.log:rhythm_action_steps.py:44 create rhythm position for light_1 with scene : Daylight
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:69 The light mac is: a8bb5037c036
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method": "setSchdPset", "params": {"id": 2, "pos": 35, "hrs": 9, "mins": 0, "dura": 540, "mode": [18, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:rhythm_action_steps.py:44 create rhythm position for light_1 with scene : TV time
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:69 The light mac is: a8bb5037c036
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method": "setSchdPset", "params": {"id": 2, "pos": 45, "hrs": 18, "mins": 0, "dura": 300, "mode": [6, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     test_case.log:rhythm_action_steps.py:44 create rhythm position for light_1 with scene : Cozy
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:69 The light mac is: a8bb5037c036
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method": "setSchdPset", "params": {"id": 2, "pos": 55, "hrs": 23, "mins": 0, "dura": 450, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:rhythm_action_steps.py:44 create rhythm position for light_1 with scene : Night light
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43845/devices/a8bb50378c06   {"method": "setPilot", "params": {"state": true, "orig": "wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:rhythm_action_steps.py:108 Set rhythm 2 successfully
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43845/devices/a8bb50378c06   {"method": "setPilot", "params": {"state": false, "orig": "wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     light_1.log:serial_comm.py:98 I (1342184) wifi:Set ps type: 1
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:schedule_action_steps.py:234 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:schedule_action_steps.py:236 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb5037c036', 'rssi': -51, 'state': False, 'sceneId': 18, 'dimming': 10}}
+INFO     test_case.log:schedule_action_steps.py:256 light_1 is turned to OFF
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     light_1.log:serial_comm.py:98 I (1353894) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:schedule_action_steps.py:234 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:schedule_action_steps.py:236 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb5037c036', 'rssi': -52, 'state': True, 'sceneId': 18, 'dimming': 10, 'schdPsetId': 2}}
+INFO     test_case.log:schedule_action_steps.py:256 light_1 is turned to ON
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50378c06   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50378c06","rssi":-43,"src":"wizappd","state":false,"sceneId":14}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:rhythm_action_steps.py:108 Set rhythm 2 successfully
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43845/devices/a8bb50378c06   {"method": "setPilot", "params": {"state": true, "sceneId": 14, "orig": "wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50378c06   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50378c06","rssi":-42,"src":"wizappd","state":true,"sceneId":14}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: rhythm_actions.feature:Turn off and then turn on without specifying any lamp mode when Rhythms playing
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

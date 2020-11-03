@@ -1,0 +1,20 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: tcp_comm.feature:Single light control by mqtt --- ON/OFF/NL
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:tcp_comm_steps.py:12 test light_1: NL
+INFO     test_case.log:tcp_comm_steps.py:13 turn light to NL
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     root:paired_light_info.py:69 The light mac is: a8bb5037c036
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method": "setPilot", "params": {"state": true, "sceneId": 14, "orig": "wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method": "setPilot", "params": {"state": true, "sceneId": 14, "orig": "wizappd"}}
+INFO     light_1.log:serial_comm.py:98 I (672714) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c036   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb5037c036","rssi":-53,"src":"wizappd","state":true,"sceneId":14}}
+INFO     test_case.log:control_lamp_steps.py:590 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.18
+INFO     test_case.log:control_lamp_steps.py:592 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb5037c036', 'rssi': -54, 'state': True, 'sceneId': 14}}
+INFO     test_case.log:control_lamp_steps.py:617 light_1 is turned NL successfully!
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: tcp_comm.feature:Single light control by mqtt --- ON/OFF/NL
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

@@ -1,0 +1,111 @@
+{
+  "uid" : "a8bb653ee12c9ef1",
+  "name" : "test_27_create_schedule_with_golden_white_and_no_end_when_lamp_status_pulse",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_27_create_schedule_with_golden_white_and_no_end_when_lamp_status_pulse",
+  "historyId" : "bde24ba08709d4976b728f9c7b80bef8",
+  "time" : {
+    "start" : 1604335078182,
+    "stop" : 1604336068448,
+    "duration" : 990266
+  },
+  "description" : "schedule_actions.feature: Create a schedule with action \"Golden white\" and no end when lamp original status is \"Pulse\"",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create a schedule with action &quot;Golden white&quot; and no end when lamp original status is &quot;Pulse&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1604306422623,
+      "stop" : 1604306422623,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create a schedule with action \"Golden white\" and no end when lamp original status is \"Pulse\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5038020535deb905",
+      "name" : "log",
+      "source" : "5038020535deb905.txt",
+      "type" : "text/plain",
+      "size" : 86266
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1604345325485,
+      "stop" : 1604345340666,
+      "duration" : 15181
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Golden white\" and no end when lamp original status is \"Pulse\""
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "602788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "a8bb653ee12c9ef1.json",
+  "parameterValues" : [ ]
+}

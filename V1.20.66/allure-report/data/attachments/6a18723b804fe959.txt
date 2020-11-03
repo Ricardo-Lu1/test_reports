@@ -1,0 +1,229 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: pair_lamps_only_ble.feature:3 * WiZclick pairing only ble
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"reset"}
+INFO     light_1.log:serial_comm.py:98 I (144144) wifi:state: run -> init (0)
+INFO     light_1.log:serial_comm.py:98 I (144144) wifi:pm stop, total sleep time: 0 us / 127435829 us
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (144144) wifi:new:<8,0>, old:<8,0>, ap:<255,255>, sta:<8,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 0, fav cnt: 1, pair cnt: 0, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 11, temp: 2700, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 0
+INFO     light_1.log:serial_comm.py:98 I (425) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (435) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (435) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (435) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (435) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (435) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (445) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (445) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (455) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (455) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (455) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (595) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (595) wifi:Set
+INFO     light_1.log:serial_comm.py:98  ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (595) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 Firmware Version: 1.20.66
+INFO     light_1.log:serial_comm.py:98 MAC address: a8bb5037c036
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"reset"}
+INFO     test_case.log:pair_lamps_steps.py:61 factory new light
+INFO     test_case.log:pair_lamps_steps.py:414 trigger app smart config process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:479 light_1 relay on 
+INFO     test_case.log:pair_lamps_steps.py:479 light_2 relay on 
+INFO     test_case.log:pair_lamps_steps.py:482 all lights power off and on 3 times
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff
+INFO     light_1.log:serial_comm.py:98 0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 2, pair cnt: 1, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 12, temp: 4200, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 255
+INFO     light_1.log:serial_comm.py:98 I (264) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:wifi firmware version: a7660
+INFO     light_1.log:serial_comm.py:98 3f
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (284) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (284) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (294) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (294) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (294) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (424) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (424) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (434) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 Firmware Version: 1.20.66
+INFO     light_1.log:serial_comm.py:98 MAC address: a8bb5037c036
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x
+INFO     light_1.log:serial_comm.py:98 00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 1, pair cnt: 2, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 11, temp: 2700, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 0
+INFO     light_1.log:serial_comm.py:98 I (264) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core=
+INFO     light_1.log:serial_comm.py:98 0
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (274) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (284) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (284) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (294) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (294) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (294) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (434) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (434) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (434) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 Firmware Version: 1.20.66
+INFO     light_1.log:serial_comm.py:98 MAC address: a8bb5037c036
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x400780
+INFO     light_1.log:serial_comm.py:98 00,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 2, pair cnt: 3, soft: 0, force mode: 1
+INFO     light_1.log:serial_comm.py:98 I (264) wifi:wifi driver task: 3ffd43e4, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (344) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (344) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (354) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (354) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (354) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (364) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (484) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (484) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 Firmware Version: 1.20.66
+INFO     light_1.log:serial_comm.py:98 MAC address: a8bb5037c036
+INFO     light_1.log:serial_comm.py:98 I (534) smartconfig: SC version: V2.8.1
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (5024) wifi:ic_enable_sni
+INFO     light_1.log:serial_comm.py:98 ffer
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:pair_lamps_steps.py:541 start smart config pairing
+INFO     light_1.log:serial_comm.py:98 I (21424) wifi:ic_disable_sniffer
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (23404) wifi:new:<8,0>, old:<4,0>, ap:<255,255>, sta:<8,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (25214) wifi:state: init -> auth (b0)
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (25214) wifi:state: auth -> assoc (0)
+INFO     light_1.log:serial_comm.py:98 I (25224) wifi:state: assoc -> run (10)
+INFO     light_1.log:serial_comm.py:98 I (25244) 
+INFO     light_1.log:serial_comm.py:98 wifi:connected with WiZify, aid = 1, channel 8, BW20, bssid = 56:d9:e7:c7:bb:c6
+INFO     light_1.log:serial_comm.py:98 I (25244) wifi:security type: 3, phy: bgn, rssi: -74
+INFO     light_1.log:serial_comm.py:98 I (25244) wifi:pm start, type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (25374) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:pair_lamps_steps.py:584 get first paired lamp.
+INFO     test_case.log:pair_lamps_steps.py:587 number of paired lamps : 2
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c082   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c082   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.20.0","homeId":43848,"ip":"192.168.37.21","hssid":"1dafaf4c1f","mqtt":"pwon","cnx":"0000","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"1b7852b855","model":1575590400}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c036   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.20.66","homeId":43848,"ip":"192.168.37.18","hssid":"1dafaf4c1f","mqtt":"pwon","cnx":"0000","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"1b7852b855","model":1575590400}}
+INFO     test_case.log:pair_lamps_steps.py:747 check smart config pairing result
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c036   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c082   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb5037c082","rssi":-70,"src":"wizc2","state":true,"sceneId":11,"temp":2700,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c036   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb5037c036","rssi":-77,"src":"wizc2","state":true,"sceneId":11,"temp":2700,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c082   {"method":"syncConfig","env":"dev","params":{"sys":0,"usr":0,"favs":0,"sensor":0,"sec":0,"model":0}}
+INFO     test_case.log:pair_lamps_steps.py:753 check if ota icon exits
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c036   {"method":"syncConfig","env":"dev","params":{"sys":0,"usr":0,"favs":0,"sensor":0,"sec":0,"wizc":0,"model":0}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"setSystemConfig","params":{"roomId":43630,"groupId":0,"moduleName":"ESP03_SHRGB3_01ABI","drvConf":[80,2],"ewf":"ff00ffff0000","systemConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"setSystemConfig","params":{"offsets":[[1604297183,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"setUserConfig","params":{"fadeIn":500,"fadeOut":500,"dftDim":100,"startupMode":"wizclick","pwmRange":[5,100],"whiteRange":[2700,6500],"extRange":[2700,6500],"po":0,"userConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"setFavs","params":{"favs":[[12,0,0,0,0,0,0],[11,0,0,0,0,0,0],[6,0,0,0,0,0,0],[2,0,0,0,0,0,0]],"favConfigTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"setSecurity","params":{"udp":0,"key":["PpwLR0NrC0fmHt77llJqYrPqot9wSwb93wEuKedUPhc=","mUFuQCTZAkS6NC7+iXlhUA==",19,29],"confTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"setModelConfig","params":{"confTs":1575590400}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"setSystemConfig","params":{"roomId":43630,"groupId":0,"moduleName":"ESP03_SHRGB3_01ABI","drvConf":[80,2],"ewf":"ff00ffff0000","systemConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"setSystemConfig","params":{"offsets":[[1604297183,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"setUserConfig","params":{"fadeIn":500,"fadeOut":500,"dftDim":100,"startupMode":"wizclick","pwmRange":[5,100],"whiteRange":[2700,6500],"extRange":[2700,6500],"po":0,"userConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"setFavs","params":{"favs":[[12,0,0,0,0,0,0],[11,0,0,0,0,0,0],[6,0,0,0,0,0,0],[2,0,0,0,0,0,0]],"favConfigTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"setSecurity","params":{"udp":0,"key":["V\/VtaK7hNEAXZ4T5pFRK45c6HJ9IaSqFXRaoDKv6CZE=","2Bj4eaFYDBWd46WXI8G2JQ==",14,1],"confTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"setModelConfig","params":{"confTs":1575590400}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c082   {"method":"syncOffset","env":"dev","params":{"offsets":[],"time":1604297179}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c082   {"method":"setSystemConfig","params":{"offsets":[[1604297185,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c036   {"method":"syncOffset","env":"dev","params":{"offsets":[],"time":1604297179}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43848/devices/a8bb5037c036   {"method":"setSystemConfig","params":{"offsets":[[1604297186,28800]],"systemConfigTs":0}}
+INFO     test_case.log:pair_lamps_steps.py:804 change light name to light_2
+INFO     test_case.log:pair_lamps_steps.py:815 light_2 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:804 change light name to light_1
+INFO     test_case.log:pair_lamps_steps.py:815 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[3];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:829 2 light icon showed in App scream!
+INFO     test_case.log:pair_lamps_steps.py:830 [{'FWVersion': '1.20.0', 'ModelID': 'B27083', 'MacAddr': 'a8bb5037c082', 'IP': '192.168.37.21', 'HomeID': '43848', 'GroupID': '不适用', 'RSSI': '-70', 'LampName': 'light_2'}, {'FWVersion': '1.20.66', 'ModelID': 'B27083', 'MacAddr': 'a8bb5037c036', 'IP': '192.168.37.18', 'HomeID': '43848', 'GroupID': '不适用', 'RSSI': '-76', 'LampName': 'light_1'}]
+INFO     test_case.log:pair_lamps_steps.py:854 generate light info file
+INFO     test_case.log:pair_lamps_steps.py:885 light_2 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:885 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[3];com.tao.wiz.china:id/iv_light
+INFO     root:paired_light_info.py:40 Save paired light file :C:\workspace\wiz-automation-test\WizAutomatedSystemTest\Utils\..\Results\paired_light_info.xls
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: pair_lamps_only_ble.feature:3 * WiZclick pairing only ble
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

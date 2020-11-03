@@ -1,0 +1,108 @@
+{
+  "uid" : "c491473904b30738",
+  "name" : "test_wiz_click_with_fresh_light",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_09_wiz_click#test_wiz_click_with_fresh_light",
+  "historyId" : "12a7f3eb509745ea5ce5747092de0be0",
+  "time" : {
+    "start" : 1604299893980,
+    "stop" : 1604299994896,
+    "duration" : 100916
+  },
+  "description" : "wiz_click.feature: Test Wiz Click With Fresh Light",
+  "descriptionHtml" : "<p>wiz_click.feature: Test Wiz Click With Fresh Light</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1604299893980,
+      "stop" : 1604299893980,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "wiz_click.feature: Test Wiz Click With Fresh Light",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "284c6b16542f803d",
+      "name" : "log",
+      "source" : "284c6b16542f803d.txt",
+      "type" : "text/plain",
+      "size" : 19314
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1604300590400,
+      "stop" : 1604300598878,
+      "duration" : 8478
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Wiz Click"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_09_wiz_click"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "601416-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_09_wiz_click"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "c491473904b30738.json",
+  "parameterValues" : [ ]
+}

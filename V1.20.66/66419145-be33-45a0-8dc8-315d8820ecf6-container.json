@@ -1,0 +1,1 @@
+{"uuid": "bd28ce4f-3b36-4206-ac69-27d1ccc37da8", "befores": [{"name": "pytestbdd_when_power off {expect_light_name}, wait for {wait_second}s and power on", "status": "passed", "start": 1604299994906, "stop": 1604299994906}], "start": 1604299994906, "stop": 1604300050370}

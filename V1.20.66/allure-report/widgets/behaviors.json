@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "b32be9acdf32ca08ae84e9f943bbd856",
+    "name" : "Create schedule by mqtt",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 30,
+      "unknown" : 0,
+      "total" : 32
+    }
+  }, {
+    "uid" : "f712dca8f2d1772fb02641fb16ac1a30",
+    "name" : "Single Lamp Control",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 42,
+      "unknown" : 0,
+      "total" : 42
+    }
+  }, {
+    "uid" : "9719d1da33a02864b3a67cf36664181b",
+    "name" : "TCP Communication",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 42,
+      "unknown" : 0,
+      "total" : 42
+    }
+  }, {
+    "uid" : "fad1139adb88b753d19a40f955d84767",
+    "name" : "Test cases for rhythm",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "241fa442c2f3ae1b8631d2daf9a79465",
+    "name" : "Wiz Click",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "7cad398bfcca6bf64326559519fc4f17",
+    "name" : "Pair lights only wifi",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "1ca187517042cf6771f2ec4c56ad52e2",
+    "name" : "Pair lights only ble",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "ac2228fa8b989ebb9245f8d84f15643a",
+    "name" : "Pair lights wifi and ble",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

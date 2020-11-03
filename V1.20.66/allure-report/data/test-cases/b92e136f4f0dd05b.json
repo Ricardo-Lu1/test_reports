@@ -1,0 +1,111 @@
+{
+  "uid" : "b92e136f4f0dd05b",
+  "name" : "test_5_wizclick_pair_lamps_only_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_03_pair_lamps_only_ble#test_5_wizclick_pair_lamps_only_ble",
+  "historyId" : "db8aa4ab6ed55c8b9293d7515f208856",
+  "time" : {
+    "start" : 1604297246559,
+    "stop" : 1604297417871,
+    "duration" : 171312
+  },
+  "description" : "pair_lamps_only_ble.feature: 5 * WiZclick pairing only ble",
+  "descriptionHtml" : "<p>pair_lamps_only_ble.feature: 5 * WiZclick pairing only ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1604296867786,
+      "stop" : 1604296867786,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_ble.feature: 5 * WiZclick pairing only ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "52077447f3d92290",
+      "name" : "log",
+      "source" : "52077447f3d92290.txt",
+      "type" : "text/plain",
+      "size" : 23097
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1604297585748,
+      "stop" : 1604297593712,
+      "duration" : 7964
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only ble"
+  }, {
+    "name" : "story",
+    "value" : "5 * WiZclick pairing only ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_pair_lamps_only_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "587120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_03_pair_lamps_only_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "b92e136f4f0dd05b.json",
+  "parameterValues" : [ ]
+}

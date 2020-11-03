@@ -1,0 +1,111 @@
+{
+  "uid" : "27b645920e0d173c",
+  "name" : "test_3_wizclick_pair_lamps_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_02_pair_lamps_only_wifi#test_3_wizclick_pair_lamps_only_wifi",
+  "historyId" : "9d9e1f14a3eba243a26bce15a8dfb9db",
+  "time" : {
+    "start" : 1604296277733,
+    "stop" : 1604296459507,
+    "duration" : 181774
+  },
+  "description" : "pair_lamps_only_wifi.feature: 3 * WiZclick pairing only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: 3 * WiZclick pairing only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1604296068560,
+      "stop" : 1604296068560,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: 3 * WiZclick pairing only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "152028fe298409aa",
+      "name" : "log",
+      "source" : "152028fe298409aa.txt",
+      "type" : "text/plain",
+      "size" : 26132
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1604296808943,
+      "stop" : 1604296816474,
+      "duration" : 7531
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "story",
+    "value" : "3 * WiZclick pairing only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "590392-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_02_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "27b645920e0d173c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,362 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: wiz_click.feature:Test Wiz Click Pairing With Paired Light
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb5037c036   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_
+INFO     light_1.log:serial_comm.py:98 drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 0, fav cnt: 1, pair cnt: 1, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 12, temp: 4200, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 255
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (324) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (33
+INFO     light_1.log:serial_comm.py:98 4) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (344) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (344) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (354) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (354) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (474) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (594) wifi:new:<1,0>, old:<1,0>, ap
+INFO     light_1.log:serial_comm.py:98 :<255,255>, sta:<1,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:wiz_click_steps.py:43 Pass : check WiZ click fav_1 successfully!
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0
+INFO     light_1.log:serial_comm.py:98 x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 2, pair cnt: 2, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 11, temp: 2700, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (464) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (474) 
+INFO     light_1.log:serial_comm.py:98 wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (484) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (484) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (614) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (614)
+INFO     light_1.log:serial_comm.py:98  wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (614) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (744) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:wiz_click_steps.py:54 Pass : check WiZ click fav_2 successfully!
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs
+INFO     light_1.log:serial_comm.py:98 0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 1, pair cnt: 3, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 12, temp: 4200, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 255
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (484) wifi:wifi driver task: 3ffd44
+INFO     light_1.log:serial_comm.py:98 0c, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:Init dyn
+INFO     light_1.log:serial_comm.py:98 amic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (494) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (504) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (504) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (514) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (514) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (634) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (634) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (634) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (764) wifi:new:<1,0>, old:<1,0>, ap:<255,25
+INFO     light_1.log:serial_comm.py:98 5>, sta:<1,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:wiz_click_steps.py:43 Pass : check WiZ click fav_1 successfully!
+INFO     test_case.log:wiz_click_steps.py:86 Pass : check WiZ click normal mode successfully!
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load
+INFO     light_1.log:serial_comm.py:98 :0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 2, pair cnt: 4, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 11, temp: 2700, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (405) wifi:wifi driver task: 3ffd440c, prio:23, 
+INFO     light_1.log:serial_comm.py:98 stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:Init data frame dy
+INFO     light_1.log:serial_comm.py:98 namic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (425) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (425) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (435) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (435) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (555) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (555) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (555) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (685) wifi:new:<1,0>, old:<1,0>, ap:<255,
+INFO     light_1.log:serial_comm.py:98 255>, sta:<1,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:wiz_click_steps.py:54 Pass : check WiZ click fav_2 successfully!
+INFO     test_case.log:wiz_click_steps.py:86 Pass : check WiZ click normal mode successfully!
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x0
+INFO     light_1.log:serial_comm.py:98 0,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 1, pair cnt: 5, soft: 0, force mode: 1
+INFO     light_1.log:serial_comm.py:98 I (324) wifi:wifi driver task: 3ffd43e4, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (334) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (344) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (344) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (354) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (354) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (474) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (484) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (484) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 I (534) smartconfig: SC version: V2.8.1
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:wiz_click_steps.py:65 Pass : check WiZ click force pairing successfully!
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 
+load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 1, fav cnt: 2, pair cnt: 0, soft: 0, force mode: 2
+INFO     light_1.log:serial_comm.py:98 I (384) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (404) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (404) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (414) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (414) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (414) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (534) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (534) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (534) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 I (534) wifi:mode : sta (a8:bb:50:37:c0:36) + softAP (aa:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (544) wifi:Total power save buffer number: 16
+INFO     light_1.log:serial_comm.py:98 I (544) wifi:Init max length of beacon: 752/752
+INFO     light_1.log:serial_comm.py:98 I (544) wifi:Init max length of beacon: 752/752
+INFO     light_1.log:serial_comm.py:98 I (554) wifi:Total power save buffer number: 16
+INFO     light_1.log:serial_comm.py:98 
+INFO     test_case.log:wiz_click_steps.py:76 Pass : check WiZ click ap pairing successfully!
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,w
+INFO     light_1.log:serial_comm.py:98 p_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 0, fav cnt: 1, pair cnt: 1, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 12, temp: 4200, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 255
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (384) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core=0
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (394) wifi:Init data frame dynamic rx bu
+INFO     light_1.log:serial_comm.py:98 ffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (404) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (404) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (414) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (414) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (414) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (534) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (534) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (534) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     light_1.log:serial_comm.py:98 I (654) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:wiz_click_steps.py:43 Pass : check WiZ click fav_1 successfully!
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     light_1.log:serial_comm.py:98 ets Jun  8 2016 00:22:57
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+INFO     test_case.log:serial_comm.py:100 light_1 reboot!
+INFO     light_1.log:serial_comm.py:98 configsip: 0, SPIWP:0xee
+INFO     light_1.log:serial_comm.py:98 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+INFO     light_1.log:serial_comm.py:98 mode:DIO, clock div:1
+INFO     light_1.log:serial_comm.py:98 load:0x3fff0018,len:4
+INFO     light_1.log:serial_comm.py:98 load:0x3fff001c,len:4268
+INFO     light_1.log:serial_comm.py:98 
+load:0x40078000,len:10512
+INFO     light_1.log:serial_comm.py:98 load:0x40080400,len:5440
+INFO     light_1.log:serial_comm.py:98 entry 0x40080698
+INFO     light_1.log:serial_comm.py:98 ESP-IDF 5715003bc-dirty 2nd stage bootloader
+INFO     light_1.log:serial_comm.py:98 [Built]: 1.20.66 Nov  2 2020 13:26:03
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 wizclick state: 0, fav cnt: 1, pair cnt: 1, soft: 0, force mode: 0
+INFO     light_1.log:serial_comm.py:98 current state: 1, scene: 12, temp: 4200, speed: 100, lumin: 100, red: 0, green: 0, blue: 0, warm: 255, cold: 255
+INFO     light_1.log:serial_comm.py:98 I (265) wifi:wifi driver task: 3ffd440c, prio:23, stack:3584, core
+INFO     light_1.log:serial_comm.py:98 =0
+INFO     light_1.log:serial_comm.py:98 I (275) wifi:wifi firmware version: a76603f
+INFO     light_1.log:serial_comm.py:98 I (275) wifi:config NVS flash: enabled
+INFO     light_1.log:serial_comm.py:98 I (275) wifi:config nano formating: disabled
+INFO     light_1.log:serial_comm.py:98 I (275) wifi:Init dynamic tx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (275) wifi:Init data frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (285) wifi:Init management frame dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (285) wifi:Init management short buffer num: 32
+INFO     light_1.log:serial_comm.py:98 I (295) wifi:Init static rx buffer size: 1600
+INFO     light_1.log:serial_comm.py:98 I (295) wifi:Init static rx buffer num: 10
+INFO     light_1.log:serial_comm.py:98 I (295) wifi:Init dynamic rx buffer num: 32
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:mode : sta (a8:bb:50:37:c0:36)
+INFO     light_1.log:serial_comm.py:98 I (415) wifi:Set ps type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (415) ESPNOW: espnow [version: 1.0] init
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (545) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<
+INFO     light_1.log:serial_comm.py:98 1,0>, prof:1
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:wiz_click_steps.py:43 Pass : check WiZ click fav_1 successfully!
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: wiz_click.feature:Test Wiz Click Pairing With Paired Light
+INFO     light_1.log:serial_comm.py:98 I (2325) wifi:state: init -> auth (b0)
+INFO     light_1.log:serial_comm.py:98 I (2325) wifi:state: auth -> assoc (0)
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (2365) wifi:state: assoc -> run (10)
+INFO     light_1.log:serial_comm.py:98 I (2375) wifi:connected with WiZify, aid = 3, channel 1, BW20, bssid = 82:2a:a8:9a:75:53
+INFO     light_1.log:serial_comm.py:98 I (2375) wifi:security type: 3, phy: bgn, rssi: -43
+INFO     light_1.log:serial_comm.py:98 I (2375) wifi:pm start, type: 0
+INFO     light_1.log:serial_comm.py:98 
+INFO     light_1.log:serial_comm.py:98 I (2385) wifi:AP's beacon inte
+INFO     light_1.log:serial_comm.py:98 rval = 102400 us, DTIM period = 2
+INFO     light_1.log:serial_comm.py:98 
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************
