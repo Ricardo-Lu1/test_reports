@@ -1,0 +1,81 @@
+{
+  "uid" : "80bce10c190dcce7",
+  "name" : "test_17_create_schedule_with_bedtime_end_with_previous_mode_when_lamp_status_night_light",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_17_create_schedule_with_bedtime_end_with_previous_mode_when_lamp_status_night_light",
+  "historyId" : "a212e88cb8d3ccddc2c44c6c883cd202",
+  "time" : {
+    "start" : 1604641131974,
+    "stop" : 1604643588326,
+    "duration" : 2456352
+  },
+  "description" : "schedule_actions.feature: Create a schedule with action \"Bedtime\" and end with \"Previous mode\" when lamp original status is \"Night Light\"",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create a schedule with action &quot;Bedtime&quot; and end with &quot;Previous mode&quot; when lamp original status is &quot;Night Light&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create a schedule with action \"Bedtime\" and end with \"Previous mode\" when lamp original status is \"Night Light\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe2a002bc1dad007",
+      "name" : "log",
+      "source" : "fe2a002bc1dad007.txt",
+      "type" : "text/plain",
+      "size" : 72177
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Bedtime\" and end with \"Previous mode\" when lamp original status is \"Night Light\""
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1133988-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "80bce10c190dcce7.json",
+  "parameterValues" : [ ]
+}

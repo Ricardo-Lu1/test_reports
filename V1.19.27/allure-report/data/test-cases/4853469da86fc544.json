@@ -1,0 +1,111 @@
+{
+  "uid" : "4853469da86fc544",
+  "name" : "test_3_wizclick_pair_lamps_only_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_04_pair_lamps_only_ble#test_3_wizclick_pair_lamps_only_ble",
+  "historyId" : "64665349b4b394369aba58ce89c798ce",
+  "time" : {
+    "start" : 1604631755903,
+    "stop" : 1604631856927,
+    "duration" : 101024
+  },
+  "description" : "pair_lamps_only_ble.feature: 3 * WiZclick pairing only ble",
+  "descriptionHtml" : "<p>pair_lamps_only_ble.feature: 3 * WiZclick pairing only ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1604631570113,
+      "stop" : 1604631570113,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_ble.feature: 3 * WiZclick pairing only ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "64c84e0248eb05dc",
+      "name" : "log",
+      "source" : "64c84e0248eb05dc.txt",
+      "type" : "text/plain",
+      "size" : 4992
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1604632267270,
+      "stop" : 1604632274931,
+      "duration" : 7661
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only ble"
+  }, {
+    "name" : "story",
+    "value" : "3 * WiZclick pairing only ble"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_pair_lamps_only_ble"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1130156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_04_pair_lamps_only_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "4853469da86fc544.json",
+  "parameterValues" : [ ]
+}

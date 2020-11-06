@@ -1,0 +1,81 @@
+{
+  "uid" : "a5e74d5e1e4d098e",
+  "name" : "test_set_app_pairing_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_03_pair_lamps_only_wifi#test_set_app_pairing_only_wifi",
+  "historyId" : "a2c0189d888a7b37d7b998af2dedc04e",
+  "time" : {
+    "start" : 1604630351991,
+    "stop" : 1604630390803,
+    "duration" : 38812
+  },
+  "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: Set app pairing mode to only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "14262ff35c055350",
+      "name" : "log",
+      "source" : "14262ff35c055350.txt",
+      "type" : "text/plain",
+      "size" : 1057
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "story",
+    "value" : "Set app pairing mode to only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1128796-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_03_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "a5e74d5e1e4d098e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "39c1cf41b62be0d",
+  "name" : "test_02_create_schedule_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_02_create_schedule_by_mqtt",
+  "historyId" : "d27b4d957bb6d5c717d3c7875ed1d8ce",
+  "time" : {
+    "start" : 1604634341896,
+    "stop" : 1604634715167,
+    "duration" : 373271
+  },
+  "description" : "schedule_actions.feature: Create schedule by mqtt",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create schedule by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create schedule by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e543a9bd7ddefc07",
+      "name" : "log",
+      "source" : "e543a9bd7ddefc07.txt",
+      "type" : "text/plain",
+      "size" : 2706
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1133988-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "39c1cf41b62be0d.json",
+  "parameterValues" : [ ]
+}

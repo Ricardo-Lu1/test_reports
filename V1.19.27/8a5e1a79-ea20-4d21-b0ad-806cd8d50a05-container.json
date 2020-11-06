@@ -1,0 +1,1 @@
+{"uuid": "f627af1d-a2ba-499b-b913-8bd1b37e6e4d", "befores": [{"name": "pytestbdd_when_Single light control by mqtt command {light_name} dim to {dimming_percentage}", "status": "passed", "start": 1604633643862, "stop": 1604633643862}], "start": 1604633643862, "stop": 1604633682571}

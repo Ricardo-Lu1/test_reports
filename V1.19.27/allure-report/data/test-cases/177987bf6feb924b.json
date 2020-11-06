@@ -1,0 +1,81 @@
+{
+  "uid" : "177987bf6feb924b",
+  "name" : "test_03_create_schedule_same_time_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_03_create_schedule_same_time_by_mqtt",
+  "historyId" : "999409f42a5aa465f7ed2a783616b990",
+  "time" : {
+    "start" : 1604634715183,
+    "stop" : 1604635047714,
+    "duration" : 332531
+  },
+  "description" : "schedule_actions.feature: Create schedule with the same time, same room, different scenes by mqtt",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create schedule with the same time, same room, different scenes by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create schedule with the same time, same room, different scenes by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e98960d602305d50",
+      "name" : "log",
+      "source" : "e98960d602305d50.txt",
+      "type" : "text/plain",
+      "size" : 4754
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create schedule with the same time, same room, different scenes by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1133988-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "177987bf6feb924b.json",
+  "parameterValues" : [ ]
+}

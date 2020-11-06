@@ -1,0 +1,81 @@
+{
+  "uid" : "acc510adcf62cd6e",
+  "name" : "test_12_create_schedule_with_warm_white_end_with_off_when_lamp_status_off",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_12_create_schedule_with_warm_white_end_with_off_when_lamp_status_off",
+  "historyId" : "5cfff6b6ec1ba091e4715df10ad3fc6c",
+  "time" : {
+    "start" : 1604636732418,
+    "stop" : 1604637377774,
+    "duration" : 645356
+  },
+  "description" : "schedule_actions.feature: Create a schedule with action \"Warm White\" and end with \"Off\" when lamp original status is off",
+  "descriptionHtml" : "<p>schedule_actions.feature: Create a schedule with action &quot;Warm White&quot; and end with &quot;Off&quot; when lamp original status is off</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule_actions.feature: Create a schedule with action \"Warm White\" and end with \"Off\" when lamp original status is off",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a11ef899dffab9b4",
+      "name" : "log",
+      "source" : "a11ef899dffab9b4.txt",
+      "type" : "text/plain",
+      "size" : 4110
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Warm White\" and end with \"Off\" when lamp original status is off"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "1133988-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "acc510adcf62cd6e.json",
+  "parameterValues" : [ ]
+}

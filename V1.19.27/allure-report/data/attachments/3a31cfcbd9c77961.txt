@@ -1,0 +1,30 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: schedule_actions.feature:Create a schedule with action "Wake-up" and end with "OFF" when lamp original status is "OFF"
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.45
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.45
+INFO     test_case.log:schedule_action_steps.py:277 now time is 2020-11-06 14:39:27.508411
+INFO     root:paired_light_info.py:69 The light mac is: a8bb506071c2
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43849/devices/a8bb506071c2   {"method": "setSchd", "params": {"id": 5, "hrs": 14, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 9, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43849/devices/a8bb506071c2   {"method": "setSchd", "params": {"id": 5, "hrs": 14, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 9, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43849/devices/a8bb506071c2   {"method": "setSchd", "params": {"id": 5, "hrs": 14, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 9, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43849/devices/a8bb506071c2   {"method": "setSchd", "params": {"id": 5, "hrs": 14, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 9, "ignore": "none", "next": 1, "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:282 create schedule for light_1 with scene : Wake-up, start at 14:44, last for 5 minutes, end with off
+INFO     test_case.log:schedule_action_steps.py:74 wait 5 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43849/devices/a8bb506071c2   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43852/devices/a8bb5037125c   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506071c2   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506071c2","rssi":-73,"src":"schd","state":true,"sceneId":9,"speed":100,"dimming":100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.45
+INFO     test_case.log:schedule_action_steps.py:329 Create schedule with Wake-up successfully!
+INFO     test_case.log:schedule_action_steps.py:74 wait 5 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43849/devices/a8bb50378c06   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb506071c2   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb506071c2","rssi":-80,"src":"schd","state":false,"sceneId":9,"speed":100,"dimming":100}}
+INFO     test_case.log:schedule_action_steps.py:234 check light status
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.45
+INFO     test_case.log:schedule_action_steps.py:236 {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb506071c2', 'rssi': -70, 'state': False, 'sceneId': 9, 'speed': 100, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:256 light_1 is turned to OFF
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: schedule_actions.feature:Create a schedule with action "Wake-up" and end with "OFF" when lamp original status is "OFF"
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

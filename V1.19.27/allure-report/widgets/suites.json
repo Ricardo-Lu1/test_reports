@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "3b9c3a5428ca7518376b3d1392252066",
+    "name" : "Test_Suites.Tests.test_regression_module",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 90,
+      "unknown" : 0,
+      "total" : 90
+    }
+  } ]
+}

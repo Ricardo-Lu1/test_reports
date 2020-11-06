@@ -1,0 +1,1 @@
+{"uuid": "3409f8c9-c22d-4623-b1ae-efe4e6de8a8a", "befores": [{"name": "pytestbdd_then_wait for {wait_time} minutes and change {light_name} scene to {scene_name}", "status": "passed", "start": 1604646378443, "stop": 1604646378443}], "start": 1604646378443, "stop": 1604647003524}
