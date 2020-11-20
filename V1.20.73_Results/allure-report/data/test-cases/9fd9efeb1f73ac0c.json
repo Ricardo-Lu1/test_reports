@@ -1,0 +1,84 @@
+{
+  "uid" : "9fd9efeb1f73ac0c",
+  "name" : "test_tcp_comm_on_off_nl[light_1-NL1]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_07_tcp_communication#test_tcp_comm_on_off_nl",
+  "historyId" : "73cadd3af8bc2d3b1f4292e7ebefaf59",
+  "time" : {
+    "start" : 1605765835168,
+    "stop" : 1605765845360,
+    "duration" : 10192
+  },
+  "description" : "tcp_comm.feature: Single device control by mqtt - ON/OFF/NL",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single device control by mqtt - ON/OFF/NL</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single device control by mqtt - ON/OFF/NL",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a6f05eed1e43fb21",
+      "name" : "log",
+      "source" : "a6f05eed1e43fb21.txt",
+      "type" : "text/plain",
+      "size" : 2288
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "story",
+    "value" : "Device control"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_tcp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "31420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_07_tcp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "action",
+    "value" : "'NL'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fd9efeb1f73ac0c.json",
+  "parameterValues" : [ "'NL'", "'light_1'" ]
+}

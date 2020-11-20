@@ -1,0 +1,81 @@
+{
+  "uid" : "dcf3d426513d503c",
+  "name" : "test_rtp_pair_device_wifi_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_05_pair_device_wifi_ble#test_rtp_pair_device_wifi_ble",
+  "historyId" : "8a5b8be2f28aa0c28b097681848e050d",
+  "time" : {
+    "start" : 1605764478363,
+    "stop" : 1605764579543,
+    "duration" : 101180
+  },
+  "description" : "pair_device_wifi_ble.feature: RTP pairing by wifi and ble",
+  "descriptionHtml" : "<p>pair_device_wifi_ble.feature: RTP pairing by wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "pair_device_wifi_ble.feature: RTP pairing by wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af73660c5e6d222c",
+      "name" : "log",
+      "source" : "af73660c5e6d222c.txt",
+      "type" : "text/plain",
+      "size" : 4920
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pairing"
+  }, {
+    "name" : "story",
+    "value" : "Pairing by wifi and ble"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_pair_device_wifi_ble"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "25300-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_05_pair_device_wifi_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "dcf3d426513d503c.json",
+  "parameterValues" : [ ]
+}

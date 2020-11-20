@@ -1,0 +1,81 @@
+{
+  "uid" : "1572b70b76a296b7",
+  "name" : "test_03_create_schedule_same_time_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_03_create_schedule_same_time_by_mqtt",
+  "historyId" : "999409f42a5aa465f7ed2a783616b990",
+  "time" : {
+    "start" : 1605777750553,
+    "stop" : 1605778082289,
+    "duration" : 331736
+  },
+  "description" : "schedule.feature: Create schedule with the same time, same room, different scenes by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Create schedule with the same time, same room, different scenes by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Create schedule with the same time, same room, different scenes by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "563d4c3678bae084",
+      "name" : "log",
+      "source" : "563d4c3678bae084.txt",
+      "type" : "text/plain",
+      "size" : 5164
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create schedule with the same time, same room, different scenes by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "27104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "1572b70b76a296b7.json",
+  "parameterValues" : [ ]
+}

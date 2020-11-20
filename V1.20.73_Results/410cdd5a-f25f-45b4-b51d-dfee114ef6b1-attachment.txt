@@ -1,0 +1,9 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: pair_device_wifi_ble.feature:Set app pairing mode to wifi and ble
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:83 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:83 Connected with result code 0
+INFO     test_case.log:pair_lamps_steps.py:22 set app pairing mode to wifi and ble
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: pair_device_wifi_ble.feature:Set app pairing mode to wifi and ble
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

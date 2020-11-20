@@ -1,0 +1,90 @@
+{
+  "uid" : "a0b3cf486b810389",
+  "name" : "test_02_create_schedule_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_02_create_schedule_by_mqtt",
+  "historyId" : "d27b4d957bb6d5c717d3c7875ed1d8ce",
+  "time" : {
+    "start" : 1605777355749,
+    "stop" : 1605777681100,
+    "duration" : 325351
+  },
+  "description" : "schedule.feature: Create schedule by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Create schedule by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Create schedule by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f79caec598672699",
+      "name" : "log",
+      "source" : "f79caec598672699.txt",
+      "type" : "text/plain",
+      "size" : 4247
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "30296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb571c53deadc3c9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : MQTT did not get syncPilot from device!",
+      "time" : {
+        "start" : 1605775938681,
+        "stop" : 1605776264390,
+        "duration" : 325709
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "a0b3cf486b810389.json",
+  "parameterValues" : [ ]
+}
