@@ -1,0 +1,81 @@
+{
+  "uid" : "ed494d84c01bc632",
+  "name" : "test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt#test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "historyId" : "c400f1501efb46a23cd0127ab6db372a",
+  "time" : {
+    "start" : 1605766228078,
+    "stop" : 1605766318577,
+    "duration" : 90499
+  },
+  "description" : "rhythm.feature: Edit time for circadian rhythm",
+  "descriptionHtml" : "<p>rhythm.feature: Edit time for circadian rhythm</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm.feature: Edit time for circadian rhythm",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b94b3a8c5c916dae",
+      "name" : "log",
+      "source" : "b94b3a8c5c916dae.txt",
+      "type" : "text/plain",
+      "size" : 12387
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Edit time for circadian rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "17424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "ed494d84c01bc632.json",
+  "parameterValues" : [ ]
+}

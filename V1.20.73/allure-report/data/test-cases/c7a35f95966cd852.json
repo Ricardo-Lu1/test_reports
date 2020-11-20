@@ -1,0 +1,90 @@
+{
+  "uid" : "c7a35f95966cd852",
+  "name" : "test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
+  "historyId" : "06c248d38d29b9a44fbdf156e89a1daa",
+  "time" : {
+    "start" : 1605833706173,
+    "stop" : 1605834356938,
+    "duration" : 650765
+  },
+  "description" : "schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e0abebee279bcdc",
+      "name" : "log",
+      "source" : "2e0abebee279bcdc.txt",
+      "type" : "text/plain",
+      "size" : 6603
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Edit a schedule end of the way when the schedule has been stated by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "22760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a276933eb43c92d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP state should be true, but was false",
+      "time" : {
+        "start" : 1605778735522,
+        "stop" : 1605779060855,
+        "duration" : 325333
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "c7a35f95966cd852.json",
+  "parameterValues" : [ ]
+}

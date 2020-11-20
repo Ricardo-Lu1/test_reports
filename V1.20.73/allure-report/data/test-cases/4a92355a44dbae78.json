@@ -1,0 +1,81 @@
+{
+  "uid" : "4a92355a44dbae78",
+  "name" : "test_3_wizclick_pair_device_only_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_04_pair_device_only_ble#test_3_wizclick_pair_device_only_ble",
+  "historyId" : "3cdfca683788d58222336cb9f637e7bd",
+  "time" : {
+    "start" : 1605763670826,
+    "stop" : 1605763778886,
+    "duration" : 108060
+  },
+  "description" : "pair_device_only_ble.feature: 3 * WiZclick pairing by only ble",
+  "descriptionHtml" : "<p>pair_device_only_ble.feature: 3 * WiZclick pairing by only ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "pair_device_only_ble.feature: 3 * WiZclick pairing by only ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc627fff7cf4a94c",
+      "name" : "log",
+      "source" : "dc627fff7cf4a94c.txt",
+      "type" : "text/plain",
+      "size" : 5671
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pairing"
+  }, {
+    "name" : "story",
+    "value" : "Pairing by only ble"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_pair_device_only_ble"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "22976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_04_pair_device_only_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "4a92355a44dbae78.json",
+  "parameterValues" : [ ]
+}

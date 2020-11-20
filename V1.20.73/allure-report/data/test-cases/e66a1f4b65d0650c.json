@@ -1,0 +1,81 @@
+{
+  "uid" : "e66a1f4b65d0650c",
+  "name" : "test_01_create_default_schedule_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_01_create_default_schedule_by_mqtt",
+  "historyId" : "3c13bf0d6df3a60c0119bd6a2551bc82",
+  "time" : {
+    "start" : 1605775607066,
+    "stop" : 1605775938659,
+    "duration" : 331593
+  },
+  "description" : "schedule.feature: Create default schedule by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Create default schedule by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Create default schedule by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba8a99581fd9cb9c",
+      "name" : "log",
+      "source" : "ba8a99581fd9cb9c.txt",
+      "type" : "text/plain",
+      "size" : 6753
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create default schedule by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "3124-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "e66a1f4b65d0650c.json",
+  "parameterValues" : [ ]
+}

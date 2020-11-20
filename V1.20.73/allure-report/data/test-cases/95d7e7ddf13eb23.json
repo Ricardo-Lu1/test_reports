@@ -1,0 +1,81 @@
+{
+  "uid" : "95d7e7ddf13eb23",
+  "name" : "test_09_delete_schedule",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_09_delete_schedule",
+  "historyId" : "d4a7d9b3babd1528d5958da613b86f53",
+  "time" : {
+    "start" : 1605779061257,
+    "stop" : 1605779399809,
+    "duration" : 338552
+  },
+  "description" : "schedule.feature: Delete a schedule",
+  "descriptionHtml" : "<p>schedule.feature: Delete a schedule</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Delete a schedule",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f2821eddb14d403",
+      "name" : "log",
+      "source" : "f2821eddb14d403.txt",
+      "type" : "text/plain",
+      "size" : 4526
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Delete a schedule"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "27104-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "95d7e7ddf13eb23.json",
+  "parameterValues" : [ ]
+}

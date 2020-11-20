@@ -1,0 +1,74 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: schedule.feature:Edit schedule to end with off by mqtt
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.13
+INFO     test_case.log:schedule_action_steps.py:161 now time is 2020-11-19 17:28:03.394810
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50382858
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 99, "intent": 4, "scene": 16, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 1, "intent": 4, "scene": 16, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 99, "intent": 4, "scene": 16, "ignore": "none", "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 0, "confTs": 1, "intent": 4, "scene": 16, "ignore": "none", "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:166 create schedule for light_1 with scene : Relax, start at 17:33
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.13
+INFO     test_case.log:schedule_action_steps.py:361 now time is 2020-11-19 17:28:09.688816
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50382858
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 16, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 16, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 99, "intent": 4, "scene": 16, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/a8bb50382858   {"method": "setSchd", "params": {"id": 5, "hrs": 17, "mins": 33, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 5, "confTs": 1, "intent": 4, "scene": 16, "ignore": "none", "next": 1, "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:366 create schedule for light_1 with scene : Relax, start at 17:33, last for 5 minutes, end with off
+INFO     test_case.log:schedule_action_steps.py:74 wait 5 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":15,"hrs":6,"mins":30,"dura":30,"mode":[14,0,0,0,0,0,0],"days":[1,1,1,1,1,1,1],"type":"circ","confTs":1605778282}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":25,"hrs":7,"mins":0,"dura":210,"mode":[0,0,0,0,0,0,4200],"days":[1,1,1,1,1,1,1],"type":"circ","dim":50,"sType":"wake","confTs":1605778282}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":35,"hrs":10,"mins":30,"dura":570,"mode":[0,0,0,0,0,0,4200],"days":[1,1,1,1,1,1,1],"type":"circ","dim":100,"confTs":1605778282}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":45,"hrs":20,"mins":0,"dura":180,"mode":[0,0,0,0,0,0,2700],"days":[1,1,1,1,1,1,1],"type":"circ","dim":45,"confTs":1605778282}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":55,"hrs":23,"mins":0,"dura":450,"mode":[14,0,0,0,0,0,0],"days":[1,1,1,1,1,1,1],"type":"circ","sType":"sleep","confTs":1605778282}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-57,"src":"intl","state":true,"sceneId":0,"temp":3092,"dimming":60,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"deleteAll":true}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-56,"src":"intl","state":true,"sceneId":0,"temp":3091,"dimming":60,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/a8bb50382858   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50382858","rssi":-55,"src":"schd","state":true,"sceneId":16,"dimming":100}}
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50382858
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.13
+INFO     test_case.log:schedule_action_steps.py:425 udp response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb50382858', 'rssi': -54, 'state': True, 'sceneId': 16, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:445 syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': 'a8bb50382858', 'rssi': -55, 'src': 'schd', 'state': True, 'sceneId': 16, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:457 Create schedule with Relax successfully!
+INFO     test_case.log:schedule_action_steps.py:74 wait 5 minutes util schedule takes effect
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"sceneId":6,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-54,"src":"wizappd","state":true,"sceneId":6,"speed":100,"dimming":59}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"ping","env":"dev"}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-57,"src":"wizappd","state":true,"sceneId":0,"temp":3083,"dimming":60,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-55,"src":"wizappd","state":false,"sceneId":0,"temp":3083,"dimming":60}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-55,"src":"wizappd","state":true,"sceneId":0,"temp":3083,"dimming":60,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"sceneId":16,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-54,"src":"wizappd","state":true,"sceneId":16,"speed":100,"dimming":60}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-55,"src":"wizappd","state":true,"sceneId":0,"temp":3082,"dimming":59,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"sceneId":6,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-58,"src":"wizappd","state":true,"sceneId":6,"speed":100,"dimming":59}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":false,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-57,"src":"wizappd","state":false,"sceneId":6,"speed":100,"dimming":59}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setPilot","params":{"state":true,"orig":"wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-57,"src":"wizappd","state":true,"sceneId":0,"temp":3080,"dimming":59,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":15,"hrs":6,"mins":30,"dura":30,"mode":[14,0,0,0,0,0,0],"days":[1,1,1,1,1,1,1],"type":"circ","confTs":1605778286}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":25,"hrs":7,"mins":0,"dura":210,"mode":[0,0,0,0,0,0,4200],"days":[1,1,1,1,1,1,1],"type":"circ","dim":50,"sType":"wake","confTs":1605778286}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":35,"hrs":10,"mins":30,"dura":570,"mode":[0,0,0,0,0,0,4200],"days":[1,1,1,1,1,1,1],"type":"circ","dim":100,"confTs":1605778286}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":45,"hrs":20,"mins":0,"dura":180,"mode":[0,0,0,0,0,0,2700],"days":[1,1,1,1,1,1,1],"type":"circ","dim":45,"confTs":1605778286}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"id":3,"pos":55,"hrs":23,"mins":0,"dura":450,"mode":[14,0,0,0,0,0,0],"days":[1,1,1,1,1,1,1],"type":"circ","sType":"sleep","confTs":1605778286}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 OP/dev/43856/devices/6c2990983dea   {"method":"setSchdPset","params":{"deleteAll":true}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-59,"src":"intl","state":true,"sceneId":0,"temp":3078,"dimming":59,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/6c2990983dea   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990983dea","rssi":-59,"src":"intl","state":true,"sceneId":0,"temp":3078,"dimming":59,"schdPsetId":3}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:98 DEV/dev/a8bb50382858   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50382858","rssi":-55,"src":"schd","state":false,"sceneId":16,"dimming":100}}
+INFO     test_case.log:schedule_action_steps.py:274 check light status
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50382858
+INFO     test_case.log:schedule_action_steps.py:280 syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': 'a8bb50382858', 'rssi': -55, 'src': 'schd', 'state': False, 'sceneId': 16, 'dimming': 100}}
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.37.13
+INFO     test_case.log:schedule_action_steps.py:282 udp response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb50382858', 'rssi': -55, 'state': False, 'sceneId': 16, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:313 light_1 is turned OFF successfully!
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: schedule.feature:Edit schedule to end with off by mqtt
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

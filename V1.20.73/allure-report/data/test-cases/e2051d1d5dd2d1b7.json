@@ -1,0 +1,81 @@
+{
+  "uid" : "e2051d1d5dd2d1b7",
+  "name" : "test_04_select_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt#test_04_select_rhythm_by_mqtt",
+  "historyId" : "c24b1e210335e8c54c7ab783466fb9ad",
+  "time" : {
+    "start" : 1605766180434,
+    "stop" : 1605766228063,
+    "duration" : 47629
+  },
+  "description" : "rhythm.feature: Select rhythm by mqtt",
+  "descriptionHtml" : "<p>rhythm.feature: Select rhythm by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm.feature: Select rhythm by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d64322753192530a",
+      "name" : "log",
+      "source" : "d64322753192530a.txt",
+      "type" : "text/plain",
+      "size" : 12079
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Select rhythm by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "17424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "e2051d1d5dd2d1b7.json",
+  "parameterValues" : [ ]
+}

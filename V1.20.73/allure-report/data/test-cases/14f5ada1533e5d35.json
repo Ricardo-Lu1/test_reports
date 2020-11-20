@@ -1,0 +1,84 @@
+{
+  "uid" : "14f5ada1533e5d35",
+  "name" : "test_single_device_control_change_mode_tw[light_1-Focus]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication#test_single_device_control_change_mode_tw",
+  "historyId" : "e1f61ba6a419bf7bc6f2ddd158ed4c79",
+  "time" : {
+    "start" : 1605765686425,
+    "stop" : 1605765695480,
+    "duration" : 9055
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - Change default light mode for TW device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aaffdbdc8530cbfd",
+      "name" : "log",
+      "source" : "aaffdbdc8530cbfd.txt",
+      "type" : "text/plain",
+      "size" : 1939
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "16644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Focus'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14f5ada1533e5d35.json",
+  "parameterValues" : [ "'Focus'", "'light_1'" ]
+}
