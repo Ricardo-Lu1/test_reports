@@ -1,0 +1,81 @@
+{
+  "uid" : "66be2e50fb152087",
+  "name" : "test_single_device_control_speed",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication#test_single_device_control_speed",
+  "historyId" : "0a2397cc998cccbae3b50027903205e0",
+  "time" : {
+    "start" : 1605765598806,
+    "stop" : 1605765631987,
+    "duration" : 33181
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - Speed",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - Speed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - Speed",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5adae8865af5b17c",
+      "name" : "log",
+      "source" : "5adae8865af5b17c.txt",
+      "type" : "text/plain",
+      "size" : 6571
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "16644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "66be2e50fb152087.json",
+  "parameterValues" : [ ]
+}

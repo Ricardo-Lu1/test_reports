@@ -1,0 +1,81 @@
+{
+  "uid" : "d914a989b6167b58",
+  "name" : "test_19_turn_off_then_turn_on_without_specifying_lamp_mode_when_rhythms_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt#test_19_turn_off_then_turn_on_without_specifying_lamp_mode_when_rhythms_playing_by_mqtt",
+  "historyId" : "e5de7889c0317b8a679fc24d13e3a1d5",
+  "time" : {
+    "start" : 1605767144844,
+    "stop" : 1605767212253,
+    "duration" : 67409
+  },
+  "description" : "rhythm.feature: Turn off and then turn on without specifying any lamp mode when Rhythms playing",
+  "descriptionHtml" : "<p>rhythm.feature: Turn off and then turn on without specifying any lamp mode when Rhythms playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm.feature: Turn off and then turn on without specifying any lamp mode when Rhythms playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2cfe7061b0ab96a3",
+      "name" : "log",
+      "source" : "2cfe7061b0ab96a3.txt",
+      "type" : "text/plain",
+      "size" : 8963
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Turn off and then turn on without specifying any lamp mode when Rhythms playing"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "17424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "d914a989b6167b58.json",
+  "parameterValues" : [ ]
+}

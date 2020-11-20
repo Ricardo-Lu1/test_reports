@@ -1,0 +1,84 @@
+{
+  "uid" : "dc52d1be5a585227",
+  "name" : "test_single_device_control_change_mode_tw[light_1-Pulse]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication#test_single_device_control_change_mode_tw",
+  "historyId" : "c820d0c1963547221e10b967e27e5c1d",
+  "time" : {
+    "start" : 1605765713589,
+    "stop" : 1605765722622,
+    "duration" : 9033
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - Change default light mode for TW device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b30671a192ab10a",
+      "name" : "log",
+      "source" : "1b30671a192ab10a.txt",
+      "type" : "text/plain",
+      "size" : 1979
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "16644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Pulse'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc52d1be5a585227.json",
+  "parameterValues" : [ "'Pulse'", "'light_1'" ]
+}

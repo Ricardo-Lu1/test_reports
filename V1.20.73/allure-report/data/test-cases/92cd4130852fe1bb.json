@@ -1,0 +1,81 @@
+{
+  "uid" : "92cd4130852fe1bb",
+  "name" : "test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt#test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "historyId" : "06425e337802bec9f312b9bbaad56216",
+  "time" : {
+    "start" : 1605766774056,
+    "stop" : 1605767144829,
+    "duration" : 370773
+  },
+  "description" : "rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing",
+  "descriptionHtml" : "<p>rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9301db2c19a50181",
+      "name" : "log",
+      "source" : "9301db2c19a50181.txt",
+      "type" : "text/plain",
+      "size" : 21252
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Turn off and then turn on in cool white mode when Rhythms playing"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "17424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "92cd4130852fe1bb.json",
+  "parameterValues" : [ ]
+}

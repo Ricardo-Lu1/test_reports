@@ -1,0 +1,84 @@
+{
+  "uid" : "6f31230c654c7bf4",
+  "name" : "test_tcp_comm_change_mode_tw[light_1-TV time]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_07_tcp_communication#test_tcp_comm_change_mode_tw",
+  "historyId" : "967968bfb563dd94dceb39697ef67bf2",
+  "time" : {
+    "start" : 1605766035959,
+    "stop" : 1605766046111,
+    "duration" : 10152
+  },
+  "description" : "tcp_comm.feature: Single device control by mqtt - Change light mode for TW device",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single device control by mqtt - Change light mode for TW device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single device control by mqtt - Change light mode for TW device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4940ce63f20c95e",
+      "name" : "log",
+      "source" : "f4940ce63f20c95e.txt",
+      "type" : "text/plain",
+      "size" : 2311
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "story",
+    "value" : "Device control"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_tcp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "31420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_07_tcp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'TV time'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f31230c654c7bf4.json",
+  "parameterValues" : [ "'TV time'", "'light_1'" ]
+}

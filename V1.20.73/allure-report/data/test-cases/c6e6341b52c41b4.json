@@ -1,0 +1,81 @@
+{
+  "uid" : "c6e6341b52c41b4",
+  "name" : "test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt#test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "historyId" : "01128947e3d65bfbccacab4ec7466ccd",
+  "time" : {
+    "start" : 1605766354902,
+    "stop" : 1605766415425,
+    "duration" : 60523
+  },
+  "description" : "rhythm.feature: Save scene when rhythm playing",
+  "descriptionHtml" : "<p>rhythm.feature: Save scene when rhythm playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm.feature: Save scene when rhythm playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "398121b848ef1bd8",
+      "name" : "log",
+      "source" : "398121b848ef1bd8.txt",
+      "type" : "text/plain",
+      "size" : 11897
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Save scene when rhythm playing"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "17424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_09_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "c6e6341b52c41b4.json",
+  "parameterValues" : [ ]
+}

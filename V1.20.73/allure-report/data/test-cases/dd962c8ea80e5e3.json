@@ -1,0 +1,84 @@
+{
+  "uid" : "dd962c8ea80e5e3",
+  "name" : "test_single_device_control_change_mode_tw[light_1-Relax]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication#test_single_device_control_change_mode_tw",
+  "historyId" : "b426e2e4912e91830d1116ecba74267e",
+  "time" : {
+    "start" : 1605765677387,
+    "stop" : 1605765686418,
+    "duration" : 9031
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - Change default light mode for TW device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "da48e902cd5b3478",
+      "name" : "log",
+      "source" : "da48e902cd5b3478.txt",
+      "type" : "text/plain",
+      "size" : 1939
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "16644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "light_mode",
+    "value" : "'Relax'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd962c8ea80e5e3.json",
+  "parameterValues" : [ "'Relax'", "'light_1'" ]
+}
