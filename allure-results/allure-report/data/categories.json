@@ -1,0 +1,239 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 11, but was 18",
+      "children" : [ {
+        "name" : "test_03_create_schedule_same_time_by_mqtt",
+        "uid" : "3198ec27f30859d5",
+        "parentUid" : "da611a68bfad314ef9aa432e9bdc7b71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608543537858,
+          "stop" : 1608543871941,
+          "duration" : 334083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da611a68bfad314ef9aa432e9bdc7b71"
+    }, {
+      "name" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "children" : [ {
+        "name" : "test_14_create_schedule_with_warm_white_end_with_previous_mode_when_lamp_status_bedtime",
+        "uid" : "e467be680a3cf5ce",
+        "parentUid" : "c44f71d3e1adbf5cdf1f0f61e4b08eed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608546818329,
+          "stop" : 1608549292819,
+          "duration" : 2474490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+        "uid" : "6730813758809847",
+        "parentUid" : "c44f71d3e1adbf5cdf1f0f61e4b08eed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608549944421,
+          "stop" : 1608552101114,
+          "duration" : 2156693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c44f71d3e1adbf5cdf1f0f61e4b08eed"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP SceneId should be 14, but was 10",
+      "children" : [ {
+        "name" : "test_17_create_schedule_with_bedtime_end_with_previous_mode_when_lamp_status_night_light",
+        "uid" : "f2199ec445d72d1e",
+        "parentUid" : "2533bf9740b0c26f80857b12f56e4539",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608552101161,
+          "stop" : 1608552431329,
+          "duration" : 330168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2533bf9740b0c26f80857b12f56e4539"
+    }, {
+      "name" : "AssertionError: MQTT syncPilot state should be false, but was true",
+      "children" : [ {
+        "name" : "test_20_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_off",
+        "uid" : "a2d2385f55016531",
+        "parentUid" : "a7373b20d8a412f0a13ba7ad2d06d5bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608555561749,
+          "stop" : 1608558030743,
+          "duration" : 2468994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7373b20d8a412f0a13ba7ad2d06d5bf"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 9, but was 14",
+      "children" : [ {
+        "name" : "test_23_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_night_light",
+        "uid" : "4e7dc630815de5d2",
+        "parentUid" : "52847b83863d7d9a375672d0ebd30488",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608559326853,
+          "stop" : 1608559657784,
+          "duration" : 330931
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52847b83863d7d9a375672d0ebd30488"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 10, but was 9",
+      "children" : [ {
+        "name" : "test_24_create_two_schedule_with_wake_up_and_bedtime_and_start_time_interval_less_than_30_minutes",
+        "uid" : "2bcf7eed1e88033c",
+        "parentUid" : "a271df16452a2f999e2a2f3d926f2d5c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608559657853,
+          "stop" : 1608560927042,
+          "duration" : 1269189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a271df16452a2f999e2a2f3d926f2d5c"
+    }, {
+      "name" : "AssertionError: UDP state should be true, but was false",
+      "children" : [ {
+        "name" : "test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
+        "uid" : "4afe2d4f0c0eb8",
+        "parentUid" : "8e294e23578f90db59931394f7ce365c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608560927087,
+          "stop" : 1608564012230,
+          "duration" : 3085143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e294e23578f90db59931394f7ce365c"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "children" : [ {
+        "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+        "uid" : "7332cf6dba4718ed",
+        "parentUid" : "2079df22366b04f21f400b188e7a8b76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608565905816,
+          "stop" : 1608566560216,
+          "duration" : 654400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_37_change_speed_during_schedule_action_dynamic_mode_end_with_previous_mode",
+        "uid" : "384408ffc3dcb895",
+        "parentUid" : "2079df22366b04f21f400b188e7a8b76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608572048760,
+          "stop" : 1608572378457,
+          "duration" : 329697
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2079df22366b04f21f400b188e7a8b76"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 13, but was 14",
+      "children" : [ {
+        "name" : "test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
+        "uid" : "9e5c75f18fd0a5f5",
+        "parentUid" : "1cdfac826030b8c4e832f8ea33956c6b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608566560289,
+          "stop" : 1608567216866,
+          "duration" : 656577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1cdfac826030b8c4e832f8ea33956c6b"
+    }, {
+      "name" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "children" : [ {
+        "name" : "test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+        "uid" : "952adc6a3104c52e",
+        "parentUid" : "8be93129c5015373ef792c37ce0cf3b8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608567216923,
+          "stop" : 1608568192706,
+          "duration" : 975783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8be93129c5015373ef792c37ce0cf3b8"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 6",
+      "children" : [ {
+        "name" : "test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
+        "uid" : "8f25328cd32e469a",
+        "parentUid" : "761d5b22eb38512e62f9b053d4ac10e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608568192760,
+          "stop" : 1608568845715,
+          "duration" : 652955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "761d5b22eb38512e62f9b053d4ac10e5"
+    }, {
+      "name" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 12, but was 11",
+      "children" : [ {
+        "name" : "test_35_dimming_during_schedule_end_with_off",
+        "uid" : "9c30f18431a48372",
+        "parentUid" : "28017b5ff56f1182fff8c139bc072b29",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608570766230,
+          "stop" : 1608571095728,
+          "duration" : 329498
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28017b5ff56f1182fff8c139bc072b29"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,2448 @@
+{
+  "4062ab6af57d55239c3f883b95af97bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7502208ce8deb24a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542437513,
+        "stop" : 1608542468099,
+        "duration" : 30586
+      }
+    } ]
+  },
+  "efde830840a7cc54b966704d6fbfe520" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ab2996b4827970d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608600498856,
+        "stop" : 1608600867351,
+        "duration" : 368495
+      }
+    } ]
+  },
+  "054133a9493101d61eb48ee2d546ec64" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d64d93e6318318d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608558030782,
+        "stop" : 1608558679732,
+        "duration" : 648950
+      }
+    } ]
+  },
+  "d03b96385390ec180a162942c54f8e96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a53ad8ddfbe89b9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542624227,
+        "stop" : 1608542635728,
+        "duration" : 11501
+      }
+    } ]
+  },
+  "b211b79f1ebec81c7bdb2cc533371b62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18dd84b9ab19614e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542079039,
+        "stop" : 1608542089889,
+        "duration" : 10850
+      }
+    } ]
+  },
+  "e7b2fd54b3d3453c60a4986c5f9d4a71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6ced87ede33c062",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542739422,
+        "stop" : 1608542750892,
+        "duration" : 11470
+      }
+    } ]
+  },
+  "fff8e3e7a5e8c970dc1c6db3b21fa67b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff10484df1deaa43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608601419950,
+        "stop" : 1608601515093,
+        "duration" : 95143
+      }
+    } ]
+  },
+  "981a8a07c45ddcb798e49d5efdac43f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f364b758245ebb3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541830189,
+        "stop" : 1608541841085,
+        "duration" : 10896
+      }
+    } ]
+  },
+  "e072560e96706d9d12291e7689ae26c3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "384408ffc3dcb895",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "time" : {
+        "start" : 1608572048760,
+        "stop" : 1608572378457,
+        "duration" : 329697
+      }
+    } ]
+  },
+  "70c0a048908d8336481a3e068a53a6e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dddd8bea5d847fb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541908336,
+        "stop" : 1608541947022,
+        "duration" : 38686
+      }
+    } ]
+  },
+  "d6f214f3634ba51b064a348e160fafd9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6730813758809847",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608549944421,
+        "stop" : 1608552101114,
+        "duration" : 2156693
+      }
+    } ]
+  },
+  "711b71c80744864f351df4a193227e57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81459bf1d0fc1361",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542222426,
+        "stop" : 1608542233399,
+        "duration" : 10973
+      }
+    } ]
+  },
+  "2a35eb71eafaebdf1f572d1abfa8aa4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2f261e4749c5441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542532299,
+        "stop" : 1608542543596,
+        "duration" : 11297
+      }
+    } ]
+  },
+  "8bfca401b7b09d61cbf0022752e1c21d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0e788296620f9f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541841095,
+        "stop" : 1608541883316,
+        "duration" : 42221
+      }
+    } ]
+  },
+  "9b99d1a34e2ddc61a2093bb5612bb028" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7332cf6dba4718ed",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "time" : {
+        "start" : 1608565905816,
+        "stop" : 1608566560216,
+        "duration" : 654400
+      }
+    } ]
+  },
+  "4ce99c86ff39734751c1cb395ba98b0f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6ea46b9e835094c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542670189,
+        "stop" : 1608542681807,
+        "duration" : 11618
+      }
+    } ]
+  },
+  "5395683822c6b40d99d8db531cf784f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10941dcb130cb01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542566787,
+        "stop" : 1608542578347,
+        "duration" : 11560
+      }
+    } ]
+  },
+  "fe2a28bc5d8e9a76a009340941e184c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2199ec445d72d1e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP SceneId should be 14, but was 10",
+      "time" : {
+        "start" : 1608552101161,
+        "stop" : 1608552431329,
+        "duration" : 330168
+      }
+    } ]
+  },
+  "a787a7661d07456871f060efdf35b616" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffba73e2006503a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608568845752,
+        "stop" : 1608569803236,
+        "duration" : 957484
+      }
+    } ]
+  },
+  "9b144564b53777deaa20af6affe56028" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37ae95aa16df2149",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542635737,
+        "stop" : 1608542647389,
+        "duration" : 11652
+      }
+    } ]
+  },
+  "33b1fae85c1277be1b1992383e1be147" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2090ddc4259a8970",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542750900,
+        "stop" : 1608542762360,
+        "duration" : 11460
+      }
+    } ]
+  },
+  "49e302bc932878455d24c33b9a781247" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97505ac1854a1b76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542509275,
+        "stop" : 1608542520924,
+        "duration" : 11649
+      }
+    } ]
+  },
+  "26a97df8df95093d6e65e3686b67b199" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88b2f7cd6e73414",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608600867395,
+        "stop" : 1608600932755,
+        "duration" : 65360
+      }
+    } ]
+  },
+  "83cd7f439d4405e14a63fd7a24503e9a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0648a23b9aaec87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542057032,
+        "stop" : 1608542068033,
+        "duration" : 11001
+      }
+    } ]
+  },
+  "f16bd5bdd956bba05a5d9337afd171ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce99e14ecaf12e05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541819198,
+        "stop" : 1608541830182,
+        "duration" : 10984
+      }
+    } ]
+  },
+  "139e2378bf32878603e67a6b4584e80f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e5c75f18fd0a5f5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 13, but was 14",
+      "time" : {
+        "start" : 1608566560289,
+        "stop" : 1608567216866,
+        "duration" : 656577
+      }
+    } ]
+  },
+  "25dc23cc15aa33f4c82838e812b96341" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9ee6abb5bbcdc08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542189274,
+        "stop" : 1608542200391,
+        "duration" : 11117
+      }
+    } ]
+  },
+  "58c59dd8101a8c17ed849f5597232c31" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19f1081f4ac2ad7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542601435,
+        "stop" : 1608542613000,
+        "duration" : 11565
+      }
+    } ]
+  },
+  "6897879632df801f8b112c2ba8a13afb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f50edfe2021fddc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542233405,
+        "stop" : 1608542244318,
+        "duration" : 10913
+      }
+    } ]
+  },
+  "10a43c6c01d391c299563594e595878f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "952adc6a3104c52e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1608567216923,
+        "stop" : 1608568192706,
+        "duration" : 975783
+      }
+    } ]
+  },
+  "14b8a6f4051ee5595b7e96deadebc9dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "490870dcfeb04abf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608558679742,
+        "stop" : 1608559326838,
+        "duration" : 647096
+      }
+    } ]
+  },
+  "b4980fd8646911617a11b4dd83614676" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d02aa1bb821330df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542773772,
+        "stop" : 1608542785095,
+        "duration" : 11323
+      }
+    } ]
+  },
+  "8ec016d183581fc85fca65e24c2196ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cba065781c15f368",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542334250,
+        "stop" : 1608542345888,
+        "duration" : 11638
+      }
+    } ]
+  },
+  "fc849e20648485b0506cb68679082806" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a493cf1ad0ce4b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541796989,
+        "stop" : 1608541808155,
+        "duration" : 11166
+      }
+    } ]
+  },
+  "913f33c4c42d8cf6a43c780c7d93a53a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69671135061304cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542647398,
+        "stop" : 1608542658733,
+        "duration" : 11335
+      }
+    } ]
+  },
+  "9cf92aa0236907577e5993873c185cd7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5760097dfecabc1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542277464,
+        "stop" : 1608542288617,
+        "duration" : 11153
+      }
+    } ]
+  },
+  "bde24ba08709d4976b728f9c7b80bef8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db2e3bc8f181dfbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608564959454,
+        "stop" : 1608565905805,
+        "duration" : 946351
+      }
+    } ]
+  },
+  "055c6ebe17050e05b72b46017ccdb880" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8f132492aa9e78c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542002258,
+        "stop" : 1608542013201,
+        "duration" : 10943
+      }
+    } ]
+  },
+  "850e4e62ebc433c0ca418823f09a50f3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6bd496db3a4dde62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608572378632,
+        "stop" : 1608572723614,
+        "duration" : 344982
+      }
+    } ]
+  },
+  "490b719af1d24638b9697a72309c8c60" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efa2badb4b9b5f27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542369064,
+        "stop" : 1608542380615,
+        "duration" : 11551
+      }
+    } ]
+  },
+  "5c9bc8b03963a8406183c2df55ee0ba0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd6dc7584baa2b92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542244329,
+        "stop" : 1608542255410,
+        "duration" : 11081
+      }
+    } ]
+  },
+  "cd3367bf3eeb078833bc2349bc305ef1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24130882994b67ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608569803250,
+        "stop" : 1608570766131,
+        "duration" : 962881
+      }
+    } ]
+  },
+  "fe1604296c2631b0f4a2559c6974b73c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d6b012eb6dba093",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542311238,
+        "stop" : 1608542322710,
+        "duration" : 11472
+      }
+    } ]
+  },
+  "7b68520d6578b9d328e56d0440cbad65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf46f31d400cb12a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542299592,
+        "stop" : 1608542311230,
+        "duration" : 11638
+      }
+    } ]
+  },
+  "783a4ed5875acf0934d343555f3faa62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a8188ab558d129e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542819821,
+        "stop" : 1608542831378,
+        "duration" : 11557
+      }
+    } ]
+  },
+  "be52fb7b57e75ac8fc9dd4384753a946" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "739fbf086a9ff8ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608601935053,
+        "stop" : 1608602006315,
+        "duration" : 71262
+      }
+    } ]
+  },
+  "c2dcea2d451a8d9cde9fa8c2450df32e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c77782b74b001e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542111788,
+        "stop" : 1608542122784,
+        "duration" : 10996
+      }
+    } ]
+  },
+  "f1447ffbc4a978b83e168fc8398b94d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e3ee676db0a3308",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542345897,
+        "stop" : 1608542357541,
+        "duration" : 11644
+      }
+    } ]
+  },
+  "aaa9c14a0b7c2bb47636d35e76bda82b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da7acb9b47932d02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542288626,
+        "stop" : 1608542299581,
+        "duration" : 10955
+      }
+    } ]
+  },
+  "1d428921b37cab780adfb40cf51233b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4e57a0906e6e8a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608571095858,
+        "stop" : 1608572048730,
+        "duration" : 952872
+      }
+    } ]
+  },
+  "f71c7184b913f36b856976635617d3bf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dcaab4d6ed17ec92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542877302,
+        "stop" : 1608543210779,
+        "duration" : 333477
+      }
+    } ]
+  },
+  "fdc9d79c82fdf68b03da7dc57ab85837" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b03b82a33c4fd55b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542089901,
+        "stop" : 1608542100767,
+        "duration" : 10866
+      }
+    } ]
+  },
+  "2e3a9736b600c4a192417239af4709ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2a9c28a7df8f90f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608545180192,
+        "stop" : 1608545516163,
+        "duration" : 335971
+      }
+    } ]
+  },
+  "e6664945d92b116f825d3fe3d864146a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcd2a1bcee363b27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542255418,
+        "stop" : 1608542266576,
+        "duration" : 11158
+      }
+    } ]
+  },
+  "943fb0c210f6d683d959b2cf6207d2b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3212050b72322e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608599894721,
+        "stop" : 1608599962538,
+        "duration" : 67817
+      }
+    } ]
+  },
+  "b93fd8eec4f7444bbd02c8a28abf5aa5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3198ec27f30859d5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 11, but was 18",
+      "time" : {
+        "start" : 1608543537858,
+        "stop" : 1608543871941,
+        "duration" : 334083
+      }
+    } ]
+  },
+  "005f3790334421aca0e264d75683dc6b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98f057c1a161fdd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541969132,
+        "stop" : 1608541980254,
+        "duration" : 11122
+      }
+    } ]
+  },
+  "403b6b588e1df7bfe84a90c25a02d399" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2564c09ad9a9365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542468107,
+        "stop" : 1608542509266,
+        "duration" : 41159
+      }
+    } ]
+  },
+  "be5bb5f74c836951afa43e5a86ce3538" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9d451291f9279f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542133868,
+        "stop" : 1608542145042,
+        "duration" : 11174
+      }
+    } ]
+  },
+  "f8d7304b16d5dd936015a3bab3fd2a93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f300009b2b0436e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541775040,
+        "stop" : 1608541786030,
+        "duration" : 10990
+      }
+    } ]
+  },
+  "cb60c9261abb9f7647b5fb298a0ddb1c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98fe1ceb7d22a749",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542024192,
+        "stop" : 1608542035076,
+        "duration" : 10884
+      }
+    } ]
+  },
+  "3215da9b5061322a6fbfd84166f2e751" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc13724ea1b376d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542392075,
+        "stop" : 1608542437506,
+        "duration" : 45431
+      }
+    } ]
+  },
+  "56eee62ecc0d54a10b5b1c62f58476b0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa6c0fbc77f61e76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608552431362,
+        "stop" : 1608554909675,
+        "duration" : 2478313
+      }
+    } ]
+  },
+  "749f4d307a2136204d401f8512fc8a7b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d1005a688ba5a6e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542380624,
+        "stop" : 1608542392068,
+        "duration" : 11444
+      }
+    } ]
+  },
+  "9d21b14052d47e307fdc70d87e45ea36" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a9546d678a50d4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608549292993,
+        "stop" : 1608549944412,
+        "duration" : 651419
+      }
+    } ]
+  },
+  "cb7bc257c12aad5e496374d21818abfd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64d31d38b7e368e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542068042,
+        "stop" : 1608542079030,
+        "duration" : 10988
+      }
+    } ]
+  },
+  "a6292d177e8c58bbbb0f5c32239cde5b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b8a7018fd1d22f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542808404,
+        "stop" : 1608542819811,
+        "duration" : 11407
+      }
+    } ]
+  },
+  "f178d228d8080bb1b2ce407e434f0e2e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "748ef9127771f4e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542681815,
+        "stop" : 1608542693294,
+        "duration" : 11479
+      }
+    } ]
+  },
+  "087a99b3ac4e42ffbd32c3ee67cfb90b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "408d3bc090485f5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542555444,
+        "stop" : 1608542566780,
+        "duration" : 11336
+      }
+    } ]
+  },
+  "35b1ed66dc3a856cd44b354605137588" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f8b0406ba94e579",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542046028,
+        "stop" : 1608542057024,
+        "duration" : 10996
+      }
+    } ]
+  },
+  "b229c9a80a9133ca2cae8db76a7fe43e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ee812d7b25dee0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542727984,
+        "stop" : 1608542739414,
+        "duration" : 11430
+      }
+    } ]
+  },
+  "c663cfe83e91177d3be9d8e963430bc8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ffce034006adb75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542100775,
+        "stop" : 1608542111780,
+        "duration" : 11005
+      }
+    } ]
+  },
+  "f0fd3eb1b61c45d00b347930dbc43912" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4b97d056a936e166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541763997,
+        "stop" : 1608541775032,
+        "duration" : 11035
+      }
+    } ]
+  },
+  "5840fbed548750abac0fd6d9ffcd6e8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0a098bb3a28e296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542865908,
+        "stop" : 1608542877294,
+        "duration" : 11386
+      }
+    } ]
+  },
+  "b41e19b14e27cd1b06e1374bae7a0802" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86fa31ec9185a559",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542658745,
+        "stop" : 1608542670180,
+        "duration" : 11435
+      }
+    } ]
+  },
+  "479b21deff7496431a92e006a5955f6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "650ba045300eecb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608543210788,
+        "stop" : 1608543537849,
+        "duration" : 327061
+      }
+    } ]
+  },
+  "f4d4049f1dda37d51fd7983644251770" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e467be680a3cf5ce",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608546818329,
+        "stop" : 1608549292819,
+        "duration" : 2474490
+      }
+    } ]
+  },
+  "74b5bdeb8f4bb2d7a1c3e0f18c0f0026" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36c6d6a250475eb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608601531787,
+        "stop" : 1608601907497,
+        "duration" : 375710
+      }
+    } ]
+  },
+  "e9303bd0cf656381f7a2d198c7a38c8b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db9e9ee50bb44abf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542156096,
+        "stop" : 1608542167128,
+        "duration" : 11032
+      }
+    } ]
+  },
+  "89d64306adad535938a4f643a60aa7b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5dbe8a7d3ceef6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542589830,
+        "stop" : 1608542601427,
+        "duration" : 11597
+      }
+    } ]
+  },
+  "afbd571066746e2671435d1afe99d63f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca0560881d396a08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542785103,
+        "stop" : 1608542796813,
+        "duration" : 11710
+      }
+    } ]
+  },
+  "bd2b5cfcba91a3a317cdc5f088319b69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "155f4d1a2f000366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608545516172,
+        "stop" : 1608546168756,
+        "duration" : 652584
+      }
+    } ]
+  },
+  "797d544f9c96649f91d15a5bed48949b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7abc4d20bffe7e98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542716528,
+        "stop" : 1608542727976,
+        "duration" : 11448
+      }
+    } ]
+  },
+  "fb1fc9313075fa4a3160aa770d7319ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c311470c5d9c8a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541947031,
+        "stop" : 1608541958118,
+        "duration" : 11087
+      }
+    } ]
+  },
+  "996df9cb53154fd5c38186542bf40c54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f785201b7fd11723",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542543604,
+        "stop" : 1608542555436,
+        "duration" : 11832
+      }
+    } ]
+  },
+  "ef5925552de4c42a4bad70c62113d8db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "840d6802aa42ff60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542520932,
+        "stop" : 1608542532292,
+        "duration" : 11360
+      }
+    } ]
+  },
+  "6d67a518287f5b78f09281e2f73fdcff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f51982e38e436b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542266584,
+        "stop" : 1608542277456,
+        "duration" : 10872
+      }
+    } ]
+  },
+  "8752e9a544f6bcfb1bc14c520921b74c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eaee562276e0bc45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542613008,
+        "stop" : 1608542624218,
+        "duration" : 11210
+      }
+    } ]
+  },
+  "1d0dbe62340bead42a29778b01027d4e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2bcf7eed1e88033c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 10, but was 9",
+      "time" : {
+        "start" : 1608559657853,
+        "stop" : 1608560927042,
+        "duration" : 1269189
+      }
+    } ]
+  },
+  "645856b4158fca46e4b72c22d9de5ec2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "be7d9aa493d99bd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542842821,
+        "stop" : 1608542854343,
+        "duration" : 11522
+      }
+    } ]
+  },
+  "00bd73ffad7ca89db9d7ea1e0c3da734" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e07dd74672fb2f01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542122795,
+        "stop" : 1608542133861,
+        "duration" : 11066
+      }
+    } ]
+  },
+  "1279efba732ac0d4e634be7f71355c07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5385fd33bb40e87a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541958129,
+        "stop" : 1608541969123,
+        "duration" : 10994
+      }
+    } ]
+  },
+  "06f485bc734d56b9a49a6dcd7457aab7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e29f7296d5cdcb69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541991261,
+        "stop" : 1608542002250,
+        "duration" : 10989
+      }
+    } ]
+  },
+  "adcb85f2a634e0aa0381c62a73f0120e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6cdaad92c52b4dbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542211421,
+        "stop" : 1608542222418,
+        "duration" : 10997
+      }
+    } ]
+  },
+  "d19ab449009d8656c73767563baac28b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93ee33957e8bf88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608599880980,
+        "stop" : 1608599894712,
+        "duration" : 13732
+      }
+    } ]
+  },
+  "a79569608d67236549f48b6465063b19" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c07504212c48803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608546168764,
+        "stop" : 1608546818316,
+        "duration" : 649552
+      }
+    } ]
+  },
+  "4fa4202e8eea11fa3ea4c0889c5a1628" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94cc9406c6c4c6c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542796821,
+        "stop" : 1608542808396,
+        "duration" : 11575
+      }
+    } ]
+  },
+  "802274f9ac32dea08c3c0abea494dac8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5da26dfb65e031f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542357549,
+        "stop" : 1608542369056,
+        "duration" : 11507
+      }
+    } ]
+  },
+  "102746963dbbb0fa3207d75fc3208acb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e0a6574dc553516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542200402,
+        "stop" : 1608542211411,
+        "duration" : 11009
+      }
+    } ]
+  },
+  "c5e74c860f623095682b93e9ee7f7205" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eff8c491f367baaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608544527464,
+        "stop" : 1608545180179,
+        "duration" : 652715
+      }
+    } ]
+  },
+  "d7a11bfa2983cfa64329c76297b1eac6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73c97929763584d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542854351,
+        "stop" : 1608542865900,
+        "duration" : 11549
+      }
+    } ]
+  },
+  "5b52a862edd1685b0234d98156770897" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7099ba3f781a83f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542322719,
+        "stop" : 1608542334242,
+        "duration" : 11523
+      }
+    } ]
+  },
+  "83ee2c16e26c74daf6ddb7c38a6502b3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9be3ea59a1151b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542167137,
+        "stop" : 1608542177968,
+        "duration" : 10831
+      }
+    } ]
+  },
+  "0fd80ba231694969d3bd74ff3ca2848f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b5c853fd552f6b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542578355,
+        "stop" : 1608542589823,
+        "duration" : 11468
+      }
+    } ]
+  },
+  "fcb3b9ea1a12467742692ad6f4f750d4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ed5f6e862865ab29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541980262,
+        "stop" : 1608541991253,
+        "duration" : 10991
+      }
+    } ]
+  },
+  "f785144a45dd605ee1333a11c72a5983" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d4dd7fc3af4ef6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541786039,
+        "stop" : 1608541796978,
+        "duration" : 10939
+      }
+    } ]
+  },
+  "65bc7269613e13a77df02ce6ed44f156" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "812f55dfda6ed93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608599845616,
+        "stop" : 1608599880970,
+        "duration" : 35354
+      }
+    } ]
+  },
+  "51404e7b30089213d2d3f9d8972689a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3b640832733481c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542762368,
+        "stop" : 1608542773764,
+        "duration" : 11396
+      }
+    } ]
+  },
+  "e189914e11ff7fe84074328342b506e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c535cb40b74a8a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542013210,
+        "stop" : 1608542024181,
+        "duration" : 10971
+      }
+    } ]
+  },
+  "11d07b7f678b7f4eb24482ddbecdaf4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff05ec8c5a19a72a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542693302,
+        "stop" : 1608542704717,
+        "duration" : 11415
+      }
+    } ]
+  },
+  "2fb055f9ca0c9fc871d8a628f66a643b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e7dc630815de5d2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 9, but was 14",
+      "time" : {
+        "start" : 1608559326853,
+        "stop" : 1608559657784,
+        "duration" : 330931
+      }
+    } ]
+  },
+  "8fd09485eac4ebd25fc174b0e729a53c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77a33e01c6fa5cab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608600139314,
+        "stop" : 1608600498829,
+        "duration" : 359515
+      }
+    } ]
+  },
+  "48a4120eefd7cc34abf2bfa3bc53bd1f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "17bc681d7f1fa530",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541808163,
+        "stop" : 1608541819184,
+        "duration" : 11021
+      }
+    } ]
+  },
+  "78ed5465262fad2dcba6cbceb7ca72f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5dff299fcbb5f7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542145051,
+        "stop" : 1608542156088,
+        "duration" : 11037
+      }
+    } ]
+  },
+  "72abc25604db4ea56ab75b619c635e7a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2d2385f55016531",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: MQTT syncPilot state should be false, but was true",
+      "time" : {
+        "start" : 1608555561749,
+        "stop" : 1608558030743,
+        "duration" : 2468994
+      }
+    } ]
+  },
+  "69372adc3655828c17f7b6a12c220182" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c30f18431a48372",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 12, but was 11",
+      "time" : {
+        "start" : 1608570766230,
+        "stop" : 1608571095728,
+        "duration" : 329498
+      }
+    } ]
+  },
+  "8186fe112d378a352891b8ed9b0b8cbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c1c3bf52f4a471ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608564012273,
+        "stop" : 1608564959441,
+        "duration" : 947168
+      }
+    } ]
+  },
+  "11f94a695fee8b3e781c691b8076f481" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce7800ffe6e2ad10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542177976,
+        "stop" : 1608542189267,
+        "duration" : 11291
+      }
+    } ]
+  },
+  "99e8a3417b43f09ff2f1174cc272c03f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "277d0362017fbf46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608543872087,
+        "stop" : 1608544527456,
+        "duration" : 655369
+      }
+    } ]
+  },
+  "0bd056217e001ca1a1cb1ba7192add26" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0a489ae0e82a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542035084,
+        "stop" : 1608542046020,
+        "duration" : 10936
+      }
+    } ]
+  },
+  "46bdedf3f488efaee73b8146bdfb3ed4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4afe2d4f0c0eb8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP state should be true, but was false",
+      "time" : {
+        "start" : 1608560927087,
+        "stop" : 1608564012230,
+        "duration" : 3085143
+      }
+    } ]
+  },
+  "ce6b9465063ffefe8bd9f09469cd42d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a427081f84b350a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541883325,
+        "stop" : 1608541908326,
+        "duration" : 25001
+      }
+    } ]
+  },
+  "9112f31af991688c429c43f75e458375" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4269fa0cd6f349e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608600041235,
+        "stop" : 1608600080500,
+        "duration" : 39265
+      }
+    } ]
+  },
+  "bcb144dfde1e8182f62dccdfe92cf71e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f68a51ee6fd63002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542704726,
+        "stop" : 1608542716521,
+        "duration" : 11795
+      }
+    } ]
+  },
+  "0c9e5a61920b8ba6d0780ee0ca02e8a6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f25328cd32e469a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 6",
+      "time" : {
+        "start" : 1608568192760,
+        "stop" : 1608568845715,
+        "duration" : 652955
+      }
+    } ]
+  },
+  "13f625c6dc7162ed35523278c4a088aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f7c2d4609354963",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608554909692,
+        "stop" : 1608555561742,
+        "duration" : 652050
+      }
+    } ]
+  },
+  "7908ebc38568d62b85aa43882b7c3b81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b14a6d3883d4b994",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542831385,
+        "stop" : 1608542842814,
+        "duration" : 11429
+      }
+    } ]
+  },
+  "f262c9eb1f89f3b2381e2b28805545ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f67ad8e985109cd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608600080527,
+        "stop" : 1608600139204,
+        "duration" : 58677
+      }
+    } ]
+  }
+}
