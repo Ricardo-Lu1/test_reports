@@ -4,10 +4,10 @@
     "uid" : "bf89a89b0b20103da6724a5ca48f7cb4",
     "name" : "Test_Suites.Tests.test_regression_product",
     "statistic" : {
-      "failed" : 14,
+      "failed" : 10,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 114,
+      "passed" : 118,
       "unknown" : 0,
       "total" : 128
     }

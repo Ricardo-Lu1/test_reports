@@ -7,7 +7,7 @@
       "name" : "test_05_udp_communication",
       "children" : [ {
         "name" : "test_single_device_control_on_off_nl[light_1-ON-udp0]",
-        "uid" : "4b97d056a936e166",
+        "uid" : "9db51ac90ba25aae",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -20,7 +20,7 @@
         "parameters" : [ "'udp'", "'ON'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_on_off_nl[light_1-OFF-udp0]",
-        "uid" : "f300009b2b0436e5",
+        "uid" : "fe08216bf2fbad99",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -33,7 +33,7 @@
         "parameters" : [ "'udp'", "'OFF'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_on_off_nl[light_1-ON-udp1]",
-        "uid" : "8d4dd7fc3af4ef6d",
+        "uid" : "9d9452b69cc9f92c",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -46,7 +46,7 @@
         "parameters" : [ "'udp'", "'ON'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_on_off_nl[light_1-NL-udp0]",
-        "uid" : "4a493cf1ad0ce4b3",
+        "uid" : "83377b98c87c801d",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -59,7 +59,7 @@
         "parameters" : [ "'udp'", "'NL'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_on_off_nl[light_1-OFF-udp1]",
-        "uid" : "17bc681d7f1fa530",
+        "uid" : "99e6073f25053e2d",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -72,7 +72,7 @@
         "parameters" : [ "'udp'", "'OFF'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_on_off_nl[light_1-NL-udp1]",
-        "uid" : "ce99e14ecaf12e05",
+        "uid" : "820c72bbb32645ab",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -85,7 +85,7 @@
         "parameters" : [ "'udp'", "'NL'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_on_off_nl[light_1-ON-udp2]",
-        "uid" : "f364b758245ebb3b",
+        "uid" : "b7e26f922eacddb0",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -98,7 +98,7 @@
         "parameters" : [ "'udp'", "'ON'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_dimming",
-        "uid" : "b0e788296620f9f5",
+        "uid" : "78d4c90ee8a49799",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -111,7 +111,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_single_device_control_temperature",
-        "uid" : "a427081f84b350a5",
+        "uid" : "1b437dad65968c58",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -124,7 +124,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_single_device_control_speed",
-        "uid" : "dddd8bea5d847fb3",
+        "uid" : "57fe2f5c69ec64e3",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -137,7 +137,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Warm white-udp]",
-        "uid" : "5c311470c5d9c8a5",
+        "uid" : "24f2c846139f6d",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -150,7 +150,7 @@
         "parameters" : [ "'udp'", "'Warm white'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Daylight-udp]",
-        "uid" : "5385fd33bb40e87a",
+        "uid" : "e1a1a6af9252d4d2",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -163,7 +163,7 @@
         "parameters" : [ "'udp'", "'Daylight'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Cool white-udp]",
-        "uid" : "98f057c1a161fdd8",
+        "uid" : "20e32f16604d52f5",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -176,7 +176,7 @@
         "parameters" : [ "'udp'", "'Cool white'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Night light-udp]",
-        "uid" : "ed5f6e862865ab29",
+        "uid" : "e1d35296e4afe83c",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -189,7 +189,7 @@
         "parameters" : [ "'udp'", "'Night light'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Cozy-udp]",
-        "uid" : "e29f7296d5cdcb69",
+        "uid" : "c9f9ac7455a51fbb",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -202,7 +202,7 @@
         "parameters" : [ "'udp'", "'Cozy'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-True colors-udp]",
-        "uid" : "d8f132492aa9e78c",
+        "uid" : "b178a7ecf7cc8dc1",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -215,7 +215,7 @@
         "parameters" : [ "'udp'", "'True colors'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Relax-udp]",
-        "uid" : "3c535cb40b74a8a0",
+        "uid" : "8fbe24fe4bcdf210",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -228,7 +228,7 @@
         "parameters" : [ "'udp'", "'Relax'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Focus-udp]",
-        "uid" : "98fe1ceb7d22a749",
+        "uid" : "9a40cf0c6bafb4c5",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -241,7 +241,7 @@
         "parameters" : [ "'udp'", "'Focus'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-TV time-udp]",
-        "uid" : "c0a489ae0e82a94",
+        "uid" : "b87b6a7e610f9d7d",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -254,7 +254,7 @@
         "parameters" : [ "'udp'", "'TV time'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Candlelight-udp]",
-        "uid" : "3f8b0406ba94e579",
+        "uid" : "83f3f49a28ccefc6",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -267,7 +267,7 @@
         "parameters" : [ "'udp'", "'Candlelight'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Fireplace-udp]",
-        "uid" : "b0648a23b9aaec87",
+        "uid" : "a3eaf46ca13e65e5",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -280,7 +280,7 @@
         "parameters" : [ "'udp'", "'Fireplace'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Fall-udp]",
-        "uid" : "64d31d38b7e368e6",
+        "uid" : "a72705142519ac32",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -293,7 +293,7 @@
         "parameters" : [ "'udp'", "'Fall'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Club-udp]",
-        "uid" : "18dd84b9ab19614e",
+        "uid" : "62a9c36471e63077",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -306,7 +306,7 @@
         "parameters" : [ "'udp'", "'Club'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Sunset-udp]",
-        "uid" : "b03b82a33c4fd55b",
+        "uid" : "af00a1504432548c",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -319,7 +319,7 @@
         "parameters" : [ "'udp'", "'Sunset'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Romance-udp]",
-        "uid" : "ffce034006adb75",
+        "uid" : "93f1a2ca376ec5ef",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -332,7 +332,7 @@
         "parameters" : [ "'udp'", "'Romance'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Party-udp]",
-        "uid" : "4c77782b74b001e1",
+        "uid" : "60ad1ae8d04cf57d",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -345,7 +345,7 @@
         "parameters" : [ "'udp'", "'Party'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Pastel colors-udp]",
-        "uid" : "e07dd74672fb2f01",
+        "uid" : "d0c89fd635ed0382",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -358,7 +358,7 @@
         "parameters" : [ "'udp'", "'Pastel colors'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Spring-udp]",
-        "uid" : "d9d451291f9279f9",
+        "uid" : "54a9e125bf3e8bb4",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -371,7 +371,7 @@
         "parameters" : [ "'udp'", "'Spring'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Summer-udp]",
-        "uid" : "f5dff299fcbb5f7a",
+        "uid" : "228ffc031c315f5",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -384,7 +384,7 @@
         "parameters" : [ "'udp'", "'Summer'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Forest-udp]",
-        "uid" : "db9e9ee50bb44abf",
+        "uid" : "ec4b4fabb137665",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -397,7 +397,7 @@
         "parameters" : [ "'udp'", "'Forest'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Jungle-udp]",
-        "uid" : "f9be3ea59a1151b1",
+        "uid" : "83804479c3e0599",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -410,7 +410,7 @@
         "parameters" : [ "'udp'", "'Jungle'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Mojito-udp]",
-        "uid" : "ce7800ffe6e2ad10",
+        "uid" : "b583851d441e4a4d",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -423,7 +423,7 @@
         "parameters" : [ "'udp'", "'Mojito'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Ocean-udp]",
-        "uid" : "c9ee6abb5bbcdc08",
+        "uid" : "58b8375c26e4a38a",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -436,7 +436,7 @@
         "parameters" : [ "'udp'", "'Ocean'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Deep dive-udp]",
-        "uid" : "7e0a6574dc553516",
+        "uid" : "d186385eab486fa8",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -449,7 +449,7 @@
         "parameters" : [ "'udp'", "'Deep dive'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Pulse-udp]",
-        "uid" : "6cdaad92c52b4dbd",
+        "uid" : "335add202b6b155",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -462,7 +462,7 @@
         "parameters" : [ "'udp'", "'Pulse'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Golden white-udp]",
-        "uid" : "81459bf1d0fc1361",
+        "uid" : "dd28a3c84c890377",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -475,7 +475,7 @@
         "parameters" : [ "'udp'", "'Golden white'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Steampunk-udp]",
-        "uid" : "f50edfe2021fddc5",
+        "uid" : "21a7d2453776f3bd",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -488,7 +488,7 @@
         "parameters" : [ "'udp'", "'Steampunk'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Wake-up-udp]",
-        "uid" : "fd6dc7584baa2b92",
+        "uid" : "90b8895d91b8b1ee",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -501,7 +501,7 @@
         "parameters" : [ "'udp'", "'Wake-up'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Bedtime-udp]",
-        "uid" : "fcd2a1bcee363b27",
+        "uid" : "94135c0b82ca1ba0",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -514,7 +514,7 @@
         "parameters" : [ "'udp'", "'Bedtime'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Christmas-udp]",
-        "uid" : "3f51982e38e436b4",
+        "uid" : "84540ede572812d0",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -527,7 +527,7 @@
         "parameters" : [ "'udp'", "'Christmas'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Halloween-udp]",
-        "uid" : "5760097dfecabc1d",
+        "uid" : "200fd790513d5643",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -540,7 +540,7 @@
         "parameters" : [ "'udp'", "'Halloween'", "'light_1'" ]
       }, {
         "name" : "test_single_device_control_change_mode_rgb[light_1-Plant growth-udp]",
-        "uid" : "da7acb9b47932d02",
+        "uid" : "2109b5c97c4e273",
         "parentUid" : "d51949acbe786120fd0a4d895fac23fb",
         "status" : "passed",
         "time" : {
@@ -557,7 +557,7 @@
       "name" : "test_06_tcp_communication",
       "children" : [ {
         "name" : "test_tcp_comm_on_off_nl[light_1-OFF-wizappd0]",
-        "uid" : "bf46f31d400cb12a",
+        "uid" : "6685280a5280201c",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -570,7 +570,7 @@
         "parameters" : [ "'wizappd'", "'OFF'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_on_off_nl[light_1-ON-wizappd0]",
-        "uid" : "1d6b012eb6dba093",
+        "uid" : "2aafdacdf7fb225a",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -583,7 +583,7 @@
         "parameters" : [ "'wizappd'", "'ON'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_on_off_nl[light_1-OFF-wizappd1]",
-        "uid" : "7099ba3f781a83f1",
+        "uid" : "70643dcdb9df419b",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -596,7 +596,7 @@
         "parameters" : [ "'wizappd'", "'OFF'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_on_off_nl[light_1-ON-wizappd1]",
-        "uid" : "cba065781c15f368",
+        "uid" : "11d109d62357550",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -609,7 +609,7 @@
         "parameters" : [ "'wizappd'", "'ON'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_on_off_nl[light_1-NL-wizappd0]",
-        "uid" : "4e3ee676db0a3308",
+        "uid" : "39c613c8c4b75a30",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -622,7 +622,7 @@
         "parameters" : [ "'wizappd'", "'NL'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_on_off_nl[light_1-OFF-wizappd2]",
-        "uid" : "a5da26dfb65e031f",
+        "uid" : "92c817e743f35d84",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -635,7 +635,7 @@
         "parameters" : [ "'wizappd'", "'OFF'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_on_off_nl[light_1-NL-wizappd1]",
-        "uid" : "efa2badb4b9b5f27",
+        "uid" : "3a8696c58bd255a",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -648,7 +648,7 @@
         "parameters" : [ "'wizappd'", "'NL'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_on_off_nl[light_1-ON-wizappd2]",
-        "uid" : "d1005a688ba5a6e9",
+        "uid" : "c8892dc0cf97146b",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -661,7 +661,7 @@
         "parameters" : [ "'wizappd'", "'ON'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_dimming",
-        "uid" : "cc13724ea1b376d4",
+        "uid" : "711386c877620fa5",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -674,7 +674,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_tcp_comm_temperature",
-        "uid" : "7502208ce8deb24a",
+        "uid" : "e062e0595106a7d0",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -687,7 +687,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_tcp_comm_speed",
-        "uid" : "2564c09ad9a9365",
+        "uid" : "6a3f771e2f0e050",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -700,7 +700,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Warm white-wizappd]",
-        "uid" : "97505ac1854a1b76",
+        "uid" : "86ef022befcdbc3e",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -713,7 +713,7 @@
         "parameters" : [ "'wizappd'", "'Warm white'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Daylight-wizappd]",
-        "uid" : "840d6802aa42ff60",
+        "uid" : "ae06d3286d16c334",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -726,7 +726,7 @@
         "parameters" : [ "'wizappd'", "'Daylight'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Cool white-wizappd]",
-        "uid" : "b2f261e4749c5441",
+        "uid" : "8f2bb4896edd7f8d",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -739,7 +739,7 @@
         "parameters" : [ "'wizappd'", "'Cool white'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Night light-wizappd]",
-        "uid" : "f785201b7fd11723",
+        "uid" : "600d8b773875bef1",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -752,7 +752,7 @@
         "parameters" : [ "'wizappd'", "'Night light'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Cozy-wizappd]",
-        "uid" : "408d3bc090485f5f",
+        "uid" : "e22f00affde4843e",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -765,7 +765,7 @@
         "parameters" : [ "'wizappd'", "'Cozy'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-True colors-wizappd]",
-        "uid" : "10941dcb130cb01c",
+        "uid" : "f89ccaf408144a5",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -778,7 +778,7 @@
         "parameters" : [ "'wizappd'", "'True colors'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Relax-wizappd]",
-        "uid" : "9b5c853fd552f6b8",
+        "uid" : "88423d57521fb57d",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -791,7 +791,7 @@
         "parameters" : [ "'wizappd'", "'Relax'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Focus-wizappd]",
-        "uid" : "e5dbe8a7d3ceef6b",
+        "uid" : "4ea0324e4fa5fce3",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -804,7 +804,7 @@
         "parameters" : [ "'wizappd'", "'Focus'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-TV time-wizappd]",
-        "uid" : "19f1081f4ac2ad7d",
+        "uid" : "75017f1713e17d2c",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -817,7 +817,7 @@
         "parameters" : [ "'wizappd'", "'TV time'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Candlelight-wizappd]",
-        "uid" : "eaee562276e0bc45",
+        "uid" : "e4a841969b8f5fd2",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -830,7 +830,7 @@
         "parameters" : [ "'wizappd'", "'Candlelight'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Fireplace-wizappd]",
-        "uid" : "a53ad8ddfbe89b9a",
+        "uid" : "ba54a420686f3ea9",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -843,7 +843,7 @@
         "parameters" : [ "'wizappd'", "'Fireplace'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Fall-wizappd]",
-        "uid" : "37ae95aa16df2149",
+        "uid" : "8cc7a74c7c8d9308",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -856,7 +856,7 @@
         "parameters" : [ "'wizappd'", "'Fall'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Club-wizappd]",
-        "uid" : "69671135061304cf",
+        "uid" : "e52a1e3d809ee37d",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -869,7 +869,7 @@
         "parameters" : [ "'wizappd'", "'Club'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Sunset-wizappd]",
-        "uid" : "86fa31ec9185a559",
+        "uid" : "3b2d5ba4c2c1f06f",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -882,7 +882,7 @@
         "parameters" : [ "'wizappd'", "'Sunset'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Romance-wizappd]",
-        "uid" : "f6ea46b9e835094c",
+        "uid" : "b3657d5332df4874",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -895,7 +895,7 @@
         "parameters" : [ "'wizappd'", "'Romance'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Party-wizappd]",
-        "uid" : "748ef9127771f4e3",
+        "uid" : "80d3ddbc2d1aab1b",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -908,7 +908,7 @@
         "parameters" : [ "'wizappd'", "'Party'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Pastel colors-wizappd]",
-        "uid" : "ff05ec8c5a19a72a",
+        "uid" : "a55015f70b3b5abd",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -921,7 +921,7 @@
         "parameters" : [ "'wizappd'", "'Pastel colors'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Spring-wizappd]",
-        "uid" : "f68a51ee6fd63002",
+        "uid" : "eb7fc02ef9344308",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -934,7 +934,7 @@
         "parameters" : [ "'wizappd'", "'Spring'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Summer-wizappd]",
-        "uid" : "7abc4d20bffe7e98",
+        "uid" : "e3ed32543e07d461",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -947,7 +947,7 @@
         "parameters" : [ "'wizappd'", "'Summer'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Forest-wizappd]",
-        "uid" : "6ee812d7b25dee0e",
+        "uid" : "da72033dfe9979a0",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -960,7 +960,7 @@
         "parameters" : [ "'wizappd'", "'Forest'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Jungle-wizappd]",
-        "uid" : "a6ced87ede33c062",
+        "uid" : "23fd20fc9ea39c89",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -973,7 +973,7 @@
         "parameters" : [ "'wizappd'", "'Jungle'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Mojito-wizappd]",
-        "uid" : "2090ddc4259a8970",
+        "uid" : "774858d6d14f744",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -986,7 +986,7 @@
         "parameters" : [ "'wizappd'", "'Mojito'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Ocean-wizappd]",
-        "uid" : "c3b640832733481c",
+        "uid" : "b1b2dccaf25c1dc8",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -999,7 +999,7 @@
         "parameters" : [ "'wizappd'", "'Ocean'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Deep dive-wizappd]",
-        "uid" : "d02aa1bb821330df",
+        "uid" : "e068d0dd50345be8",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1012,7 +1012,7 @@
         "parameters" : [ "'wizappd'", "'Deep dive'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Pulse-wizappd]",
-        "uid" : "ca0560881d396a08",
+        "uid" : "b1c52bd9fc32fb73",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1025,7 +1025,7 @@
         "parameters" : [ "'wizappd'", "'Pulse'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Golden white-wizappd]",
-        "uid" : "94cc9406c6c4c6c5",
+        "uid" : "66aa0e04d23d1ebb",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1038,7 +1038,7 @@
         "parameters" : [ "'wizappd'", "'Golden white'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Steampunk-wizappd]",
-        "uid" : "5b8a7018fd1d22f9",
+        "uid" : "385433ae17ecab76",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1051,7 +1051,7 @@
         "parameters" : [ "'wizappd'", "'Steampunk'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Wake-up-wizappd]",
-        "uid" : "5a8188ab558d129e",
+        "uid" : "cffc16fc10cdcfd",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1064,7 +1064,7 @@
         "parameters" : [ "'wizappd'", "'Wake-up'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Bedtime-wizappd]",
-        "uid" : "b14a6d3883d4b994",
+        "uid" : "494f202c8f554259",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1077,7 +1077,7 @@
         "parameters" : [ "'wizappd'", "'Bedtime'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Christmas-wizappd]",
-        "uid" : "be7d9aa493d99bd4",
+        "uid" : "2cfc45a6ab986a53",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1090,7 +1090,7 @@
         "parameters" : [ "'wizappd'", "'Christmas'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Halloween-wizappd]",
-        "uid" : "73c97929763584d8",
+        "uid" : "53bf3da3a0921533",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1103,7 +1103,7 @@
         "parameters" : [ "'wizappd'", "'Halloween'", "'light_1'" ]
       }, {
         "name" : "test_tcp_comm_change_mode_rgb[light_1-Plant growth-wizappd]",
-        "uid" : "d0a098bb3a28e296",
+        "uid" : "7dee433b177dfffb",
         "parentUid" : "3f445ad2be2508799bcda2c0cc772eab",
         "status" : "passed",
         "time" : {
@@ -1120,7 +1120,7 @@
       "name" : "test_07_schedule_by_mqtt",
       "children" : [ {
         "name" : "test_01_create_default_schedule_by_mqtt",
-        "uid" : "dcaab4d6ed17ec92",
+        "uid" : "d6275842731113eb",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1133,7 +1133,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_02_create_schedule_by_mqtt",
-        "uid" : "650ba045300eecb5",
+        "uid" : "4b0f86b8cedeac95",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1145,21 +1145,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_03_create_schedule_same_time_by_mqtt",
-        "uid" : "3198ec27f30859d5",
-        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1608543537858,
-          "stop" : 1608543871941,
-          "duration" : 334083
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "test_06_edit_schedule_to_end_with_off_by_mqtt",
-        "uid" : "277d0362017fbf46",
+        "uid" : "d73bc51fa827faba",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1172,7 +1159,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
-        "uid" : "eff8c491f367baaf",
+        "uid" : "250b5954f4dd05b3",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1185,7 +1172,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_09_delete_schedule",
-        "uid" : "f2a9c28a7df8f90f",
+        "uid" : "ef0230aa90a9b18a",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1198,7 +1185,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_12_create_schedule_with_warm_white_end_with_off_when_lamp_status_off",
-        "uid" : "155f4d1a2f000366",
+        "uid" : "46f235a28991fe4a",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1211,7 +1198,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_13_create_schedule_with_daylight_end_with_previous_mode_when_lamp_status_on",
-        "uid" : "9c07504212c48803",
+        "uid" : "c4942dff77b0833d",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1224,7 +1211,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_14_create_schedule_with_warm_white_end_with_previous_mode_when_lamp_status_bedtime",
-        "uid" : "e467be680a3cf5ce",
+        "uid" : "6be5174fb5cf0f8",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1237,7 +1224,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_15_create_schedule_with_bedtime_end_with_off_when_lamp_status_warm_white",
-        "uid" : "9a9546d678a50d4c",
+        "uid" : "74a11831899916e6",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1250,7 +1237,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
-        "uid" : "6730813758809847",
+        "uid" : "af8e4a0910ba04ba",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1262,21 +1249,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_17_create_schedule_with_bedtime_end_with_previous_mode_when_lamp_status_night_light",
-        "uid" : "f2199ec445d72d1e",
-        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1608552101161,
-          "stop" : 1608552431329,
-          "duration" : 330168
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "test_18_create_schedule_with_bedtime_end_with_off_when_lamp_status_off",
-        "uid" : "fa6c0fbc77f61e76",
+        "uid" : "e4f2952e8c29ee6e",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1289,7 +1263,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_19_create_schedule_with_wake_up_end_with_off_when_lamp_status_off",
-        "uid" : "9f7c2d4609354963",
+        "uid" : "e44e3205cef52a0",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1302,7 +1276,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_20_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_off",
-        "uid" : "a2d2385f55016531",
+        "uid" : "56bde5e1cf9944fe",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1315,7 +1289,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_21_create_schedule_with_action_wake_up_end_with_previous_mode_when_lamp_status_on",
-        "uid" : "2d64d93e6318318d",
+        "uid" : "27303f0d2c483e06",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1328,7 +1302,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_22_create_schedule_with_wake_up_end_with_previous_mode_when_lamp_status_night_light",
-        "uid" : "490870dcfeb04abf",
+        "uid" : "811ccd85949b83e9",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1341,7 +1315,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_23_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_night_light",
-        "uid" : "4e7dc630815de5d2",
+        "uid" : "42c3eb3159c8708d",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1354,7 +1328,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_24_create_two_schedule_with_wake_up_and_bedtime_and_start_time_interval_less_than_30_minutes",
-        "uid" : "2bcf7eed1e88033c",
+        "uid" : "d0d9d2346cee922",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1367,7 +1341,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
-        "uid" : "4afe2d4f0c0eb8",
+        "uid" : "44a4d1349d742398",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1380,7 +1354,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_26_create_schedule_with_cozy_and_no_end_when_lamp_status_night_light",
-        "uid" : "c1c3bf52f4a471ab",
+        "uid" : "30a5107c8af70beb",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1393,7 +1367,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_27_create_schedule_with_golden_white_and_no_end_when_lamp_status_pulse",
-        "uid" : "db2e3bc8f181dfbd",
+        "uid" : "46af8881fbea4483",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1406,7 +1380,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
-        "uid" : "7332cf6dba4718ed",
+        "uid" : "1dd49e3cba808d0b",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1419,7 +1393,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
-        "uid" : "9e5c75f18fd0a5f5",
+        "uid" : "135f7eaaf9aa9e58",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1432,7 +1406,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
-        "uid" : "952adc6a3104c52e",
+        "uid" : "9f1c09d1840f3d9a",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1445,7 +1419,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
-        "uid" : "8f25328cd32e469a",
+        "uid" : "d393fa4477088587",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "failed",
         "time" : {
@@ -1458,7 +1432,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_33_press_on_during_schedule_end_with_off",
-        "uid" : "ffba73e2006503a1",
+        "uid" : "a93874affd22f994",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1471,7 +1445,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_34_press_off_then_on_during_schedule_end_with_previous_mode",
-        "uid" : "24130882994b67ae",
+        "uid" : "c6882df17da67f2",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1483,21 +1457,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_35_dimming_during_schedule_end_with_off",
-        "uid" : "9c30f18431a48372",
-        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1608570766230,
-          "stop" : 1608571095728,
-          "duration" : 329498
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "test_36_change_mode_during_schedule_end_with_previous_mode",
-        "uid" : "a4e57a0906e6e8a9",
+        "uid" : "983a7b773f923a2e",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1509,21 +1470,8 @@
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_37_change_speed_during_schedule_action_dynamic_mode_end_with_previous_mode",
-        "uid" : "384408ffc3dcb895",
-        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1608572048760,
-          "stop" : 1608572378457,
-          "duration" : 329697
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "test_39_open_the_vacation_mode",
-        "uid" : "6bd496db3a4dde62",
+        "uid" : "fcf1019822f0a33d",
         "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
         "status" : "passed",
         "time" : {
@@ -1534,13 +1482,65 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "test_03_create_schedule_same_time_by_mqtt",
+        "uid" : "e1074d481f3782d3",
+        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608606459170,
+          "stop" : 1608606792832,
+          "duration" : 333662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_37_change_speed_during_schedule_action_dynamic_mode_end_with_previous_mode",
+        "uid" : "6440e31f83a4ec0e",
+        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608607356700,
+          "stop" : 1608608314637,
+          "duration" : 957937
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_35_dimming_during_schedule_end_with_off",
+        "uid" : "b8573190d0cd01f5",
+        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608612392548,
+          "stop" : 1608613354856,
+          "duration" : 962308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_17_create_schedule_with_bedtime_end_with_previous_mode_when_lamp_status_night_light",
+        "uid" : "710690a50195edac",
+        "parentUid" : "89416bd05f338a8f2eb535d2792bd1f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1608613401615,
+          "stop" : 1608615864127,
+          "duration" : 2462512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "89416bd05f338a8f2eb535d2792bd1f2"
     }, {
       "name" : "test_08_rhythm_by_mqtt",
       "children" : [ {
         "name" : "test_01_enable_default_rhythm_by_mqtt",
-        "uid" : "812f55dfda6ed93",
+        "uid" : "cc99a1bcd8f36823",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1553,7 +1553,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_02_disable_rhythm_by_mqtt",
-        "uid" : "93ee33957e8bf88",
+        "uid" : "231ab15d5b288fc1",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1566,7 +1566,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_04_select_rhythm_by_mqtt",
-        "uid" : "b3212050b72322e3",
+        "uid" : "36cf9bde8a62e1e9",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1579,7 +1579,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_14_select_same_lamp_mode_for_all_lamp_point_by_mqtt",
-        "uid" : "f4269fa0cd6f349e",
+        "uid" : "eb06e7514c44549c",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1592,7 +1592,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_16_save_scene_when_rhythm_playing_by_mqtt",
-        "uid" : "f67ad8e985109cd6",
+        "uid" : "b471abf3f47e5339",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1605,7 +1605,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_17_trigger_schedule_when_rhythm_playing_by_mqtt",
-        "uid" : "77a33e01c6fa5cab",
+        "uid" : "76fc5e779cf0397f",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1618,7 +1618,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
-        "uid" : "1ab2996b4827970d",
+        "uid" : "fe71a7338e2b8d7b",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1631,7 +1631,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_19_turn_off_then_turn_on_without_specifying_lamp_mode_when_rhythms_playing_by_mqtt",
-        "uid" : "88b2f7cd6e73414",
+        "uid" : "cedce23075aad382",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1644,7 +1644,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_08_edit_time_for_circadian_rhythm_by_mqtt",
-        "uid" : "ff10484df1deaa43",
+        "uid" : "ccb469425e73262",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1657,7 +1657,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_20_turn_to_night_light_then_turn_on_from_in_cool_white_mode_when_rhythms_playing_by_mqtt",
-        "uid" : "36c6d6a250475eb5",
+        "uid" : "47ba05c8ebda101a",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {
@@ -1670,7 +1670,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_21_turn_to_night_light_then_turn_on_without_specifying_any_lamp_mode_when_rhythms_playing_by_mqtt",
-        "uid" : "739fbf086a9ff8ff",
+        "uid" : "ca83fffaeb803bdb",
         "parentUid" : "0901bba4d5ae3118d8cbb959975115db",
         "status" : "passed",
         "time" : {

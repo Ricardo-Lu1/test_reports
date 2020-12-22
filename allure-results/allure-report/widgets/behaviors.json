@@ -4,10 +4,10 @@
     "uid" : "b32be9acdf32ca08ae84e9f943bbd856",
     "name" : "Create schedule by mqtt",
     "statistic" : {
-      "failed" : 14,
+      "failed" : 10,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 22,
       "unknown" : 0,
       "total" : 32
     }
