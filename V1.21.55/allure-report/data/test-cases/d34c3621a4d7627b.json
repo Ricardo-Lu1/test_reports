@@ -1,0 +1,108 @@
+{
+  "uid" : "d34c3621a4d7627b",
+  "name" : "test_single_light_control_temperature",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp#test_single_light_control_temperature",
+  "historyId" : "d8ba3743a8fa88ca37e72913ce743ba4",
+  "time" : {
+    "start" : 1608691954311,
+    "stop" : 1608691975353,
+    "duration" : 21042
+  },
+  "description" : "single_light_control_by_udp.feature: Single light control --- Temperature",
+  "descriptionHtml" : "<p>single_light_control_by_udp.feature: Single light control --- Temperature</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1608691838434,
+      "stop" : 1608691838435,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "single_light_control_by_udp.feature: Single light control --- Temperature",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3012cb24a0836e6a",
+      "name" : "log",
+      "source" : "3012cb24a0836e6a.txt",
+      "type" : "text/plain",
+      "size" : 3286
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1608692297641,
+      "stop" : 1608692306689,
+      "duration" : 9048
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Single Lamp Control"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "297596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_single_lamp_control_by_udp"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "d34c3621a4d7627b.json",
+  "parameterValues" : [ ]
+}

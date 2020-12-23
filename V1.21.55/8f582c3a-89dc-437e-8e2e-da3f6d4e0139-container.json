@@ -1,0 +1,1 @@
+{"uuid": "ccb2730b-f45d-48a3-b066-99520f085f54", "befores": [{"name": "pytestbdd_when_create circadian rhythm position {pos_id} for {light_name}, start at {start_time} and last for {last_min} minutes", "status": "passed", "start": 1608696310213, "stop": 1608696310213}], "start": 1608696310213, "stop": 1608696391331}

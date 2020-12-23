@@ -1,0 +1,81 @@
+{
+  "uid" : "9600e268a6ce3a47",
+  "name" : "test_20_turn_to_night_light_then_turn_on_from_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_20_turn_to_night_light_then_turn_on_from_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "historyId" : "74b5bdeb8f4bb2d7a1c3e0f18c0f0026",
+  "time" : {
+    "start" : 1608697288317,
+    "stop" : 1608697656636,
+    "duration" : 368319
+  },
+  "description" : "rhythm_actions.feature: Turn to Night light mode and then turn on from in cool white mode when Rhythms playing",
+  "descriptionHtml" : "<p>rhythm_actions.feature: Turn to Night light mode and then turn on from in cool white mode when Rhythms playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm_actions.feature: Turn to Night light mode and then turn on from in cool white mode when Rhythms playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71d80e32f2ec755e",
+      "name" : "log",
+      "source" : "71d80e32f2ec755e.txt",
+      "type" : "text/plain",
+      "size" : 191635
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Turn to Night light mode and then turn on from in cool white mode when Rhythms playing"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "297596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "9600e268a6ce3a47.json",
+  "parameterValues" : [ ]
+}

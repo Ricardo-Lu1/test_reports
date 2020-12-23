@@ -1,0 +1,13 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: single_light_control_by_udp.feature:Single light control --- Change default light mode for RGB light
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:control_lamp_steps.py:736 test light_1 set light mode to Golden white
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.137.235
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50382858   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50382858","rssi":-29,"src":"udp","state":true,"sceneId":30,"speed":100,"dimming":100}}
+INFO     test_case.log:control_lamp_steps.py:747 check light mode
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.137.235
+INFO     test_case.log:control_lamp_steps.py:750 getPilot response: {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb50382858', 'rssi': -30, 'state': True, 'sceneId': 30, 'speed': 100, 'dimming': 100}}
+INFO     test_case.log:control_lamp_steps.py:754 light_1 is changed to 30 successfully!
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: single_light_control_by_udp.feature:Single light control --- Change default light mode for RGB light
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

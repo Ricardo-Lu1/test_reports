@@ -1,0 +1,81 @@
+{
+  "uid" : "d241fc4c1a9c7f09",
+  "name" : "test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "historyId" : "f262c9eb1f89f3b2381e2b28805545ab",
+  "time" : {
+    "start" : 1608696427445,
+    "stop" : 1608696487391,
+    "duration" : 59946
+  },
+  "description" : "rhythm_actions.feature: Save scene when rhythm playing",
+  "descriptionHtml" : "<p>rhythm_actions.feature: Save scene when rhythm playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm_actions.feature: Save scene when rhythm playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fa3fa114c824da4f",
+      "name" : "log",
+      "source" : "fa3fa114c824da4f.txt",
+      "type" : "text/plain",
+      "size" : 39126
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Save scene when rhythm playing"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "297596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "d241fc4c1a9c7f09.json",
+  "parameterValues" : [ ]
+}

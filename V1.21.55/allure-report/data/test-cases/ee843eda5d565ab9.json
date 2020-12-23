@@ -1,0 +1,119 @@
+{
+  "uid" : "ee843eda5d565ab9",
+  "name" : "test_set_app_pairing_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_02_pair_lamps_only_wifi#test_set_app_pairing_only_wifi",
+  "historyId" : "d2b0ce8f3a96d38b442b7a46f465d8b0",
+  "time" : {
+    "start" : 1608691215437,
+    "stop" : 1608691256494,
+    "duration" : 41057
+  },
+  "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: Set app pairing mode to only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1608691215435,
+      "stop" : 1608691215435,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: Set app pairing mode to only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1dccf13a3a02909f",
+      "name" : "log",
+      "source" : "1dccf13a3a02909f.txt",
+      "type" : "text/plain",
+      "size" : 2507
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1608691385845,
+      "stop" : 1608691393508,
+      "duration" : 7663
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "story",
+    "value" : "Set app pairing mode to only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "291580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_02_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b6e73555e4728d82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608690843619,
+        "stop" : 1608690883567,
+        "duration" : 39948
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "ee843eda5d565ab9.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "4b33ddae6870a477",
+  "name" : "test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "historyId" : "fff8e3e7a5e8c970dc1c6db3b21fa67b",
+  "time" : {
+    "start" : 1608696301090,
+    "stop" : 1608696391321,
+    "duration" : 90231
+  },
+  "description" : "rhythm_actions.feature: Edit time for circadian rhythm",
+  "descriptionHtml" : "<p>rhythm_actions.feature: Edit time for circadian rhythm</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm_actions.feature: Edit time for circadian rhythm",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c8a4f75cc4ecdb0",
+      "name" : "log",
+      "source" : "1c8a4f75cc4ecdb0.txt",
+      "type" : "text/plain",
+      "size" : 56627
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Edit time for circadian rhythm"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "297596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "4b33ddae6870a477.json",
+  "parameterValues" : [ ]
+}

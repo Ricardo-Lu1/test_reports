@@ -1,0 +1,34 @@
+INFO     test_case.log:conftest.py:93 ****************************************************************************************************
+INFO     test_case.log:conftest.py:95 Scenario Start: tcp_comm.feature:Single light control by mqtt --- Change light mode for RGB light
+INFO     test_case.log:conftest.py:96 ****************************************************************************************************
+INFO     test_case.log:tcp_comm_steps.py:79 test light_1 set light mode to Candlelight
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.137.235
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     root:paired_light_info.py:69 The light mac is: a8bb50382858
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43898/devices/a8bb50382858   {"method": "setPilot", "params": {"sceneId": 29, "orig": "wizappd"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 OP/dev/43898/devices/a8bb50382858   {"method": "setPilot", "params": {"sceneId": 29, "orig": "wizappd"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:92 DEV/dev/a8bb50382858   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb50382858","rssi":-26,"src":"wizappd","state":true,"sceneId":29,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:control_lamp_steps.py:747 check light mode
+INFO     root:paired_light_info.py:54 The light ip is: 192.168.137.235
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:control_lamp_steps.py:750 getPilot response: {'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb50382858', 'rssi': -26, 'state': True, 'sceneId': 29, 'dimming': 100}}
+INFO     test_case.log:control_lamp_steps.py:754 light_1 is changed to 29 successfully!
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:conftest.py:101 ****************************************************************************************************
+INFO     test_case.log:conftest.py:103 Scenario Stop: tcp_comm.feature:Single light control by mqtt --- Change light mode for RGB light
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:77 Connected with result code 0
+INFO     test_case.log:conftest.py:105 ****************************************************************************************************

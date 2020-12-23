@@ -1,0 +1,113 @@
+{
+  "uid" : "51b1a3e9d92f2142",
+  "name" : "test_rtp_pair_lamps_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_02_pair_lamps_only_wifi#test_rtp_pair_lamps_only_wifi",
+  "historyId" : "9e684e3be16e597690be04289ad22912",
+  "time" : {
+    "start" : 1608690883583,
+    "stop" : 1608691104456,
+    "duration" : 220873
+  },
+  "description" : "pair_lamps_only_wifi.feature: RTP pairing only wifi",
+  "descriptionHtml" : "<p>pair_lamps_only_wifi.feature: RTP pairing only wifi</p>\n",
+  "status" : "broken",
+  "statusMessage" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: Then \"generate light info file\". Line 58 in scenario \"RTP pairing only wifi\" in the feature \"C:\\workspace\\wiz-automation-test\\WizAutomatedSystemTest\\Test_Suites\\Features\\pair_lamps_only_wifi.feature",
+  "statusTrace" : "self = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def _get_active_fixturedef(\n        self, argname: str\n    ) -> Union[\"FixtureDef\", PseudoFixtureDef]:\n        try:\n>           return self._fixture_defs[argname]\nE           KeyError: 'pytestbdd_then_generate light info file'\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:589: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nstep = <pytest_bdd.feature.Step object at 0x0000027267BFA3C8>\nscenario = <pytest_bdd.feature.Scenario object at 0x0000027267BF9E08>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n>           return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def getfixturevalue(self, argname: str) -> Any:\n        \"\"\" Dynamically run a named fixture function.\n    \n        Declaring fixtures via function argument is recommended where possible.\n        But if you can only decide whether to use another fixture at test\n        setup time, you may use this function to retrieve it inside a fixture\n        or test function body.\n    \n        :raise pytest.FixtureLookupError:\n            If the given fixture could not be found.\n        \"\"\"\n>       fixturedef = self._get_active_fixturedef(argname)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:581: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def _get_active_fixturedef(\n        self, argname: str\n    ) -> Union[\"FixtureDef\", PseudoFixtureDef]:\n        try:\n            return self._fixture_defs[argname]\n        except KeyError:\n            try:\n>               fixturedef = self._getnextfixturedef(argname)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:592: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def _getnextfixturedef(self, argname: str) -> \"FixtureDef\":\n        fixturedefs = self._arg2fixturedefs.get(argname, None)\n        if fixturedefs is None:\n            # we arrive here because of a dynamic call to\n            # getfixturevalue(argname) usage which was naturally\n            # not known at parsing/collection time\n            assert self._pyfuncitem.parent is not None\n            parentid = self._pyfuncitem.parent.nodeid\n            fixturedefs = self._fixturemanager.getfixturedefs(argname, parentid)\n            # TODO: Fix this type ignore. Either add assert or adjust types.\n            #       Can this be None here?\n            self._arg2fixturedefs[argname] = fixturedefs  # type: ignore[assignment]\n        # fixturedefs list is immutable so we maintain a decreasing index\n        index = self._arg2index.get(argname, 0) - 1\n        if fixturedefs is None or (-index > len(fixturedefs)):\n>           raise FixtureLookupError(argname, self)\nE           _pytest.fixtures.FixtureLookupError: ('pytestbdd_then_generate light info file', <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:484: FixtureLookupError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:139: in _execute_scenario\n    step_func = _find_step_function(request, step, scenario, encoding=encoding)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nrequest = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nstep = <pytest_bdd.feature.Step object at 0x0000027267BFA3C8>\nscenario = <pytest_bdd.feature.Scenario object at 0x0000027267BF9E08>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n            return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n        except pytest_fixtures.FixtureLookupError:\n            try:\n                # Could not find a fixture with the same name, let's see if there is a parser involved\n                name = find_argumented_step_fixture_name(name, step.type, request._fixturemanager, request)\n                if name:\n                    return request.getfixturevalue(name)\n                raise\n            except pytest_fixtures.FixtureLookupError:\n                raise exceptions.StepDefinitionNotFoundError(\n                    u\"\"\"Step definition is not found: {step}.\"\"\"\n                    \"\"\" Line {step.line_number} in scenario \"{scenario.name}\" in the feature \"{feature.filename}\"\"\".format(\n>                       step=step, scenario=scenario, feature=scenario.feature\n                    )\n                )\nE               pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: Then \"generate light info file\". Line 58 in scenario \"RTP pairing only wifi\" in the feature \"C:\\workspace\\wiz-automation-test\\WizAutomatedSystemTest\\Test_Suites\\Features\\pair_lamps_only_wifi.feature\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:88: StepDefinitionNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1608690843618,
+      "stop" : 1608690843618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_lamps_only_wifi.feature: RTP pairing only wifi",
+    "status" : "broken",
+    "statusMessage" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: Then \"generate light info file\". Line 58 in scenario \"RTP pairing only wifi\" in the feature \"C:\\workspace\\wiz-automation-test\\WizAutomatedSystemTest\\Test_Suites\\Features\\pair_lamps_only_wifi.feature",
+    "statusTrace" : "self = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def _get_active_fixturedef(\n        self, argname: str\n    ) -> Union[\"FixtureDef\", PseudoFixtureDef]:\n        try:\n>           return self._fixture_defs[argname]\nE           KeyError: 'pytestbdd_then_generate light info file'\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:589: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nstep = <pytest_bdd.feature.Step object at 0x0000027267BFA3C8>\nscenario = <pytest_bdd.feature.Scenario object at 0x0000027267BF9E08>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n>           return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:76: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def getfixturevalue(self, argname: str) -> Any:\n        \"\"\" Dynamically run a named fixture function.\n    \n        Declaring fixtures via function argument is recommended where possible.\n        But if you can only decide whether to use another fixture at test\n        setup time, you may use this function to retrieve it inside a fixture\n        or test function body.\n    \n        :raise pytest.FixtureLookupError:\n            If the given fixture could not be found.\n        \"\"\"\n>       fixturedef = self._get_active_fixturedef(argname)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:581: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def _get_active_fixturedef(\n        self, argname: str\n    ) -> Union[\"FixtureDef\", PseudoFixtureDef]:\n        try:\n            return self._fixture_defs[argname]\n        except KeyError:\n            try:\n>               fixturedef = self._getnextfixturedef(argname)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:592: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nargname = 'pytestbdd_then_generate light info file'\n\n    def _getnextfixturedef(self, argname: str) -> \"FixtureDef\":\n        fixturedefs = self._arg2fixturedefs.get(argname, None)\n        if fixturedefs is None:\n            # we arrive here because of a dynamic call to\n            # getfixturevalue(argname) usage which was naturally\n            # not known at parsing/collection time\n            assert self._pyfuncitem.parent is not None\n            parentid = self._pyfuncitem.parent.nodeid\n            fixturedefs = self._fixturemanager.getfixturedefs(argname, parentid)\n            # TODO: Fix this type ignore. Either add assert or adjust types.\n            #       Can this be None here?\n            self._arg2fixturedefs[argname] = fixturedefs  # type: ignore[assignment]\n        # fixturedefs list is immutable so we maintain a decreasing index\n        index = self._arg2index.get(argname, 0) - 1\n        if fixturedefs is None or (-index > len(fixturedefs)):\n>           raise FixtureLookupError(argname, self)\nE           _pytest.fixtures.FixtureLookupError: ('pytestbdd_then_generate light info file', <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:484: FixtureLookupError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:179: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:139: in _execute_scenario\n    step_func = _find_step_function(request, step, scenario, encoding=encoding)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nrequest = <FixtureRequest for <Function test_rtp_pair_lamps_only_wifi>>\nstep = <pytest_bdd.feature.Step object at 0x0000027267BFA3C8>\nscenario = <pytest_bdd.feature.Scenario object at 0x0000027267BF9E08>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n            return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n        except pytest_fixtures.FixtureLookupError:\n            try:\n                # Could not find a fixture with the same name, let's see if there is a parser involved\n                name = find_argumented_step_fixture_name(name, step.type, request._fixturemanager, request)\n                if name:\n                    return request.getfixturevalue(name)\n                raise\n            except pytest_fixtures.FixtureLookupError:\n                raise exceptions.StepDefinitionNotFoundError(\n                    u\"\"\"Step definition is not found: {step}.\"\"\"\n                    \"\"\" Line {step.line_number} in scenario \"{scenario.name}\" in the feature \"{feature.filename}\"\"\".format(\n>                       step=step, scenario=scenario, feature=scenario.feature\n                    )\n                )\nE               pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: Then \"generate light info file\". Line 58 in scenario \"RTP pairing only wifi\" in the feature \"C:\\workspace\\wiz-automation-test\\WizAutomatedSystemTest\\Test_Suites\\Features\\pair_lamps_only_wifi.feature\n\nC:\\Users\\600008165\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:88: StepDefinitionNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "603236720969afcf",
+      "name" : "log",
+      "source" : "603236720969afcf.txt",
+      "type" : "text/plain",
+      "size" : 13314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1608691104607,
+      "stop" : 1608691112151,
+      "duration" : 7544
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "RTP pairing only wifi"
+  }, {
+    "name" : "feature",
+    "value" : "Pair lights only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_pair_lamps_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UME284Q"
+  }, {
+    "name" : "thread",
+    "value" : "296524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_02_pair_lamps_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures" ]
+  },
+  "source" : "51b1a3e9d92f2142.json",
+  "parameterValues" : [ ]
+}
