@@ -1,0 +1,159 @@
+{
+  "uid" : "7e0848fc2f1bcbed",
+  "name" : "test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+  "historyId" : "10a43c6c01d391c299563594e595878f",
+  "time" : {
+    "start" : 1608740721504,
+    "stop" : 1608741705609,
+    "duration" : 984105
+  },
+  "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with &quot;OFF&quot;and schedule2 end with &quot;previous mode&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608715484814,
+      "stop" : 1608715484814,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d13877618014f366",
+      "name" : "log",
+      "source" : "d13877618014f366.txt",
+      "type" : "text/plain",
+      "size" : 7561
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8836e822d6cd7feb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get MQTT syncPilot timeout!",
+      "time" : {
+        "start" : 1608690260314,
+        "stop" : 1608690617417,
+        "duration" : 357103
+      }
+    }, {
+      "uid" : "bff23c738ab8c699",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get MQTT syncPilot timeout!",
+      "time" : {
+        "start" : 1608630763375,
+        "stop" : 1608631120640,
+        "duration" : 357265
+      }
+    }, {
+      "uid" : "260ab5d909dfb265",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "time" : {
+        "start" : 1608627740302,
+        "stop" : 1608628405147,
+        "duration" : 664845
+      }
+    }, {
+      "uid" : "d233425ccddeaf5c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "time" : {
+        "start" : 1608626729068,
+        "stop" : 1608627663073,
+        "duration" : 934005
+      }
+    }, {
+      "uid" : "75ede425a91fe2dc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1608625521839,
+        "stop" : 1608626500024,
+        "duration" : 978185
+      }
+    }, {
+      "uid" : "bc74c573bad949e0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1608624471037,
+        "stop" : 1608625451308,
+        "duration" : 980271
+      }
+    }, {
+      "uid" : "12ed98da27a037ed",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1608567216923,
+        "stop" : 1608568192706,
+        "duration" : 975783
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "7e0848fc2f1bcbed.json",
+  "parameterValues" : [ ]
+}

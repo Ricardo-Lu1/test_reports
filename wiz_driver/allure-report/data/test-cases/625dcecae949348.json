@@ -1,0 +1,116 @@
+{
+  "uid" : "625dcecae949348",
+  "name" : "test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_08_edit_time_for_circadian_rhythm_by_mqtt",
+  "historyId" : "fff8e3e7a5e8c970dc1c6db3b21fa67b",
+  "time" : {
+    "start" : 1608770309493,
+    "stop" : 1608770401405,
+    "duration" : 91912
+  },
+  "description" : "rhythm.feature: Edit time for circadian rhythm",
+  "descriptionHtml" : "<p>rhythm.feature: Edit time for circadian rhythm</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "rhythm.feature: Edit time for circadian rhythm",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d5c846f118ec87d7",
+      "name" : "log",
+      "source" : "d5c846f118ec87d7.txt",
+      "type" : "text/plain",
+      "size" : 14008
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Edit time for circadian rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "18908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "db079899663371f3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608747889136,
+        "stop" : 1608747914016,
+        "duration" : 24880
+      }
+    }, {
+      "uid" : "ffc9472f7cc02521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608601419950,
+        "stop" : 1608601515093,
+        "duration" : 95143
+      }
+    }, {
+      "uid" : "ee64840b1cc3d614",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check scene id by udp syncPilot fail! Scene id should be 14, but was 0",
+      "time" : {
+        "start" : 1608599962649,
+        "stop" : 1608600041100,
+        "duration" : 78451
+      }
+    }, {
+      "uid" : "29060e00a8d84d52",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608572780504,
+        "stop" : 1608572801315,
+        "duration" : 20811
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "625dcecae949348.json",
+  "parameterValues" : [ ]
+}

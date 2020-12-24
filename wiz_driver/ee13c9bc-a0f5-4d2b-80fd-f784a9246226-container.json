@@ -1,0 +1,1 @@
+{"uuid": "77c32100-abb1-4a92-bba2-bebe445f81f0", "befores": [{"name": "pytestbdd_when_Single device control by mqtt command {light_name} change speed to {speed}", "status": "passed", "start": 1608715285327, "stop": 1608715285327}], "start": 1608715285327, "stop": 1608715318507}

@@ -1,0 +1,98 @@
+{
+  "uid" : "b3d651f335333204",
+  "name" : "test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
+  "historyId" : "0c9e5a61920b8ba6d0780ee0ca02e8a6",
+  "time" : {
+    "start" : 1608631120714,
+    "stop" : 1608631471427,
+    "duration" : 350713
+  },
+  "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with &quot;previous mode&quot;and schedule2 end with &quot;previous mode&quot;</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Error : Get MQTT syncPilot timeout!",
+  "statusTrace" : "request = <FixtureRequest for <Function test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\schedule_action_steps.py:413: in check_schedule\n    mqtt_res = target.mqtt.get_res_mqtt_sync_pilot(light_name)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Wrapper.wrapper_mqtt.WrapperMQTT object at 0x0000026E759DF608>\nlight_name = 'light_1'\n\n    def get_res_mqtt_sync_pilot(self, light_name):\n        topic = self.cloud_mqtt_cmd.create_topic_from_light(light_name)\n        start_time = datetime.datetime.now()\n        while True:\n            for mqtt_client in self.list_mqtt_client:\n                rcv_topic, rcv_msg = mqtt_client.get_subscribe_topic_message()\n                if topic == rcv_topic:\n                    if rcv_msg[\"method\"] == \"syncPilot\":\n                        print(\"MQTT:\" + str(rcv_msg))\n                        mqtt_client.clear_subscribe_topic_message()\n                        return rcv_msg\n            if (datetime.datetime.now() - start_time).seconds > 10:\n>               assert False, \"Error : Get MQTT syncPilot timeout!\"\nE               AssertionError: Error : Get MQTT syncPilot timeout!\n\n..\\..\\..\\Wrapper\\wrapper_mqtt.py:403: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608629734499,
+      "stop" : 1608629734499,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 end with \"previous mode\"",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Error : Get MQTT syncPilot timeout!",
+    "statusTrace" : "request = <FixtureRequest for <Function test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\schedule_action_steps.py:413: in check_schedule\n    mqtt_res = target.mqtt.get_res_mqtt_sync_pilot(light_name)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Wrapper.wrapper_mqtt.WrapperMQTT object at 0x0000026E759DF608>\nlight_name = 'light_1'\n\n    def get_res_mqtt_sync_pilot(self, light_name):\n        topic = self.cloud_mqtt_cmd.create_topic_from_light(light_name)\n        start_time = datetime.datetime.now()\n        while True:\n            for mqtt_client in self.list_mqtt_client:\n                rcv_topic, rcv_msg = mqtt_client.get_subscribe_topic_message()\n                if topic == rcv_topic:\n                    if rcv_msg[\"method\"] == \"syncPilot\":\n                        print(\"MQTT:\" + str(rcv_msg))\n                        mqtt_client.clear_subscribe_topic_message()\n                        return rcv_msg\n            if (datetime.datetime.now() - start_time).seconds > 10:\n>               assert False, \"Error : Get MQTT syncPilot timeout!\"\nE               AssertionError: Error : Get MQTT syncPilot timeout!\n\n..\\..\\..\\Wrapper\\wrapper_mqtt.py:403: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25d2cbe4dee4480c",
+      "name" : "log",
+      "source" : "25d2cbe4dee4480c.txt",
+      "type" : "text/plain",
+      "size" : 2452
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 end with \"previous mode\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "b3d651f335333204.json",
+  "parameterValues" : [ ]
+}

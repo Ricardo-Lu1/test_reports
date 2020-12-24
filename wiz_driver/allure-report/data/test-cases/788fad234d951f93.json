@@ -1,0 +1,112 @@
+{
+  "uid" : "788fad234d951f93",
+  "name" : "test_single_device_control_speed",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication#test_single_device_control_speed",
+  "historyId" : "70c0a048908d8336481a3e068a53a6e4",
+  "time" : {
+    "start" : 1608714912987,
+    "stop" : 1608714951553,
+    "duration" : 38566
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - Speed",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - Speed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608714769277,
+      "stop" : 1608714769277,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - Speed",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a7dcb5f5c9351762",
+      "name" : "log",
+      "source" : "a7dcb5f5c9351762.txt",
+      "type" : "text/plain",
+      "size" : 8038
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "498c7df2df301bc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608713551964,
+        "stop" : 1608713590705,
+        "duration" : 38741
+      }
+    }, {
+      "uid" : "14217daec360e783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608541908336,
+        "stop" : 1608541947022,
+        "duration" : 38686
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "788fad234d951f93.json",
+  "parameterValues" : [ ]
+}

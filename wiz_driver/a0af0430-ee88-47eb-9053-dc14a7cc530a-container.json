@@ -1,0 +1,1 @@
+{"uuid": "0d76dc5e-7511-4f32-a7ff-f59ed6e5f615", "befores": [{"name": "pytestbdd_when_Check if {light_name} temperature is changed to {temperature} by {act_type}", "status": "passed", "start": 1608793540146, "stop": 1608793540146}], "start": 1608793540146, "stop": 1608793554395}

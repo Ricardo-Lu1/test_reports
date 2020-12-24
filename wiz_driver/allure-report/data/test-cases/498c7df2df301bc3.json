@@ -1,0 +1,79 @@
+{
+  "uid" : "498c7df2df301bc3",
+  "name" : "test_single_device_control_speed",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication#test_single_device_control_speed",
+  "historyId" : "70c0a048908d8336481a3e068a53a6e4",
+  "time" : {
+    "start" : 1608713551964,
+    "stop" : 1608713590705,
+    "duration" : 38741
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - Speed",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - Speed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - Speed",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dfb3631a3c89cc8b",
+      "name" : "log",
+      "source" : "dfb3631a3c89cc8b.txt",
+      "type" : "text/plain",
+      "size" : 8042
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "6432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "498c7df2df301bc3.json",
+  "parameterValues" : [ ]
+}

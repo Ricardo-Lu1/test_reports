@@ -1,0 +1,112 @@
+{
+  "uid" : "a0ea68f7f61a03b3",
+  "name" : "test_tcp_comm_speed",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_06_tcp_communication#test_tcp_comm_speed",
+  "historyId" : "403b6b588e1df7bfe84a90c25a02d399",
+  "time" : {
+    "start" : 1608715277383,
+    "stop" : 1608715318506,
+    "duration" : 41123
+  },
+  "description" : "tcp_comm.feature: Single device control by mqtt - Speed",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single device control by mqtt - Speed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608715105108,
+      "stop" : 1608715105108,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single device control by mqtt - Speed",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "279dd1c11d95029d",
+      "name" : "log",
+      "source" : "279dd1c11d95029d.txt",
+      "type" : "text/plain",
+      "size" : 9646
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Device control"
+  }, {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_tcp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_06_tcp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93e83823a81f9bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608714062865,
+        "stop" : 1608714104507,
+        "duration" : 41642
+      }
+    }, {
+      "uid" : "8618f5edcf6d294d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608542468107,
+        "stop" : 1608542509266,
+        "duration" : 41159
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "a0ea68f7f61a03b3.json",
+  "parameterValues" : [ ]
+}

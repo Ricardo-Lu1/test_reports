@@ -1,0 +1,94 @@
+{
+  "uid" : "7783e90f366d7dbc",
+  "name" : "test_03_create_schedule_same_time_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_03_create_schedule_same_time_by_mqtt",
+  "historyId" : "b93fd8eec4f7444bbd02c8a28abf5aa5",
+  "time" : {
+    "start" : 1608606459170,
+    "stop" : 1608606792832,
+    "duration" : 333662
+  },
+  "description" : "schedule.feature: Create schedule with the same time, same room, different scenes by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Create schedule with the same time, same room, different scenes by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608606459167,
+      "stop" : 1608606459167,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create schedule with the same time, same room, different scenes by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "19079a3dd0c3952",
+      "name" : "log",
+      "source" : "19079a3dd0c3952.txt",
+      "type" : "text/plain",
+      "size" : 5612
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create schedule with the same time, same room, different scenes by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "19072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "7783e90f366d7dbc.json",
+  "parameterValues" : [ ]
+}

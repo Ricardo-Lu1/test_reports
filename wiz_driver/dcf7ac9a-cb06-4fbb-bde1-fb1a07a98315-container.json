@@ -1,0 +1,1 @@
+{"uuid": "d30fe1b0-e804-4ff8-8c81-5a922f960e28", "befores": [{"name": "pytestbdd_when_Check if {light_name} change to light mode {light_mode} by {act_type} successfully", "status": "passed", "start": 1608715346527, "stop": 1608715346527}], "start": 1608715346527, "stop": 1608715353174}

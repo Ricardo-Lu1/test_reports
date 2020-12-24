@@ -1,0 +1,104 @@
+{
+  "uid" : "bd414533d08d88e1",
+  "name" : "test_15_create_schedule_with_bedtime_end_with_off_when_lamp_status_warm_white",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_15_create_schedule_with_bedtime_end_with_off_when_lamp_status_warm_white",
+  "historyId" : "9d21b14052d47e307fdc70d87e45ea36",
+  "time" : {
+    "start" : 1608721900867,
+    "stop" : 1608722555542,
+    "duration" : 654675
+  },
+  "description" : "schedule.feature: Create a schedule with action \"Bedtime\" and end with \"off\" when lamp original status is \"Warm White\"",
+  "descriptionHtml" : "<p>schedule.feature: Create a schedule with action &quot;Bedtime&quot; and end with &quot;off&quot; when lamp original status is &quot;Warm White&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608715484814,
+      "stop" : 1608715484814,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create a schedule with action \"Bedtime\" and end with \"off\" when lamp original status is \"Warm White\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47d265d1fc4e1382",
+      "name" : "log",
+      "source" : "47d265d1fc4e1382.txt",
+      "type" : "text/plain",
+      "size" : 4499
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Bedtime\" and end with \"off\" when lamp original status is \"Warm White\""
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "75d6a66605b6514e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608549292993,
+        "stop" : 1608549944412,
+        "duration" : 651419
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "bd414533d08d88e1.json",
+  "parameterValues" : [ ]
+}

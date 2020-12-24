@@ -1,0 +1,104 @@
+{
+  "uid" : "bf26cf182e76484f",
+  "name" : "test_33_press_on_during_schedule_end_with_off",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_33_press_on_during_schedule_end_with_off",
+  "historyId" : "a787a7661d07456871f060efdf35b616",
+  "time" : {
+    "start" : 1608742677879,
+    "stop" : 1608743638539,
+    "duration" : 960660
+  },
+  "description" : "schedule.feature: Press \"ON\" during schedule end with \"OFF\"",
+  "descriptionHtml" : "<p>schedule.feature: Press &quot;ON&quot; during schedule end with &quot;OFF&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608715484814,
+      "stop" : 1608715484814,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Press \"ON\" during schedule end with \"OFF\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c967866c86685d52",
+      "name" : "log",
+      "source" : "c967866c86685d52.txt",
+      "type" : "text/plain",
+      "size" : 4681
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Press \"ON\" during schedule end with \"OFF\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3477e47ef8be6b47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608568845752,
+        "stop" : 1608569803236,
+        "duration" : 957484
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "bf26cf182e76484f.json",
+  "parameterValues" : [ ]
+}

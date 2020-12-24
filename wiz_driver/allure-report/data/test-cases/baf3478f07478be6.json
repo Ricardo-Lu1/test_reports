@@ -1,0 +1,113 @@
+{
+  "uid" : "baf3478f07478be6",
+  "name" : "test_03_create_schedule_same_time_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_03_create_schedule_same_time_by_mqtt",
+  "historyId" : "b93fd8eec4f7444bbd02c8a28abf5aa5",
+  "time" : {
+    "start" : 1608716145769,
+    "stop" : 1608716479231,
+    "duration" : 333462
+  },
+  "description" : "schedule.feature: Create schedule with the same time, same room, different scenes by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Create schedule with the same time, same room, different scenes by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608715484814,
+      "stop" : 1608715484814,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create schedule with the same time, same room, different scenes by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9241c8f669b598e7",
+      "name" : "log",
+      "source" : "9241c8f669b598e7.txt",
+      "type" : "text/plain",
+      "size" : 4889
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create schedule with the same time, same room, different scenes by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7783e90f366d7dbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608606459170,
+        "stop" : 1608606792832,
+        "duration" : 333662
+      }
+    }, {
+      "uid" : "718ce301756b0e57",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 11, but was 18",
+      "time" : {
+        "start" : 1608543537858,
+        "stop" : 1608543871941,
+        "duration" : 334083
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "baf3478f07478be6.json",
+  "parameterValues" : [ ]
+}

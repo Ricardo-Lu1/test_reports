@@ -1,0 +1,242 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Error:Get UDP response timeout!",
+      "children" : [ {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Warm white-udp]",
+        "uid" : "6a4317a700df217a",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713590714,
+          "stop" : 1608713612774,
+          "duration" : 22060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Warm white'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Daylight-udp]",
+        "uid" : "197f1695f7847993",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713612941,
+          "stop" : 1608713635037,
+          "duration" : 22096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Daylight'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Cool white-udp]",
+        "uid" : "3f90e93010e817ef",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713635076,
+          "stop" : 1608713657144,
+          "duration" : 22068
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Cool white'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Night light-udp]",
+        "uid" : "d74fda2a83b9a1a8",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713657193,
+          "stop" : 1608713679268,
+          "duration" : 22075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Night light'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Cozy-udp]",
+        "uid" : "24cade6bb6c2e5e9",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713679308,
+          "stop" : 1608713701386,
+          "duration" : 22078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Cozy'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Relax-udp]",
+        "uid" : "db91ea78d8de8176",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713701428,
+          "stop" : 1608713723508,
+          "duration" : 22080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Relax'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Focus-udp]",
+        "uid" : "58fdb4cb0d1370ba",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713723564,
+          "stop" : 1608713745671,
+          "duration" : 22107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Focus'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-TV time-udp]",
+        "uid" : "6de94dc921bde4a0",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713745720,
+          "stop" : 1608713767815,
+          "duration" : 22095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'TV time'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Candlelight-udp]",
+        "uid" : "ed7f5a8c01aa1473",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713767857,
+          "stop" : 1608713789935,
+          "duration" : 22078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Candlelight'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Pulse-udp]",
+        "uid" : "ce82cb3631351999",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713789980,
+          "stop" : 1608713812073,
+          "duration" : 22093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Pulse'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Golden white-udp]",
+        "uid" : "b6938bb66313275d",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713812115,
+          "stop" : 1608713834193,
+          "duration" : 22078
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Golden white'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Steampunk-udp]",
+        "uid" : "63e46e43c50d8383",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713834247,
+          "stop" : 1608713856304,
+          "duration" : 22057
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Steampunk'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Wake-up-udp]",
+        "uid" : "fa54df33355a558f",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713856342,
+          "stop" : 1608713878422,
+          "duration" : 22080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Wake-up'", "'light_2'" ]
+      }, {
+        "name" : "test_single_device_control_change_mode_tw[light_2-Bedtime-udp]",
+        "uid" : "ae4d2e44f2e0c18b",
+        "parentUid" : "5f12f50542b405cbfef7fed28dd58588",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608713878465,
+          "stop" : 1608713900538,
+          "duration" : 22073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'udp'", "'Bedtime'", "'light_2'" ]
+      } ],
+      "uid" : "5f12f50542b405cbfef7fed28dd58588"
+    }, {
+      "name" : "AssertionError: UDP state should be true, but was false",
+      "children" : [ {
+        "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+        "uid" : "570ec520ca12bbd7",
+        "parentUid" : "8e294e23578f90db59931394f7ce365c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608722555554,
+          "stop" : 1608725026124,
+          "duration" : 2470570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
+        "uid" : "e6d80a446b245985",
+        "parentUid" : "8e294e23578f90db59931394f7ce365c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608776543759,
+          "stop" : 1608779313042,
+          "duration" : 2769283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e294e23578f90db59931394f7ce365c"
+    }, {
+      "name" : "AssertionError: UDP state should be false, but was true",
+      "children" : [ {
+        "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+        "uid" : "f4f223edd2167db8",
+        "parentUid" : "24607ee9d6e3dbc06779e938fee536f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1608738776916,
+          "stop" : 1608739746681,
+          "duration" : 969765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24607ee9d6e3dbc06779e938fee536f2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

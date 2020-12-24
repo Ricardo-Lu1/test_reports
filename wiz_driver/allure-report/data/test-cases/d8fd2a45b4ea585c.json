@@ -1,0 +1,131 @@
+{
+  "uid" : "d8fd2a45b4ea585c",
+  "name" : "test_04_select_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_04_select_rhythm_by_mqtt",
+  "historyId" : "943fb0c210f6d683d959b2cf6207d2b7",
+  "time" : {
+    "start" : 1608771679797,
+    "stop" : 1608771751459,
+    "duration" : 71662
+  },
+  "description" : "rhythm.feature: Select rhythm by mqtt",
+  "descriptionHtml" : "<p>rhythm.feature: Select rhythm by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608771679796,
+      "stop" : 1608771679796,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "rhythm.feature: Select rhythm by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df507c02ab1d75af",
+      "name" : "log",
+      "source" : "df507c02ab1d75af.txt",
+      "type" : "text/plain",
+      "size" : 15237
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Select rhythm by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "20908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f45568b53a89a867",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check scene id by udp syncPilot fail! Scene id should be 18, but was 12",
+      "time" : {
+        "start" : 1608770248305,
+        "stop" : 1608770309453,
+        "duration" : 61148
+      }
+    }, {
+      "uid" : "e6f7a512b09393e6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608747864060,
+        "stop" : 1608747889014,
+        "duration" : 24954
+      }
+    }, {
+      "uid" : "f44c6ee9ec55cfa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608599894721,
+        "stop" : 1608599962538,
+        "duration" : 67817
+      }
+    }, {
+      "uid" : "7626d077a41b3332",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608572759407,
+        "stop" : 1608572780383,
+        "duration" : 20976
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "d8fd2a45b4ea585c.json",
+  "parameterValues" : [ ]
+}

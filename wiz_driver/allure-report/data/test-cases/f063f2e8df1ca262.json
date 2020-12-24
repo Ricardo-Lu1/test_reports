@@ -1,0 +1,104 @@
+{
+  "uid" : "f063f2e8df1ca262",
+  "name" : "test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
+  "historyId" : "c5e74c860f623095682b93e9ee7f7205",
+  "time" : {
+    "start" : 1608717133730,
+    "stop" : 1608717786063,
+    "duration" : 652333
+  },
+  "description" : "schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608715484814,
+      "stop" : 1608715484814,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "565d2cd7b79d7684",
+      "name" : "log",
+      "source" : "565d2cd7b79d7684.txt",
+      "type" : "text/plain",
+      "size" : 5138
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Edit a schedule end of the way when the schedule has been stated by mqtt"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ab86833bb0191f4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608544527464,
+        "stop" : 1608545180179,
+        "duration" : 652715
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "f063f2e8df1ca262.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,85 @@
+{
+  "uid" : "719d9ed6333a4dbb",
+  "name" : "test_single_device_control_on_off_nl[light_1-ON-udp1]",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication#test_single_device_control_on_off_nl",
+  "historyId" : "f785144a45dd605ee1333a11c72a5983",
+  "time" : {
+    "start" : 1608713430030,
+    "stop" : 1608713441006,
+    "duration" : 10976
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - ON/OFF/NL",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - ON/OFF/NL</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - ON/OFF/NL",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a17f2aeffc13f5",
+      "name" : "log",
+      "source" : "5a17f2aeffc13f5.txt",
+      "type" : "text/plain",
+      "size" : 2472
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "6432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "action",
+    "value" : "'ON'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "719d9ed6333a4dbb.json",
+  "parameterValues" : [ "'udp'", "'ON'", "'light_1'" ]
+}

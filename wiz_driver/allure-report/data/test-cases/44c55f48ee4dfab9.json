@@ -1,0 +1,94 @@
+{
+  "uid" : "44c55f48ee4dfab9",
+  "name" : "test_20_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_off",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_20_create_schedule_with_wake_up_end_with_previous_mode_after_30min_when_lamp_status_off",
+  "historyId" : "72abc25604db4ea56ab75b619c635e7a",
+  "time" : {
+    "start" : 1608620891319,
+    "stop" : 1608623366561,
+    "duration" : 2475242
+  },
+  "description" : "schedule.feature: Create a schedule with action \"Wake-up\" and end with \"Previous mode\" after 30min when lamp original status is \"OFF\"",
+  "descriptionHtml" : "<p>schedule.feature: Create a schedule with action &quot;Wake-up&quot; and end with &quot;Previous mode&quot; after 30min when lamp original status is &quot;OFF&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608620891315,
+      "stop" : 1608620891315,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create a schedule with action \"Wake-up\" and end with \"Previous mode\" after 30min when lamp original status is \"OFF\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "314fee3f6d0817d4",
+      "name" : "log",
+      "source" : "314fee3f6d0817d4.txt",
+      "type" : "text/plain",
+      "size" : 6578
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Wake-up\" and end with \"Previous mode\" after 30min when lamp original status is \"OFF\""
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "10988-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "44c55f48ee4dfab9.json",
+  "parameterValues" : [ ]
+}

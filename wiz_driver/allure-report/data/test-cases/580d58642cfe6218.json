@@ -1,0 +1,102 @@
+{
+  "uid" : "580d58642cfe6218",
+  "name" : "test_single_device_control_change_mode_tw[light_1-Pulse-udp]",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication#test_single_device_control_change_mode_tw",
+  "historyId" : "6141b61e9f5598fb99ec14e41b4538b3",
+  "time" : {
+    "start" : 1608715050414,
+    "stop" : 1608715061389,
+    "duration" : 10975
+  },
+  "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+  "descriptionHtml" : "<p>single_device_control_by_udp.feature: Single device control - Change default light mode for TW device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608714769277,
+      "stop" : 1608714769277,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "single_device_control_by_udp.feature: Single device control - Change default light mode for TW device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af84d7075a1d9d07",
+      "name" : "log",
+      "source" : "af84d7075a1d9d07.txt",
+      "type" : "text/plain",
+      "size" : 2486
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "UDP Communication"
+  }, {
+    "name" : "story",
+    "value" : "Device Control"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_udp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_05_udp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "light_mode",
+    "value" : "'Pulse'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "580d58642cfe6218.json",
+  "parameterValues" : [ "'udp'", "'Pulse'", "'light_1'" ]
+}

@@ -1,0 +1,94 @@
+{
+  "uid" : "9cf39f2cdbd89391",
+  "name" : "test_20_turn_to_night_light_then_turn_on_from_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_20_turn_to_night_light_then_turn_on_from_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "historyId" : "74b5bdeb8f4bb2d7a1c3e0f18c0f0026",
+  "time" : {
+    "start" : 1608601531787,
+    "stop" : 1608601907497,
+    "duration" : 375710
+  },
+  "description" : "rhythm.feature: Turn to Night light mode and then turn on from in cool white mode when Rhythms playing",
+  "descriptionHtml" : "<p>rhythm.feature: Turn to Night light mode and then turn on from in cool white mode when Rhythms playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608601531786,
+      "stop" : 1608601531786,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "rhythm.feature: Turn to Night light mode and then turn on from in cool white mode when Rhythms playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d06d198e84a907e8",
+      "name" : "log",
+      "source" : "d06d198e84a907e8.txt",
+      "type" : "text/plain",
+      "size" : 12467
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Turn to Night light mode and then turn on from in cool white mode when Rhythms playing"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "5384-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "9cf39f2cdbd89391.json",
+  "parameterValues" : [ ]
+}

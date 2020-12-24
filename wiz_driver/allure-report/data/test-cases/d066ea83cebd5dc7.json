@@ -1,0 +1,122 @@
+{
+  "uid" : "d066ea83cebd5dc7",
+  "name" : "test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "historyId" : "efde830840a7cc54b966704d6fbfe520",
+  "time" : {
+    "start" : 1608772175758,
+    "stop" : 1608772549499,
+    "duration" : 373741
+  },
+  "description" : "rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing",
+  "descriptionHtml" : "<p>rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608771679796,
+      "stop" : 1608771679796,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "696be3b81e9c72",
+      "name" : "log",
+      "source" : "696be3b81e9c72.txt",
+      "type" : "text/plain",
+      "size" : 11825
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Turn off and then turn on in cool white mode when Rhythms playing"
+  }, {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "20908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b657c7b89fabaaa0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608747989159,
+        "stop" : 1608748013997,
+        "duration" : 24838
+      }
+    }, {
+      "uid" : "3bd4e49d64bfc0ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1608600498856,
+        "stop" : 1608600867351,
+        "duration" : 368495
+      }
+    }, {
+      "uid" : "7208adb6322c6512",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608572864541,
+        "stop" : 1608572885419,
+        "duration" : 20878
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "d066ea83cebd5dc7.json",
+  "parameterValues" : [ ]
+}
