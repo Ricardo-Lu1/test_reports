@@ -1,0 +1,158 @@
+{
+  "uid" : "ec498453b7b28e3d",
+  "name" : "test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode",
+  "historyId" : "10a43c6c01d391c299563594e595878f",
+  "time" : {
+    "start" : 1608690260314,
+    "stop" : 1608690617417,
+    "duration" : 357103
+  },
+  "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with &quot;OFF&quot;and schedule2 end with &quot;previous mode&quot;</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Error : Get MQTT syncPilot timeout!",
+  "statusTrace" : "request = <FixtureRequest for <Function test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\schedule_action_steps.py:413: in check_schedule\n    mqtt_res = target.mqtt.get_res_mqtt_sync_pilot(light_name)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Wrapper.wrapper_mqtt.WrapperMQTT object at 0x000001969DADE7C8>\nlight_name = 'light_1'\n\n    def get_res_mqtt_sync_pilot(self, light_name):\n        topic = self.cloud_mqtt_cmd.create_topic_from_light(light_name)\n        start_time = datetime.datetime.now()\n        while True:\n            for mqtt_client in self.list_mqtt_client:\n                rcv_topic, rcv_msg = mqtt_client.get_subscribe_topic_message()\n                if topic == rcv_topic:\n                    if rcv_msg[\"method\"] == \"syncPilot\":\n                        print(\"MQTT:\" + str(rcv_msg))\n                        mqtt_client.clear_subscribe_topic_message()\n                        return rcv_msg\n            if (datetime.datetime.now() - start_time).seconds > 10:\n>               assert False, \"Error : Get MQTT syncPilot timeout!\"\nE               AssertionError: Error : Get MQTT syncPilot timeout!\n\n..\\..\\..\\Wrapper\\wrapper_mqtt.py:403: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608687403335,
+      "stop" : 1608687403335,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\"",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Error : Get MQTT syncPilot timeout!",
+    "statusTrace" : "request = <FixtureRequest for <Function test_30_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_off_schedule2_end_with_previous_mode>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\schedule_action_steps.py:413: in check_schedule\n    mqtt_res = target.mqtt.get_res_mqtt_sync_pilot(light_name)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Wrapper.wrapper_mqtt.WrapperMQTT object at 0x000001969DADE7C8>\nlight_name = 'light_1'\n\n    def get_res_mqtt_sync_pilot(self, light_name):\n        topic = self.cloud_mqtt_cmd.create_topic_from_light(light_name)\n        start_time = datetime.datetime.now()\n        while True:\n            for mqtt_client in self.list_mqtt_client:\n                rcv_topic, rcv_msg = mqtt_client.get_subscribe_topic_message()\n                if topic == rcv_topic:\n                    if rcv_msg[\"method\"] == \"syncPilot\":\n                        print(\"MQTT:\" + str(rcv_msg))\n                        mqtt_client.clear_subscribe_topic_message()\n                        return rcv_msg\n            if (datetime.datetime.now() - start_time).seconds > 10:\n>               assert False, \"Error : Get MQTT syncPilot timeout!\"\nE               AssertionError: Error : Get MQTT syncPilot timeout!\n\n..\\..\\..\\Wrapper\\wrapper_mqtt.py:403: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a27cc1a1ccee899",
+      "name" : "log",
+      "source" : "9a27cc1a1ccee899.txt",
+      "type" : "text/plain",
+      "size" : 2641
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create 2 schedules of two consecutive periods,schedule1 end with \"OFF\"and schedule2 end with \"previous mode\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "15048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd86b3efa55fc1e3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get MQTT syncPilot timeout!",
+      "time" : {
+        "start" : 1608630763375,
+        "stop" : 1608631120640,
+        "duration" : 357265
+      }
+    }, {
+      "uid" : "45a158fd6b5d44ae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "time" : {
+        "start" : 1608627740302,
+        "stop" : 1608628405147,
+        "duration" : 664845
+      }
+    }, {
+      "uid" : "7f267069ddf270c7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "time" : {
+        "start" : 1608626729068,
+        "stop" : 1608627663073,
+        "duration" : 934005
+      }
+    }, {
+      "uid" : "dbf8a6fd55f9d340",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1608625521839,
+        "stop" : 1608626500024,
+        "duration" : 978185
+      }
+    }, {
+      "uid" : "989b3322cf60f7d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1608624471037,
+        "stop" : 1608625451308,
+        "duration" : 980271
+      }
+    }, {
+      "uid" : "658e15c3ca31d239",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1608567216923,
+        "stop" : 1608568192706,
+        "duration" : 975783
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "ec498453b7b28e3d.json",
+  "parameterValues" : [ ]
+}
