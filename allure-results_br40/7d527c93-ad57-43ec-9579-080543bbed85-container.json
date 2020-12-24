@@ -1,1 +1,0 @@
-{"uuid": "c81be67a-5acf-44e3-afb7-abde3bb6d29a", "befores": [{"name": "pytestbdd_then_create schedule {schedule_id} after {wait_min} minutes for {light_name} with {light_scene} mode, last for {last_minutes} minutes and end with {end_mode}", "status": "passed", "start": 1608690624838, "stop": 1608690624838}], "start": 1608690624838, "stop": 1608690967458}
