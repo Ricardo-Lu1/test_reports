@@ -1,0 +1,102 @@
+{
+  "uid" : "f0dc7b554a91a8ef",
+  "name" : "test_tcp_comm_change_mode_rgb[light_1-Jungle-wizappd]",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_06_tcp_communication#test_tcp_comm_change_mode_rgb",
+  "historyId" : "e7b2fd54b3d3453c60a4986c5f9d4a71",
+  "time" : {
+    "start" : 1608542739422,
+    "stop" : 1608542750892,
+    "duration" : 11470
+  },
+  "description" : "tcp_comm.feature: Single device control by mqtt - Change light mode for RGB device",
+  "descriptionHtml" : "<p>tcp_comm.feature: Single device control by mqtt - Change light mode for RGB device</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608542299592,
+      "stop" : 1608542299592,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "tcp_comm.feature: Single device control by mqtt - Change light mode for RGB device",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68cdc54e502da9ab",
+      "name" : "log",
+      "source" : "68cdc54e502da9ab.txt",
+      "type" : "text/plain",
+      "size" : 2859
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Device control"
+  }, {
+    "name" : "feature",
+    "value" : "TCP Communication"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_tcp_communication"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "8716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_06_tcp_communication"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "light_mode",
+    "value" : "'Jungle'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0dc7b554a91a8ef.json",
+  "parameterValues" : [ "'wizappd'", "'Jungle'", "'light_1'" ]
+}

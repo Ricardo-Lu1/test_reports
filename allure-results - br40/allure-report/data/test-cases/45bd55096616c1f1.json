@@ -1,0 +1,98 @@
+{
+  "uid" : "45bd55096616c1f1",
+  "name" : "test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt#test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
+  "historyId" : "139e2378bf32878603e67a6b4584e80f",
+  "time" : {
+    "start" : 1608566560289,
+    "stop" : 1608567216866,
+    "duration" : 656577
+  },
+  "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 no \"END\"",
+  "descriptionHtml" : "<p>schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with &quot;previous mode&quot;and schedule2 no &quot;END&quot;</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 13, but was 14",
+  "statusTrace" : "request = <FixtureRequest for <Function test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x00000160617A1A88>\nlight_name = 'light_1', light_scene = 'Cool white'\n\n    @then(parsers.parse('check schedule for {light_name} with {light_scene} mode'))\n    def check_schedule(target, light_name, light_scene):\n        udp_sync_res = target.udp.get_udp_sync_pilot(light_name, \"schd\")\n        logger.info(\"udp syncPilot:\" + str(udp_sync_res))\n    \n        mqtt_res = target.mqtt.get_res_mqtt_sync_pilot(light_name)\n        response = target.udp.get_pilot_phone(light_name)\n        logger.info(\"udp response:\" + str(response))\n    \n        expect_light_scene_id = int(translator_scene_id(light_scene))\n    \n        # check by udp\n        res_light_scene_id_udp = response[\"result\"][\"sceneId\"]\n        if response[\"result\"][\"state\"] is False:\n            logger.info(\"Error : UDP state should be true, but was false\")\n            assert False, \"UDP state should be true, but was false\"\n        if res_light_scene_id_udp != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! UDP SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! UDP SceneId should be \" + \\\n                          str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp)\n    \n        # check by mqtt syncPilot\n        if mqtt_res is None:\n            logger.info(\"Error : MQTT did not get syncPilot from device!\")\n            assert False, \"Error : MQTT did not get syncPilot from device!\"\n        else:\n            logger.info(\"mqtt syncPilot:\" + str(mqtt_res))\n    \n        res_light_scene_id_mqtt = mqtt_res[\"params\"][\"sceneId\"]\n        if mqtt_res[\"params\"][\"state\"] is False:\n            logger.info(\"Error : MQTT syncPilot state should be true, but was false\")\n            assert False, \"MQTT syncPilot state should be true, but was false\"\n        if res_light_scene_id_mqtt != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! MQTT syncPilot SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_mqtt))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! MQTT syncPilot SceneId should be \" + \\\n                          str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_mqtt)\n    \n        # check by udp syncPilot\n        res_light_scene_id_udp_sync = udp_sync_res[\"params\"][\"sceneId\"]\n        if udp_sync_res[\"params\"][\"state\"] is False:\n            logger.info(\"Error : UDP syncPilot state should be true, but was false\")\n            assert False, \"UDP syncPilot state should be true, but was false\"\n        if res_light_scene_id_udp_sync != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! UDP syncPilot SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp_sync))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! UDP syncPilot SceneId should be \" + \\\n>                         str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp_sync)\nE           AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 13, but was 14\n\n..\\..\\Steps\\schedule_action_steps.py:456: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608542877301,
+      "stop" : 1608542877302,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 no \"END\"",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 13, but was 14",
+    "statusTrace" : "request = <FixtureRequest for <Function test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x00000160617A1A88>\nlight_name = 'light_1', light_scene = 'Cool white'\n\n    @then(parsers.parse('check schedule for {light_name} with {light_scene} mode'))\n    def check_schedule(target, light_name, light_scene):\n        udp_sync_res = target.udp.get_udp_sync_pilot(light_name, \"schd\")\n        logger.info(\"udp syncPilot:\" + str(udp_sync_res))\n    \n        mqtt_res = target.mqtt.get_res_mqtt_sync_pilot(light_name)\n        response = target.udp.get_pilot_phone(light_name)\n        logger.info(\"udp response:\" + str(response))\n    \n        expect_light_scene_id = int(translator_scene_id(light_scene))\n    \n        # check by udp\n        res_light_scene_id_udp = response[\"result\"][\"sceneId\"]\n        if response[\"result\"][\"state\"] is False:\n            logger.info(\"Error : UDP state should be true, but was false\")\n            assert False, \"UDP state should be true, but was false\"\n        if res_light_scene_id_udp != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! UDP SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! UDP SceneId should be \" + \\\n                          str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp)\n    \n        # check by mqtt syncPilot\n        if mqtt_res is None:\n            logger.info(\"Error : MQTT did not get syncPilot from device!\")\n            assert False, \"Error : MQTT did not get syncPilot from device!\"\n        else:\n            logger.info(\"mqtt syncPilot:\" + str(mqtt_res))\n    \n        res_light_scene_id_mqtt = mqtt_res[\"params\"][\"sceneId\"]\n        if mqtt_res[\"params\"][\"state\"] is False:\n            logger.info(\"Error : MQTT syncPilot state should be true, but was false\")\n            assert False, \"MQTT syncPilot state should be true, but was false\"\n        if res_light_scene_id_mqtt != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! MQTT syncPilot SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_mqtt))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! MQTT syncPilot SceneId should be \" + \\\n                          str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_mqtt)\n    \n        # check by udp syncPilot\n        res_light_scene_id_udp_sync = udp_sync_res[\"params\"][\"sceneId\"]\n        if udp_sync_res[\"params\"][\"state\"] is False:\n            logger.info(\"Error : UDP syncPilot state should be true, but was false\")\n            assert False, \"UDP syncPilot state should be true, but was false\"\n        if res_light_scene_id_udp_sync != expect_light_scene_id:\n            logger.info(\"Error : create schedule for \" + light_name + \" fail! UDP syncPilot SceneId should be \" +\n                        str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp_sync))\n            assert False, \"Error : create schedule for \" + light_name + \" fail! UDP syncPilot SceneId should be \" + \\\n>                         str(expect_light_scene_id) + \", but was \" + str(res_light_scene_id_udp_sync)\nE           AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 13, but was 14\n\n..\\..\\Steps\\schedule_action_steps.py:456: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5e72f1633e6271b6",
+      "name" : "log",
+      "source" : "5e72f1633e6271b6.txt",
+      "type" : "text/plain",
+      "size" : 7342
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 no \"END\""
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "8716-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "45bd55096616c1f1.json",
+  "parameterValues" : [ ]
+}

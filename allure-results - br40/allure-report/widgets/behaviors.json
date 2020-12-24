@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "b32be9acdf32ca08ae84e9f943bbd856",
+    "name" : "Create schedule by mqtt",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 24,
+      "unknown" : 0,
+      "total" : 32
+    }
+  }, {
+    "uid" : "fad1139adb88b753d19a40f955d84767",
+    "name" : "Test cases for rhythm",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "b68745056fc75fa564ca54f59f61c88e",
+    "name" : "UDP Communication",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9719d1da33a02864b3a67cf36664181b",
+    "name" : "TCP Communication",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

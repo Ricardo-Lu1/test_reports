@@ -1,0 +1,105 @@
+{
+  "uid" : "bc16d54f725b914f",
+  "name" : "test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt#test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "historyId" : "f262c9eb1f89f3b2381e2b28805545ab",
+  "time" : {
+    "start" : 1608600080527,
+    "stop" : 1608600139204,
+    "duration" : 58677
+  },
+  "description" : "rhythm.feature: Save scene when rhythm playing",
+  "descriptionHtml" : "<p>rhythm.feature: Save scene when rhythm playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1608599845615,
+      "stop" : 1608599845615,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "rhythm.feature: Save scene when rhythm playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "468a7d57cb026c5",
+      "name" : "log",
+      "source" : "468a7d57cb026c5.txt",
+      "type" : "text/plain",
+      "size" : 13656
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Save scene when rhythm playing"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_product"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "1980-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_product.test_08_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7df2275b0d716bc0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "time" : {
+        "start" : 1608572822478,
+        "stop" : 1608572843383,
+        "duration" : 20905
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "bc16d54f725b914f.json",
+  "parameterValues" : [ ]
+}
