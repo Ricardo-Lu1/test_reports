@@ -1,0 +1,81 @@
+{
+  "uid" : "32f5798e8830a066",
+  "name" : "test_34_press_off_then_on_during_schedule_end_with_previous_mode",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_34_press_off_then_on_during_schedule_end_with_previous_mode",
+  "historyId" : "13ab915e1b4c72574c69a0e3b9e1ed11",
+  "time" : {
+    "start" : 1611255454749,
+    "stop" : 1611256387251,
+    "duration" : 932502
+  },
+  "description" : "schedule.feature: Press \"OFF\" then \"ON\" during schedule end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule.feature: Press &quot;OFF&quot; then &quot;ON&quot; during schedule end with &quot;previous mode&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Press \"OFF\" then \"ON\" during schedule end with \"previous mode\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "10d8197b29e1bbb5",
+      "name" : "log",
+      "source" : "10d8197b29e1bbb5.txt",
+      "type" : "text/plain",
+      "size" : 19088
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Press \"OFF\" then \"ON\" during schedule end with \"previous mode\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "32f5798e8830a066.json",
+  "parameterValues" : [ ]
+}

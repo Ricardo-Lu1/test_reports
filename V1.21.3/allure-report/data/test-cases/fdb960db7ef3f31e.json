@@ -1,0 +1,81 @@
+{
+  "uid" : "fdb960db7ef3f31e",
+  "name" : "test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_07_edit_schedule_end_of_the_way_when_the_schedule_has_been_started_by_mqtt",
+  "historyId" : "06c248d38d29b9a44fbdf156e89a1daa",
+  "time" : {
+    "start" : 1611224301432,
+    "stop" : 1611224936137,
+    "duration" : 634705
+  },
+  "description" : "schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt",
+  "descriptionHtml" : "<p>schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Edit a schedule end of the way when the schedule has been started by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f7e75d7a9d71d9f",
+      "name" : "log",
+      "source" : "5f7e75d7a9d71d9f.txt",
+      "type" : "text/plain",
+      "size" : 36394
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Edit a schedule end of the way when the schedule has been stated by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "fdb960db7ef3f31e.json",
+  "parameterValues" : [ ]
+}

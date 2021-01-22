@@ -1,0 +1,14 @@
+INFO     test_case.log:conftest.py:116 ****************************************************************************************************
+INFO     test_case.log:conftest.py:118 Scenario Start: pair_device_only_wifi.feature:RTP pairing by only wifi
+INFO     test_case.log:conftest.py:119 ****************************************************************************************************
+INFO     test_case.log:pair_lamps_steps.py:63 No light is paired, do not need to factory new light
+INFO     test_case.log:pair_lamps_steps.py:416 trigger app smart config process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:543 start smart config pairing
+INFO     test_case.log:pair_lamps_steps.py:752 check smart config pairing result
+INFO     test_case.log:pair_lamps_steps.py:758 check if ota icon exits
+INFO     test_case.log:pair_lamps_steps.py:844 ====================================================================================
+INFO     test_case.log:pair_lamps_steps.py:845 ERROR : No light showed in App scream! No light is found!
+INFO     test_case.log:pair_lamps_steps.py:846 ====================================================================================
+INFO     test_case.log:conftest.py:125 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Stop: pair_device_only_wifi.feature:RTP pairing by only wifi
+INFO     test_case.log:conftest.py:130 ****************************************************************************************************

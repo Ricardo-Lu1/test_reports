@@ -1,0 +1,8 @@
+INFO     test_case.log:conftest.py:116 ****************************************************************************************************
+INFO     test_case.log:conftest.py:118 Scenario Start: pair_device_only_wifi.feature:3 * WiZclick pairing by only wifi
+INFO     test_case.log:conftest.py:119 ****************************************************************************************************
+INFO     test_case.log:pair_lamps_steps.py:63 No light is paired, do not need to factory new light
+INFO     test_case.log:pair_lamps_steps.py:416 trigger app smart config process to pair 灯
+INFO     test_case.log:conftest.py:125 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Stop: pair_device_only_wifi.feature:3 * WiZclick pairing by only wifi
+INFO     test_case.log:conftest.py:130 ****************************************************************************************************

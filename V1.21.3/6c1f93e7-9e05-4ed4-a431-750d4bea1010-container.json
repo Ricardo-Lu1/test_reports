@@ -1,0 +1,1 @@
+{"uuid": "e232c00d-4581-4059-8745-c9bdee8d0a18", "befores": [{"name": "pytestbdd_then_check schedule for {light_name} brightness is {dim_level} with {light_scene} mode", "status": "passed", "start": 1611256383228, "stop": 1611256383228}], "start": 1611256383228, "stop": 1611256387252}

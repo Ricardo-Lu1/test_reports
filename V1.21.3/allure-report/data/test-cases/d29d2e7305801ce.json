@@ -1,0 +1,93 @@
+{
+  "uid" : "d29d2e7305801ce",
+  "name" : "test_dimming_to_little_level_udp[light_1-9-udp-100-100]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming#test_dimming_to_little_level_udp",
+  "historyId" : "4bb7363008d545ac2d49602b15fb1ca8",
+  "time" : {
+    "start" : 1611222033961,
+    "stop" : 1611222049107,
+    "duration" : 15146
+  },
+  "description" : "03_on_off_nl_dimming.feature: Dimming to a wrong level by UDP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Dimming to a wrong level by UDP</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Dimming to a wrong level by UDP",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "30a5864b28afc63",
+      "name" : "log",
+      "source" : "30a5864b28afc63.txt",
+      "type" : "text/plain",
+      "size" : 1970
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "UDP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "dimming_level",
+    "value" : "'9'"
+  }, {
+    "name" : "exp_level",
+    "value" : "'100'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_level",
+    "value" : "'100'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d29d2e7305801ce.json",
+  "parameterValues" : [ "'udp'", "'9'", "'100'", "'light_1'", "'100'" ]
+}

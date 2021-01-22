@@ -1,0 +1,85 @@
+{
+  "uid" : "409c67cbb525b5c0",
+  "name" : "test_single_tw_device_udp_control_speed[light_2-200-udp]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode#test_single_tw_device_udp_control_speed",
+  "historyId" : "266f2ee216dc20d78b6bbf5dd33e7632",
+  "time" : {
+    "start" : 1611222302273,
+    "stop" : 1611222313282,
+    "duration" : 11009
+  },
+  "description" : "04_temperature_speed_light_mode.feature: Single TW device control via udp - speed",
+  "descriptionHtml" : "<p>04_temperature_speed_light_mode.feature: Single TW device control via udp - speed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "04_temperature_speed_light_mode.feature: Single TW device control via udp - speed",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45c5b4bdb6492377",
+      "name" : "log",
+      "source" : "45c5b4bdb6492377.txt",
+      "type" : "text/plain",
+      "size" : 2023
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "UDP Device Control - TW Device"
+  }, {
+    "name" : "feature",
+    "value" : "Temperature, Speed And Light Mode"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_2'"
+  }, {
+    "name" : "speed",
+    "value" : "'200'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "409c67cbb525b5c0.json",
+  "parameterValues" : [ "'udp'", "'light_2'", "'200'" ]
+}

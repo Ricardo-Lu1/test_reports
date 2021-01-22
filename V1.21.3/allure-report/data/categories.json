@@ -1,0 +1,86 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: smart config pairing light fail, no light is found",
+      "children" : [ {
+        "name" : "test_rtp_pair_device_only_wifi",
+        "uid" : "ac4b22bab4a6941a",
+        "parentUid" : "710593ee434b29b3f8808e99572fa37f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611219441886,
+          "stop" : 1611219609630,
+          "duration" : 167744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_3_wizclick_pair_device_only_wifi",
+        "uid" : "a689eea2826acb61",
+        "parentUid" : "710593ee434b29b3f8808e99572fa37f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611219881050,
+          "stop" : 1611220057494,
+          "duration" : 176444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "710593ee434b29b3f8808e99572fa37f"
+    }, {
+      "name" : "AssertionError: UDP state should be true, but was false",
+      "children" : [ {
+        "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+        "uid" : "e9fb4676dc0571d5",
+        "parentUid" : "8e294e23578f90db59931394f7ce365c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611229544893,
+          "stop" : 1611231968448,
+          "duration" : 2423555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
+        "uid" : "fa2bc11cd6181778",
+        "parentUid" : "8e294e23578f90db59931394f7ce365c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611246236976,
+          "stop" : 1611248957968,
+          "duration" : 2720992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e294e23578f90db59931394f7ce365c"
+    }, {
+      "name" : "AssertionError: UDP state should be false, but was true",
+      "children" : [ {
+        "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+        "uid" : "25249041fe9cf789",
+        "parentUid" : "24607ee9d6e3dbc06779e938fee536f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611250820014,
+          "stop" : 1611251740838,
+          "duration" : 920824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24607ee9d6e3dbc06779e938fee536f2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

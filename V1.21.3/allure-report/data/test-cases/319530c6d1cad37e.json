@@ -1,0 +1,93 @@
+{
+  "uid" : "319530c6d1cad37e",
+  "name" : "test_device_control_dimming_tcp[light_1-100-wizappd-30-100]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming#test_device_control_dimming_tcp",
+  "historyId" : "0540fa1800973dd7ff2604820ffcfed2",
+  "time" : {
+    "start" : 1611222019113,
+    "stop" : 1611222033949,
+    "duration" : 14836
+  },
+  "description" : "03_on_off_nl_dimming.feature: Dimming device control by TCP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Dimming device control by TCP</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Dimming device control by TCP",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e2258ea80697272c",
+      "name" : "log",
+      "source" : "e2258ea80697272c.txt",
+      "type" : "text/plain",
+      "size" : 2464
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "dimming_level",
+    "value" : "'100'"
+  }, {
+    "name" : "exp_level",
+    "value" : "'100'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_level",
+    "value" : "'30'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "319530c6d1cad37e.json",
+  "parameterValues" : [ "'wizappd'", "'100'", "'100'", "'light_1'", "'30'" ]
+}

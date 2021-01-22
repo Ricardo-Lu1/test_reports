@@ -1,0 +1,110 @@
+{
+  "uid" : "d12b61d5a30d0cba",
+  "name" : "test_single_tw_device_tcp_control_temperature[light_2-3000-wizappd]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode#test_single_tw_device_tcp_control_temperature",
+  "historyId" : "8f25b8bd1c20159c2d9c3a413ba09010",
+  "time" : {
+    "start" : 1611276404555,
+    "stop" : 1611276421352,
+    "duration" : 16797
+  },
+  "description" : "04_temperature_speed_light_mode.feature: Single TW device control via tcp - temperature",
+  "descriptionHtml" : "<p>04_temperature_speed_light_mode.feature: Single TW device control via tcp - temperature</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1611276370705,
+      "stop" : 1611276370705,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "04_temperature_speed_light_mode.feature: Single TW device control via tcp - temperature",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "918e313d48bf61e6",
+      "name" : "log",
+      "source" : "918e313d48bf61e6.txt",
+      "type" : "text/plain",
+      "size" : 4387
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control - TW Device"
+  }, {
+    "name" : "feature",
+    "value" : "Temperature, Speed And Light Mode"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "11624-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_2'"
+  }, {
+    "name" : "temperature",
+    "value" : "'3000'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e5aa4c84ccbb51d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611222499670,
+        "stop" : 1611222516323,
+        "duration" : 16653
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d12b61d5a30d0cba.json",
+  "parameterValues" : [ "'wizappd'", "'light_2'", "'3000'" ]
+}

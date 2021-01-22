@@ -1,0 +1,114 @@
+{
+  "uid" : "2d956632e80fade9",
+  "name" : "test_pulse_device_on[light_1-Warm white--50-1000]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming#test_pulse_device_on",
+  "historyId" : "e3eefa0e258471ed0653b0d6301b9793",
+  "time" : {
+    "start" : 1611276234497,
+    "stop" : 1611276244616,
+    "duration" : 10119
+  },
+  "description" : "03_on_off_nl_dimming.feature: Pulse when device is ON",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Pulse when device is ON</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1611276234495,
+      "stop" : 1611276234495,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Pulse when device is ON",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8dd3910491182766",
+      "name" : "log",
+      "source" : "8dd3910491182766.txt",
+      "type" : "text/plain",
+      "size" : 1877
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "story",
+    "value" : "UDP Device Control"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "29892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "delta",
+    "value" : "'-50'"
+  }, {
+    "name" : "duration",
+    "value" : "'1000'"
+  }, {
+    "name" : "light_mode",
+    "value" : "'Warm white'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "58a24d36d1947cff",
+      "status" : "broken",
+      "statusDetails" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if {light_name} mode is {light_mode} by getPilot command\". Line 118 in scenario \"Pulse when device is ON\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\03_on_off_nl_dimming.feature",
+      "time" : {
+        "start" : 1611222191310,
+        "stop" : 1611222200378,
+        "duration" : 9068
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d956632e80fade9.json",
+  "parameterValues" : [ "'-50'", "'1000'", "'Warm white'", "'light_1'" ]
+}

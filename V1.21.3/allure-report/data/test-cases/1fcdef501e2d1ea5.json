@@ -1,0 +1,87 @@
+{
+  "uid" : "1fcdef501e2d1ea5",
+  "name" : "test_set_fade_on_fade_off[light_1-1000-1000]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming#test_set_fade_on_fade_off",
+  "historyId" : "5c096b16e469a7ccee9f11368a53354a",
+  "time" : {
+    "start" : 1611222233898,
+    "stop" : 1611222244212,
+    "duration" : 10314
+  },
+  "description" : "03_on_off_nl_dimming.feature: Configuration setting - Fade on/off",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Configuration setting - Fade on/off</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Configuration setting - Fade on/off",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f76d95ec84991fab",
+      "name" : "log",
+      "source" : "f76d95ec84991fab.txt",
+      "type" : "text/plain",
+      "size" : 2919
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "fade_off_time",
+    "value" : "'1000'"
+  }, {
+    "name" : "fade_on_time",
+    "value" : "'1000'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fcdef501e2d1ea5.json",
+  "parameterValues" : [ "'1000'", "'1000'", "'light_1'" ]
+}

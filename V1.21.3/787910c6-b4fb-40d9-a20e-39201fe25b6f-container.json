@@ -1,0 +1,1 @@
+{"uuid": "4db96d19-13bc-4065-a5c4-0672bad3f9c2", "befores": [{"name": "pytestbdd_when_set {light_name} dim to {dimming_level} by {act_type} command", "status": "passed", "start": 1611222069577, "stop": 1611222069577}], "start": 1611222069577, "stop": 1611222079264}

@@ -1,0 +1,87 @@
+{
+  "uid" : "3ce5a8336293acb7",
+  "name" : "test_single_tw_device_udp_control_modes[light_2-Relax-udp]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode#test_single_tw_device_udp_control_modes",
+  "historyId" : "97dce8c023f2bea67e8bd77c4948bfc6",
+  "time" : {
+    "start" : 1611222384420,
+    "stop" : 1611222394182,
+    "duration" : 9762
+  },
+  "description" : "04_temperature_speed_light_mode.feature: Single TW device control via udp - 14 default modes",
+  "descriptionHtml" : "<p>04_temperature_speed_light_mode.feature: Single TW device control via udp - 14 default modes</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "04_temperature_speed_light_mode.feature: Single TW device control via udp - 14 default modes",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f41b8a4fc70af79e",
+      "name" : "log",
+      "source" : "f41b8a4fc70af79e.txt",
+      "type" : "text/plain",
+      "size" : 1955
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "UDP Device Control - TW Device"
+  }, {
+    "name" : "feature",
+    "value" : "Temperature, Speed And Light Mode"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "light_mode",
+    "value" : "'Relax'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ce5a8336293acb7.json",
+  "parameterValues" : [ "'udp'", "'Relax'", "'light_2'" ]
+}

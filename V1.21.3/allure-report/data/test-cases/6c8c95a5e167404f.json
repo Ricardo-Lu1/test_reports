@@ -1,0 +1,110 @@
+{
+  "uid" : "6c8c95a5e167404f",
+  "name" : "test_single_tw_device_tcp_control_speed[light_2-10-wizappd]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode#test_single_tw_device_tcp_control_speed",
+  "historyId" : "8f186e9f95bdc23fde292d8331feb44d",
+  "time" : {
+    "start" : 1611276478856,
+    "stop" : 1611276490392,
+    "duration" : 11536
+  },
+  "description" : "04_temperature_speed_light_mode.feature: Single TW device control via tcp - speed",
+  "descriptionHtml" : "<p>04_temperature_speed_light_mode.feature: Single TW device control via tcp - speed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1611276438962,
+      "stop" : 1611276438962,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "04_temperature_speed_light_mode.feature: Single TW device control via tcp - speed",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5c5e9763df43e703",
+      "name" : "log",
+      "source" : "5c5e9763df43e703.txt",
+      "type" : "text/plain",
+      "size" : 2410
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Temperature, Speed And Light Mode"
+  }, {
+    "name" : "story",
+    "value" : "TCP Device Control - TW Device"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "4512-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_2'"
+  }, {
+    "name" : "speed",
+    "value" : "'10'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e2055fc928666aaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611222549033,
+        "stop" : 1611222560414,
+        "duration" : 11381
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c8c95a5e167404f.json",
+  "parameterValues" : [ "'wizappd'", "'light_2'", "'10'" ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "fa2bc11cd6181778",
+  "name" : "test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes",
+  "historyId" : "556dfa86918e5fb2f0c75c5ca89be976",
+  "time" : {
+    "start" : 1611246236976,
+    "stop" : 1611248957968,
+    "duration" : 2720992
+  },
+  "description" : "schedule.feature: Create two schedule with action \"Bedtime\" and \"Wake-up\",and the start time interval is less than 30 minutes",
+  "descriptionHtml" : "<p>schedule.feature: Create two schedule with action &quot;Bedtime&quot; and &quot;Wake-up&quot;,and the start time interval is less than 30 minutes</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: UDP state should be true, but was false",
+  "statusTrace" : "request = <FixtureRequest for <Function test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000002A49A508748>\nlight_name = 'light_1', action = 'ON'\n\n    @then(parsers.parse('check {light_name} keeps status {action}'))\n    def check_light_keeps_status(target, light_name, action):\n        logger.info(\"check light status\")\n        response = target.udp.get_pilot(light_name)\n        logger.info(\"udp response:\" + str(response))\n    \n        if action == 'ON':\n            if response[\"result\"][\"state\"] is False:\n                logger.info(\"Error : UDP state should be true, but was false\")\n>               assert False, \"UDP state should be true, but was false\"\nE               AssertionError: UDP state should be true, but was false\n\n..\\..\\Steps\\schedule_action_steps.py:372: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Create two schedule with action \"Bedtime\" and \"Wake-up\",and the start time interval is less than 30 minutes",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: UDP state should be true, but was false",
+    "statusTrace" : "request = <FixtureRequest for <Function test_25_create_two_schedule_with_bedtime_and_wake_up_and_start_time_interval_less_than_30_minutes>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x000002A49A508748>\nlight_name = 'light_1', action = 'ON'\n\n    @then(parsers.parse('check {light_name} keeps status {action}'))\n    def check_light_keeps_status(target, light_name, action):\n        logger.info(\"check light status\")\n        response = target.udp.get_pilot(light_name)\n        logger.info(\"udp response:\" + str(response))\n    \n        if action == 'ON':\n            if response[\"result\"][\"state\"] is False:\n                logger.info(\"Error : UDP state should be true, but was false\")\n>               assert False, \"UDP state should be true, but was false\"\nE               AssertionError: UDP state should be true, but was false\n\n..\\..\\Steps\\schedule_action_steps.py:372: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "695548c8c3bc92cf",
+      "name" : "log",
+      "source" : "695548c8c3bc92cf.txt",
+      "type" : "text/plain",
+      "size" : 47064
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create two schedule with action \"Bedtime\" and \"Wake-up\",and the start time interval is less than 30 minutes"
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "fa2bc11cd6181778.json",
+  "parameterValues" : [ ]
+}

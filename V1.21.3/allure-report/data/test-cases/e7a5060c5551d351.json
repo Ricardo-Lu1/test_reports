@@ -1,0 +1,81 @@
+{
+  "uid" : "e7a5060c5551d351",
+  "name" : "test_24_create_two_schedule_with_wake_up_and_bedtime_and_start_time_interval_less_than_30_minutes",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_24_create_two_schedule_with_wake_up_and_bedtime_and_start_time_interval_less_than_30_minutes",
+  "historyId" : "c6b1cce4610fd37b4deba69cd2554eba",
+  "time" : {
+    "start" : 1611243510828,
+    "stop" : 1611246236863,
+    "duration" : 2726035
+  },
+  "description" : "schedule.feature: Create two schedule with action \"Wake-up\" and \"Bedtime\",and the start time interval is less than 30 minutes",
+  "descriptionHtml" : "<p>schedule.feature: Create two schedule with action &quot;Wake-up&quot; and &quot;Bedtime&quot;,and the start time interval is less than 30 minutes</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Create two schedule with action \"Wake-up\" and \"Bedtime\",and the start time interval is less than 30 minutes",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a7e3a388b0339b0",
+      "name" : "log",
+      "source" : "8a7e3a388b0339b0.txt",
+      "type" : "text/plain",
+      "size" : 28985
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create two schedule with action \"Wake-up\" and \"Bedtime\",and the start time interval is less than 30 minutes"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "e7a5060c5551d351.json",
+  "parameterValues" : [ ]
+}

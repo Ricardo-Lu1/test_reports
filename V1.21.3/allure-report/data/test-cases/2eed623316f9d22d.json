@@ -1,0 +1,90 @@
+{
+  "uid" : "2eed623316f9d22d",
+  "name" : "test_device_control_on_off_nl_tcp[light_1-ON-wizappd-NL]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming#test_device_control_on_off_nl_tcp",
+  "historyId" : "a2db3a0131177434e73ac0b80750984f",
+  "time" : {
+    "start" : 1611221870442,
+    "stop" : 1611221882840,
+    "duration" : 12398
+  },
+  "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "debadbb33322c639",
+      "name" : "log",
+      "source" : "debadbb33322c639.txt",
+      "type" : "text/plain",
+      "size" : 2399
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "action",
+    "value" : "'ON'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_action",
+    "value" : "'NL'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2eed623316f9d22d.json",
+  "parameterValues" : [ "'wizappd'", "'ON'", "'light_1'", "'NL'" ]
+}

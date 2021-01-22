@@ -1,0 +1,81 @@
+{
+  "uid" : "7f2b54c8289dfe20",
+  "name" : "test_13_create_schedule_with_daylight_end_with_previous_mode_when_lamp_status_on",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_13_create_schedule_with_daylight_end_with_previous_mode_when_lamp_status_on",
+  "historyId" : "4929f27c3e78ec779c59b2b528ffca77",
+  "time" : {
+    "start" : 1611225878134,
+    "stop" : 1611226498546,
+    "duration" : 620412
+  },
+  "description" : "schedule.feature: Create a schedule with action \"Daylight\" and end with \"Previous mode\" when lamp original status is on",
+  "descriptionHtml" : "<p>schedule.feature: Create a schedule with action &quot;Daylight&quot; and end with &quot;Previous mode&quot; when lamp original status is on</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Create a schedule with action \"Daylight\" and end with \"Previous mode\" when lamp original status is on",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "184b75e8891ea0d",
+      "name" : "log",
+      "source" : "184b75e8891ea0d.txt",
+      "type" : "text/plain",
+      "size" : 24831
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Daylight\" and end with \"Previous mode\" when lamp original status is on"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "7f2b54c8289dfe20.json",
+  "parameterValues" : [ ]
+}

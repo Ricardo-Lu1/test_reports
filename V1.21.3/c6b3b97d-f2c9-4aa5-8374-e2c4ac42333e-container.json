@@ -1,0 +1,1 @@
+{"uuid": "dc1c182d-1ef4-48ed-92fa-de549116dffc", "befores": [{"name": "pytestbdd_then_Check udp getPilot if {light_name} temperature is changed to {temperature}", "status": "passed", "start": 1611276416982, "stop": 1611276416982}], "start": 1611276416982, "stop": 1611276421353}

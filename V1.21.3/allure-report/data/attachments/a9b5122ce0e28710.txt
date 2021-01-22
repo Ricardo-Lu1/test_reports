@@ -1,0 +1,80 @@
+INFO     test_case.log:conftest.py:116 ****************************************************************************************************
+INFO     test_case.log:conftest.py:118 Scenario Start: rhythm.feature:Edit time for circadian rhythm
+INFO     test_case.log:conftest.py:119 ****************************************************************************************************
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"deleteAll": true}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"deleteAll": true}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/a8bb5060758a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb5060758a","rssi":-51,"src":"intl","state":true,"sceneId":12,"temp":4200,"dimming":10}}
+INFO     test_case.log:rhythm_action_steps.py:8 delete all rhythm for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.37.193
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.37.193
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/a8bb5060758a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb5060758a","rssi":-51,"src":"udp","state":true,"sceneId":16,"dimming":10}}
+INFO     test_case.log:schedule_action_steps.py:215 check light_1 udp getPilot light mode
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.37.193
+INFO     test_case.log:schedule_action_steps.py:218 udp getPilot response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb5060758a', 'rssi': -51, 'state': True, 'sceneId': 16, 'dimming': 10}}
+INFO     test_case.log:schedule_action_steps.py:227 light_1 udp getPilot mode is 16
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 15, "hrs": 6, "mins": 30, "dura": 30, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "confTs": 1594343716}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 15, "hrs": 6, "mins": 30, "dura": 30, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "confTs": 1594343716}}
+INFO     test_case.log:rhythm_action_steps.py:22 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 25, "hrs": 7, "mins": 0, "dura": 210, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 50, "sType": "wake", "confTs": 1594343716}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 25, "hrs": 7, "mins": 0, "dura": 210, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 50, "sType": "wake", "confTs": 1594343716}}
+INFO     test_case.log:rhythm_action_steps.py:22 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 35, "hrs": 10, "mins": 30, "dura": 570, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 100, "confTs": 1594343716}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 35, "hrs": 10, "mins": 30, "dura": 570, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 100, "confTs": 1594343716}}
+INFO     test_case.log:rhythm_action_steps.py:22 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 45, "hrs": 20, "mins": 0, "dura": 180, "mode": [0, 0, 0, 0, 0, 0, 2700], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 45, "confTs": 1594343716}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 45, "hrs": 20, "mins": 0, "dura": 180, "mode": [0, 0, 0, 0, 0, 0, 2700], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 45, "confTs": 1594343716}}
+INFO     test_case.log:rhythm_action_steps.py:22 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 55, "hrs": 23, "mins": 0, "dura": 450, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "sType": "sleep", "confTs": 1594343716}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 55, "hrs": 23, "mins": 0, "dura": 450, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "sType": "sleep", "confTs": 1594343716}}
+INFO     test_case.log:rhythm_action_steps.py:22 create default rhythm position for light_1
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/a8bb5060758a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb5060758a","rssi":-50,"src":"intl","state":true,"sceneId":0,"temp":4200,"dimming":78,"schdPsetId":1}}
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.37.193
+INFO     test_case.log:rhythm_action_steps.py:65 udp response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb5060758a', 'rssi': -50, 'state': True, 'sceneId': 0, 'temp': 4200, 'dimming': 78, 'schdPsetId': 1}}
+INFO     test_case.log:rhythm_action_steps.py:120 Set default rhythm successfully
+INFO     test_case.log:rhythm_action_steps.py:15 wait 30 seconds
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 15, "hrs": 4, "mins": 19, "dura": 101, "mode": [0, 0, 0, 0, 0, 0, 2700], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 45, "confTs": 1594631972}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 15, "hrs": 4, "mins": 19, "dura": 101, "mode": [0, 0, 0, 0, 0, 0, 2700], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 45, "confTs": 1594631972}}
+INFO     test_case.log:rhythm_action_steps.py:29 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 25, "hrs": 6, "mins": 0, "dura": 870, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "sType": "sleep", "confTs": 1594631972}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 25, "hrs": 6, "mins": 0, "dura": 870, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "sType": "sleep", "confTs": 1594631972}}
+INFO     test_case.log:rhythm_action_steps.py:29 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 35, "hrs": 20, "mins": 30, "dura": 30, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "confTs": 1594631972}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 35, "hrs": 20, "mins": 30, "dura": 30, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "confTs": 1594631972}}
+INFO     test_case.log:rhythm_action_steps.py:29 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 45, "hrs": 21, "mins": 0, "dura": 118, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 50, "sType": "wake", "confTs": 1594631972}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 45, "hrs": 21, "mins": 0, "dura": 118, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 50, "sType": "wake", "confTs": 1594631972}}
+INFO     test_case.log:rhythm_action_steps.py:29 create default rhythm position for light_1
+INFO     root:paired_light_info.py:80 The light mac is: a8bb5060758a
+INFO     root:paired_light_info.py:95 The light home id is: 43937
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 55, "hrs": 22, "mins": 58, "dura": 321, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 100, "confTs": 1594631972}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43937/devices/a8bb5060758a   {"method": "setSchdPset", "params": {"id": 1, "pos": 55, "hrs": 22, "mins": 58, "dura": 321, "mode": [0, 0, 0, 0, 0, 0, 4200], "days": [1, 1, 1, 1, 1, 1, 1], "type": "circ", "dim": 100, "confTs": 1594631972}}
+INFO     test_case.log:rhythm_action_steps.py:29 create default rhythm position for light_1
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/a8bb5060758a   {"method":"syncPilot","env":"dev","params":{"mac":"a8bb5060758a","rssi":-51,"src":"intl","state":true,"sceneId":14,"schdPsetId":1}}
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.37.193
+INFO     test_case.log:rhythm_action_steps.py:141 udp response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': 'a8bb5060758a', 'rssi': -50, 'state': True, 'sceneId': 14, 'schdPsetId': 1}}
+INFO     test_case.log:rhythm_action_steps.py:198 Set rhythm 1 successfully
+INFO     test_case.log:conftest.py:125 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Stop: rhythm.feature:Edit time for circadian rhythm
+INFO     test_case.log:conftest.py:130 ****************************************************************************************************

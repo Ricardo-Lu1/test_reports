@@ -1,0 +1,81 @@
+{
+  "uid" : "67bc7760b5aaa45b",
+  "name" : "test_33_press_on_during_schedule_end_with_off",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt#test_33_press_on_during_schedule_end_with_off",
+  "historyId" : "979bc88b3f01f3c36587c93d36e32ec1",
+  "time" : {
+    "start" : 1611254526267,
+    "stop" : 1611255454719,
+    "duration" : 928452
+  },
+  "description" : "schedule.feature: Press \"ON\" during schedule end with \"OFF\"",
+  "descriptionHtml" : "<p>schedule.feature: Press &quot;ON&quot; during schedule end with &quot;OFF&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "schedule.feature: Press \"ON\" during schedule end with \"OFF\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e4cfe65262af23c1",
+      "name" : "log",
+      "source" : "e4cfe65262af23c1.txt",
+      "type" : "text/plain",
+      "size" : 9151
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Press \"ON\" during schedule end with \"OFF\""
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_08_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_08_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "67bc7760b5aaa45b.json",
+  "parameterValues" : [ ]
+}

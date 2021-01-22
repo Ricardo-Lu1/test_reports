@@ -1,0 +1,96 @@
+{
+  "uid" : "89076544d7c500cc",
+  "name" : "test_ap_pair_device_only_wifi",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_03_pair_device_only_wifi#test_ap_pair_device_only_wifi",
+  "historyId" : "a4dee09142a4055dc70a3b2ceca23a5e",
+  "time" : {
+    "start" : 1611220398886,
+    "stop" : 1611220512642,
+    "duration" : 113756
+  },
+  "description" : "pair_device_only_wifi.feature: AP pairing by only wifi",
+  "descriptionHtml" : "<p>pair_device_only_wifi.feature: AP pairing by only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1611220398884,
+      "stop" : 1611220398884,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_device_only_wifi.feature: AP pairing by only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa30f58ddbf2d06d",
+      "name" : "log",
+      "source" : "aa30f58ddbf2d06d.txt",
+      "type" : "text/plain",
+      "size" : 4571
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pairing"
+  }, {
+    "name" : "story",
+    "value" : "Pairing by only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_pair_device_only_wifi"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "9700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_03_pair_device_only_wifi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "89076544d7c500cc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "cae717785a96dc1a",
+  "name" : "test_device_control_on_off_nl_udp[light_1-OFF-udp-ON]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming#test_device_control_on_off_nl_udp",
+  "historyId" : "b3c29704a064cc5c338445c087413133",
+  "time" : {
+    "start" : 1611221713679,
+    "stop" : 1611221725558,
+    "duration" : 11879
+  },
+  "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by UDP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: ON/OFF/NL device control by UDP</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by UDP",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1af2c7531dcdaa18",
+      "name" : "log",
+      "source" : "1af2c7531dcdaa18.txt",
+      "type" : "text/plain",
+      "size" : 1995
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "UDP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_06_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "action",
+    "value" : "'OFF'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_action",
+    "value" : "'ON'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cae717785a96dc1a.json",
+  "parameterValues" : [ "'udp'", "'OFF'", "'light_1'", "'ON'" ]
+}

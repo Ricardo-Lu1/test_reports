@@ -1,0 +1,87 @@
+{
+  "uid" : "54a1a41cb9d40fc3",
+  "name" : "test_single_tw_device_tcp_control_modes[light_2-TV time-wizappd]",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode#test_single_tw_device_tcp_control_modes",
+  "historyId" : "8208ec3a15fd6cf91bbd2f7dd2a7ad82",
+  "time" : {
+    "start" : 1611222631813,
+    "stop" : 1611222641944,
+    "duration" : 10131
+  },
+  "description" : "04_temperature_speed_light_mode.feature: Single TW device control via tcp - 14 default modes",
+  "descriptionHtml" : "<p>04_temperature_speed_light_mode.feature: Single TW device control via tcp - 14 default modes</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "04_temperature_speed_light_mode.feature: Single TW device control via tcp - 14 default modes",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd452e9070f97042",
+      "name" : "log",
+      "source" : "bd452e9070f97042.txt",
+      "type" : "text/plain",
+      "size" : 2366
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Temperature, Speed And Light Mode"
+  }, {
+    "name" : "story",
+    "value" : "TCP Device Control - TW Device"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "14352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_07_temperature_speed_light_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "light_mode",
+    "value" : "'TV time'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54a1a41cb9d40fc3.json",
+  "parameterValues" : [ "'wizappd'", "'TV time'", "'light_2'" ]
+}

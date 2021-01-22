@@ -1,0 +1,1 @@
+{"uuid": "5d3aea8a-dcad-4e44-937f-83972ba97c79", "befores": [{"name": "pytestbdd_then_Check if {light_name} dimming level is {exp_level} by getPilot", "status": "passed", "start": 1611221906640, "stop": 1611221906640}], "start": 1611221906640, "stop": 1611221912948}

@@ -1,0 +1,96 @@
+{
+  "uid" : "c4ea01e013fc3b95",
+  "name" : "test_3_wizclick_pair_device_wifi_ble",
+  "fullName" : "Test_Suites.Tests.test_regression_module.test_05_pair_device_wifi_ble#test_3_wizclick_pair_device_wifi_ble",
+  "historyId" : "b310daabec8adca6c34d5f25908e551e",
+  "time" : {
+    "start" : 1611220737236,
+    "stop" : 1611220828347,
+    "duration" : 91111
+  },
+  "description" : "pair_device_wifi_ble.feature: 3 * WiZclick pairing by wifi and ble",
+  "descriptionHtml" : "<p>pair_device_wifi_ble.feature: 3 * WiZclick pairing by wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1611220737234,
+      "stop" : 1611220737234,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "pair_device_wifi_ble.feature: 3 * WiZclick pairing by wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35f1021b03cbfdb2",
+      "name" : "log",
+      "source" : "35f1021b03cbfdb2.txt",
+      "type" : "text/plain",
+      "size" : 4866
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pairing"
+  }, {
+    "name" : "story",
+    "value" : "Pairing by wifi and ble"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.test_regression_module"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_pair_device_wifi_ble"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "1936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.test_regression_module.test_05_pair_device_wifi_ble"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "usefixtures" ]
+  },
+  "source" : "c4ea01e013fc3b95.json",
+  "parameterValues" : [ ]
+}

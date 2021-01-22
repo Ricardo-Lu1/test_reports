@@ -1,0 +1,1 @@
+{"uuid": "41488930-0d93-4acc-b699-4540b506f615", "befores": [{"name": "pytestbdd_when_light control by simulating App udp command {light_name} change mode to {light_mode}", "status": "passed", "start": 1611222376639, "stop": 1611222376639}], "start": 1611222376639, "stop": 1611222384412}
