@@ -1,0 +1,111 @@
+{
+  "uid" : "bc31b2b6142c8db7",
+  "name" : "test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt#test_29_create_two_schedules_of_two_consecutive_periods_schedule1_end_with_previous_mode_schedule2_no_end",
+  "historyId" : "db05fdaf36070f8e159ccede8a5afe5b",
+  "time" : {
+    "start" : 1614114622244,
+    "stop" : 1614115554851,
+    "duration" : 932607
+  },
+  "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 no \"END\"",
+  "descriptionHtml" : "<p>schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with &quot;previous mode&quot;and schedule2 no &quot;END&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614077093793,
+      "stop" : 1614077093793,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 no \"END\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "78578d25d46c0d69",
+      "name" : "log",
+      "source" : "78578d25d46c0d69.txt",
+      "type" : "text/plain",
+      "size" : 15639
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 no \"END\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9db7efb1845823ae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be true, but was false",
+      "time" : {
+        "start" : 1614113989430,
+        "stop" : 1614114620192,
+        "duration" : 630762
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "bc31b2b6142c8db7.json",
+  "parameterValues" : [ ]
+}

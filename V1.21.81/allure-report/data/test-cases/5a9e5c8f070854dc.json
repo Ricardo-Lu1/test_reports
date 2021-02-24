@@ -1,0 +1,114 @@
+{
+  "uid" : "5a9e5c8f070854dc",
+  "name" : "test_device_control_dimming_tcp[light_1-80-wizappd-100-80]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming#test_device_control_dimming_tcp",
+  "historyId" : "4a51aade73628b940eb46ee9213bbb3b",
+  "time" : {
+    "start" : 1614072926609,
+    "stop" : 1614072947624,
+    "duration" : 21015
+  },
+  "description" : "03_on_off_nl_dimming.feature: Dimming device control by TCP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Dimming device control by TCP</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614072521024,
+      "stop" : 1614072521024,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Dimming device control by TCP",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a53a79a976819c1e",
+      "name" : "log",
+      "source" : "a53a79a976819c1e.txt",
+      "type" : "text/plain",
+      "size" : 4284
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "dimming_level",
+    "value" : "'80'"
+  }, {
+    "name" : "exp_level",
+    "value" : "'80'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_level",
+    "value" : "'100'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "5a9e5c8f070854dc.json",
+  "parameterValues" : [ "'wizappd'", "'80'", "'80'", "'light_1'", "'100'" ]
+}

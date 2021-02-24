@@ -1,0 +1,102 @@
+{
+  "uid" : "395e2238e5769647",
+  "name" : "test_37_change_speed_during_schedule_action_dynamic_mode_end_with_previous_mode",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt#test_37_change_speed_during_schedule_action_dynamic_mode_end_with_previous_mode",
+  "historyId" : "378f080d4d972e3cf8981de60cb2d277",
+  "time" : {
+    "start" : 1614122411760,
+    "stop" : 1614123339692,
+    "duration" : 927932
+  },
+  "description" : "schedule.feature: Change speed during schedule, action is dynamic mode and end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule.feature: Change speed during schedule, action is dynamic mode and end with &quot;previous mode&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614077093793,
+      "stop" : 1614077093793,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Change speed during schedule, action is dynamic mode and end with \"previous mode\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe0c1fa867dd379c",
+      "name" : "log",
+      "source" : "fe0c1fa867dd379c.txt",
+      "type" : "text/plain",
+      "size" : 5932
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Change speed during schedule, action is dynamic mode and end with \"previous mode\""
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "395e2238e5769647.json",
+  "parameterValues" : [ ]
+}

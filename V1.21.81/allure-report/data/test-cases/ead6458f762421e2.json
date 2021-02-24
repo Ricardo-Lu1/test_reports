@@ -1,0 +1,120 @@
+{
+  "uid" : "ead6458f762421e2",
+  "name" : "test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_06_rhythm_by_mqtt#test_18_turn_off_then_turn_on_in_cool_white_mode_when_rhythms_playing_by_mqtt",
+  "historyId" : "cc3d5de506ae8b99d30ad46a703c34b7",
+  "time" : {
+    "start" : 1614130457175,
+    "stop" : 1614130848478,
+    "duration" : 391303
+  },
+  "description" : "rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing",
+  "descriptionHtml" : "<p>rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614129499928,
+      "stop" : 1614129499929,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "rhythm.feature: Turn off and then turn on in cool white mode when Rhythms playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b5fb7ef6d546e294",
+      "name" : "log",
+      "source" : "b5fb7ef6d546e294.txt",
+      "type" : "text/plain",
+      "size" : 13432
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Turn off and then turn on in cool white mode when Rhythms playing"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "2600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_06_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f3bba934affdb54",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check scene id by udp fail! Scene id should be 18, but was 6",
+      "time" : {
+        "start" : 1614076889689,
+        "stop" : 1614076917880,
+        "duration" : 28191
+      }
+    }, {
+      "uid" : "acc49ab4d485a9ac",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check scene id by udp fail! Scene id should be 18, but was 6",
+      "time" : {
+        "start" : 1614076859249,
+        "stop" : 1614076887642,
+        "duration" : 28393
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "ead6458f762421e2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "ed67841844fa8089",
+  "name" : "test_15_create_schedule_with_bedtime_end_with_off_when_lamp_status_warm_white",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt#test_15_create_schedule_with_bedtime_end_with_off_when_lamp_status_warm_white",
+  "historyId" : "31ba8af9e3d5680c08dde48bcb3ba5b7",
+  "time" : {
+    "start" : 1614085222813,
+    "stop" : 1614085844147,
+    "duration" : 621334
+  },
+  "description" : "schedule.feature: Create a schedule with action \"Bedtime\" and end with \"off\" when lamp original status is \"Warm White\"",
+  "descriptionHtml" : "<p>schedule.feature: Create a schedule with action &quot;Bedtime&quot; and end with &quot;off&quot; when lamp original status is &quot;Warm White&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614077093793,
+      "stop" : 1614077093793,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create a schedule with action \"Bedtime\" and end with \"off\" when lamp original status is \"Warm White\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "104ed2ba34bde023",
+      "name" : "log",
+      "source" : "104ed2ba34bde023.txt",
+      "type" : "text/plain",
+      "size" : 12049
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Bedtime\" and end with \"off\" when lamp original status is \"Warm White\""
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "402e07d0d1b9b889",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: UDP syncPilot state should be false, but was true",
+      "time" : {
+        "start" : 1614084599452,
+        "stop" : 1614085220778,
+        "duration" : 621326
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "ed67841844fa8089.json",
+  "parameterValues" : [ ]
+}

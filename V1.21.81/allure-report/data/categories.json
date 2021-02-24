@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Error : Get UDP syncPilot timeout!",
+      "children" : [ {
+        "name" : "test_16_create_schedule_with_bedtime_end_with_previous_mode_after_30min_when_lamp_status_warm_white",
+        "uid" : "a6ad62e457fb6016",
+        "parentUid" : "c44f71d3e1adbf5cdf1f0f61e4b08eed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614087986337,
+          "stop" : 1614090124310,
+          "duration" : 2137973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c44f71d3e1adbf5cdf1f0f61e4b08eed"
+    }, {
+      "name" : "AssertionError: UDP state should be false, but was true",
+      "children" : [ {
+        "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+        "uid" : "ad9ff35f7925b103",
+        "parentUid" : "24607ee9d6e3dbc06779e938fee536f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614113063024,
+          "stop" : 1614113989399,
+          "duration" : 926375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24607ee9d6e3dbc06779e938fee536f2"
+    }, {
+      "name" : "AssertionError: smart config pairing light fail, no light is found",
+      "children" : [ {
+        "name" : "test_rtp_pair_device_only_wifi",
+        "uid" : "b822c557198ad753",
+        "parentUid" : "710593ee434b29b3f8808e99572fa37f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614135418967,
+          "stop" : 1614135716310,
+          "duration" : 297343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "710593ee434b29b3f8808e99572fa37f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

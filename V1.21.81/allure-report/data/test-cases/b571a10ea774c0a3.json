@@ -1,0 +1,108 @@
+{
+  "uid" : "b571a10ea774c0a3",
+  "name" : "test_single_rgb_device_udp_control_temperature[light_3-3000-udp]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_04_temperature_speed_light_mode#test_single_rgb_device_udp_control_temperature",
+  "historyId" : "e5926010640569fb3f6ff757a42a5cb3",
+  "time" : {
+    "start" : 1614073270810,
+    "stop" : 1614073287542,
+    "duration" : 16732
+  },
+  "description" : "04_temperature_speed_light_mode.feature: Single RGB device control via udp - temperature",
+  "descriptionHtml" : "<p>04_temperature_speed_light_mode.feature: Single RGB device control via udp - temperature</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614073236616,
+      "stop" : 1614073236616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "04_temperature_speed_light_mode.feature: Single RGB device control via udp - temperature",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "873412c49a6d04c2",
+      "name" : "log",
+      "source" : "873412c49a6d04c2.txt",
+      "type" : "text/plain",
+      "size" : 5064
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "UDP Device Control - RGB Device"
+  }, {
+    "name" : "feature",
+    "value" : "Temperature, Speed And Light Mode"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_temperature_speed_light_mode"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_04_temperature_speed_light_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_3'"
+  }, {
+    "name" : "temperature",
+    "value" : "'3000'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "b571a10ea774c0a3.json",
+  "parameterValues" : [ "'udp'", "'light_3'", "'3000'" ]
+}

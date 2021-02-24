@@ -1,0 +1,113 @@
+{
+  "uid" : "8d9d2ae315c7ce02",
+  "name" : "test_device_control_on_off_nl_tcp[light_1-NL-wizappd-ON]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming#test_device_control_on_off_nl_tcp",
+  "historyId" : "240e4394cf96104bbb518d11a2aa7f61",
+  "time" : {
+    "start" : 1614072742001,
+    "stop" : 1614072769108,
+    "duration" : 27107
+  },
+  "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Error : Get UDP syncPilot timeout!",
+  "statusTrace" : "request = <FixtureRequest for <Function test_device_control_on_off_nl_tcp[light_1-NL-wizappd-ON]>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:93: in check_device_on_off_nl_udp\n    udp_sync_res = get_udp_sync_pilot(target, light_name, act_type)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:285: in get_udp_sync_pilot\n    udp_sync_res = target.udp.get_udp_sync_pilot(light_name, act_type)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Wrapper.wrapper_udp.WrapperUDP object at 0x00000171EFB90688>\nlight_name = 'light_1', src_type = 'wizappd'\n\n    def get_udp_sync_pilot(self, light_name, src_type):\n        light_mac = get_mac_from_name(light_name)\n        start_time = datetime.datetime.now()\n        while True:\n            end_time = datetime.datetime.now()\n            if not self.bl_get_sync:\n                response = self.udp_listen.server_receive_message()\n                if response is not False and response != \"test\":\n                    try:\n                        response = json.loads(response)\n                    except:\n                        continue\n                    if response[\"method\"] == \"syncPilot\":\n                        payload = response[\"params\"]\n                        if payload[\"mac\"] == light_mac and payload[\"src\"] == src_type:\n                            # self.bl_register = False\n                            print(\"UDP syncPilot:\" + str(response))\n                            # TODO close udp service\n                            return response\n            if (end_time - start_time).seconds > 10:\n                self.udp_listen.close_udp_service()\n                self.udp_listen = None\n>               assert False, \"Error : Get UDP syncPilot timeout!\"\nE               AssertionError: Error : Get UDP syncPilot timeout!\n\n..\\..\\..\\Wrapper\\wrapper_udp.py:424: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614072521024,
+      "stop" : 1614072521024,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Error : Get UDP syncPilot timeout!",
+    "statusTrace" : "request = <FixtureRequest for <Function test_device_control_on_off_nl_tcp[light_1-NL-wizappd-ON]>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:93: in check_device_on_off_nl_udp\n    udp_sync_res = get_udp_sync_pilot(target, light_name, act_type)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:285: in get_udp_sync_pilot\n    udp_sync_res = target.udp.get_udp_sync_pilot(light_name, act_type)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Wrapper.wrapper_udp.WrapperUDP object at 0x00000171EFB90688>\nlight_name = 'light_1', src_type = 'wizappd'\n\n    def get_udp_sync_pilot(self, light_name, src_type):\n        light_mac = get_mac_from_name(light_name)\n        start_time = datetime.datetime.now()\n        while True:\n            end_time = datetime.datetime.now()\n            if not self.bl_get_sync:\n                response = self.udp_listen.server_receive_message()\n                if response is not False and response != \"test\":\n                    try:\n                        response = json.loads(response)\n                    except:\n                        continue\n                    if response[\"method\"] == \"syncPilot\":\n                        payload = response[\"params\"]\n                        if payload[\"mac\"] == light_mac and payload[\"src\"] == src_type:\n                            # self.bl_register = False\n                            print(\"UDP syncPilot:\" + str(response))\n                            # TODO close udp service\n                            return response\n            if (end_time - start_time).seconds > 10:\n                self.udp_listen.close_udp_service()\n                self.udp_listen = None\n>               assert False, \"Error : Get UDP syncPilot timeout!\"\nE               AssertionError: Error : Get UDP syncPilot timeout!\n\n..\\..\\..\\Wrapper\\wrapper_udp.py:424: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45dfcda95d8911bc",
+      "name" : "log",
+      "source" : "45dfcda95d8911bc.txt",
+      "type" : "text/plain",
+      "size" : 6674
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "action",
+    "value" : "'NL'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_action",
+    "value" : "'ON'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "8d9d2ae315c7ce02.json",
+  "parameterValues" : [ "'wizappd'", "'NL'", "'light_1'", "'ON'" ]
+}

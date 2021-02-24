@@ -1,0 +1,1 @@
+{"uuid": "64c9293d-9188-4385-b5b0-69e87d3774a5", "befores": [{"name": "pytestbdd_then_Check if {light_name} mode is {light_mode} by getPilot command", "status": "passed", "start": 1614073375488, "stop": 1614073375488}], "start": 1614073375488, "stop": 1614073380462}

@@ -1,0 +1,111 @@
+{
+  "uid" : "ef23aec737dd989e",
+  "name" : "test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt#test_31_create_two_schedules_of_two_consecutive_periods_schedule1_end_previous_mode_schedule2_end_previous_mode",
+  "historyId" : "f99f08c8b11d4727e5df5da00ded521b",
+  "time" : {
+    "start" : 1614117758770,
+    "stop" : 1614118688372,
+    "duration" : 929602
+  },
+  "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 end with \"previous mode\"",
+  "descriptionHtml" : "<p>schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with &quot;previous mode&quot;and schedule2 end with &quot;previous mode&quot;</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614077093793,
+      "stop" : 1614077093793,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 end with \"previous mode\"",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9151e10ce1b7b78d",
+      "name" : "log",
+      "source" : "9151e10ce1b7b78d.txt",
+      "type" : "text/plain",
+      "size" : 16902
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create 2 schedules of two consecutive periods,schedule1 end with \"previous mode\"and schedule2 end with \"previous mode\""
+  }, {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24ccc8b44787a98a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 6",
+      "time" : {
+        "start" : 1614117128623,
+        "stop" : 1614117756724,
+        "duration" : 628101
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "ef23aec737dd989e.json",
+  "parameterValues" : [ ]
+}

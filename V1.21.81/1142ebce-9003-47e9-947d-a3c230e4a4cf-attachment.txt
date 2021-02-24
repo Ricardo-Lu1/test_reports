@@ -1,0 +1,88 @@
+INFO     test_case.log:conftest.py:126 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Start: rhythm.feature:Turn to Night light mode and then turn on without specifying any lamp mode when Rhythms playing
+INFO     test_case.log:conftest.py:129 ****************************************************************************************************
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"deleteAll": true}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"deleteAll": true}}
+INFO     test_case.log:rhythm_action_steps.py:61 delete all rhythm for light_1
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-52,"src":"udp","state":true,"sceneId":16,"dimming":100}}
+INFO     test_case.log:rhythm_action_steps.py:8 check light_1 udp getPilot light mode
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     test_case.log:rhythm_action_steps.py:10 udp getPilot response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': '6c2990980238', 'rssi': -52, 'state': True, 'sceneId': 16, 'dimming': 100}}
+INFO     test_case.log:rhythm_action_steps.py:19 light_1 udp getPilot mode is 16
+INFO     test_case.log:rhythm_action_steps.py:25 check light_1 udp syncPilot light mode
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:27 udp syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -52, 'src': 'udp', 'state': True, 'sceneId': 16, 'dimming': 100}}
+INFO     test_case.log:rhythm_action_steps.py:35 light_1 udp syncPilot mode is 16
+INFO     test_case.log:rhythm_action_steps.py:41 check light_1 mqtt syncPilot light mode
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:47 mqtt syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -52, 'src': 'udp', 'state': True, 'sceneId': 16, 'dimming': 100}}
+INFO     test_case.log:rhythm_action_steps.py:55 light_1 mqtt syncPilot mode is 16
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 15, "hrs": 6, "mins": 30, "dura": 90, "mode": [9, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 15, "hrs": 6, "mins": 30, "dura": 90, "mode": [9, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     test_case.log:rhythm_action_steps.py:89 create rhythm position for light_1 with scene : Wake-up
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 25, "hrs": 8, "mins": 0, "dura": 60, "mode": [12, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 25, "hrs": 8, "mins": 0, "dura": 60, "mode": [12, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     test_case.log:rhythm_action_steps.py:89 create rhythm position for light_1 with scene : Daylight
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 35, "hrs": 9, "mins": 0, "dura": 540, "mode": [18, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 35, "hrs": 9, "mins": 0, "dura": 540, "mode": [18, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     test_case.log:rhythm_action_steps.py:89 create rhythm position for light_1 with scene : TV time
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 45, "hrs": 18, "mins": 0, "dura": 300, "mode": [6, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 45, "hrs": 18, "mins": 0, "dura": 300, "mode": [6, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     test_case.log:rhythm_action_steps.py:89 create rhythm position for light_1 with scene : Cozy
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 55, "hrs": 23, "mins": 0, "dura": 450, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchdPset", "params": {"id": 2, "pos": 55, "hrs": 23, "mins": 0, "dura": 450, "mode": [14, 0, 0, 0, 0, 0, 0], "days": [1, 1, 1, 1, 1, 1, 1], "type": "custom", "confTs": 1594625617}}
+INFO     test_case.log:rhythm_action_steps.py:89 create rhythm position for light_1 with scene : Night light
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-54,"src":"intl","state":true,"sceneId":18,"dimming":10,"schdPsetId":2}}
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     test_case.log:rhythm_action_steps.py:201 udp response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': '6c2990980238', 'rssi': -52, 'state': True, 'sceneId': 18, 'dimming': 10, 'schdPsetId': 2}}
+INFO     test_case.log:rhythm_action_steps.py:223 check rhythm 2 for light_1 with scene TV time by getPilot successfully
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:234 udp syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -51, 'src': 'intl', 'state': True, 'sceneId': 18, 'dimming': 10, 'schdPsetId': 2}}
+INFO     test_case.log:rhythm_action_steps.py:256 check rhythm 2 for light_1 with scene TV time by udp syncPilot successfully
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:271 mqtt syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -54, 'src': 'intl', 'state': True, 'sceneId': 18, 'dimming': 10, 'schdPsetId': 2}}
+INFO     test_case.log:rhythm_action_steps.py:293 check rhythm 2 for light_1 with scene TV time by mqtt syncPilot successfully
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-52,"src":"udp","state":true,"sceneId":14}}
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     test_case.log:rhythm_action_steps.py:349 udp response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': '6c2990980238', 'rssi': -55, 'state': True, 'sceneId': 14}}
+INFO     test_case.log:rhythm_action_steps.py:367 rhythm check light_1 status is NL by getPilot successfully!
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:374 udp syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -52, 'src': 'udp', 'state': True, 'sceneId': 14}}
+INFO     test_case.log:rhythm_action_steps.py:392 rhythm check light_1 status is NL by udp syncPilot successfully!
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:403 mqtt syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -52, 'src': 'udp', 'state': True, 'sceneId': 14}}
+INFO     test_case.log:rhythm_action_steps.py:422 rhythm check light_1 status is NL by mqtt syncPilot successfully!
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-54,"src":"udp","state":true,"sceneId":18,"dimming":10,"schdPsetId":2}}
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     test_case.log:rhythm_action_steps.py:429 udp getPilot response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': '6c2990980238', 'rssi': -55, 'state': True, 'sceneId': 18, 'dimming': 10, 'schdPsetId': 2}}
+INFO     test_case.log:rhythm_action_steps.py:435 light_1 is turned ON successfully!
+INFO     test_case.log:rhythm_action_steps.py:459 check rhythm for light_1 is ON with scene TV time by getPilot
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:466 udp syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -55, 'src': 'udp', 'state': True, 'sceneId': 18, 'dimming': 10, 'schdPsetId': 2}}
+INFO     test_case.log:rhythm_action_steps.py:471 light_1 is turned ON successfully!
+INFO     test_case.log:rhythm_action_steps.py:495 check rhythm for light_1 is ON with scene TV time by udp syncPilot
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:rhythm_action_steps.py:506 mqtt syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -54, 'src': 'udp', 'state': True, 'sceneId': 18, 'dimming': 10, 'schdPsetId': 2}}
+INFO     test_case.log:rhythm_action_steps.py:511 light_1 is turned ON successfully!
+INFO     test_case.log:rhythm_action_steps.py:535 check rhythm for light_1 is ON with scene TV time by mqtt syncPilot
+INFO     test_case.log:conftest.py:136 ****************************************************************************************************
+INFO     test_case.log:conftest.py:142 Scenario Stop: rhythm.feature:Turn to Night light mode and then turn on without specifying any lamp mode when Rhythms playing
+INFO     test_case.log:conftest.py:144 ****************************************************************************************************

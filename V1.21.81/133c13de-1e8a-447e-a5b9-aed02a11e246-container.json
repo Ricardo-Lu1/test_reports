@@ -1,0 +1,1 @@
+{"uuid": "e8b14166-b5e7-4ef7-9964-355c98bf67de", "befores": [{"name": "pytestbdd_when_Single device control by mqtt command {light_name} change mode to {light_mode}", "status": "passed", "start": 1614073967197, "stop": 1614073967197}], "start": 1614073967197, "stop": 1614073975936}

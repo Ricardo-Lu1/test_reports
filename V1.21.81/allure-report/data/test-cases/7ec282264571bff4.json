@@ -1,0 +1,120 @@
+{
+  "uid" : "7ec282264571bff4",
+  "name" : "test_set_app_pairing_wifi_ble",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_02_pairing#test_set_app_pairing_wifi_ble",
+  "historyId" : "b5985dfa3d023bc26f45d494880b3540",
+  "time" : {
+    "start" : 1614136132278,
+    "stop" : 1614136150963,
+    "duration" : 18685
+  },
+  "description" : "01_pairing.feature: Set app pairing mode to wifi and ble",
+  "descriptionHtml" : "<p>01_pairing.feature: Set app pairing mode to wifi and ble</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614136132273,
+      "stop" : 1614136132273,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "01_pairing.feature: Set app pairing mode to wifi and ble",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f6aa8b2fac1d7c62",
+      "name" : "log",
+      "source" : "f6aa8b2fac1d7c62.txt",
+      "type" : "text/plain",
+      "size" : 863
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Pairing by wifi and ble"
+  }, {
+    "name" : "feature",
+    "value" : "Pairing"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_pairing"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "23756-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_02_pairing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a22794c2c9d278e8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1614135726855,
+        "stop" : 1614135735131,
+        "duration" : 8276
+      }
+    }, {
+      "uid" : "5be7e4873f7ad61f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1614135716473,
+        "stop" : 1614135724668,
+        "duration" : 8195
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "7ec282264571bff4.json",
+  "parameterValues" : [ ]
+}

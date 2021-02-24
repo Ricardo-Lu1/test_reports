@@ -1,0 +1,1 @@
+{"uuid": "fbce75bf-5f74-474f-b93d-37b68dd9aae4", "befores": [{"name": "pytestbdd_then_Check mqtt syncPilot when {light_name} has dimmed to {exp_level} by {act_type}", "status": "passed", "start": 1614072881281, "stop": 1614072881281}], "start": 1614072881281, "stop": 1614072886646}

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "a33afd78a5874ffc68983dac9d7dab20",
+    "name" : "Test_Suites.Tests.daily_regression_test",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 163,
+      "unknown" : 0,
+      "total" : 166
+    }
+  } ]
+}

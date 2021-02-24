@@ -1,0 +1,1 @@
+{"uuid": "4d64b0d1-5226-47e6-938a-6924d56e882f", "befores": [{"name": "pytestbdd_when_{ota_type} OTA {light_name} to {version} when it is {action}", "status": "passed", "start": 1614075931701, "stop": 1614075931701}], "start": 1614075931701, "stop": 1614075962823}

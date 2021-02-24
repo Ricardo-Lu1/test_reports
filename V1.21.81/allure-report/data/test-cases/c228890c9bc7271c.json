@@ -1,0 +1,120 @@
+{
+  "uid" : "c228890c9bc7271c",
+  "name" : "test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_06_rhythm_by_mqtt#test_16_save_scene_when_rhythm_playing_by_mqtt",
+  "historyId" : "38164ac3833a4c49de5f3f3353e8fa1c",
+  "time" : {
+    "start" : 1614129956106,
+    "stop" : 1614130078394,
+    "duration" : 122288
+  },
+  "description" : "rhythm.feature: Save scene when rhythm playing",
+  "descriptionHtml" : "<p>rhythm.feature: Save scene when rhythm playing</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614129499928,
+      "stop" : 1614129499929,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "rhythm.feature: Save scene when rhythm playing",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b9f3947e0010f72",
+      "name" : "log",
+      "source" : "2b9f3947e0010f72.txt",
+      "type" : "text/plain",
+      "size" : 14634
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Save scene when rhythm playing"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "2600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_06_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eeb653c3f65d9480",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check scene id by udp fail! Scene id should be 18, but was 6",
+      "time" : {
+        "start" : 1614076771409,
+        "stop" : 1614076800265,
+        "duration" : 28856
+      }
+    }, {
+      "uid" : "286cd35355bffb35",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check scene id by udp fail! Scene id should be 18, but was 6",
+      "time" : {
+        "start" : 1614076740646,
+        "stop" : 1614076769372,
+        "duration" : 28726
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "c228890c9bc7271c.json",
+  "parameterValues" : [ ]
+}

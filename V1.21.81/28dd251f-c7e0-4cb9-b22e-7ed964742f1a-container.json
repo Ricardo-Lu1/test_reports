@@ -1,0 +1,1 @@
+{"uuid": "db1bbd83-a11f-42ae-8826-d21b79f7cb36", "befores": [{"name": "pytestbdd_given_Check udp syncPilot if {light_name} light mode is {scene_name} by {act_type}", "status": "passed", "start": 1614076929566, "stop": 1614076929566}], "start": 1614076929566, "stop": 1614076945878}

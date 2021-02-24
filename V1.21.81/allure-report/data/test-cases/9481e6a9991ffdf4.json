@@ -1,0 +1,110 @@
+{
+  "uid" : "9481e6a9991ffdf4",
+  "name" : "test_01_enable_default_rhythm_by_mqtt",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_06_rhythm_by_mqtt#test_01_enable_default_rhythm_by_mqtt",
+  "historyId" : "74d44b78f70316d573ffafb214d600db",
+  "time" : {
+    "start" : 1614129499933,
+    "stop" : 1614129568669,
+    "duration" : 68736
+  },
+  "description" : "rhythm.feature: Enable circadian rhythm by mqtt",
+  "descriptionHtml" : "<p>rhythm.feature: Enable circadian rhythm by mqtt</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614129499928,
+      "stop" : 1614129499929,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "rhythm.feature: Enable circadian rhythm by mqtt",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d0df7141370518db",
+      "name" : "log",
+      "source" : "d0df7141370518db.txt",
+      "type" : "text/plain",
+      "size" : 8868
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Test cases for rhythm"
+  }, {
+    "name" : "story",
+    "value" : "Enable circadian rhythm by mqtt"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_rhythm_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "2600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_06_rhythm_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c34179ed7653d20f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614076220346,
+        "stop" : 1614076289586,
+        "duration" : 69240
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "9481e6a9991ffdf4.json",
+  "parameterValues" : [ ]
+}

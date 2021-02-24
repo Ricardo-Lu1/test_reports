@@ -1,0 +1,135 @@
+{
+  "uid" : "bdeb30030a951f16",
+  "name" : "test_device_fw_auto_ota_upgrade_on",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota#test_device_fw_auto_ota_upgrade_on",
+  "historyId" : "12b0ecb14e78fb25a218fb9a5d496c64",
+  "time" : {
+    "start" : 1614137668247,
+    "stop" : 1614137775881,
+    "duration" : 107634
+  },
+  "description" : "02_device_fw_ota.feature: Auto OTA upgrade to target version with checksum(Happy flow)",
+  "descriptionHtml" : "<p>02_device_fw_ota.feature: Auto OTA upgrade to target version with checksum(Happy flow)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614137668246,
+      "stop" : 1614137668246,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "02_device_fw_ota.feature: Auto OTA upgrade to target version with checksum(Happy flow)",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51a44fbb29ce9c4",
+      "name" : "log",
+      "source" : "51a44fbb29ce9c4.txt",
+      "type" : "text/plain",
+      "size" : 7971
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Device FW OTA"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_device_fw_ota"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b61b64d5daa67db",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'win32api' is not defined",
+      "time" : {
+        "start" : 1614137405686,
+        "stop" : 1614137455542,
+        "duration" : 49856
+      }
+    }, {
+      "uid" : "f6134f439c8b9a2d",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'win32api' is not defined",
+      "time" : {
+        "start" : 1614137344002,
+        "stop" : 1614137403640,
+        "duration" : 59638
+      }
+    }, {
+      "uid" : "895252cbe13cd85",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check ota status fail! Should be 8, but was 11",
+      "time" : {
+        "start" : 1614076039371,
+        "stop" : 1614076096880,
+        "duration" : 57509
+      }
+    }, {
+      "uid" : "3ab18d816b8336f3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check ota status fail! Should be 8, but was 11",
+      "time" : {
+        "start" : 1614075999136,
+        "stop" : 1614076037330,
+        "duration" : 38194
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "bdeb30030a951f16.json",
+  "parameterValues" : [ ]
+}

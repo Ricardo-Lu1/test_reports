@@ -1,0 +1,101 @@
+{
+  "uid" : "d22419045f54ff54",
+  "name" : "test_device_fw_auto_ota_downgrade_on",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota#test_device_fw_auto_ota_downgrade_on",
+  "historyId" : "efdac9a487efe43db4d22ebbf6c17dba",
+  "time" : {
+    "start" : 1614137455574,
+    "stop" : 1614137508831,
+    "duration" : 53257
+  },
+  "description" : "02_device_fw_ota.feature: Auto OTA downgrade from target version with checksum(Happy flow)",
+  "descriptionHtml" : "<p>02_device_fw_ota.feature: Auto OTA downgrade from target version with checksum(Happy flow)</p>\n",
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'win32api' is not defined",
+  "statusTrace" : "request = <FixtureRequest for <Function test_device_fw_auto_ota_downgrade_on>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x0000025619C4B608>\nota_type = 'Auto', light_name = 'light_1', version = '1.21.79', action = 'ON'\n\n    @when(parsers.parse('{ota_type} OTA {light_name} to {version} when it is {action}'))\n    def device_fw_ota(target, ota_type, light_name, version, action):\n        print(\"***************************\")\n        print(light_name)\n        print(\"***************************\")\n    \n        # get the device current status before ota\n        state_before_ota = get_dut_status(target, light_name)\n    \n        # get the device current status before ota\n        version_before_ota = get_dut_version(target, light_name)\n    \n        # trigger fw ota\n        if ota_type == \"Auto\":\n            target.mqtt.device_ota(light_name, version)\n        elif ota_type == \"Force\":\n            target.mqtt.device_force_ota(light_name, version)\n    \n        # check ota status\n        target.mqtt.check_update_ota_status(light_name, 3)\n        target.mqtt.check_update_ota_status(light_name, 4)\n    \n        # TODO: need to check if force OTA has status-8\n        target.mqtt.check_update_ota_status(light_name, 8)\n    \n        if ota_type == \"Auto\":\n            # power cycle\n            phidget_enable = target.config_para['phidget']['phidget']\n            if phidget_enable is True:\n                with PhidgetInterfaceKit() as phidget_control:\n                    logger.info(\"Power off \" + light_name + \", wait 2 seconds and power on!\")\n                    relay_index = int(light_name.split('_')[1])\n                    phidget_control.relay_off(relay_index)\n                    time.sleep(2)\n                    phidget_control.relay_on(relay_index)\n            else:\n>               win32api.MessageBox(0, \"Please power off \" + light_name + \", wait 2 seconds and power on!\", \"Tips\",\n                                    win32con.MB_OK)\nE               NameError: name 'win32api' is not defined\n\n..\\..\\Steps\\device_fw_ota.py:77: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614137280415,
+      "stop" : 1614137280415,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "02_device_fw_ota.feature: Auto OTA downgrade from target version with checksum(Happy flow)",
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'win32api' is not defined",
+    "statusTrace" : "request = <FixtureRequest for <Function test_device_fw_auto_ota_downgrade_on>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x0000025619C4B608>\nota_type = 'Auto', light_name = 'light_1', version = '1.21.79', action = 'ON'\n\n    @when(parsers.parse('{ota_type} OTA {light_name} to {version} when it is {action}'))\n    def device_fw_ota(target, ota_type, light_name, version, action):\n        print(\"***************************\")\n        print(light_name)\n        print(\"***************************\")\n    \n        # get the device current status before ota\n        state_before_ota = get_dut_status(target, light_name)\n    \n        # get the device current status before ota\n        version_before_ota = get_dut_version(target, light_name)\n    \n        # trigger fw ota\n        if ota_type == \"Auto\":\n            target.mqtt.device_ota(light_name, version)\n        elif ota_type == \"Force\":\n            target.mqtt.device_force_ota(light_name, version)\n    \n        # check ota status\n        target.mqtt.check_update_ota_status(light_name, 3)\n        target.mqtt.check_update_ota_status(light_name, 4)\n    \n        # TODO: need to check if force OTA has status-8\n        target.mqtt.check_update_ota_status(light_name, 8)\n    \n        if ota_type == \"Auto\":\n            # power cycle\n            phidget_enable = target.config_para['phidget']['phidget']\n            if phidget_enable is True:\n                with PhidgetInterfaceKit() as phidget_control:\n                    logger.info(\"Power off \" + light_name + \", wait 2 seconds and power on!\")\n                    relay_index = int(light_name.split('_')[1])\n                    phidget_control.relay_off(relay_index)\n                    time.sleep(2)\n                    phidget_control.relay_on(relay_index)\n            else:\n>               win32api.MessageBox(0, \"Please power off \" + light_name + \", wait 2 seconds and power on!\", \"Tips\",\n                                    win32con.MB_OK)\nE               NameError: name 'win32api' is not defined\n\n..\\..\\Steps\\device_fw_ota.py:77: NameError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "db539d2b461cf9dc",
+      "name" : "log",
+      "source" : "db539d2b461cf9dc.txt",
+      "type" : "text/plain",
+      "size" : 3744
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Device FW OTA"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_device_fw_ota"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "22432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "d22419045f54ff54.json",
+  "parameterValues" : [ ]
+}

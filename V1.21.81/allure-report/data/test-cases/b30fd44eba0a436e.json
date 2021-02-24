@@ -1,0 +1,108 @@
+{
+  "uid" : "b30fd44eba0a436e",
+  "name" : "test_set_fade_on_fade_off[light_1-1000-1000]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming#test_set_fade_on_fade_off",
+  "historyId" : "509d34f41f98f03b9d1e6c11cae7f237",
+  "time" : {
+    "start" : 1614073226269,
+    "stop" : 1614073236606,
+    "duration" : 10337
+  },
+  "description" : "03_on_off_nl_dimming.feature: Configuration setting - Fade on/off",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Configuration setting - Fade on/off</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614072521024,
+      "stop" : 1614072521024,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Configuration setting - Fade on/off",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d63c9335c791a491",
+      "name" : "log",
+      "source" : "d63c9335c791a491.txt",
+      "type" : "text/plain",
+      "size" : 2919
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "fade_off_time",
+    "value" : "'1000'"
+  }, {
+    "name" : "fade_on_time",
+    "value" : "'1000'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "b30fd44eba0a436e.json",
+  "parameterValues" : [ "'1000'", "'1000'", "'light_1'" ]
+}

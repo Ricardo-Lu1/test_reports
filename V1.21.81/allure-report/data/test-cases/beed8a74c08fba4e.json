@@ -1,0 +1,111 @@
+{
+  "uid" : "beed8a74c08fba4e",
+  "name" : "test_13_create_schedule_with_daylight_end_with_previous_mode_when_lamp_status_on",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt#test_13_create_schedule_with_daylight_end_with_previous_mode_when_lamp_status_on",
+  "historyId" : "2fe8c6012bf1a7ee09b87adf7463898d",
+  "time" : {
+    "start" : 1614080908634,
+    "stop" : 1614081533245,
+    "duration" : 624611
+  },
+  "description" : "schedule.feature: Create a schedule with action \"Daylight\" and end with \"Previous mode\" when lamp original status is on",
+  "descriptionHtml" : "<p>schedule.feature: Create a schedule with action &quot;Daylight&quot; and end with &quot;Previous mode&quot; when lamp original status is on</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614077093793,
+      "stop" : 1614077093793,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create a schedule with action \"Daylight\" and end with \"Previous mode\" when lamp original status is on",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a42c66e4ba0eec1",
+      "name" : "log",
+      "source" : "7a42c66e4ba0eec1.txt",
+      "type" : "text/plain",
+      "size" : 12668
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create a schedule with action \"Daylight\" and end with \"Previous mode\" when lamp original status is on"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c0deda56e49e8b6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP SyncPilot SceneId should be 11, but was 12",
+      "time" : {
+        "start" : 1614080281919,
+        "stop" : 1614080906561,
+        "duration" : 624642
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "beed8a74c08fba4e.json",
+  "parameterValues" : [ ]
+}

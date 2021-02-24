@@ -1,0 +1,119 @@
+{
+  "uid" : "ad9ff35f7925b103",
+  "name" : "test_28_create_two_schedules_of_two_intersecting_time_periods",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt#test_28_create_two_schedules_of_two_intersecting_time_periods",
+  "historyId" : "fef689b5bf231f4009bc71a3d1ed7306",
+  "time" : {
+    "start" : 1614113063024,
+    "stop" : 1614113989399,
+    "duration" : 926375
+  },
+  "description" : "schedule.feature: Create 2 schedules of two intersecting time periods",
+  "descriptionHtml" : "<p>schedule.feature: Create 2 schedules of two intersecting time periods</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: UDP state should be false, but was true",
+  "statusTrace" : "request = <FixtureRequest for <Function test_28_create_two_schedules_of_two_intersecting_time_periods>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x00000171EFB90A88>\nlight_name = 'light_1', action = 'OFF'\n\n    @then(parsers.parse('Check udp getPilot if {light_name} status is changed to {action}'))\n    def check_udp_getPilot_light_status(target, light_name, action):\n        \"\"\"\n        - Narrative:\n            Send udp cmd 'getPilot' to check {light_name} light status ON/OFF/NL\n        \"\"\"\n        logger.info(\"check \" + light_name + \" udp setPilot status\")\n        response = target.udp.get_pilot(light_name)\n        logger.info(\"udp response:\" + str(response))\n    \n        if action == 'ON':\n            if response[\"result\"][\"state\"] is False:\n                logger.info(\"Error : UDP state should be true, but was false\")\n                assert False, \"UDP state should be true, but was false\"\n        elif action == 'OFF':\n            if response[\"result\"][\"state\"] is True:\n                logger.info(\"Error : UDP state should be false, but was true\")\n>               assert False, \"UDP state should be false, but was true\"\nE               AssertionError: UDP state should be false, but was true\n\n..\\..\\Steps\\temperature_speed_light_mode_steps.py:429: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614077093793,
+      "stop" : 1614077093793,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "schedule.feature: Create 2 schedules of two intersecting time periods",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: UDP state should be false, but was true",
+    "statusTrace" : "request = <FixtureRequest for <Function test_28_create_two_schedules_of_two_intersecting_time_periods>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntarget = <Wrapper.wrapper_manage.WrapperManage object at 0x00000171EFB90A88>\nlight_name = 'light_1', action = 'OFF'\n\n    @then(parsers.parse('Check udp getPilot if {light_name} status is changed to {action}'))\n    def check_udp_getPilot_light_status(target, light_name, action):\n        \"\"\"\n        - Narrative:\n            Send udp cmd 'getPilot' to check {light_name} light status ON/OFF/NL\n        \"\"\"\n        logger.info(\"check \" + light_name + \" udp setPilot status\")\n        response = target.udp.get_pilot(light_name)\n        logger.info(\"udp response:\" + str(response))\n    \n        if action == 'ON':\n            if response[\"result\"][\"state\"] is False:\n                logger.info(\"Error : UDP state should be true, but was false\")\n                assert False, \"UDP state should be true, but was false\"\n        elif action == 'OFF':\n            if response[\"result\"][\"state\"] is True:\n                logger.info(\"Error : UDP state should be false, but was true\")\n>               assert False, \"UDP state should be false, but was true\"\nE               AssertionError: UDP state should be false, but was true\n\n..\\..\\Steps\\temperature_speed_light_mode_steps.py:429: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6733ccf834653980",
+      "name" : "log",
+      "source" : "6733ccf834653980.txt",
+      "type" : "text/plain",
+      "size" : 15506
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Create schedule by mqtt"
+  }, {
+    "name" : "story",
+    "value" : "Create 2 schedules of two intersecting time periods"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_schedule_by_mqtt"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_07_schedule_by_mqtt"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f6eb16f4b2e7dae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11",
+      "time" : {
+        "start" : 1614112435947,
+        "stop" : 1614113060977,
+        "duration" : 625030
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "ad9ff35f7925b103.json",
+  "parameterValues" : [ ]
+}

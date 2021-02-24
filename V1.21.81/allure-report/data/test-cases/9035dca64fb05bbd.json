@@ -1,0 +1,108 @@
+{
+  "uid" : "9035dca64fb05bbd",
+  "name" : "test_single_rgb_device_tcp_control_modes[light_3-Steampunk-wizappd]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_04_temperature_speed_light_mode#test_single_rgb_device_tcp_control_modes",
+  "historyId" : "9d342d074fb97166d15eff79a5974568",
+  "time" : {
+    "start" : 1614074051666,
+    "stop" : 1614074062527,
+    "duration" : 10861
+  },
+  "description" : "04_temperature_speed_light_mode.feature: Single RGB device control via tcp - 32 default modes",
+  "descriptionHtml" : "<p>04_temperature_speed_light_mode.feature: Single RGB device control via tcp - 32 default modes</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614073236616,
+      "stop" : 1614073236616,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "04_temperature_speed_light_mode.feature: Single RGB device control via tcp - 32 default modes",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7ce9dacac0f4bdbf",
+      "name" : "log",
+      "source" : "7ce9dacac0f4bdbf.txt",
+      "type" : "text/plain",
+      "size" : 3427
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Temperature, Speed And Light Mode"
+  }, {
+    "name" : "story",
+    "value" : "TCP Device Control - RGB Device"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_04_temperature_speed_light_mode"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_04_temperature_speed_light_mode"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "light_mode",
+    "value" : "'Steampunk'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_3'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "9035dca64fb05bbd.json",
+  "parameterValues" : [ "'wizappd'", "'Steampunk'", "'light_3'" ]
+}

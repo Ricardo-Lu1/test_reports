@@ -1,0 +1,7 @@
+INFO     test_case.log:conftest.py:126 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Start: 01_pairing.feature:Set app pairing mode to wifi and ble
+INFO     test_case.log:conftest.py:129 ****************************************************************************************************
+INFO     test_case.log:pair_lamps_steps.py:33 set app pairing mode to wifi and ble
+INFO     test_case.log:conftest.py:136 ****************************************************************************************************
+INFO     test_case.log:conftest.py:142 Scenario Stop: 01_pairing.feature:Set app pairing mode to wifi and ble
+INFO     test_case.log:conftest.py:144 ****************************************************************************************************

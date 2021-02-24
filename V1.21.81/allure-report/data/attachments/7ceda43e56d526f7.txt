@@ -1,0 +1,51 @@
+INFO     test_case.log:conftest.py:126 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Start: 01_pairing.feature:RTP pairing by wifi and ble
+INFO     test_case.log:conftest.py:129 ****************************************************************************************************
+INFO     test_case.log:pair_lamps_steps.py:74 No light is paired, do not need to factory new light
+INFO     test_case.log:pair_lamps_steps.py:430 trigger app smart config process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:562 start smart config pairing
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.21.3","homeId":43991,"ip":"192.168.1.36","hssid":"eaf2305909","mqtt":"pwon","cnx":"0000","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"wizc":0,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"1b7852b855","model":1612945344}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990989cb4","rssi":-66,"src":"wizc2","state":true,"sceneId":11,"temp":2700,"dimming":100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncConfig","env":"dev","params":{"sys":0,"usr":0,"favs":0,"sensor":0,"sec":0,"wizc":0,"model":0}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncOffset","env":"dev","params":{"offsets":[],"time":1614135835}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"setSystemConfig","params":{"offsets":[[1614135840,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"setSystemConfig","params":{"roomId":43849,"groupId":0,"moduleName":"ESP14_SHRGB1C_01","drvConf":[70,1],"ewf":"c8ffb4ff00002a","systemConfigTs":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"setSystemConfig","params":{"offsets":[[1614135840,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"setUserConfig","params":{"fadeIn":500,"fadeOut":500,"dftDim":100,"startupMode":"wizclick","pwmRange":[0,100],"whiteRange":[2700,6500],"extRange":[2200,6500],"po":0,"poRhy":1,"userConfigTs":2}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"setFavs","params":{"favs":[[12,0,0,0,0,0,0],[11,0,0,0,0,0,0],[6,0,0,0,0,0,0],[2,0,0,0,0,0,0]],"opts":[{},{},{},{}],"favConfigTs":1}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"setSecurity","params":{"udp":0,"key":["\/TYHzBcOFJQQVwR8wOtfd8j00JkNcPMzjbGjXqSoylY=","QV8vkzmIeAYFdR9rbr3Arw==",1,43],"confTs":1}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method":"setModelConfig","params":{"ps":2,"pwmFreq":1000,"confTs":1612945344}}
+INFO     test_case.log:pair_lamps_steps.py:776 check smart config pairing result
+INFO     test_case.log:pair_lamps_steps.py:782 check if ota icon exits
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990989cb4","rssi":-68,"src":"udp","state":true,"sceneId":14}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990989cb4","rssi":-66,"src":"udp","state":true,"sceneId":0,"temp":6163,"dimming":100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990989cb4","rssi":-65,"src":"udp","state":true,"sceneId":0,"r":36,"g":0,"b":255,"c":0,"w":58,"dimming":100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990989cb4","rssi":-66,"src":"udp","state":false,"sceneId":0,"r":36,"g":0,"b":255,"c":0,"w":58,"dimming":100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"version" : 1,"method": "getModelConfig"}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"getModelConfig","env":"dev","error":{"code":-32601,"message":"Method not found"}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method": "getModelConfig"}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"getModelConfig","env":"dev","error":{"code":-32601,"message":"Method not found"}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncInit","env":"dev","params":{"fwVersion":"1.21.81","homeId":43994,"ip":"192.168.36.219","hssid":"1dafaf4c1f","mqtt":"pwon","cnx":"0000","reboots":0,"pv":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"syncInit","result":{"usr":2,"sys":2,"favs":1,"sensor":0,"sec":1,"wizc":0,"schds":"1b7852b855","schdPsets":"1b7852b855","accs":"1b7852b855","model":1612852964}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-52,"src":"wizc2","state":true,"sceneId":12,"temp":4200,"dimming":100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncConfig","env":"dev","params":{"sys":0,"usr":0,"favs":0,"sensor":0,"sec":0,"wizc":0,"model":1612852964}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"setSystemConfig","params":{"roomId":43852,"groupId":0,"moduleName":"ESP25_SHRGB_01","drvConf":[20,1],"ewf":"ff00ffff0000","systemConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"setSystemConfig","params":{"offsets":[[1614136059,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"setUserConfig","params":{"fadeIn":500,"fadeOut":500,"dftDim":100,"startupMode":"wizclick","pwmRange":[0,100],"whiteRange":[2700,6500],"extRange":[2700,6500],"po":0,"poRhy":1,"userConfigTs":2}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"setFavs","params":{"favs":[[12,0,0,0,0,0,0],[11,0,0,0,0,0,0],[6,0,0,0,0,0,0],[2,0,0,0,0,0,0]],"opts":[{},{},{},{}],"favConfigTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"setSecurity","params":{"udp":0,"key":["pRlu63I8EeFhcYxFl70rJ4hlHB7nWEPB0j6ogsQrVpg=","vLczbauMe0j+bO2+KT1D8g==",20,10],"confTs":1}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncOffset","env":"dev","params":{"offsets":[],"time":1614136055}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"setSystemConfig","params":{"offsets":[[1614136061,28800]],"systemConfigTs":0}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43991/devices/6c2990989cb4   {"method": "getModelConfig"}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990989cb4   {"method":"getModelConfig","env":"dev","error":{"code":-32601,"message":"Method not found"}}
+INFO     test_case.log:pair_lamps_steps.py:833 change light name to light_1
+INFO     test_case.log:pair_lamps_steps.py:844 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     test_case.log:pair_lamps_steps.py:858 1 light icon showed in App scream!
+INFO     test_case.log:pair_lamps_steps.py:859 [{'FWVersion': '1.21.81', 'ModelID': 'B102197', 'MacAddr': '6c2990980238', 'IP': '192.168.36.219', 'HomeID': '43994', 'GroupID': '不适用', 'RSSI': '-54', 'LampName': 'light_1'}]
+INFO     test_case.log:pair_lamps_steps.py:883 generate light info file
+INFO     test_case.log:pair_lamps_steps.py:914 light_1 : (//android.widget.FrameLayout[@content-desc="图标"])[2];com.tao.wiz.china:id/iv_light
+INFO     root:paired_light_info.py:50 Save paired light file :D:\workspace\wiz-automation-test-bitbuckeet\WizAutomationTest\Utils\..\Results\paired_light_info.xls
+INFO     test_case.log:conftest.py:136 ****************************************************************************************************
+INFO     test_case.log:conftest.py:142 Scenario Stop: 01_pairing.feature:RTP pairing by wifi and ble
+INFO     test_case.log:conftest.py:144 ****************************************************************************************************

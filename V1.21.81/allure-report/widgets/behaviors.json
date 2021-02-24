@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "b32be9acdf32ca08ae84e9f943bbd856",
+    "name" : "Create schedule by mqtt",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 27,
+      "unknown" : 0,
+      "total" : 29
+    }
+  }, {
+    "uid" : "3ce6433ef2690d7d97285f6da8912423",
+    "name" : "Pairing",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "fad1139adb88b753d19a40f955d84767",
+    "name" : "Test cases for rhythm",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "ad42d6f6f4576f8c19d31be85ee6cb68",
+    "name" : "Temperature, Speed And Light Mode",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "bb98ca4142b8311ad45f35bfc09973d5",
+    "name" : "Device FW OTA",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c9b6f81a8ecc95b3fc22a3d270d06f97",
+    "name" : "ON/OFF/NL/Dimming",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

@@ -1,0 +1,47 @@
+INFO     test_case.log:conftest.py:126 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Start: schedule.feature:Create 2 schedules of two intersecting time periods
+INFO     test_case.log:conftest.py:129 ****************************************************************************************************
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     test_case.log:schedule_action_steps.py:204 change light_1 status to OFF
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-61,"src":"udp","state":false,"sceneId":30,"speed":100,"dimming":100}}
+INFO     test_case.log:schedule_action_steps.py:336 now time is 2021-02-24 04:34:01.338886
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 5, "hrs": 4, "mins": 39, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 99, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 5, "hrs": 4, "mins": 39, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 1, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 5, "hrs": 4, "mins": 39, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 99, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 5, "hrs": 4, "mins": 39, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 1, "intent": 4, "scene": 11, "ignore": "none", "next": 1, "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:341 create schedule for light_1 with scene : Warm white, start at 04:39, last for 10 minutes, end with off
+INFO     test_case.log:temperature_speed_light_mode_steps.py:343 wait 5 minutes
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-62,"src":"schd","state":true,"sceneId":11,"temp":2700,"dimming":100}}
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     test_case.log:schedule_action_steps.py:393 udp getPilot response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': '6c2990980238', 'rssi': -62, 'src': '', 'state': True, 'sceneId': 11, 'temp': 2700, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:408 check schedule for light_1 with Warm white by getPilot successfully!
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:schedule_action_steps.py:414 udp syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -62, 'src': 'schd', 'state': True, 'sceneId': 11, 'temp': 2700, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:429 check schedule for light_1 with Warm white by udp syncPilot successfully!
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:schedule_action_steps.py:443 mqtt syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -62, 'src': 'schd', 'state': True, 'sceneId': 11, 'temp': 2700, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:455 check schedule for light_1 with Warm white by mqtt syncPilot successfully!
+INFO     test_case.log:schedule_action_steps.py:336 now time is 2021-02-24 04:39:09.655092
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     root:paired_light_info.py:95 The light home id is: 43994
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 6, "hrs": 4, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 99, "intent": 4, "scene": 32, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 6, "hrs": 4, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 1, "intent": 4, "scene": 32, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 6, "hrs": 4, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 99, "intent": 4, "scene": 32, "ignore": "none", "next": 2, "dim": 100}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method": "setSchd", "params": {"id": 6, "hrs": 4, "mins": 44, "days": [1, 1, 1, 1, 1, 1, 1], "dura": 10, "confTs": 1, "intent": 4, "scene": 32, "ignore": "none", "next": 2, "dim": 100}}
+INFO     test_case.log:schedule_action_steps.py:341 create schedule for light_1 with scene : Steampunk, start at 04:44, last for 10 minutes, end with previous mode
+INFO     test_case.log:temperature_speed_light_mode_steps.py:343 wait 5 minutes
+INFO     MQTT_mqtt-dev-1.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990980238","rssi":-62,"src":"schd","state":true,"sceneId":32,"speed":100,"dimming":100}}
+INFO     root:paired_light_info.py:64 The light ip is: 192.168.36.219
+INFO     test_case.log:schedule_action_steps.py:393 udp getPilot response:{'method': 'getPilot', 'id': 12, 'env': 'dev', 'result': {'mac': '6c2990980238', 'rssi': -62, 'src': '', 'state': True, 'sceneId': 32, 'speed': 100, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:408 check schedule for light_1 with Steampunk by getPilot successfully!
+INFO     root:paired_light_info.py:80 The light mac is: 6c2990980238
+INFO     test_case.log:schedule_action_steps.py:414 udp syncPilot:{'method': 'syncPilot', 'env': 'dev', 'params': {'mac': '6c2990980238', 'rssi': -60, 'src': 'schd', 'state': True, 'sceneId': 11, 'temp': 2700, 'dimming': 100}}
+INFO     test_case.log:schedule_action_steps.py:425 Error : create schedule for light_1 fail! UDP syncPilot SceneId should be 32, but was 11
+INFO     test_case.log:conftest.py:136 ****************************************************************************************************
+INFO     test_case.log:conftest.py:142 Scenario Stop: schedule.feature:Create 2 schedules of two intersecting time periods
+INFO     test_case.log:conftest.py:144 ****************************************************************************************************

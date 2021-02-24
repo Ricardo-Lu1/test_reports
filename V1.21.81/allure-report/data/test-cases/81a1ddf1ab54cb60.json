@@ -1,0 +1,111 @@
+{
+  "uid" : "81a1ddf1ab54cb60",
+  "name" : "test_pulse_device_on[light_1-Warm white--50-1000]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming#test_pulse_device_on",
+  "historyId" : "50cda77c5cd808012250e405c4c7a730",
+  "time" : {
+    "start" : 1614073181954,
+    "stop" : 1614073192019,
+    "duration" : 10065
+  },
+  "description" : "03_on_off_nl_dimming.feature: Pulse when device is ON",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Pulse when device is ON</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614072521024,
+      "stop" : 1614072521024,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Pulse when device is ON",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7e558d68d94010ac",
+      "name" : "log",
+      "source" : "7e558d68d94010ac.txt",
+      "type" : "text/plain",
+      "size" : 1649
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "story",
+    "value" : "UDP Device Control"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "delta",
+    "value" : "'-50'"
+  }, {
+    "name" : "duration",
+    "value" : "'1000'"
+  }, {
+    "name" : "light_mode",
+    "value" : "'Warm white'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "81a1ddf1ab54cb60.json",
+  "parameterValues" : [ "'-50'", "'1000'", "'Warm white'", "'light_1'" ]
+}

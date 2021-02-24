@@ -1,0 +1,188 @@
+{
+  "uid" : "73bafac40a6f5043",
+  "name" : "test_device_fw_force_ota_on",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota#test_device_fw_force_ota_on",
+  "historyId" : "1862a18fe9ec3da818c477399df03df2",
+  "time" : {
+    "start" : 1614137917485,
+    "stop" : 1614137980793,
+    "duration" : 63308
+  },
+  "description" : "02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)",
+  "descriptionHtml" : "<p>02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614137917484,
+      "stop" : 1614137917484,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f54776d23c071b98",
+      "name" : "log",
+      "source" : "f54776d23c071b98.txt",
+      "type" : "text/plain",
+      "size" : 7183
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Device FW OTA"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_device_fw_ota"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "23652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "21dff83aa956678c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614137280416,
+        "stop" : 1614137343994,
+        "duration" : 63578
+      }
+    }, {
+      "uid" : "ce835906bc0345f4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check ota status fail! Should be 3, but was 9",
+      "time" : {
+        "start" : 1614137159393,
+        "stop" : 1614137169682,
+        "duration" : 10289
+      }
+    }, {
+      "uid" : "33ec8a8ade5bc2c6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check ota status fail! Should be 3, but was 8",
+      "time" : {
+        "start" : 1614137135971,
+        "stop" : 1614137157263,
+        "duration" : 21292
+      }
+    }, {
+      "uid" : "ee5671a0b669cf6c",
+      "status" : "broken",
+      "statusDetails" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is OFF by getPilot\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature",
+      "time" : {
+        "start" : 1614136887063,
+        "stop" : 1614136939666,
+        "duration" : 52603
+      }
+    }, {
+      "uid" : "88a606d6dc74ddf7",
+      "status" : "broken",
+      "statusDetails" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is OFF by getPilot\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature",
+      "time" : {
+        "start" : 1614136831249,
+        "stop" : 1614136884867,
+        "duration" : 53618
+      }
+    }, {
+      "uid" : "e9c06e2e4d74a953",
+      "status" : "broken",
+      "statusDetails" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is turned to OFF by udp\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature",
+      "time" : {
+        "start" : 1614136399032,
+        "stop" : 1614136459135,
+        "duration" : 60103
+      }
+    }, {
+      "uid" : "f0103079b829add",
+      "status" : "broken",
+      "statusDetails" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is turned to OFF by udp\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature",
+      "time" : {
+        "start" : 1614136339760,
+        "stop" : 1614136396954,
+        "duration" : 57194
+      }
+    }, {
+      "uid" : "eab9a906eb5affd1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check ota status fail! Should be 8, but was 11",
+      "time" : {
+        "start" : 1614134902461,
+        "stop" : 1614134937333,
+        "duration" : 34872
+      }
+    }, {
+      "uid" : "b5b54ae7ca61bb62",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check ota status fail! Should be 8, but was 11",
+      "time" : {
+        "start" : 1614075964832,
+        "stop" : 1614075999100,
+        "duration" : 34268
+      }
+    }, {
+      "uid" : "4270211b4cadcb26",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Error : check ota status fail! Should be 8, but was 11",
+      "time" : {
+        "start" : 1614075927642,
+        "stop" : 1614075962729,
+        "duration" : 35087
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "73bafac40a6f5043.json",
+  "parameterValues" : [ ]
+}

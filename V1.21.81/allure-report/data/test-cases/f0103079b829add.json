@@ -1,0 +1,86 @@
+{
+  "uid" : "f0103079b829add",
+  "name" : "test_device_fw_force_ota_on",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota#test_device_fw_force_ota_on",
+  "historyId" : "1862a18fe9ec3da818c477399df03df2",
+  "time" : {
+    "start" : 1614136339760,
+    "stop" : 1614136396954,
+    "duration" : 57194
+  },
+  "description" : "02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)",
+  "descriptionHtml" : "<p>02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)</p>\n",
+  "status" : "broken",
+  "statusMessage" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is turned to OFF by udp\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature",
+  "statusTrace" : "self = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def _get_active_fixturedef(self, argname):\n        try:\n>           return self._fixture_defs[argname]\nE           KeyError: 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:486: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nstep = <pytest_bdd.feature.Step object at 0x000002DDFC696A88>\nscenario = <pytest_bdd.feature.Scenario object at 0x000002DDFC696588>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n>           return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:84: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def getfixturevalue(self, argname):\n        \"\"\" Dynamically run a named fixture function.\n    \n        Declaring fixtures via function argument is recommended where possible.\n        But if you can only decide whether to use another fixture at test\n        setup time, you may use this function to retrieve it inside a fixture\n        or test function body.\n        \"\"\"\n>       return self._get_active_fixturedef(argname).cached_result[0]\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:482: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def _get_active_fixturedef(self, argname):\n        try:\n            return self._fixture_defs[argname]\n        except KeyError:\n            try:\n>               fixturedef = self._getnextfixturedef(argname)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:489: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def _getnextfixturedef(self, argname):\n        fixturedefs = self._arg2fixturedefs.get(argname, None)\n        if fixturedefs is None:\n            # we arrive here because of a dynamic call to\n            # getfixturevalue(argname) usage which was naturally\n            # not known at parsing/collection time\n            parentid = self._pyfuncitem.parent.nodeid\n            fixturedefs = self._fixturemanager.getfixturedefs(argname, parentid)\n            self._arg2fixturedefs[argname] = fixturedefs\n        # fixturedefs list is immutable so we maintain a decreasing index\n        index = self._arg2index.get(argname, 0) - 1\n        if fixturedefs is None or (-index > len(fixturedefs)):\n>           raise FixtureLookupError(argname, self)\nE           _pytest.fixtures.FixtureLookupError: ('pytestbdd_when_Check if light_1 is turned to OFF by udp', <FixtureRequest for <Function test_device_fw_force_ota_on>>)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:389: FixtureLookupError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_device_fw_force_ota_on>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:156: in _execute_scenario\n    step_func = _find_step_function(request, step, scenario, encoding=encoding)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nrequest = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nstep = <pytest_bdd.feature.Step object at 0x000002DDFC696A88>\nscenario = <pytest_bdd.feature.Scenario object at 0x000002DDFC696588>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n            return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n        except pytest_fixtures.FixtureLookupError:\n            try:\n                # Could not find a fixture with the same name, let's see if there is a parser involved\n                name = find_argumented_step_fixture_name(name, step.type, request._fixturemanager, request)\n                if name:\n                    return request.getfixturevalue(name)\n                raise\n            except pytest_fixtures.FixtureLookupError:\n                raise exceptions.StepDefinitionNotFoundError(\n                    u\"\"\"Step definition is not found: {step}.\"\"\"\n                    \"\"\" Line {step.line_number} in scenario \"{scenario.name}\" in the feature \"{feature.filename}\"\"\".format(\n                        step=step,\n                        scenario=scenario,\n>                       feature=scenario.feature,\n                    )\n                )\nE               pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is turned to OFF by udp\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:98: StepDefinitionNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)",
+    "status" : "broken",
+    "statusMessage" : "pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is turned to OFF by udp\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature",
+    "statusTrace" : "self = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def _get_active_fixturedef(self, argname):\n        try:\n>           return self._fixture_defs[argname]\nE           KeyError: 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:486: KeyError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nstep = <pytest_bdd.feature.Step object at 0x000002DDFC696A88>\nscenario = <pytest_bdd.feature.Scenario object at 0x000002DDFC696588>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n>           return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:84: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def getfixturevalue(self, argname):\n        \"\"\" Dynamically run a named fixture function.\n    \n        Declaring fixtures via function argument is recommended where possible.\n        But if you can only decide whether to use another fixture at test\n        setup time, you may use this function to retrieve it inside a fixture\n        or test function body.\n        \"\"\"\n>       return self._get_active_fixturedef(argname).cached_result[0]\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:482: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def _get_active_fixturedef(self, argname):\n        try:\n            return self._fixture_defs[argname]\n        except KeyError:\n            try:\n>               fixturedef = self._getnextfixturedef(argname)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:489: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nargname = 'pytestbdd_when_Check if light_1 is turned to OFF by udp'\n\n    def _getnextfixturedef(self, argname):\n        fixturedefs = self._arg2fixturedefs.get(argname, None)\n        if fixturedefs is None:\n            # we arrive here because of a dynamic call to\n            # getfixturevalue(argname) usage which was naturally\n            # not known at parsing/collection time\n            parentid = self._pyfuncitem.parent.nodeid\n            fixturedefs = self._fixturemanager.getfixturedefs(argname, parentid)\n            self._arg2fixturedefs[argname] = fixturedefs\n        # fixturedefs list is immutable so we maintain a decreasing index\n        index = self._arg2index.get(argname, 0) - 1\n        if fixturedefs is None or (-index > len(fixturedefs)):\n>           raise FixtureLookupError(argname, self)\nE           _pytest.fixtures.FixtureLookupError: ('pytestbdd_when_Check if light_1 is turned to OFF by udp', <FixtureRequest for <Function test_device_fw_force_ota_on>>)\n\nC:\\Users\\Ricardo.Lu\\AppData\\Local\\Programs\\Python\\Python37\\lib\\site-packages\\_pytest\\fixtures.py:389: FixtureLookupError\n\nDuring handling of the above exception, another exception occurred:\n\nrequest = <FixtureRequest for <Function test_device_fw_force_ota_on>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:156: in _execute_scenario\n    step_func = _find_step_function(request, step, scenario, encoding=encoding)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nrequest = <FixtureRequest for <Function test_device_fw_force_ota_on>>\nstep = <pytest_bdd.feature.Step object at 0x000002DDFC696A88>\nscenario = <pytest_bdd.feature.Scenario object at 0x000002DDFC696588>\nencoding = 'utf-8'\n\n    def _find_step_function(request, step, scenario, encoding):\n        \"\"\"Match the step defined by the regular expression pattern.\n    \n        :param request: PyTest request object.\n        :param step: Step.\n        :param scenario: Scenario.\n    \n        :return: Function of the step.\n        :rtype: function\n        \"\"\"\n        name = step.name\n        try:\n            # Simple case where no parser is used for the step\n            return request.getfixturevalue(get_step_fixture_name(name, step.type, encoding))\n        except pytest_fixtures.FixtureLookupError:\n            try:\n                # Could not find a fixture with the same name, let's see if there is a parser involved\n                name = find_argumented_step_fixture_name(name, step.type, request._fixturemanager, request)\n                if name:\n                    return request.getfixturevalue(name)\n                raise\n            except pytest_fixtures.FixtureLookupError:\n                raise exceptions.StepDefinitionNotFoundError(\n                    u\"\"\"Step definition is not found: {step}.\"\"\"\n                    \"\"\" Line {step.line_number} in scenario \"{scenario.name}\" in the feature \"{feature.filename}\"\"\".format(\n                        step=step,\n                        scenario=scenario,\n>                       feature=scenario.feature,\n                    )\n                )\nE               pytest_bdd.exceptions.StepDefinitionNotFoundError: Step definition is not found: When \"Check if light_1 is turned to OFF by udp\". Line 14 in scenario \"Force OTA(Auto-reboot) to a default version(Happy flow)\" in the feature \"D:\\workspace\\wiz-automation-test-bitbuckeet\\WizAutomationTest\\Test_Suites\\Features\\02_device_fw_ota.feature\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:98: StepDefinitionNotFoundError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1fb8486c1c6abf72",
+      "name" : "log",
+      "source" : "1fb8486c1c6abf72.txt",
+      "type" : "text/plain",
+      "size" : 5702
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Device FW OTA"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_device_fw_ota"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "21676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "f0103079b829add.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "21dff83aa956678c",
+  "name" : "test_device_fw_force_ota_on",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota#test_device_fw_force_ota_on",
+  "historyId" : "1862a18fe9ec3da818c477399df03df2",
+  "time" : {
+    "start" : 1614137280416,
+    "stop" : 1614137343994,
+    "duration" : 63578
+  },
+  "description" : "02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)",
+  "descriptionHtml" : "<p>02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614137280415,
+      "stop" : 1614137280415,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "02_device_fw_ota.feature: Force OTA(Auto-reboot) to a default version(Happy flow)",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "89a5410ff339c01d",
+      "name" : "log",
+      "source" : "89a5410ff339c01d.txt",
+      "type" : "text/plain",
+      "size" : 8213
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Device FW OTA"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_05_device_fw_ota"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "22432-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_05_device_fw_ota"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "21dff83aa956678c.json",
+  "parameterValues" : [ ]
+}

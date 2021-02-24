@@ -1,0 +1,114 @@
+{
+  "uid" : "bd43979d8660951e",
+  "name" : "test_device_control_dimming_udp[light_1-80-udp-100-80]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming#test_device_control_dimming_udp",
+  "historyId" : "139a353c0434e90ac55a2d2a2a357ccf",
+  "time" : {
+    "start" : 1614072826989,
+    "stop" : 1614072846918,
+    "duration" : 19929
+  },
+  "description" : "03_on_off_nl_dimming.feature: Dimming device control by UDP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: Dimming device control by UDP</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614072521024,
+      "stop" : 1614072521024,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: Dimming device control by UDP",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1ce166e5914914e",
+      "name" : "log",
+      "source" : "e1ce166e5914914e.txt",
+      "type" : "text/plain",
+      "size" : 4062
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "story",
+    "value" : "UDP Device Control"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'udp'"
+  }, {
+    "name" : "dimming_level",
+    "value" : "'80'"
+  }, {
+    "name" : "exp_level",
+    "value" : "'80'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_level",
+    "value" : "'100'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "bd43979d8660951e.json",
+  "parameterValues" : [ "'udp'", "'80'", "'80'", "'light_1'", "'100'" ]
+}

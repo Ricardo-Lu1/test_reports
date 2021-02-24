@@ -1,0 +1,1 @@
+{"uuid": "7c7baeb0-2d0d-41dc-a08b-d40de75df750", "befores": [{"name": "pytestbdd_then_check rhythm {rhythm_id} for {light_name} is ON with scene {scene_name} by getPilot", "status": "passed", "start": 1614130934790, "stop": 1614130934790}], "start": 1614130934790, "stop": 1614130975687}

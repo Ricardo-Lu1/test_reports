@@ -1,0 +1,17 @@
+INFO     test_case.log:conftest.py:126 ****************************************************************************************************
+INFO     test_case.log:conftest.py:128 Scenario Start: 01_pairing.feature:RTP pairing by only wifi
+INFO     test_case.log:conftest.py:129 ****************************************************************************************************
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 OP/dev/43994/devices/6c2990980238   {"method":"reset"}
+INFO     test_case.log:pair_lamps_steps.py:72 delete all light
+INFO     test_case.log:pair_lamps_steps.py:430 trigger app smart config process to pair 灯
+INFO     test_case.log:pair_lamps_steps.py:562 start smart config pairing
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990980238   {"method":"status","env":"dev","params":{"connected":false}}
+INFO     MQTT_mqtt-dev-2.wizconnected.cn.log:mqtt_service.py:114 DEV/dev/6c2990982a7e   {"method":"syncPilot","env":"dev","params":{"mac":"6c2990982a7e","rssi":-71,"src":"tapdbl","state":false,"sceneId":0,"r":0,"g":171,"b":255,"c":0,"w":65,"dimming":10}}
+INFO     test_case.log:pair_lamps_steps.py:776 check smart config pairing result
+INFO     test_case.log:pair_lamps_steps.py:782 check if ota icon exits
+INFO     test_case.log:pair_lamps_steps.py:868 ====================================================================================
+INFO     test_case.log:pair_lamps_steps.py:869 ERROR : No light showed in App scream! No light is found!
+INFO     test_case.log:pair_lamps_steps.py:870 ====================================================================================
+INFO     test_case.log:conftest.py:136 ****************************************************************************************************
+INFO     test_case.log:conftest.py:142 Scenario Stop: 01_pairing.feature:RTP pairing by only wifi
+INFO     test_case.log:conftest.py:144 ****************************************************************************************************

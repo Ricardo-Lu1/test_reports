@@ -1,0 +1,1 @@
+{"uuid": "ef96d0ef-1db3-4dcc-8ebb-25b05c3cb7aa", "befores": [{"name": "pytestbdd_then_Check mqtt syncPilot if {light_name} mode is changed to {light_mode} by {act_type}", "status": "passed", "start": 1614073551718, "stop": 1614073551718}], "start": 1614073551718, "stop": 1614073554970}

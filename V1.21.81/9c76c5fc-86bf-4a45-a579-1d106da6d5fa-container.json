@@ -1,0 +1,1 @@
+{"uuid": "92180a10-f2d0-4c2f-af76-5d970fdae739", "befores": [{"name": "pytestbdd_then_Check udp syncPilot if {light_name} speed is changed to {speed} by {act_type}", "status": "passed", "start": 1614073312501, "stop": 1614073312501}], "start": 1614073312501, "stop": 1614073316102}

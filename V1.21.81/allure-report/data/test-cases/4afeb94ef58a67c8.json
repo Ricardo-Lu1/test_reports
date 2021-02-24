@@ -1,0 +1,113 @@
+{
+  "uid" : "4afeb94ef58a67c8",
+  "name" : "test_device_control_on_off_nl_tcp[light_1-NL-wizappd-ON]",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming#test_device_control_on_off_nl_tcp",
+  "historyId" : "240e4394cf96104bbb518d11a2aa7f61",
+  "time" : {
+    "start" : 1614072727011,
+    "stop" : 1614072739882,
+    "duration" : 12871
+  },
+  "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP",
+  "descriptionHtml" : "<p>03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: check light_1 sceneId value should be 14, but was 11",
+  "statusTrace" : "request = <FixtureRequest for <Function test_device_control_on_off_nl_tcp[light_1-NL-wizappd-ON]>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:97: in check_device_on_off_nl_udp\n    action)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:315: in check_device_on_off_nl_status_is_right\n    check_device_level(light_name, 14, sceneId, \"sceneId\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nlight_name = 'light_1', Exp_level = 14, actual_level = 11, test_Func = 'sceneId'\n\n    def check_device_level(light_name, Exp_level, actual_level, test_Func):\n        if int(actual_level) != int(Exp_level):\n            logger.info(\n                \"Error : check \" + light_name + \" \" + str(test_Func) + \" value should be \" + str(Exp_level) + \\\n                \", but was \" + str(actual_level))\n            assert False, \"check \" + light_name + \" \" + str(test_Func) + \" value should be \" + str(Exp_level) + \\\n>                         \", but was \" + str(actual_level)\nE           AssertionError: check light_1 sceneId value should be 14, but was 11\n\n..\\..\\Steps\\on_off_nl_dimming_steps.py:272: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614072521024,
+      "stop" : 1614072521024,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "03_on_off_nl_dimming.feature: ON/OFF/NL device control by TCP",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: check light_1 sceneId value should be 14, but was 11",
+    "statusTrace" : "request = <FixtureRequest for <Function test_device_control_on_off_nl_tcp[light_1-NL-wizappd-ON]>>\n\n    @pytest.mark.usefixtures(*function_args)\n    def scenario_wrapper(request):\n>       _execute_scenario(feature, scenario, request, encoding)\n\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:189: in _execute_scenario\n    _execute_step_function(request, scenario, step, step_func)\nc:\\users\\ricardo.lu\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\pytest_bdd\\scenario.py:130: in _execute_step_function\n    step_func(**kwargs)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:97: in check_device_on_off_nl_udp\n    action)\n..\\..\\Steps\\on_off_nl_dimming_steps.py:315: in check_device_on_off_nl_status_is_right\n    check_device_level(light_name, 14, sceneId, \"sceneId\")\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nlight_name = 'light_1', Exp_level = 14, actual_level = 11, test_Func = 'sceneId'\n\n    def check_device_level(light_name, Exp_level, actual_level, test_Func):\n        if int(actual_level) != int(Exp_level):\n            logger.info(\n                \"Error : check \" + light_name + \" \" + str(test_Func) + \" value should be \" + str(Exp_level) + \\\n                \", but was \" + str(actual_level))\n            assert False, \"check \" + light_name + \" \" + str(test_Func) + \" value should be \" + str(Exp_level) + \\\n>                         \", but was \" + str(actual_level)\nE           AssertionError: check light_1 sceneId value should be 14, but was 11\n\n..\\..\\Steps\\on_off_nl_dimming_steps.py:272: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "870276c0194e1da0",
+      "name" : "log",
+      "source" : "870276c0194e1da0.txt",
+      "type" : "text/plain",
+      "size" : 3042
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "TCP Device Control"
+  }, {
+    "name" : "feature",
+    "value" : "ON/OFF/NL/Dimming"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_on_off_nl_dimming"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "24620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_03_on_off_nl_dimming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "act_type",
+    "value" : "'wizappd'"
+  }, {
+    "name" : "action",
+    "value" : "'NL'"
+  }, {
+    "name" : "light_name",
+    "value" : "'light_1'"
+  }, {
+    "name" : "pre_action",
+    "value" : "'ON'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "product", "module" ]
+  },
+  "source" : "4afeb94ef58a67c8.json",
+  "parameterValues" : [ "'wizappd'", "'NL'", "'light_1'", "'ON'" ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "e634e3c819640293",
+  "name" : "test_set_app_pairing_only_wifi",
+  "fullName" : "Test_Suites.Tests.daily_regression_test.test_02_pairing#test_set_app_pairing_only_wifi",
+  "historyId" : "66a849369b61a4cc6569a5c525da04b0",
+  "time" : {
+    "start" : 1614135184714,
+    "stop" : 1614135203526,
+    "duration" : 18812
+  },
+  "description" : "01_pairing.feature: Set app pairing mode to only wifi",
+  "descriptionHtml" : "<p>01_pairing.feature: Set app pairing mode to only wifi</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "target",
+    "time" : {
+      "start" : 1614135184712,
+      "stop" : 1614135184712,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "01_pairing.feature: Set app pairing mode to only wifi",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eb8d0af56f35539f",
+      "name" : "log",
+      "source" : "eb8d0af56f35539f.txt",
+      "type" : "text/plain",
+      "size" : 854
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Pairing"
+  }, {
+    "name" : "story",
+    "value" : "Pairing by only wifi"
+  }, {
+    "name" : "tag",
+    "value" : "module"
+  }, {
+    "name" : "tag",
+    "value" : "usefixtures"
+  }, {
+    "name" : "tag",
+    "value" : "product"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_Suites.Tests.daily_regression_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_pairing"
+  }, {
+    "name" : "host",
+    "value" : "WIZ-LENOVOPT-SH0012"
+  }, {
+    "name" : "thread",
+    "value" : "25216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_Suites.Tests.daily_regression_test.test_02_pairing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "product", "module", "usefixtures" ]
+  },
+  "source" : "e634e3c819640293.json",
+  "parameterValues" : [ ]
+}
